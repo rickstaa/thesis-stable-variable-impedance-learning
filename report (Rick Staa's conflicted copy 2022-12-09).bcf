@@ -2252,4 +2252,429 @@
     <bcf:constraints>
       <bcf:entrytype>manual</bcf:entrytype>
       <bcf:constraint type="mandatory">
-     
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>misc</bcf:entrytype>
+      <bcf:entrytype>software</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>online</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>title</bcf:field>
+        <bcf:fieldor>
+          <bcf:field>url</bcf:field>
+          <bcf:field>doi</bcf:field>
+          <bcf:field>eprint</bcf:field>
+        </bcf:fieldor>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>patent</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+        <bcf:field>number</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>periodical</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>editor</bcf:field>
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>proceedings</bcf:entrytype>
+      <bcf:entrytype>mvproceedings</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>inproceedings</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+        <bcf:field>booktitle</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>report</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+        <bcf:field>type</bcf:field>
+        <bcf:field>institution</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>thesis</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+        <bcf:field>type</bcf:field>
+        <bcf:field>institution</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:entrytype>unpublished</bcf:entrytype>
+      <bcf:constraint type="mandatory">
+        <bcf:field>author</bcf:field>
+        <bcf:field>title</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+    <bcf:constraints>
+      <bcf:constraint type="data" datatype="isbn">
+        <bcf:field>isbn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="issn">
+        <bcf:field>issn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="ismn">
+        <bcf:field>ismn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="pattern" pattern="(?:sf|sm|sn|pf|pm|pn|pp)">
+        <bcf:field>gender</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+  </bcf:datamodel>
+  <!-- CITATION DATA -->
+  <!-- SECTION 0 -->
+  <bcf:bibdata section="0">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">master_thesis.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="0">
+    <bcf:citekey order="1" intorder="1">ListMathematicalSymbols2022</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">sharkawySurveyApplicationsHumanRobot2021</bcf:citekey>
+    <bcf:citekey order="2" intorder="2">zacharakiSafetyBoundsHuman2020</bcf:citekey>
+    <bcf:citekey order="2" intorder="3">suomalainenSurveyRobotManipulation2021</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">haddadinRobotCollisionsSurvey2017</bcf:citekey>
+    <bcf:citekey order="3" intorder="2">zacharakiSafetyBoundsHuman2020</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">hughesSoftManipulatorsGrippers2016</bcf:citekey>
+    <bcf:citekey order="4" intorder="2">douSoftRoboticManipulators2021</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">douSoftRoboticManipulators2021</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">raibertHybridPositionForce1981</bcf:citekey>
+    <bcf:citekey order="6" intorder="2">ortenziHybridMotionForce2017</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">hoganImpedanceControlApproach1985</bcf:citekey>
+    <bcf:citekey order="7" intorder="2">hoganStableExecutionContact1987</bcf:citekey>
+    <bcf:citekey order="7" intorder="3">calancaReviewAlgorithmsCompliant2016</bcf:citekey>
+    <bcf:citekey order="7" intorder="4">songTutorialSurveyComparison2019</bcf:citekey>
+    <bcf:citekey order="7" intorder="5">cheahLearningImpedanceControl1998</bcf:citekey>
+    <bcf:citekey order="7" intorder="6">liHumanRobotCollaboration2013</bcf:citekey>
+    <bcf:citekey order="7" intorder="7">heAdaptiveNeuralImpedance2015</bcf:citekey>
+    <bcf:citekey order="7" intorder="8">liAdaptiveImpedanceControl2016</bcf:citekey>
+    <bcf:citekey order="7" intorder="9">jamwalImpedanceControlIntrinsically2016</bcf:citekey>
+    <bcf:citekey order="7" intorder="10">jungForceTrackingImpedance2004</bcf:citekey>
+    <bcf:citekey order="7" intorder="11">ottPrioritizedMultitaskCompliance2015</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">songTutorialSurveyComparison2019</bcf:citekey>
+    <bcf:citekey order="8" intorder="2">erdenAssistingManualWelding2011</bcf:citekey>
+    <bcf:citekey order="8" intorder="3">erdenRoboticAssistanceImpedance2016</bcf:citekey>
+    <bcf:citekey order="8" intorder="4">leeForceTrackingImpedance2008</bcf:citekey>
+    <bcf:citekey order="8" intorder="5">ikeuraOptimalVariableImpedance2002</bcf:citekey>
+    <bcf:citekey order="8" intorder="6">medinaRisksensitiveInteractionControl2013</bcf:citekey>
+    <bcf:citekey order="8" intorder="7">yangHumanlikeAdaptationForce2011</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">buchliLearningVariableImpedance2011</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">rombokasTendondrivenVariableImpedance2013a</bcf:citekey>
+    <bcf:citekey order="9" intorder="3">michelBilateralTeleoperationAdaptive2021</bcf:citekey>
+    <bcf:citekey order="9" intorder="4">chenClosedLoopVariableStiffness2021</bcf:citekey>
+    <bcf:citekey order="9" intorder="5">weiImpedanceControlUncertain2019</bcf:citekey>
+    <bcf:citekey order="9" intorder="6">houVariableImpedanceControl2020</bcf:citekey>
+    <bcf:citekey order="9" intorder="7">abu-dakkaVariableImpedanceControl2020</bcf:citekey>
+    <bcf:citekey order="9" intorder="8">calinonLearningbasedControlStrategy2010</bcf:citekey>
+    <bcf:citekey order="9" intorder="9">kronanderOnlineLearningVarying2012</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">ferragutiEnergyTankBasedInteractive2015</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">ferragutiTankbasedApproachImpedance2013</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">wuAdaptiveImpedanceControl2020</bcf:citekey>
+    <bcf:citekey order="11" intorder="2">san-miguelAutomatedOffLineGeneration2022</bcf:citekey>
+    <bcf:citekey order="11" intorder="3">sharifiImpedanceLearningBasedAdaptive2021</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">erdenAssistingManualWelding2011</bcf:citekey>
+    <bcf:citekey order="12" intorder="2">erdenRoboticAssistanceImpedance2016</bcf:citekey>
+    <bcf:citekey order="12" intorder="3">zhangLearningImpedanceRegulation2021</bcf:citekey>
+    <bcf:citekey order="12" intorder="4">wangSafeOnlineGain2021</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">ferragutiTankbasedApproachImpedance2013</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">suomalainenSurveyRobotManipulation2021</bcf:citekey>
+    <bcf:citekey order="14" intorder="2">songTutorialSurveyComparison2019</bcf:citekey>
+    <bcf:citekey order="14" intorder="3">abu-dakkaVariableImpedanceControl2020</bcf:citekey>
+    <bcf:citekey order="14" intorder="4">al-shukaActiveImpedanceControl2018</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">sharifiImpedanceVariationLearning2021</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">farajiparvarBriefSurveyTelerobotic2020</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">ferragutiTankbasedApproachImpedance2013</bcf:citekey>
+    <bcf:citekey order="17" intorder="2">khaderStabilityGuaranteedReinforcementLearning2020</bcf:citekey>
+    <bcf:citekey order="17" intorder="3">kronanderStabilityConsiderationsVariable2016</bcf:citekey>
+    <bcf:citekey order="17" intorder="4">khansari-zadehLearningStableNonlinear2011</bcf:citekey>
+    <bcf:citekey order="17" intorder="5">khansari-zadehLearningControlLyapunov2014</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">bacciottiStabilityControlLinear2019</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">vidyasagarNonlinearSystemsAnalysis2002</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">haddadNonlinearDynamicalSystems2011</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="31" intorder="2">gieslReviewComputationalMethods2015</bcf:citekey>
+    <bcf:citekey order="31" intorder="3">ravanbakhshLearningControlLyapunov2019</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="48" intorder="2">sontagInputtoStateStabilityProperty1995</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">popovHyperstabilityControlSystems1973</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">andersonNetworkAnalysisSynthesis2013</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">willemsDissipativeDynamicalSystems1972a</bcf:citekey>
+    <bcf:citekey order="51" intorder="2">willemsDissipativeDynamicalSystems1972</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">baoProcessControlPassive2007</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="53" intorder="2">baoProcessControlPassive2007</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">baoProcessControlPassive2007</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">baoProcessControlPassive2007</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">haddadNonlinearDynamicalSystems2011</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">ngwompoPassivityAnalysisLinear2017</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">haddadNonlinearDynamicalSystems2011</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">haddadNonlinearDynamicalSystems2011</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">sicilianoRoboticsModellingPlanning2010</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">sicilianoRoboticsModellingPlanning2010</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">baoProcessControlPassive2007</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">sicilianoRoboticsModellingPlanning2010</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">sicilianoRoboticsModellingPlanning2010</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">sicilianoRoboticsModellingPlanning2010</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">al-shukaActiveImpedanceControl2018</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">al-shukaActiveImpedanceControl2018</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">tsetserukouISoRAHumanoidRobot2009</bcf:citekey>
+    <bcf:citekey order="71" intorder="2">liImpedanceControlMultipoint2011</bcf:citekey>
+    <bcf:citekey order="71" intorder="3">liModelfreeImpedanceControl2011</bcf:citekey>
+    <bcf:citekey order="71" intorder="4">liLearningImpedanceControl2012</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">al-shukaActiveImpedanceControl2018</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">ottCartesianImpedanceControl2008</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">ottCartesianImpedanceControl2008</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">ferragutiTankbasedApproachImpedance2013</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">ottCartesianImpedanceControl2008</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">ottCartesianImpedanceControl2008</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">tomoriVariableImpedanceControl2013</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">songTutorialSurveyComparison2019</bcf:citekey>
+    <bcf:citekey order="79" intorder="2">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="79" intorder="3">villaniForceControl2016</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">bacciottiStabilityControlLinear2019</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">khalilNonlinearControl2015</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">khalilNonlinearSystems2002</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">baoProcessControlPassive2007</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">haddadNonlinearDynamicalSystems2011</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">sicilianoRoboticsModellingPlanning2010</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">songTutorialSurveyComparison2019</bcf:citekey>
+    <bcf:citekey order="87" intorder="1">al-shukaActiveImpedanceControl2018</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">ferragutiTankbasedApproachImpedance2013</bcf:citekey>
+    <bcf:citekey order="89" intorder="1">ferragutiEnergyTankBasedInteractive2015</bcf:citekey>
+    <bcf:citekey order="90" intorder="1">cordoniVariableStochasticAdmittance2020</bcf:citekey>
+    <bcf:citekey order="90" intorder="2">dietrichPassivationProjectionBasedNull2016</bcf:citekey>
+    <bcf:citekey order="90" intorder="3">dietrichPassiveHierarchicalImpedance2017</bcf:citekey>
+    <bcf:citekey order="90" intorder="4">michelPassivitybasedVariableImpedance2020</bcf:citekey>
+    <bcf:citekey order="90" intorder="5">chenDrawingElonMusk2021</bcf:citekey>
+    <bcf:citekey order="90" intorder="6">balattiMethodAutonomousRobotic2020</bcf:citekey>
+    <bcf:citekey order="90" intorder="7">scibiliaSelfAdaptiveRobotControl2018</bcf:citekey>
+    <bcf:citekey order="90" intorder="8">selvaggioPassiveVirtualFixtures2018</bcf:citekey>
+    <bcf:citekey order="90" intorder="9">tadeleCombiningEnergyPower2014</bcf:citekey>
+    <bcf:citekey order="91" intorder="1">zhengTimeVaryingImpedanceControl2018</bcf:citekey>
+    <bcf:citekey order="92" intorder="1">saudraisRateModeBilateral2021</bcf:citekey>
+    <bcf:citekey order="93" intorder="1">secchiEnergyOptimizationRobust2019</bcf:citekey>
+    <bcf:citekey order="94" intorder="1">capelliPassivityControlBarrier2022</bcf:citekey>
+    <bcf:citekey order="95" intorder="1">schindlbeckUnifiedPassivitybasedCartesian2015</bcf:citekey>
+    <bcf:citekey order="96" intorder="1">gerlaghEnergyawareAdaptiveImpedance2021</bcf:citekey>
+    <bcf:citekey order="97" intorder="1">shahriariValvebasedVirtualEnergy2018</bcf:citekey>
+    <bcf:citekey order="97" intorder="2">shahriariPowerFlowRegulation2020</bcf:citekey>
+    <bcf:citekey order="98" intorder="1">shahriariValvebasedVirtualEnergy2018</bcf:citekey>
+    <bcf:citekey order="99" intorder="1">shahriariPowerFlowRegulation2020</bcf:citekey>
+    <bcf:citekey order="100" intorder="1">michelSafetyAwareHierarchicalPassivityBased2022</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">babarahmatiFractalImpedancePassive2021</bcf:citekey>
+    <bcf:citekey order="102" intorder="1">tiseoRobustImpedanceControl2022</bcf:citekey>
+    <bcf:citekey order="102" intorder="2">tiseoFineManipulationDynamic2022</bcf:citekey>
+    <bcf:citekey order="102" intorder="3">tiseoAchievingDexterousBidirectional2022</bcf:citekey>
+    <bcf:citekey order="102" intorder="4">tiseoGeometricalPosturalOptimisation2022</bcf:citekey>
+    <bcf:citekey order="102" intorder="5">babarahmatiRobustHighTransparencyHaptic2021</bcf:citekey>
+    <bcf:citekey order="102" intorder="6">tiseoSafeCompliantControl2020</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">leeForceTrackingImpedance2008</bcf:citekey>
+    <bcf:citekey order="103" intorder="2">linUnifiedMotionForce2021</bcf:citekey>
+    <bcf:citekey order="103" intorder="3">maFractionalorderSlidingMode2019</bcf:citekey>
+    <bcf:citekey order="103" intorder="4">maVariableStiffnessDamping2019</bcf:citekey>
+    <bcf:citekey order="103" intorder="5">sunModelReferenceAdaptive2021</bcf:citekey>
+    <bcf:citekey order="103" intorder="6">yangHumanlikeAdaptationForce2011</bcf:citekey>
+    <bcf:citekey order="103" intorder="7">wahballaConstantForceTracking2022</bcf:citekey>
+    <bcf:citekey order="103" intorder="8">liForceImpedanceTrajectory2018</bcf:citekey>
+    <bcf:citekey order="103" intorder="9">hamedaniIntelligentImpedanceControl2021</bcf:citekey>
+    <bcf:citekey order="103" intorder="10">hamedaniRecurrentFuzzyWavelet2021</bcf:citekey>
+    <bcf:citekey order="103" intorder="11">ganeshVersatileBiomimeticController2012</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">kronanderStabilityConsiderationsVariable2016</bcf:citekey>
+    <bcf:citekey order="105" intorder="1">bednarczykPassivityFilterVariable2020</bcf:citekey>
+    <bcf:citekey order="106" intorder="1">kronanderStabilityConsiderationsVariable2016</bcf:citekey>
+    <bcf:citekey order="107" intorder="1">fontanelliComparisonAssistiveMethods2018</bcf:citekey>
+    <bcf:citekey order="107" intorder="2">liuAdaptiveEnhancedAdmittance2022</bcf:citekey>
+    <bcf:citekey order="107" intorder="3">liangAdaptiveTimeVaryingImpedance2022</bcf:citekey>
+    <bcf:citekey order="107" intorder="4">heVariableImpedanceControl2020</bcf:citekey>
+    <bcf:citekey order="107" intorder="5">dongAdaptiveStiffnessDamping2019</bcf:citekey>
+    <bcf:citekey order="108" intorder="1">bednarczykPassivityFilterVariable2020</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">parkInputtoStateStabilityVariable2020</bcf:citekey>
+    <bcf:citekey order="109" intorder="2">sunStabilityGuaranteedVariableImpedance2021</bcf:citekey>
+    <bcf:citekey order="109" intorder="3">zhangNeuralApproximationbasedAdaptive2020</bcf:citekey>
+    <bcf:citekey order="109" intorder="4">bednarczykPassivityFilterVariable2020</bcf:citekey>
+    <bcf:citekey order="110" intorder="1">kronanderStabilityConsiderationsVariable2016</bcf:citekey>
+    <bcf:citekey order="111" intorder="1">dongUDEBasedVariableImpedance2019</bcf:citekey>
+    <bcf:citekey order="112" intorder="1">parkInputtoStateStabilityVariable2020</bcf:citekey>
+    <bcf:citekey order="113" intorder="1">songTutorialSurveyComparison2019</bcf:citekey>
+    <bcf:citekey order="114" intorder="1">abu-dakkaVariableImpedanceControl2020</bcf:citekey>
+    <bcf:citekey order="115" intorder="1">abu-dakkaVariableImpedanceControl2020</bcf:citekey>
+    <bcf:citekey order="116" intorder="1">abu-dakkaVariableImpedanceControl2020</bcf:citekey>
+    <bcf:citekey order="117" intorder="1">kroemerReviewRobotLearning2021</bcf:citekey>
+    <bcf:citekey order="117" intorder="2">husseinImitationLearningSurvey2017</bcf:citekey>
+    <bcf:citekey order="118" intorder="1">siReviewManipulationSkill2021</bcf:citekey>
+    <bcf:citekey order="119" intorder="1">sindhwaniLearningContractingVector2018</bcf:citekey>
+    <bcf:citekey order="120" intorder="1">khansari-zadehLearningStableNonlinear2011</bcf:citekey>
+    <bcf:citekey order="121" intorder="1">ijspeertDynamicalMovementPrimitives2013</bcf:citekey>
+    <bcf:citekey order="121" intorder="2">saverianoDynamicMovementPrimitives2021</bcf:citekey>
+    <bcf:citekey order="121" intorder="3">wangLearningDemonstrationUsing2021</bcf:citekey>
+    <bcf:citekey order="121" intorder="4">sidiropoulosReversibleDynamicMovement2021</bcf:citekey>
+    <bcf:citekey order="121" intorder="5">ginesiOvercomingDrawbacksDynamic2021</bcf:citekey>
+    <bcf:citekey order="121" intorder="6">rozanecNeuralDynamicMovement2022</bcf:citekey>
+    <bcf:citekey order="121" intorder="7">liProDMPsUnifiedPerspective2022</bcf:citekey>
+    <bcf:citekey order="122" intorder="1">ijspeertDynamicalMovementPrimitives2013</bcf:citekey>
+    <bcf:citekey order="122" intorder="2">prakashDynamicTrajectoryGeneration2020</bcf:citekey>
+    <bcf:citekey order="123" intorder="1">matsubaraLearningParametricDynamic2011</bcf:citekey>
+    <bcf:citekey order="123" intorder="2">pervezLearningTaskparameterizedDynamic2018</bcf:citekey>
+    <bcf:citekey order="124" intorder="1">neumannLearningRobotMotions2015</bcf:citekey>
+    <bcf:citekey order="125" intorder="1">khansari-zadehLearningStableNonlinear2011</bcf:citekey>
+    <bcf:citekey order="126" intorder="1">lemmeNeurallyImprintedStable2013</bcf:citekey>
+    <bcf:citekey order="126" intorder="2">huNeuralLearningStable2015</bcf:citekey>
+    <bcf:citekey order="126" intorder="3">umlauftLearningStableStochastic2017</bcf:citekey>
+    <bcf:citekey order="126" intorder="4">umlauftLearningStableGaussian2017</bcf:citekey>
+    <bcf:citekey order="126" intorder="5">medinaLearningStableTask2017</bcf:citekey>
+    <bcf:citekey order="126" intorder="6">duanFastStableLearning2019</bcf:citekey>
+    <bcf:citekey order="126" intorder="7">xuRobotTrajectoryTracking2019</bcf:citekey>
+    <bcf:citekey order="126" intorder="8">umlauftLearningStochasticallyStable2020</bcf:citekey>
+    <bcf:citekey order="126" intorder="9">xuLearningBasedKinematicControl2022</bcf:citekey>
+    <bcf:citekey order="126" intorder="10">salehiLearningDiscreteTimeUncertain2022</bcf:citekey>
+    <bcf:citekey order="126" intorder="11">davoodiRuleBasedSafeProbabilistic2022</bcf:citekey>
+    <bcf:citekey order="127" intorder="1">khansari-zadehLearningControlLyapunov2014</bcf:citekey>
+    <bcf:citekey order="127" intorder="2">neumannNeuralLearningStable2013</bcf:citekey>
+    <bcf:citekey order="127" intorder="3">lemmeNeuralLearningVector2014</bcf:citekey>
+    <bcf:citekey order="127" intorder="4">umlauftUncertaintybasedControlLyapunov2018</bcf:citekey>
+    <bcf:citekey order="127" intorder="5">duttaLearningStableMovement2018</bcf:citekey>
+    <bcf:citekey order="127" intorder="6">duttaSkillLearningHuman2021</bcf:citekey>
+    <bcf:citekey order="127" intorder="7">umlauftUncertaintybasedHumanMotion2019</bcf:citekey>
+    <bcf:citekey order="127" intorder="8">ravanbakhshFormalPolicyLearning2019</bcf:citekey>
+    <bcf:citekey order="127" intorder="9">umlauftLearningStochasticallyStable2020</bcf:citekey>
+    <bcf:citekey order="127" intorder="10">xiaoLearningStableNonparametric2020</bcf:citekey>
+    <bcf:citekey order="127" intorder="11">tesfazgiInverseReinforcementLearning2021</bcf:citekey>
+    <bcf:citekey order="127" intorder="12">coulombeGeneratingStableCollisionFree2022</bcf:citekey>
+    <bcf:citekey order="128" intorder="1">khansari-zadehLearningControlLyapunov2014</bcf:citekey>
+    <bcf:citekey order="129" intorder="1">leeIntroductionTopologicalManifolds2011</bcf:citekey>
+    <bcf:citekey order="129" intorder="2">leeIntroductionSmoothManifolds2012</bcf:citekey>
+    <bcf:citekey order="129" intorder="3">leeIntroductionRiemannianManifolds2018</bcf:citekey>
+    <bcf:citekey order="130" intorder="1">blocherLearningStableDynamical2017</bcf:citekey>
+    <bcf:citekey order="131" intorder="1">figueroafernandezPhysicallyconsistentBayesianNonparametric2018</bcf:citekey>
+    <bcf:citekey order="132" intorder="1">figueroafernandezPhysicallyconsistentBayesianNonparametric2018</bcf:citekey>
+    <bcf:citekey order="133" intorder="1">douRobotSkillLearning2022</bcf:citekey>
+    <bcf:citekey order="134" intorder="1">shahriariAdaptingContactsEnergy2017</bcf:citekey>
+    <bcf:citekey order="135" intorder="1">amanhoudForceAdaptationContact2020</bcf:citekey>
+    <bcf:citekey order="135" intorder="2">enayatiVariableImpedanceForceControl2020</bcf:citekey>
+    <bcf:citekey order="135" intorder="3">kastritsiProgressiveAutomationDMP2018</bcf:citekey>
+    <bcf:citekey order="135" intorder="4">michelBilateralTeleoperationAdaptive2021</bcf:citekey>
+    <bcf:citekey order="135" intorder="5">saverianoEnergybasedApproachEnsure2020</bcf:citekey>
+    <bcf:citekey order="135" intorder="6">shahriariAdaptingContactsEnergy2017</bcf:citekey>
+    <bcf:citekey order="135" intorder="7">wuFrameworkAutonomousImpedance2021</bcf:citekey>
+    <bcf:citekey order="135" intorder="8">amanhoudDynamicalSystemApproach2019</bcf:citekey>
+    <bcf:citekey order="135" intorder="9">kronanderPassiveInteractionControl2016</bcf:citekey>
+    <bcf:citekey order="136" intorder="1">arduengoGaussianProcessbasedRobotLearning2020</bcf:citekey>
+    <bcf:citekey order="136" intorder="2">douRobotSkillLearning2022</bcf:citekey>
+    <bcf:citekey order="137" intorder="1">douRobotSkillLearning2022</bcf:citekey>
+    <bcf:citekey order="138" intorder="1">kimLearningRobotStiffness2008</bcf:citekey>
+    <bcf:citekey order="139" intorder="1">reyLearningMotionsDemonstrations2018</bcf:citekey>
+    <bcf:citekey order="140" intorder="1">khaderStabilityGuaranteedReinforcementLearning2020</bcf:citekey>
+    <bcf:citekey order="141" intorder="1">khaderLearningDeepEnergy2021</bcf:citekey>
+    <bcf:citekey order="142" intorder="1">khaderStabilityGuaranteedReinforcementLearning2020</bcf:citekey>
+    <bcf:citekey order="142" intorder="2">reyLearningMotionsDemonstrations2018</bcf:citekey>
+    <bcf:citekey order="143" intorder="1">khaderLearningDeepEnergy2021</bcf:citekey>
+    <bcf:citekey order="144" intorder="1">khaderLearningStableNormalizingFlow2021</bcf:citekey>
+    <bcf:citekey order="145" intorder="1">siReviewManipulationSkill2021</bcf:citekey>
+    <bcf:citekey order="146" intorder="1">douRobotSkillLearning2022</bcf:citekey>
+    <bcf:citekey order="147" intorder="1">amanhoudForceAdaptationContact2020</bcf:citekey>
+    <bcf:citekey order="147" intorder="2">enayatiVariableImpedanceForceControl2020</bcf:citekey>
+    <bcf:citekey order="147" intorder="3">kastritsiProgressiveAutomationDMP2018</bcf:citekey>
+    <bcf:citekey order="147" intorder="4">michelBilateralTeleoperationAdaptive2021</bcf:citekey>
+    <bcf:citekey order="147" intorder="5">saverianoEnergybasedApproachEnsure2020</bcf:citekey>
+    <bcf:citekey order="147" intorder="6">shahriariAdaptingContactsEnergy2017</bcf:citekey>
+    <bcf:citekey order="147" intorder="7">wuFrameworkAutonomousImpedance2021</bcf:citekey>
+    <bcf:citekey order="147" intorder="8">amanhoudDynamicalSystemApproach2019</bcf:citekey>
+    <bcf:citekey order="147" intorder="9">kronanderPassiveInteractionControl2016</bcf:citekey>
+    <bcf:citekey order="148" intorder="1">arduengoGaussianProcessbasedRobotLearning2020</bcf:citekey>
+    <bcf:citekey order="148" intorder="2">douRobotSkillLearning2022</bcf:citekey>
+    <bcf:citekey order="149" intorder="1">siReviewManipulationSkill2021</bcf:citekey>
+    <bcf:citekey order="150" intorder="1">ferragutiTankbasedApproachImpedance2013</bcf:citekey>
+    <bcf:citekey order="151" intorder="1">kronanderStabilityConsiderationsVariable2016</bcf:citekey>
+    <bcf:citekey order="152" intorder="1">yangHumanlikeAdaptationForce2011</bcf:citekey>
+    <bcf:citekey order="153" intorder="1">ferragutiTankbasedApproachImpedance2013</bcf:citekey>
+    <bcf:citekey order="154" intorder="1">kronanderStabilityConsiderationsVariable2016</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="nty">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="nty/global//global/global"
+                type="entry"
+                sortingtemplatename="nty"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>

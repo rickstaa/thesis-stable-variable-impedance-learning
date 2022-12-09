@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.7)  31 OCT 2022 16:10
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.7)  9 DEC 2022 17:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1331,15 +1331,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
- (./report.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                chenClosedLoopVariableStiffness2021
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (./report.bbl)
 Package biblatex Info: Reference section=0 on input line 15.
 Package biblatex Info: Reference segment=0 on input line 15.
  (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
@@ -1398,58 +1390,48 @@ File: layout/tudelft/logo-black.pdf Graphic file (type pdf)
 <use layout/tudelft/logo-black.pdf>
  [1
 
-]) (./frontmatter/preface.tex) (./frontmatter/abstract.tex [1
-
-]) [2
+]) (./frontmatter/abstract.tex) [1
 
 ] (./report.toc)
 \tf@toc=\write6
 \openout6 = `report.toc'.
 
- [3
+ [2
 
 ] (./report.lof)
 \tf@lof=\write7
 \openout7 = `report.lof'.
 
- [4
+ [3
 
 ] (./report.lot)
 \tf@lot=\write8
 \openout8 = `report.lot'.
 
- [5
+ [4
 
 ] (./report.ex)
 \tf@ex=\write9
 \openout9 = `report.ex'.
 
- [6
+ [5
 
 ] (./report.th)
 \tf@th=\write10
 \openout10 = `report.th'.
 
- [7
+ [6
 
 ] (./report.def)
 \tf@def=\write11
 \openout11 = `report.def'.
 
- (./frontmatter/nomenclature.tex [8
+ (./frontmatter/nomenclature.tex [7
 
-]) [9
+] [8
 
-] (./mainmatter/introduction.tex
+]) [9] (./mainmatter/introduction.tex
 Chapter 1.
-
-LaTeX Warning: Citation 'chenClosedLoopVariableStiffness2021' on page 1 undefined on input line 10.
-
-
-Overfull \hbox (99.98833pt too wide) in paragraph at lines 10--11
-[]\TU/Arial(0)/m/n/10 144[]] or learned from human demonstrations or through reinforcement learning (RL) [[],
- []
-
 [1
 
 
@@ -1486,9 +1468,10 @@ File: figures/alshuka_2018.png Graphic file (type bmp)
  [17]
 File: figures/force_impedance.png Graphic file (type bmp)
 <figures/force_impedance.png>
+ [18]
 File: figures/position_impedance.png Graphic file (type bmp)
 <figures/position_impedance.png>
- [18] [19]) (./mainmatter/classical_variable_impedance.tex [20]
+ [19]) (./mainmatter/classical_variable_impedance.tex [20]
 Chapter 4.
 [21
 
@@ -1537,7 +1520,7 @@ Overfull \hbox (8.27742pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 and Teleoperated Robotic Surgery”. In: \TU/Arial(0)/m/it/10 IEEE Transactions on Robotics \TU/Arial(0)/m/n/10 31.5 (Oct. 2015), pp. 1073–
  []
 
-
+[32]
 Overfull \hbox (9.81161pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 namic Movement Primitives”. In: \TU/Arial(0)/m/it/10 Robotics and Autonomous Systems \TU/Arial(0)/m/n/10 144 (Oct. 1, 2021), p. 103844.
  []
@@ -1547,12 +1530,12 @@ Overfull \hbox (19.11426pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Mohammad Hossein Hamedani et al. “Recurrent Fuzzy Wavelet Neural Network Variable Impedance
  []
 
-[32] [33]
+[33]
 Overfull \hbox (11.9216pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 sure Stability of Dynamical System-Based Robot Reaching Motions”. In: \TU/Arial(0)/m/it/10 Robotics and Autonomous
  []
 
-[34]
+[34] [35]
 Overfull \hbox (0.74902pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Chengguo Liu et al. “Adaptive Enhanced Admittance Force-Tracking Controller Design for Highly
  []
@@ -1562,12 +1545,12 @@ Overfull \hbox (2.10158pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 ment Primitives from Multiple Demonstrations”. In: \TU/Arial(0)/m/it/10 Neural Networks \TU/Arial(0)/m/n/10 24.5 (June 1, 2011), pp. 493–
  []
 
-[35]
+[36]
 Overfull \hbox (2.69499pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Junho Park and Youngjin Choi. “Input-to-State Stability of Variable Impedance Control for Robotic
  []
 
-[36]
+[37]
 Overfull \hbox (5.17238pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 2021. arXiv: []$[] [] [] []  [] [] [] [] [] [] $ \TU/lmtt/m/n/10 [cs][]\TU/Arial(0)/m/n/10 . \TU/Arial(0)/m/sc/10 url\TU/Arial(0)/m/n/10 : []$[] [] [] []  [] [] [] [] [] [] [] []  [] [] [] []  [] [] [] []  [] [] [] [] []  [] [] [] [] [] [] $[] (visited on 08/23/2022). 
  []
@@ -1587,34 +1570,34 @@ Overfull \hbox (0.61626pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 Dynamic Movement Primitives”. In: \TU/Arial(0)/m/it/10 2017 IEEE-RAS 17th International Conference on Humanoid
  []
 
-[37]
+[38]
 Overfull \hbox (8.65758pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Xinchao Sun, Lianyu Zhao, and Zhenzhong Liu. “A Model Reference Adaptive Variable Impedance
  []
 
-
+[39]
 Overfull \hbox (4.43019pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 2022. arXiv: []$[] [] [] []  [] [] [] [] [] [] $ \TU/lmtt/m/n/10 [cs][]\TU/Arial(0)/m/n/10 . \TU/Arial(0)/m/sc/10 url\TU/Arial(0)/m/n/10 : []$[] [] [] []  [] [] [] [] [] [] [] []  [] [] [] []  [] [] [] []  [] [] [] [] []  [] [] [] [] [] [] $[] (visited on 08/11/2022). 
  []
 
-[38] [39] (./appendix/appendix-a.tex [40]
+[40] [41] (./appendix/appendix-a.tex [42]
 Appendix A.
-) [41
+) [43
 
 ] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 415B385342C20C1809076EA3B5D318C8;7571.
+(rerunfilecheck)             Checksum: E58AB3B1EAA7B32B50081BD879B4EA8E;7618.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47328 strings out of 475869
- 1031590 string characters out of 5805667
- 1980133 words of memory out of 5000000
- 67634 multiletter control sequences out of 15000+600000
+ 47435 strings out of 475869
+ 1037524 string characters out of 5805667
+ 2037219 words of memory out of 5000000
+ 67744 multiletter control sequences out of 15000+600000
  477631 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,20n,118p,2934b,5525s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,20n,118p,2934b,5526s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (52 pages, 1633660 bytes).
+Output written on report.xdv (54 pages, 1734412 bytes).
