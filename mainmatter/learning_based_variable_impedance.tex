@@ -1,0 +1,135 @@
+\chapter{Stability methods in learning based variable impedance control}
+\label{chapter:learning_based_variable_impedance}
+
+The previous chapter discussed methods for ensuring stable control in classical variable impedance controllers. Although impressive results were achieved using these classical controllers \cite{songTutorialSurveyComparison2019}, the variable impedance profiles used by these controllers are manually programmed for a given task. This considerably reduces the usability of these controllers since every time a robot is used for a new task, multiple hours of labour by skilled workers are required for re-programming the controller. In recent years, numerous authors have instead switched to learning-based variable impedance controllers \cite{abu-dakkaVariableImpedanceControl2020}. These controllers allow for learning more complex behaviours without the need for the researcher to program this behaviour explicitly. A recent review of these learning-based variable impedance controllers was done by \cite{abu-dakkaVariableImpedanceControl2020}. In this review, the learning-based VIC methods were classified into two main groups: Variable Impedance Learning (VIL), in which the impedance profiles are learned from human demonstrations (through imitation learning) to be later executed with an existing impedance controller, and Variable Impedance Learning Control (VILC) in which the impedance control law is directly learned (through imitation learning, iterative learning or reinforcement learning). Where \cite{abu-dakkaVariableImpedanceControl2020} focuses on the learning-based VIC methods used in the current literature, the following sections concentrate on the stability and passivity techniques employed to ensure stability while using these methods.
+
+\section{Variable impedance learning}
+
+\subsection{Stability of the learned trajectories}
+% - [x] DMP
+% - [x] Constraint optimzation
+% - [x] Learned optimization
+% - [ ] diffeomorphism
+% - [ ] convergence
+% - [ ] Local stability + uncertainty estimation.
+
+% [ ] Check anand review.
+
+% [ ] Check Ravanbaksch.
+% [ ] Check Xiao resources.
+% [ ] Check articles related to Ravanbaksch.
+% [ ] Check articles diffeomorphic articles.
+% [ ] Check convergence articles.
+
+% [x]: Check existing SEDS quadratic articles.
+% [ ]: Check existing LEANRING BASED ARTICLES.
+% [ ]: Check references khansari et al. 2011.
+% [ ]: Check references khansari et al. 2014.
+
+
+% QUESTION: Two times LfD in first sentence. Is there a better way to say this?
+As explained above, in VIL methods, the desired trajectory and impedance profiles for a given task are learned from human demonstrations using a supervised learning procedure called Imitation Learning (IM), also called Learning from Demonstrations (LfD). Two steps generally make up this approach: A step in which kinematic (and dynamic) data is collected from sensors (i.e. data-collection step), followed by a step in which a model is fitted to the collected data using regression (i.e. data-fitting step). Depending on the task, any regression model (e.g. linear models, splines, gaussian mixture models, neural networks, gaussian processes etc.) and accompanying regression technique can be used in this data-fitting step \cite{kroemerReviewRobotLearning2021,husseinImitationLearningSurvey2017}. Traditionally, LfD research has mainly focused on reproducing the demonstrations' kinematics (i.e. trajectories) \cite{siReviewManipulationSkill2021}. At first glance, this trajectory reproduction problem seems to be a simple regression task that can be solved by minimising the squared distance between the sampled trajectories and the regression model. A low-level controller like a PID controller can then be used to reproduce the recorded trajectories. However, in practice, such a naive regression approach has proven to be insufficient because it results in an over-fitted model that does not generalise outside of the demonstrated trajectories \cite{sindhwaniLearningContractingVector2018}. Therefore, this (non-linear) model is only locally stable and does not converge to the desired trajectories if situations are encountered that were not present in the training data (e.g. different initial states, temporal disturbances and spatial disturbances). One possible solution would be to use linear regression models in which stability outside the demonstrated regions can be proven easily. Such models, however, cannot accurately reproduce desired trajectories that are non-linear and non-smooth. Therefore, several methods have been proposed in the literature for learning (non-linear) trajectories while guaranteeing stability outside the demonstrated region.
+
+%QUESTION: "This is achieved by exponentially decaying the phase variable during the task, thereby decreasing the effect of the "possibly unstable non-linear" forcing term". Is this correct?
+%QUESTION: (-invariant)?
+In LfD research, motions are often modelled as a Dynamic System (DS) \cite{khansari-zadehLearningStableNonlinear2011} to improve generalizability. Compared to classical approaches, which use time-indexed trajectories, in a DS, the trajectories are formulated as a differential equation. Because of this, the DS captures both the trajectories and the essential dynamics that underlie a given task, making it better able to adapt to environmental changes like temporal and spatial disturbances. The most widely used DS-based approach for learning stable non-linear trajectories is the so-called "Dynamic Movement Primitives" (DMPs) \cite{ijspeertDynamicalMovementPrimitives2013,saverianoDynamicMovementPrimitives2021,wangLearningDemonstrationUsing2021,sidiropoulosReversibleDynamicMovement2021,ginesiOvercomingDrawbacksDynamic2021,rozanecNeuralDynamicMovement2022,liProDMPsUnifiedPerspective2022}. In DMPs, a globally stable linear DS is coupled with a non-linear forcing term through a phase variable to create an autonomous, weakly non-linear DS. This DS can learn complex high-dimensional motions from single \cite{ijspeertDynamicalMovementPrimitives2013,prakashDynamicTrajectoryGeneration2020} or multiple demonstrations \cite{matsubaraLearningParametricDynamic2011,pervezLearningTaskparameterizedDynamic2018} while guaranteeing global stability. This is achieved by exponentially decaying the phase variable during the task, thereby decreasing the effect of the possibly unstable non-linear forcing term. As these DMPs are both time and scale (-invariant), the learnt motions' velocity and amplitude can be scaled without losing stability, making them well-suited for reacting to external perturbations in real-time. Unfortunately, although the phase variable ensures the stability of the motions, it introduces an implicit time dependency in the DMP formulation. Due to this time dependency, the motion of the DMP is very dependent on the phase variable, which is, again, task-dependent. Consequently, DMPs have poor generalisation capabilities outside the demonstrations and are not robust against temporal disturbances \cite{neumannLearningRobotMotions2015}.
+
+% TODO: Cheack Figueroa et al. 2022!
+% TODO: Check Zhang et al. 2022
+%QUESTION: Is it clear which trade-off is meant?
+%QUESTION: The online offline part is it clear?
+%TODO: Add stability types to text?
+%TODO: Local stability Dutta 2021 add commentto text?
+
+Other authors use a constraint optimisation approach to overcome the abovementioned limitations and encode the demonstrated motions in a state-dependent non-linear DS while enforcing stability through Lyapunov constraints. Since these DSs are time-independent, the learned policies are now robust against temporal disturbances. This was first done by Khansari et al. 2011 \cite{khansari-zadehLearningStableNonlinear2011}, who introduced a stable estimator of a dynamical system (SEDS). By limiting the parameters of a gaussian mixture regression model (GMM) using a Quadratic Lyapunov constraint, SEDS can learn accurate motions while guaranteeing global stability. Similar Lyapunov constraints were used in literature with other regression models to ensure the stability of the learned motions \cite{lemmeNeurallyImprintedStable2013,huNeuralLearningStable2015,umlauftLearningStableStochastic2017,umlauftLearningStableGaussian2017,medinaLearningStableTask2017,duanFastStableLearning2019,xuRobotTrajectoryTracking2019,umlauftLearningStochasticallyStable2020,xuLearningBasedKinematicControl2022,salehiLearningDiscreteTimeUncertain2022,davoodiRuleBasedSafeProbabilistic2022}. Unfortunately, as these methods' stability criteria are derived based on a simple quadratic Lyapunov function, these methods can only model trajectories in which the distance to the target decreases monotonically in time, leading to poor accuracy if demonstrated trajectories are not contractive. As a result, several authors have used parametric and non-parametric Lyapunov candidates to learn less conservative Lyapunov constraints directly from data to improve this so-called accuracy-stability dilemma \cite{khansari-zadehLearningControlLyapunov2014,neumannNeuralLearningStable2013,lemmeNeuralLearningVector2014,umlauftUncertaintybasedControlLyapunov2018,duttaLearningStableMovement2018,duttaSkillLearningHuman2021,umlauftUncertaintybasedHumanMotion2019,ravanbakhshFormalPolicyLearning2019,umlauftLearningStochasticallyStable2020,xiaoLearningStableNonparametric2020,tesfazgiInverseReinforcementLearning2021,coulombeGeneratingStableCollisionFree2022}. 
+
+
+These Lyapunov Constraints can then be used \textbf{online} and \textbf{offline} to ensure the stability of the reproduced trajectories, each coming with its strengths and weaknesses. If applied online as a stabilising control command (i.e. CLF), as was done by Khansari et al. 2014 \cite{khansari-zadehLearningControlLyapunov2014} any regression method can be used, but no guarantees can be given about the accuracy of reproduced trajectories. If applied offline, the shape and accuracy of the demonstrated trajectories are known beforehand but are specific to the used regression model.
+
+This method was later extended with diffeomorphisms 
+
+Only offline learning (Figueroa et al. 2018) and single behavoir.
+
+
+
+Lastly several papers have convergence
+
+
+
+Recent papers have used a diffeomorphism to train a non-autonomous DS on the motions directly while applying the Lyapunov constraint to a topological equivalent latent space. Since a diffeomorphism is used to translate the demonstrated and reproduced motions between these spaces, the stability guarantee in the latent space is retained in the original space \cite{leeIntroductionTopologicalManifolds2011,leeIntroductionSmoothManifolds2012,leeIntroductionRiemannianManifolds2018}. This method offers an elegant solution to the accuracy-stability trade-off and dramatically improves the generalizability since now non-conservative motions can be directly fitted using any regression method. 
+
+Due to the diffeomorphic methods relying on a globally defined map between the latent and original space, they are not able to learn multiple behaviours from the same demonstration. Contraction based methods on the other hand As these methods currently only guarantee regional convergence, this is an ongoing field of study.
+
+Although the methods above guarantee the stability of the equilibrium points, they give no guarantee about the convergence of the trajectories. As a result, although learned policies will always reach the target, regardless of the region in the state space where they are perturbed, they will no longer follow the reference trajectories. 
+
+To improve the accuracy of the reproduced trajectories \cite{blocherLearningStableDynamical2017}, several authors have used contraction theory to derive stability conditions that guarantee incremental stability. Unfortunately, these contraction based methods like the afforementioned based methods can suffer from the risk ofover-corrections which might deviate the DS from the desired non-linear motion. \cite{figueroafernandezPhysicallyconsistentBayesianNonparametric2018}. 
+
+More recently, Figueroa et al. 2018 \cite{figueroafernandezPhysicallyconsistentBayesianNonparametric2018} were able to learn globally asymptotically stable DS from demonstrations by jointly learning the policy and an elliptical Lyapunov function using a non-parametric GMM. They designed a novel similarity metric that leverages locality and directionally of the demonstrations and used these as a Bayesian prior in their constraint optimization. By doing this, their method outperforms previous methods' accuracy and generalizability without relying on diffeomorphisms or contraction theory.
+
+% ELM for more expressive lyapunov constraints.
+% Other parameterizations for more expressive lyapunov constraints.
+% Diffeomorphic methods.
+% Contraction methods.
+% similarity metric for lyapunov constraints.
+
+% TODO: Add PID papers and uncertainty papers.
+% TODO: Add more constraint optimization papers and check the constraint type.
+% TODO: Papers that reference SEDs.
+
+% TODO: Check umlauft GP papers.
+% TODO: Check spaandonk Learning Variable Impedance Control: A Model-Based Approach Using Gaussian Processes.
+
+%----------Contraction
+% Urain et al. 2020 gives good overview.
+% Check saveriano with DS shaping.
+% SEe overview Saveriano 2021.
+% Rana et al. 2020 says something about contraction.
+%----------Impedance
+
+\subsection{Stability of the learned impedance}
+
+Several authors have extended these trajectory-based LfD methods to interaction tasks. Duo et al. 2022, for example, \cite{douRobotSkillLearning2022} extended a DMP with a variable stiffness term to create a Compliant Movement Principle (CMP) method that can be used to learn interaction tasks. Using this method, they learned the trajectory and stiffness profile from sensors. Arduingo et al. 2020, on the other hand, resorted to a GP-based learning approach in which the stiffness is related to the uncertainty of the movement. The more uncertain a movement is, the more the stiffness is adjusted. Both papers used Kronander stability constraints to stabilise the variable impedance profile.
+
+First \cite{shahriariAdaptingContactsEnergy2017}, achieve this by adding valves to the tank design. By adjusting the weights of these valves, the power released during task execution can be controlled. Tank in demonstrations!
+
+VIL methods only variable and damping matrixes (see abu daku 2020).
+
+All of the VIL methods that are currently used only vary the stiffness and damping matrixes.
+
+On top of that several authors have used the traditional stability methods discussed in the previous chapter for keeping the control passive.
+
+But these methods are rather conservative and do not show passivity when using in interaction. Therefore several authors have used the passivity methods in the previous chapters like energy-tanks and lyapunov constraints for ensure passivity.
+
+Several authors have for example used energy tanks to keep the variable impedance passive \cite{amanhoudForceAdaptationContact2020,enayatiVariableImpedanceForceControl2020,kastritsiProgressiveAutomationDMP2018,michelBilateralTeleoperationAdaptive2021,saverianoEnergybasedApproachEnsure2020,shahriariAdaptingContactsEnergy2017,wuFrameworkAutonomousImpedance2021,amanhoudDynamicalSystemApproach2019,kronanderPassiveInteractionControl2016} while others have used the stability constraints of and demonstration-learned \cite{arduengoGaussianProcessbasedRobotLearning2020,douRobotSkillLearning2022}.
+
+Several authors have extended these trajectory based LfD methods to interaction tasks. Duo et al. 2022 for example \cite{douRobotSkillLearning2022} extended a DMP with a variable stiffness term to create a Compliant Movement Principle (CMP) method that can be used to learn interaction tasks. Using this method they were able to learn the trajectory and stiffness profile from sensors. Arduingo et al. 2020 on the other hand resorted to a GP based learning approach in which the stiffness is related to the uncertainty of the movement. The more uncertain a movement is the more the stiffness is adjusted. Both these papers used Kronander stability constraint to keep the variable impedance profile stable.
+
+% TODO: Check sharifi et al. 2022 for impedance learning.
+
+\section{Variable impedance learning control}
+
+Recently authors have also investigated the passivity problem in RL-based variable impedance methods, which can learn complex tasks without knowing anything about the system and environment. In these methods, the closed-loop system's passivity is ensured by guaranteeing that the actions coming for the policy adhere to certain passivity constraints. For example, Kim et al. 2008 \cite{kimLearningRobotStiffness2008} ensure that the policy's task-stiffness matrix is always symmetric and positive definite. Doing this guarantees the manipulator's stability when interacting with a passive environment. Liang et al. 2021 (Liang et al., 2021) keep the closed-loop system stable by deriving three Lyapunov stability constraints on the inertia matrix. As a result, the damping and stiffness matrices can vary.
+
+\cite{reyLearningMotionsDemonstrations2018} and \cite{khaderStabilityGuaranteedReinforcementLearning2020} take a similar approach by ensuring that the policy sample distribution can only generate passive parameter samples. Later \cite{khaderLearningDeepEnergy2021} ensure the passivity of their RL algorithm by using a deep neural policy in which the structure guarantees stability. Since both \cite{khaderStabilityGuaranteedReinforcementLearning2020,reyLearningMotionsDemonstrations2018} and \cite{khaderLearningDeepEnergy2021}can only use entire trajectories, they are not very sample efficient. \cite{khaderLearningStableNormalizingFlow2021} proposed a new method to utilize all state-action samples to solve this.
+
+As explained above, in VIL methods, the desired trajectory and impedance profiles for a given task are learned from human demonstrations using a supervised learning procedure called Imitation Learning (IM), also called Learning from Demonstrations (LfD). Two steps generally make up this approach: A step in which [kinetic/kinematic] (and dynamic) data is collected from sensors (i.e. data-collection step), followed by a step in which a model is fitted to the collected data using regression (i.e. data-fitting step). Any regression model and technique can be used in this data-fitting step.
+
+Traditionally, LfD research has mainly focused on reproducing the demonstrations' kinematics (i.e. trajectories). A good overview of these trajectory-based methods can be found in \cite{siReviewManipulationSkill2021}. Within these methods, two main approaches are found to ensure the reproduced trajectories' stability.
+Give the stability methods used in trajectory-based LfD research
+SEDS optimi lyapunov conraind
+DMP intrinsicly stable.
+
+Several authors have extended these trajectory-based LfD methods to interaction tasks. Within these methods two groups can be found. Methods that encode both the desired trajectory and variable impedance in one model and methods that use a seperate model for each component.
+Duo et al. 2022, for example \cite{douRobotSkillLearning2022} extended a DMP with a variable stiffness term to create a Compliant Movement Principle (CMP) method that can be used to learn interaction tasks. Using this method they were able to learn the trajectory and stiffness profile from sensors. Arduingo et al. 2020 on the other hand resorted to a GP based learning approach in which the stiffness is related to the uncertainty of the movement. The more uncertain a movement is the more the stiffness is adjusted. Both these papers used Kronander stability constraint to keep the variable impedance profile stable.
+
+Several authors have for example used energy tanks to keep the variable impedance passive \cite{amanhoudForceAdaptationContact2020,enayatiVariableImpedanceForceControl2020,kastritsiProgressiveAutomationDMP2018,michelBilateralTeleoperationAdaptive2021,saverianoEnergybasedApproachEnsure2020,shahriariAdaptingContactsEnergy2017,wuFrameworkAutonomousImpedance2021,amanhoudDynamicalSystemApproach2019,kronanderPassiveInteractionControl2016} while others have used the stability constraints of and demonstration-learned \cite{arduengoGaussianProcessbasedRobotLearning2020,douRobotSkillLearning2022}.
+
+Several models were used to represent these trajectory
+
+Two main approaches are found to ensure the reproduced trajectory's stability within these methods.
+The second approach is
+
+A good overview of these trajectory-based methods can be found in \cite{siReviewManipulationSkill2021}. Within these LfD methods, two general
+This method can be broadly divided into two main groups, both coming with their strengths and shortcomings: (\textbf{probabilistic or statistical})-based methods and \textbf{dynamical system}-based methods. The main difference between these groups is the type of model that represents the collected data. Probabilistic-based methods, like Gaussian Mixture Models (GMM) and Gaussian Processes (GP),
+use probability functions to quantify the learned trajectory, while Dynamic system-based methods, like Stable Estimator of Dynamical Systems (SEDS) and Dynamic Movement Primitives (DMPs), represent the trajectory as a set of (non)-linear (autonomous) dynamical systems. Each of these representations has its strengths and shortcomings.
+These methods were later extended for also including force ino

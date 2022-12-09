@@ -1,0 +1,73 @@
+\documentclass{layout/tudelft-report}
+
+%% Setting up the bibliography
+\usepackage{biblatex}
+\addbibresource{master_thesis.bib}
+
+%% Additional packages and commands
+\setlist{itemsep=-2pt} % Reducing white space in lists slightly
+\renewcommand{\deg}{\si{\degree}\xspace} % Use \deg easily, everywhere
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Begin of document %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%% Roman page numbering
+\frontmatter
+
+%% Defining the main parameters
+\title{Stability guarantees in variable impedance control for rigid robotics manipulators in contact with (semi)-rigid environments}
+\subtitle{HOW TO GUARANTEE STABLE VARIABLE IMPEDANCE CONTROL AT ALL TIMES}
+\author{Rick Staa}
+\subject{ME51010: ME-BMD Literature Report}
+\affiliation{Delft University of Technology}
+
+% Source: https://www.franka.de/
+\coverimage{figures/cover_cropped.jpg} % Aspect ratio of 2:3 (portrait) recommended
+
+\definecolor{title}{HTML}{4884d6} % Color for title
+
+\makecover
+
+\input{frontmatter/title-report}
+% \input{frontmatter/preface}
+\input{frontmatter/abstract}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\tcblistof[\chapter*]{ex}{List of Examples}
+\tcblistof[\chapter*]{th}{List of Theorems}
+\tcblistof[\chapter*]{def}{List of Definitions}
+
+\input{frontmatter/nomenclature}
+
+%% Arabic page numbering
+\mainmatter
+
+\input{mainmatter/introduction}
+
+\input{mainmatter/method}
+\input{mainmatter/background}
+\input{mainmatter/classical_variable_impedance}
+\input{mainmatter/learning_based_variable_impedance}
+
+\input{mainmatter/conclusion}
+
+%% Prevent urls running into margins in bibliography
+\setcounter{biburlnumpenalty}{7000}
+\setcounter{biburllcpenalty}{7000}
+\setcounter{biburlucpenalty}{7000}
+
+%% Add bibliography
+\printbibliography[heading=bibintoc,title=References]
+
+
+%% Letters for chapters
+\appendix
+
+\input{appendix/appendix-a}
+
+\end{document}

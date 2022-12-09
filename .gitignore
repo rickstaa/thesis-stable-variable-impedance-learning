@@ -1,0 +1,8 @@
+# Editor files/folders
+.vscode
+*.code-workspace
+
+# Compiled files
+*.pdf
+*.docx
+*.doc

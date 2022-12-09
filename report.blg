@@ -1,0 +1,23 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[1] Config.pm:309> INFO - Logfile is 'report.blg'
+[448] biber-MSWIN32:340> INFO - === 
+[569] Biber.pm:418> INFO - Reading 'report.bcf'
+[1311] Biber.pm:978> INFO - Found 149 citekeys in bib section 0
+[1385] Biber.pm:4401> INFO - Processing section 0
+[1426] Biber.pm:4592> INFO - Looking for bibtex file 'master_thesis.bib' for section 0
+[1668] bibtex.pm:1713> INFO - LaTeX decoding ...
+[5337] bibtex.pm:1518> INFO - Found BibTeX data source 'master_thesis.bib'
+[9111] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[9112] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[9112] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[9112] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[9777] bbl.pm:654> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[10299] bbl.pm:757> INFO - Output to report.bbl
+[10300] Biber.pm:130> WARN - Possible typo (case mismatch) between datasource keys: 'mathewOnlineLearningFeedforward2019' and 'mathewOnlineLearningFeedForward2019' in file 'master_thesis.bib'
+[10301] Biber.pm:130> WARN - ISBN '978-1-84628-892-0 978-1-84628-893-7' in entry 'baoProcessControlPassive2007' is invalid - run biber with '--validate_datamodel' for details.
+[10301] Biber.pm:130> WARN - ISBN '978-1-84996-634-4 978-1-84628-641-4' in entry 'sicilianoRoboticsModellingPlanning2010' is invalid - run biber with '--validate_datamodel' for details.
+[10301] Biber.pm:130> WARN - ISBN '978-1-4419-7939-1 978-1-4419-7940-7' in entry 'leeIntroductionTopologicalManifolds2011' is invalid - run biber with '--validate_datamodel' for details.
+[10302] Biber.pm:130> WARN - ISBN '978-1-4419-9981-8 978-1-4419-9982-5' in entry 'leeIntroductionSmoothManifolds2012' is invalid - run biber with '--validate_datamodel' for details.
+[10302] Biber.pm:130> WARN - ISBN '978-3-319-91754-2 978-3-319-91755-9' in entry 'leeIntroductionRiemannianManifolds2018' is invalid - run biber with '--validate_datamodel' for details.
+[10302] Biber.pm:130> WARN - I didn't find a database entry for 'chenClosedLoopVariableStiffness2021' (section 0)
+[10302] Biber.pm:132> INFO - WARNINGS: 7

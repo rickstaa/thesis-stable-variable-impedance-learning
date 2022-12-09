@@ -1,0 +1,58 @@
+\chapter{Conclusion}
+\label{chapter:conclusion}
+% TODO: Check new hogan paper.
+% TODO: Stability not occurring often in practice (kronander)
+% TODO: Short summary.
+
+% TODO: FRACTAL ATTRACTOR limitations. Requires desired velocity and acceleration to be zero.
+% TODO: Tank based and potential field based need to be tuned to each task they apply to. Which method is to be used ultimately depends on factors such as importance of accurate stiffness following (choose our approach) or applicability to systems without dynamic decou-pling (choose state-dependent approach such as [8]) (kronander)
+% TODO: Future researchers could focus on Lyapunov constraint always less conservative constraints can be found. Further constraints which teh stiffness or damping can be varied faster can be found (Sun and Zhang).
+% TODO: Uncertainties and friction. This model.
+% TODO: NOT ACTIVE ENVIRONMENTS!
+% TODO: Check safety papers rajoa
+% TODO: Energy tanks, potential fields are controller independent.
+% TODO: Energy tank methods are quite conservative as they will release as much energy as requested by the controller but apply a constant stiffness when it runs out. This is solved by Sechi.
+% TODO: Add other constraints to tank?
+% TODO: Altough it highlighted several methods to limit the rate of power in energy tanks. This paper focuses on the stability. Several constraints for safety are found in [].
+% TODO: Talk about constraints tadele 2014.
+% TODOL Method CBF can be applied to incorporate safety constraints. This is done in see CBF folder.
+
+% TODO: Safety done in tadele/benzi ect for human r
+
+% TODO: potential fields only allow varying stiffness not applied yet to also include inertia variation.
+
+% TODO: Chow introduces safe RL.
+
+
+% TODO: DMP when motions are intrinsically time-independent (khansari et al. 2011).
+
+Using a fractal attractor is very promising for enforcing the passivity of variable impedance profiles online. Currently, this method has only been applied on variable impedance controllers in which only the stiffness has been varied since this is the most important for stability? (See article) Future research should focus on applying this concept to variable impedance controllers where all impedance parameters can vary.
+Derive Lyapunov constraints in which the inertia does not have to be constant.
+Multiple methods have been proposed to ensure robot manipulators' stability when interacting with rigid environments through VIC. Researchers used passivity filters like Farragut's energy tank to enforce the passivity of the closed-loop system during control \cite{ferragutiTankbasedApproachImpedance2013}. The benefit of this method is that it does not require any knowledge about the controlled system. The downside is that it is state-dependent and does not guarantee control performance. Researchers like \cite{kronanderStabilityConsiderationsVariable2016}have tried to solve these problems by designing passivity constraints on the variable impedance parameters that ensure a controller stays passive. Other authors have designed controllers, of which passivity is shown using a passivity analysis. Although this solves the state dependency problem and improves the performance, this method is not always feasible since it requires in-depth knowledge of the dynamic system and uncertainties. Learning-based methods have been used to overcome the above shortcomings.
+
+This review investigated the stability considerations needed for providing safe variable impedance control for robotics manipulators in contact with (semi)-rigid environments. While the controller's stability is the most fundamental component, it is not the only component needed for safe robot interaction. Even though a stable controller will not lead to unpredictable, unstable behaviour, it can still command high velocities and accelerations, leading to unsafe situations. The controller should, therefore, also be able to adhere to certain joint or Cartesian constraints if we want it to work alongside humans or other robots safely. Future reviews should therefore focus on incorporating these additional safety constraints in the (learned) impedance control while keeping the stability and passivity relationships.
+
+
+The type of passivity solution depends on the task that needs to be performed. A proven passive controller like \cite{yangHumanlikeAdaptationForce2011} Yang et al. is preferable since this controller will always stay passive. Designing such a controller however is not trivial. For tasks where a offline profile is computed \cite{ferragutiTankbasedApproachImpedance2013} Ferragutis thank or the Lyapunov constraints of \cite{kronanderStabilityConsiderationsVariable2016} Kronander are very helpful. Learned controllers on the other hand do provide more customizability and are therefore preferred.
+
+
+LFD methods can be divided into two main groups: transient non-linear models and constrained optimization methods.
+
+
+Currently, collision prevention is mainly handled through external collision prevention algorithms. Future research would also focus on directly incorporating these collision prevention behaviours through a constraint in learning-based methods.
+
+
+Search for even less conservative passivity constraints.
+
+
+In tele-operation large damping factors from constraints might degrade transparency (selvaggio)
+
+% TODO: Can we exploid the Fractal attractor to ensure passivity of general or a subclass variable impedance profiles.
+
+Altough the use of FA to create FIC is very promising concept for being able to use VIC. It however has not yet been applied for VIC in which also the desired inertia is varied and for which the (non-linear) variable impedance profile is not set in advance and only . Future research should therefore focus on applying this concept to variable impedance controllers where all impedance parameters can vary and where the desired inertia is set in advance. assumption based on non-linear profile.
+Damping can be introduced as long as the desired velocity is zero.
+
+The current FIC architectures allow for passively varying the stiffness. They use the actual robot inertia as the desired inertia. As stated, they can also be extended also to include the damping when the velocity is zero.
+Not done with changing damping. Doesn't make control less passive but could improve the dynamic interaction.
+
+% TODO: Tiseo incorperate safety bounds in potential field?
