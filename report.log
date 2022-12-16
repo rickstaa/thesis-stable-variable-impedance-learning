@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.7)  9 DEC 2022 17:14
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.7)  14 DEC 2022 10:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1531,6 +1531,16 @@ Overfull \hbox (19.11426pt too wide) in paragraph at lines 65--65
  []
 
 [33]
+Overfull \hbox (1.72975pt too wide) in paragraph at lines 65--65
+[]\TU/Arial(0)/m/n/10 Shaokun Jin et al. “Improved Learning Accuracy for Learning Stable Control from Human Demon-
+ []
+
+
+Overfull \hbox (5.54312pt too wide) in paragraph at lines 65--65
+\TU/Arial(0)/m/n/10 strations”. In: \TU/Arial(0)/m/it/10 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)\TU/Arial(0)/m/n/10 .
+ []
+
+
 Overfull \hbox (11.9216pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 sure Stability of Dynamical System-Based Robot Reaching Motions”. In: \TU/Arial(0)/m/it/10 Robotics and Autonomous
  []
@@ -1560,7 +1570,7 @@ Overfull \hbox (15.81346pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Christopher Schindlbeck and Sami Haddadin. “Unified Passivity-Based Cartesian Force/Impedance
  []
 
-
+[38]
 Overfull \hbox (3.28429pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Mario Selvaggio et al. “Passive Virtual Fixtures Adaptation in Minimally Invasive Robotic Surgery”.
  []
@@ -1570,12 +1580,12 @@ Overfull \hbox (0.61626pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 Dynamic Movement Primitives”. In: \TU/Arial(0)/m/it/10 2017 IEEE-RAS 17th International Conference on Humanoid
  []
 
-[38]
+[39]
 Overfull \hbox (8.65758pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Xinchao Sun, Lianyu Zhao, and Zhenzhong Liu. “A Model Reference Adaptive Variable Impedance
  []
 
-[39]
+
 Overfull \hbox (4.43019pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 2022. arXiv: []$[] [] [] []  [] [] [] [] [] [] $ \TU/lmtt/m/n/10 [cs][]\TU/Arial(0)/m/n/10 . \TU/Arial(0)/m/sc/10 url\TU/Arial(0)/m/n/10 : []$[] [] [] []  [] [] [] [] [] [] [] []  [] [] [] []  [] [] [] []  [] [] [] [] []  [] [] [] [] [] [] $[] (visited on 08/11/2022). 
  []
@@ -1592,12 +1602,12 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47435 strings out of 475869
- 1037524 string characters out of 5805667
- 2037219 words of memory out of 5000000
- 67744 multiletter control sequences out of 15000+600000
+ 47470 strings out of 475869
+ 1039229 string characters out of 5805667
+ 2052498 words of memory out of 5000000
+ 67779 multiletter control sequences out of 15000+600000
  477631 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,20n,118p,2934b,5526s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,20n,118p,3780b,5526s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (54 pages, 1734412 bytes).
+Output written on report.xdv (54 pages, 1771660 bytes).

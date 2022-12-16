@@ -1,5 +1,21 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'report.blg'
-[363] biber-MSWIN32:340> INFO - === 
-[487] Utils.pm:410> ERROR - report.bcf is malformed, last biblatex run probably failed. Deleted report.bbl
-[488] Biber.pm:135> INFO - ERRORS: 1
+[144] biber-MSWIN32:340> INFO - === 
+[191] Biber.pm:418> INFO - Reading 'report.bcf'
+[496] Biber.pm:978> INFO - Found 176 citekeys in bib section 0
+[519] Biber.pm:4401> INFO - Processing section 0
+[534] Biber.pm:4592> INFO - Looking for bibtex file 'master_thesis.bib' for section 0
+[637] bibtex.pm:1713> INFO - LaTeX decoding ...
+[2094] bibtex.pm:1518> INFO - Found BibTeX data source 'master_thesis.bib'
+[3718] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3718] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3718] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[3719] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[3964] bbl.pm:654> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[4161] bbl.pm:757> INFO - Output to report.bbl
+[4162] Biber.pm:130> WARN - ISBN '978-1-84628-892-0 978-1-84628-893-7' in entry 'baoProcessControlPassive2007' is invalid - run biber with '--validate_datamodel' for details.
+[4162] Biber.pm:130> WARN - ISBN '978-1-84996-634-4 978-1-84628-641-4' in entry 'sicilianoRoboticsModellingPlanning2010' is invalid - run biber with '--validate_datamodel' for details.
+[4162] Biber.pm:130> WARN - ISBN '978-1-4419-7939-1 978-1-4419-7940-7' in entry 'leeIntroductionTopologicalManifolds2011' is invalid - run biber with '--validate_datamodel' for details.
+[4162] Biber.pm:130> WARN - ISBN '978-1-4419-9981-8 978-1-4419-9982-5' in entry 'leeIntroductionSmoothManifolds2012' is invalid - run biber with '--validate_datamodel' for details.
+[4162] Biber.pm:130> WARN - ISBN '978-3-319-91754-2 978-3-319-91755-9' in entry 'leeIntroductionRiemannianManifolds2018' is invalid - run biber with '--validate_datamodel' for details.
+[4162] Biber.pm:132> INFO - WARNINGS: 5

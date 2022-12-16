@@ -10,7 +10,7 @@
   doi = {10.1109/LCSYS.2020.3005328},
   abstract = {We propose an automatic and formally sound method for synthesising Lyapunov functions for the asymptotic stability of autonomous non-linear systems. Traditional methods are either analytical and require manual effort or are numerical but lack of formal soundness. Symbolic computational methods for Lyapunov functions, which are in between, give formal guarantees but are typically semi-automatic because they rely on the user to provide appropriate function templates. We propose a method that finds Lyapunov functions fully automatically-using machine learning-while also providing formal guarantees-using satisfiability modulo theories (SMT). We employ a counterexample-guided approach where a numerical learner and a symbolic verifier interact to construct provably correct Lyapunov neural networks (LNNs). The learner trains a neural network that satisfies the Lyapunov criteria for asymptotic stability over a samples set; the verifier proves via SMT solving that the criteria are satisfied over the whole domain or augments the samples set with counterexamples. Our method supports neural networks with polynomial activation functions and multiple depth and width, which display wide learning capabilities. We demonstrate our method over several non-trivial benchmarks and compare it favourably against a numerical optimisation-based approach, a symbolic template-based approach, and a cognate LNN-based approach. Our method synthesises Lyapunov functions faster and over wider spatial domains than the alternatives, yet providing stronger or equal guarantees.},
   eventtitle = {{{IEEE Control Systems Letters}}},
-  keywords = {Asymptotic stability,Biological neural networks,Computer-aided control design,Lyapunov methods,neural networks,Neurons,Numerical stability,Stability analysis},
+  keywords = {Asymptotic stability,Biological neural networks,Computer-aided control design,Lyapunov methods,neural networks,Neurons,Numerical stability,READ,Stability analysis},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\abate_et_al_2021_formal_synthesis_of_lyapunov_neural_networks.pdf}
 }
 
@@ -347,6 +347,26 @@
   publisher = {{IEEE}}
 }
 
+@incollection{batkaiKoopmanSemigroups2017,
+  title = {Koopman {{Semigroups}}},
+  booktitle = {Positive {{Operator Semigroups}}: {{From Finite}} to {{Infinite Dimensions}}},
+  author = {Bátkai, András and Fijavž, Marjeta Kramar and Rhandi, Abdelaziz},
+  editor = {Bátkai, András and Kramar Fijavž, Marjeta and Rhandi, Abdelaziz},
+  date = {2017},
+  series = {Operator {{Theory}}: {{Advances}} and {{Applications}}},
+  pages = {253--267},
+  publisher = {{Springer International Publishing}},
+  location = {{Cham}},
+  doi = {10.1007/978-3-319-42813-0_16},
+  url = {https://doi.org/10.1007/978-3-319-42813-0_16},
+  urldate = {2022-12-14},
+  abstract = {We present here a class of positive operator semigroups that arise in studying dynamical systems. The main idea is to linearize a given (nonlinear) system by considering another state space. The linear operator which acts on this new space is called the Koopman operator. It is named after B. O. Koopman, who used this in the 1930s together with G. D. Birkhoff and J. von Neumann to prove the so-called ergodic theorems.},
+  isbn = {978-3-319-42813-0},
+  langid = {english},
+  keywords = {Banach Lattice,Continuous Semigroup,Contraction Semigroup,Invariant Measure,Invariant Probability Measure},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\bátkai_et_al_2017_koopman_semigroups.pdf}
+}
+
 @article{bednarczykEMGBasedVariableImpedance2022,
   title = {{{EMG-Based Variable Impedance Control With Passivity Guarantees}} for {{Collaborative Robotics}}},
   author = {Bednarczyk, Maciej and Omran, Hassan and Bayle, Bernard},
@@ -461,7 +481,7 @@
   urldate = {2022-12-05},
   abstract = {We present a novel data-driven approach for learning linear representations of a class of stable nonlinear systems using Koopman eigenfunctions. By learning the conjugacy map between a nonlinear system and its Jacobian linearization through a Normalizing Flow one can guarantee the learned function is a diffeomorphism. Using this diffeomorphism, we construct eigenfunctions of the nonlinear system via the spectral equivalence of conjugate systems - allowing the construction of linear predictors for nonlinear systems. The universality of the diffeomorphism learner leads to the universal approximation of the nonlinear system's Koopman eigenfunctions. The developed method is also safe as it guarantees the model is asymptotically stable regardless of the representation accuracy. To our best knowledge, this is the first work to close the gap between the operator, system and learning theories. The efficacy of our approach is shown through simulation examples.},
   archiveprefix = {arXiv},
-  keywords = {Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Mathematics - Dynamical Systems},
+  keywords = {Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Mathematics - Dynamical Systems,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\bevanda_et_al_2022_learning_the_koopman_eigendecomposition.pdf}
 }
 
@@ -596,7 +616,7 @@
   number = {2},
   pages = {44--54},
   publisher = {{IEEE}},
-  keywords = {STABILITY},
+  keywords = {READ,STABILITY},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\calinon_et_al_2010_learning_and_reproduction_of_gestures_by_imitation.pdf}
 }
 
@@ -689,6 +709,7 @@
   url = {https://proceedings.neurips.cc/paper/2019/hash/2647c1dba23bc0e0f9cdf75339e120d2-Abstract.html},
   urldate = {2022-12-06},
   abstract = {We propose new methods for learning control policies and neural network Lyapunov functions for nonlinear control problems, with provable guarantee of stability. The framework consists of a learner that attempts to find the control and Lyapunov functions, and a falsifier that finds counterexamples to quickly guide the learner towards solutions. The procedure terminates when no counterexample is found by the falsifier, in which case the controlled nonlinear system is provably stable. The approach significantly simplifies the process of Lyapunov control design, provides end-to-end correctness guarantee, and can obtain much larger regions of attraction than existing methods such as LQR and SOS/SDP. We show experiments on how the new methods obtain high-quality solutions for challenging robot control problems such as path tracking for wheeled vehicles and humanoid robot balancing.},
+  keywords = {READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\chang_et_al_2019_neural_lyapunov_control.pdf}
 }
 
@@ -849,14 +870,14 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\cohen_et_al_2021_motion_adaptation_based_on_learning_the_manifold_of_task_and_dynamic_movement.pdf}
 }
 
-@inproceedings{colbertUsingTrajectoryMeasurements2018a,
+@inproceedings{colbertUsingTrajectoryMeasurements2018,
   title = {Using Trajectory Measurements to Estimate the Region of Attraction of Nonlinear Systems},
   booktitle = {2018 {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
   author = {Colbert, Brendon K. and Peet, Matthew M.},
   date = {2018},
   pages = {2341--2347},
   publisher = {{IEEE}},
-  keywords = {lyapunov functions,stability regions},
+  keywords = {lyapunov functions,READ,stability regions},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\colbert_peet_2018_using_trajectory_measurements_to_estimate_the_region_of_attraction_of_nonlinear.pdf}
 }
 
@@ -958,7 +979,8 @@
   volume = {21},
   number = {5},
   pages = {2581--2594},
-  publisher = {{IEEE}}
+  publisher = {{IEEE}},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\deniša_et_al_2015_learning_compliant_movement_primitives_through_demonstration_and_statistical.pdf}
 }
 
 @inproceedings{devonportBayesianSafeLearning2020,
@@ -1359,7 +1381,7 @@
   urldate = {2022-12-02},
   abstract = {In this paper, we present a new data-driven method for learning stable models of nonlinear systems. Our model lifts the original state space to a higher-dimensional linear manifold using Koopman embeddings. Interestingly, we prove that every discrete-time nonlinear contracting model can be learnt in our framework. Another significant merit of the proposed approach is that it allows for unconstrained optimization over the Koopman embedding and operator jointly while enforcing stability of the model, via a direct parameterization of stable linear systems, greatly simplifying the computations involved. We validate our method on a simulated system and analyze the advantages of our parameterization compared to alternatives.},
   archiveprefix = {arXiv},
-  keywords = {Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control},
+  keywords = {Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\fan_et_al_2021_learning_stable_koopman_embeddings.pdf}
 }
 
@@ -1468,7 +1490,7 @@
   urldate = {2022-12-07},
   abstract = {Dynamical Systems (DS) are fundamental to the modeling and understanding time evolving phenomena, and have application in physics, biology and control. As determining an analytical description of the dynamics is often difficult, data-driven approaches are preferred for identifying and controlling nonlinear DS with multiple equilibrium points. Identification of such DS has been treated largely as a supervised learning problem. Instead, we focus on an unsupervised learning scenario where we know neither the number nor the type of dynamics. We propose a Graph-based spectral clustering method that takes advantage of a velocity-augmented kernel to connect data points belonging to the same dynamics, while preserving the natural temporal evolution. We study the eigenvectors and eigenvalues of the Graph Laplacian and show that they form a set of orthogonal embedding spaces, one for each sub-dynamics. We prove that there always exist a set of 2-dimensional embedding spaces in which the sub-dynamics are linear and n-dimensional embedding spaces where they are quasi-linear. We compare the clustering performance of our algorithm to Kernel K-Means, Spectral Clustering and Gaussian Mixtures and show that, even when these algorithms are provided with the correct number of sub-dynamics, they fail to cluster them correctly. We learn a diffeomorphism from the Laplacian embedding space to the original space and show that the Laplacian embedding leads to good reconstruction accuracy and a faster training time through an exponential decaying loss compared to the state-of-the-art diffeomorphism-based approaches.},
   archiveprefix = {arXiv},
-  keywords = {Computer Science - Machine Learning},
+  keywords = {Computer Science - Machine Learning,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\fichera_billard_2022_linearization_and_identification_of_multiple-attractor_dynamical_systems.pdf}
 }
 
@@ -1589,6 +1611,29 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\franzese_et_al_2021_ilosa.pdf}
 }
 
+@article{gamsCouplingMovementPrimitives2014,
+  title = {Coupling {{Movement Primitives}}: {{Interaction With}} the {{Environment}} and {{Bimanual Tasks}}},
+  shorttitle = {Coupling {{Movement Primitives}}},
+  author = {Gams, Andrej and Nemec, Bojan and Ijspeert, Auke Jan and Ude, Ales},
+  date = {2014-08},
+  journaltitle = {Ieee Transactions on Robotics},
+  shortjournal = {IEEE Trans. Robot.},
+  volume = {30},
+  number = {4},
+  pages = {816--830},
+  publisher = {{Ieee-Inst Electrical Electronics Engineers Inc}},
+  location = {{Piscataway}},
+  issn = {1552-3098},
+  doi = {10.1109/TRO.2014.2304775},
+  url = {http://www.webofscience.com/api/gateway?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.1109%2FTRO.2014.2304775&DestApp=DOI&SrcAppSID=EUW1ED0B96xiHhOPd3O7RT62Y5rm7&SrcJTitle=IEEE+TRANSACTIONS+ON+ROBOTICS&DestDOIRegistrantName=Institute+of+Electrical+and+Electronics+Engineers},
+  urldate = {2022-12-15},
+  abstract = {The framework of dynamic movement primitives (DMPs) contains many favorable properties for the execution of robotic trajectories, such as indirect dependence on time, response to perturbations, and the ability to easily modulate the given trajectories, but the framework in its original form remains constrained to the kinematic aspect of the movement. In this paper, we bridge the gap to dynamic behavior by extending the framework with force/torque feedback. We propose and evaluate a modulation approach that allows interaction with objects and the environment. Through the proposed coupling of originally independent robotic trajectories, the approach also enables the execution of bimanual and tightly coupled cooperative tasks. We apply an iterative learning control algorithm to learn a coupling term, which is applied to the original trajectory in a feed-forward fashion and, thus, modifies the trajectory in accordance to the desired positions or external forces. A stability analysis and results of simulated and real-world experiments using two KUKA LWR arms for bimanual tasks and interaction with the environment are presented. By expanding on the framework of DMPs, we keep all the favorable properties, which is demonstrated with temporal modulation and in a two-agent obstacle avoidance task.},
+  langid = {english},
+  keywords = {adaptation,Bimanual operation,cooperative task,dynamic movement primitives   (DMPs),dynamics,imitation,impedance control,interaction with environment,iterative learning control,motion,robots},
+  annotation = {WOS:000340451800004},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\gams_et_al_2014_coupling_movement_primitives.pdf}
+}
+
 @inproceedings{ganeshVersatileBiomimeticController2012,
   title = {A Versatile Biomimetic Controller for Contact Tooling and Haptic Exploration},
   booktitle = {2012 {{IEEE International Conference}} on {{Robotics}} and {{Automation}}},
@@ -1688,7 +1733,7 @@
   doi = {10.1109/LCSYS.2020.3009177},
   abstract = {Learning-based control has shown to outperform conventional model-based techniques in the presence of model uncertainties and systematic disturbances. However, most state-of-the-art learning-based nonlinear trajectory tracking controllers still lack any formal guarantees. In this letter, we exploit the property of differential flatness to design an online, robust learning-based controller to achieve both high tracking performance and probabilistically guarantee a uniform ultimate bound on the tracking error. A common control approach for differentially flat systems is to try to linearize the system by using a feedback (FB) linearization controller designed based on a nominal system model. Performance and safety are limited by the mismatch between the nominal model and the actual system. Our proposed approach uses a nonparametric Gaussian Process (GP) to both improve FB linearization and quantify, probabilistically, the uncertainty in our FB linearization. We use this probabilistic bound in a robust linear quadratic regulator (LQR) framework. Through simulation, we highlight that our proposed approach significantly outperforms alternative learning-based strategies that use differential flatness.},
   eventtitle = {{{IEEE Control Systems Letters}}},
-  keywords = {Aerodynamics,Control systems,Feedback linearization,Gaussian processes,machine learning,Nonlinear dynamical systems,Probabilistic logic,robust control,Robustness,Uncertainty},
+  keywords = {Aerodynamics,Control systems,Feedback linearization,Gaussian processes,machine learning,Nonlinear dynamical systems,Probabilistic logic,READ,robust control,Robustness,Uncertainty},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\greeff_schoellig_2021_exploiting_differential_flatness_for_robust_learning-based_tracking_control.pdf}
 }
 
@@ -1705,7 +1750,7 @@
   urldate = {2022-12-09},
   abstract = {This article proposes a novel methodology to learn a stable robot control law driven by dynamical systems. The methodology requires a single demonstration and can deduce a stable dynamics in arbitrary high dimensions. The method relies on the idea that there exists a latent space in which the nonlinear dynamics appears quasi linear. The original nonlinear dynamics is mapped into a stable linear DS, by leveraging on the properties of graph embeddings. We show that the eigendecomposition of the Graph Laplacian results in linear embeddings in two dimensions and quasi-linear in higher dimensions. The nonlinear terms vanish, exponentially as the number of datapoints increase, and for large density of points, the embedding appears linear. We show that this new embedding enables to model highly nonlinear dynamics in high dimension and overcomes alternative techniques in both precision of reconstruction and number of parameters required for the embedding. We demonstrate its applicability to control real robot tasked to perform complex free motion in space.},
   archiveprefix = {arXiv},
-  keywords = {Computer Science - Robotics},
+  keywords = {Computer Science - Robotics,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\gupta_et_al_2022_learning_high_dimensional_demonstrations_using_laplacian_eigenmaps.pdf}
 }
 
@@ -1885,7 +1930,7 @@
   urldate = {2022-09-11},
   abstract = {When applying imitation learning techniques to fit a policy from expert demonstrations, one can take advantage of prior stability/robustness assumptions on the expert's policy and incorporate such control-theoretic prior knowledge explicitly into the learning process. In this paper, we formulate the imitation learning of linear policies as a constrained optimization problem, and present efficient methods which can be used to enforce stability and robustness constraints during the learning processes. Specifically, we show that one can guarantee the closed-loop stability and robustness by posing linear matrix inequality (LMI) constraints on the fitted policy. Then both the projected gradient descent method and the alternating direction method of multipliers (ADMM) method can be applied to solve the resulting constrained policy fitting problem. Finally, we provide numerical results to demonstrate the effectiveness of our methods in producing linear polices with various stability and robustness guarantees.},
   archiveprefix = {arXiv},
-  keywords = {Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Mathematics - Optimization and Control},
+  keywords = {Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Mathematics - Optimization and Control,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\havens_hu_2021_on_imitation_learning_of_linear_control_policies.pdf}
 }
 
@@ -2306,7 +2351,7 @@
   doi = {10.1109/IROS40897.2019.8968274},
   abstract = {Learning from Demonstration (LfD) has been identified as an effective method for making robots adapt to a similar kind of tasks. In this work, a framework of learning from demonstration has been proposed for modelling robot motions. We present an approach based on dimension ascending to learn a dynamical system, so that the reproduced motions can closely follow the demonstrations. In addition, the reproductions can ultimately reach and stop at the target, which reflects the robustness of the method. Therefore, the system accuracy and stability can be better guaranteed simultaneously. The effectiveness of the proposed approach is verified by performing handwriting experiments on the LASA data set.},
   eventtitle = {2019 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
-  keywords = {Analytical models,dynamical systems,Learning from demonstration,point-to-point motions,Robot motion,Robustness,Stability analysis,stability analysis.,Task analysis,Trajectory,Transforms},
+  keywords = {Analytical models,dynamical systems,Learning from demonstration,point-to-point motions,READ,Robot motion,Robustness,Stability analysis,stability analysis.,Task analysis,Trajectory,Transforms},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\jin_et_al_2019_improved_learning_accuracy_for_learning_stable_control_from_human_demonstrations.pdf}
 }
 
@@ -2322,7 +2367,7 @@
   doi = {10.1109/TNNLS.2019.2892207},
   abstract = {Learning from demonstration (LfD) has been increasingly used to encode robot tasks such that robots can achieve reproduction more flexibly in unstructured environments (e.g., households or factories). It is an effective alternative to preprogramming methods owing to its capacity of enabling robots to generalize to different situations. In this paper, we focus on LfD in the point-to-point movement case, where the dilemma of stability and accuracy exists. To avoid such a dilemma, we propose a learning approach that guarantees accuracy and stability simultaneously by means of constructed manifold immersion and submersion. We evaluate the proposed approach on two libraries of human handwriting motions (the LASA data set and a self-made GREEK data set) and on a set of experiments on the Barrett WAM robot.},
   eventtitle = {{{IEEE Transactions}} on {{Neural Networks}} and {{Learning Systems}}},
-  keywords = {Learning from demonstration (LfD),Learning systems,Lyapunov methods,nonlinear dynamical system (DS),Nonlinear dynamical systems,robotics,Service robots,stability analysis,Stability analysis,stable estimator of DSs (SEDSs),Trajectory},
+  keywords = {Learning from demonstration (LfD),Learning systems,Lyapunov methods,nonlinear dynamical system (DS),Nonlinear dynamical systems,READ,robotics,Service robots,stability analysis,Stability analysis,stable estimator of DSs (SEDSs),Trajectory},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\jin_et_al_2019_learning_accurate_and_stable_dynamical_system_under_manifold_immersion_and.pdf}
 }
 
@@ -2537,6 +2582,25 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khalil_2002_nonlinear_systems.pdf}
 }
 
+@article{khansari-zadehDynamicalSystemApproach2012,
+  title = {A Dynamical System Approach to Realtime Obstacle Avoidance},
+  author = {Khansari-Zadeh, Seyed Mohammad and Billard, Aude},
+  date = {2012-05-01},
+  journaltitle = {Autonomous Robots},
+  shortjournal = {Auton Robot},
+  volume = {32},
+  number = {4},
+  pages = {433--454},
+  issn = {1573-7527},
+  doi = {10.1007/s10514-012-9287-y},
+  url = {https://doi.org/10.1007/s10514-012-9287-y},
+  urldate = {2022-12-15},
+  abstract = {This paper presents a novel approach to real-time obstacle avoidance based on Dynamical Systems (DS) that ensures impenetrability of multiple convex shaped objects. The proposed method can be applied to perform obstacle avoidance in Cartesian and Joint spaces and using both autonomous and non-autonomous DS-based controllers. Obstacle avoidance proceeds by modulating the original dynamics of the controller. The modulation is parameterizable and allows to determine a safety margin and to increase the robot’s reactiveness in the face of uncertainty in the localization of the obstacle. The method is validated in simulation on different types of DS including locally and globally asymptotically stable DS, autonomous and non-autonomous DS, limit cycles, and unstable DS. Further, we verify it in several robot experiments on the 7 degrees of freedom Barrett WAM arm.},
+  langid = {english},
+  keywords = {Harmonic potential function,Nonlinear dynamical system,Realtime obstacle avoidance,Robot manipulator},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khansari-zadeh_billard_2012_a_dynamical_system_approach_to_realtime_obstacle_avoidance.pdf}
+}
+
 @inproceedings{khansari-zadehImitationLearningGlobally2010,
   title = {Imitation Learning of Globally Stable Non-Linear Point-to-Point Robot Motions Using Nonlinear Programming},
   booktitle = {2010 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}}},
@@ -2625,6 +2689,24 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khansari-zadeh_billard_2011_learning_stable_nonlinear_dynamical_systems_with_gaussian_mixture_models.pdf}
 }
 
+@article{khansariAdaptiveHumaninspiredCompliant2016,
+  title = {Adaptive Human-Inspired Compliant Contact Primitives to Perform           Surface–Surface Contact under Uncertainty},
+  author = {Khansari, Mohammad and Klingbeil, Ellen and Khatib, Oussama},
+  date = {2016-11-01},
+  journaltitle = {The International Journal of Robotics Research},
+  volume = {35},
+  number = {13},
+  pages = {1651--1675},
+  publisher = {{SAGE Publications Ltd STM}},
+  issn = {0278-3649},
+  doi = {10.1177/0278364916648389},
+  url = {https://doi.org/10.1177/0278364916648389},
+  urldate = {2022-12-15},
+  abstract = {This paper focuses on devising a control policy that is inspired by human strategy to enable robots to perform surface?surface contact between a hand-held object (e.g. a box) and the environment (e.g. table). We assume the object?s shape is partially known and consider uncertainties in both the environment and the object grasp. Our analysis on ten untrained subjects indicates that during this task: (1) the subjects start decreasing the angular velocity before the complete alignment (in contrast to existing approaches), and (2) they do not control the contact force to remain at a fixed value. Our study is also consistent with the hypothesis that the subjects determine an over-estimate of the relative angle between the object in hand and the environment. Based on these observations we propose a novel control policy, called Surface-Surface Contact Primitive (SSCP), which can perform the surface?surface alignment task with only partial information about the hand-held object and the environment. Furthermore, SSCP only requires a rough estimate of the surface normal vector and does not rely on either the estimation of contact type (i.e. point or edge contact) or locations of contact points. We evaluate the performance of the proposed controller on a set of robot experiments using two seven-degree-of-freedom robots, one for imposing uncertainty to the environment, and the other to perform the experiment. We show the applicability of the controller on four objects with different geometries, its generalization to four different surface materials, and its robustness to uncertainty in environment and grasp as well as external perturbations.},
+  langid = {english},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khansari_et_al_2016_adaptive_human-inspired_compliant_contact_primitives_to_perform.pdf}
+}
+
 @inproceedings{khansariModelingRobotDiscrete2014,
   title = {Modeling Robot Discrete Movements with State-Varying Stiffness and Damping: {{A}} Framework for Integrated Motion Generation and Impedance Control},
   shorttitle = {Modeling Robot Discrete Movements with State-Varying Stiffness and Damping},
@@ -2659,6 +2741,22 @@
   abstract = {A seamless interaction requires two robotic behaviors: the leader role where the robot rejects the external perturbations and focuses on the autonomous execution of the task, and the follower role where the robot ignores the task and complies with human intentional forces. The goal of this work is to provide (1) a unified robotic architecture to produce these two roles, and (2) a human-guidance detection algorithm to switch across the two roles. In the absence of human-guidance, the robot performs its task autonomously and upon detection of such guidances the robot passively follows the human motions. We employ dynamical systems to generate task-specific motion and admittance control to generate reactive motions toward the human-guidance. This structure enables the robot to reject undesirable perturbations, track the motions precisely, react to human-guidance by providing proper compliant behavior, and re-plan the motion reactively. We provide analytical investigation of our method in terms of tracking and compliant behavior. Finally, we evaluate our method experimentally using a 6-DoF manipulator.},
   langid = {english},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khoramshahi_billard_2020_a_dynamical_system_approach_for_detection_and_reaction_to_human_guidance_in.pdf}
+}
+
+@article{khosraviConvexNonparametricFormulation2021,
+  title = {Convex {{Nonparametric Formulation}} for {{Identification}} of {{Gradient Flows}}},
+  author = {Khosravi, Mohammad and Smith, Roy S.},
+  date = {2021-07},
+  journaltitle = {IEEE Control Systems Letters},
+  volume = {5},
+  number = {3},
+  pages = {1097--1102},
+  issn = {2475-1456},
+  doi = {10.1109/LCSYS.2020.3000176},
+  abstract = {We develop a nonparametric identification method for nonlinear gradient-flow dynamics. In these systems, the vector field is the gradient field of a potential energy function. This fundamental fact about the dynamics is a structural prior knowledge and a constraint in the proposed identification method. While the nature of the identification problem is an estimation in the space of functions, we derive an equivalent finite dimensional formulation, which is a convex optimization in the form of a quadratic program. This provides scalability and the opportunity for utilizing recently developed large-scale optimization solvers. The central idea is representing the energy function as a difference of two convex functions and learning these convex functions jointly. Based on necessary and sufficient conditions for function convexity, the identification problem is formulated, and then, the existence, uniqueness and smoothness of the solution is addressed. We also illustrate and evaluate the method numerically with two demonstrative examples.},
+  eventtitle = {{{IEEE Control Systems Letters}}},
+  keywords = {Convex functions,convex optimization,Dynamics,Estimation,gradient flows,Hidden Markov models,Nonlinear dynamical systems,Nonlinear system identification,Optimization,Potential energy,quadratic program},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khosravi_smith_2021_convex_nonparametric_formulation_for_identification_of_gradient_flows.pdf}
 }
 
 @article{kimImpedanceLearningRobotic2010,
@@ -2805,7 +2903,7 @@
   urldate = {2022-05-11},
   abstract = {Dynamical Systems (DS) for robot motion modeling are a promising approach for efficient robot learning and control. Our focus in this paper is on autonomous dynamical systems, which represent a motion plan without dependency on time. We develop a method that allows to locally reshape an existing, stable nonlinear autonomous DS while preserving important stability properties of the original system. Our system is based on local transformations of the dynamics. We propose an incremental learning algorithm based on Gaussian Processes for learning to reshape dynamical systems using this representation. The approach is validated in a 2d task of learning handwriting motions, a periodic polishing motion and in a manipulation task with the 7 degrees of freedom Barrett WAM manipulator.},
   langid = {english},
-  keywords = {Dynamical systems,IMPORTANT,Motion modeling,Robotics,STABILITY},
+  keywords = {Dynamical systems,IMPORTANT,Motion modeling,READ,Robotics,STABILITY},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kronander_et_al_2015_incremental_motion_learning_with_locally_modulated_dynamical_systems.pdf}
 }
 
@@ -3012,6 +3110,7 @@
   url = {https://proceedings.neurips.cc/paper/2020/hash/daecf755df5b1d637033bb29b319c39a-Abstract.html},
   urldate = {2022-10-28},
   abstract = {We introduce a method for learning provably stable deep neural network based dynamic models from observed data. Specifically, we consider discrete-time stochastic dynamic models, as they are of particular interest in practical applications such as estimation and control. However, these aspects exacerbate the challenge of guaranteeing stability. Our method works by embedding a Lyapunov neural network into the dynamic model, thereby inherently satisfying the stability criterion. To this end, we propose two approaches and apply them in both the deterministic and stochastic settings: one exploits convexity of the Lyapunov function, while the other enforces stability through an implicit output layer. We demonstrate the utility of each approach through numerical examples.},
+  keywords = {READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\lawrence_et_al_2020_almost_surely_stable_deep_dynamics.pdf}
 }
 
@@ -3029,8 +3128,9 @@
   urldate = {2022-12-07},
   abstract = {The safe operation of physical systems typically relies on high-quality models. Since a continuous stream of data is generated during run-time, such models are often obtained through the application of Gaussian process regression because it provides guarantees on the prediction error. Due to its high computational complexity, Gaussian process regression must be used offline on batches of data, which prevents applications, where a fast adaptation through online learning is necessary to ensure safety. In order to overcome this issue, we propose the LoG-GP. It achieves a logarithmic update and prediction complexity in the number of training points through the aggregation of locally active Gaussian process models. Under weak assumptions on the aggregation scheme, it inherits safety guarantees from exact Gaussian process regression. These theoretical advantages are exemplarily exploited in the design of a safe and data-efficient, online-learning control policy. The efficiency and performance of the proposed real-time learning approach is demonstrated in a comparison to state-of-the-art methods.},
   langid = {english},
-  keywords = {bounds},
-  annotation = {WOS:000683104606008}
+  keywords = {bounds,READ},
+  annotation = {WOS:000683104606008},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\lederer_et_al_2021_gaussian_process-based_real-time_learning_for_safety_critical_applications.pdf}
 }
 
 @article{leeForceTrackingImpedance2008,
@@ -3670,7 +3770,7 @@
   abstract = {Deep networks are commonly used to model dynamical systems, predicting how the state of a system will evolve over time (either autonomously or in response to control inputs). Despite the predictive power of these systems, it has been difficult to make formal claims about the basic properties of the learned systems. In this paper, we propose an approach for learning dynamical systems that are guaranteed to be stable over the entire state space. The approach works by jointly learning a dynamics model and Lyapunov function that guarantees non-expansiveness of the dynamics under the learned Lyapunov function. We show that such learning systems are able to model simple dynamical systems and can be combined with additional deep generative models to learn complex dynamics, such as video textures, in a fully end-to-end fashion.},
   archiveprefix = {arXiv},
   langid = {english},
-  keywords = {\#nosource,Computer Science - Machine Learning,Mathematics - Dynamical Systems,READ,Statistics - Machine Learning},
+  keywords = {\#nosource,Computer Science - Machine Learning,Mathematics - Dynamical Systems,Statistics - Machine Learning},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kolter_manek_2019_learning_stable_deep_dynamics_models.pdf}
 }
 
@@ -3943,7 +4043,7 @@
   urldate = {2022-09-09},
   abstract = {Accuracy and stability have in recent studies been emphasized as the two major ingredients to learn robot motions from demonstrations with dynamical systems. Several approaches yield stable dynamical systems but are also limited to specific dynamics that can potentially result in a poor reproduction performance. The current work addresses this accuracy–stability dilemma through a new diffeomorphic transformation approach that serves as a framework generalizing the class of demonstrations that are learnable by means of provably stable dynamical systems. We apply the proposed framework to extend the application domain of the stable estimator of dynamical systems (SEDS) by generalizing the class of learnable demonstrations by means of diffeomorphic transformations τ. The resulting approach is named τ-SEDS and analyzed with rigorous theoretical investigations and robot experiments.},
   langid = {english},
-  keywords = {Dynamical system,Imitation learning,Programming by demonstration,Robotics,SEDS,Stability,STABILITY},
+  keywords = {Dynamical system,Imitation learning,Programming by demonstration,READ,Robotics,SEDS,Stability,STABILITY},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\neumann_steil_2015_learning_robot_motions_with_stable_dynamical_systems_under_diffeomorphic.pdf}
 }
 
@@ -4256,7 +4356,7 @@
   urldate = {2022-09-11},
   abstract = {We propose a new diffeomorphic matching algorithm and use it to learn nonlinear dynamical systems with the guarantee that the learned systems have global asymptotic stability. For a given set of demonstration trajectories, and a reference globally asymptotically stable time-invariant system, we compute a diffeomorphism that maps forward orbits of the reference system onto the demonstrations. The same diffeomorphism deforms the whole reference system into one that reproduces the demonstrations, and is still globally asymptotically stable. (C) 2016 Elsevier B.V. All rights reserved.},
   langid = {english},
-  keywords = {Diffeomorphic mapping,Dynamical movement primitives,Imitation learning,Lyapunov stability,motions,Nonlinear dynamical systems},
+  keywords = {Diffeomorphic mapping,Dynamical movement primitives,Imitation learning,Lyapunov stability,motions,Nonlinear dynamical systems,READ},
   annotation = {WOS:000384788100009},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\perrin_schlehuber-caissier_2016_fast_diffeomorphic_matching_to_learn_globally_asymptotically_stable_nonlinear.pdf}
 }
@@ -4272,6 +4372,48 @@
   publisher = {{Springer}},
   keywords = {READ,STABILITY},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\pervez_lee_2018_learning_task-parameterized_dynamic_movement_primitives_using_mixture_of_gmms.pdf}
+}
+
+@article{petricAcceleratedSensorimotorLearning2018,
+  title = {Accelerated {{Sensorimotor Learning}} of {{Compliant Movement Primitives}}},
+  author = {Petric, Tadej and Gams, Andrej and Colasanto, Luca and Ijspeert, Auke J. and Ude, Ales},
+  date = {2018-12},
+  journaltitle = {Ieee Transactions on Robotics},
+  shortjournal = {IEEE Trans. Robot.},
+  volume = {34},
+  number = {6},
+  pages = {1636--1642},
+  publisher = {{Ieee-Inst Electrical Electronics Engineers Inc}},
+  location = {{Piscataway}},
+  issn = {1552-3098},
+  doi = {10.1109/TRO.2018.2861921},
+  url = {http://www.webofscience.com/wos/woscc/summary/73f9d05b-aea3-403e-ad82-9d910bc0f06c-65b87108/date-descending/1},
+  urldate = {2022-12-15},
+  abstract = {Autonomous trajectory generation through generalization requires a database of motion, which can be difficult and time consuming to obtain. In this paper, we propose a method for autonomous expansion of a database for the generation of compliant and accurate motion, achieved through the framework of compliant movement primitives (CMPs). These combine task-specific kinematic and corresponding feed-forward dynamic trajectories. The framework allows for generalization and modulation of dynamic behavior. Inspired by human sensorimotor learning abilities, we propose a novel method that can autonomously learn task-specific torque primitives (TPs) associated to given kinematic trajectories, encoded as dynamic movement primitives. The proposed algorithm is completely autonomous, and can be used to rapidly generate and expand the CMP database. Since CMPs are parameterized, statistical generalization can be used to obtain an initial TP estimate of a new CMP. Thereby, the learning rate of new CMPs can be significantly improved. The evaluation of the proposed approach on a Kuka LWR-4 robot performing a peg-in-hole task shows fast TP acquisition and accurate generalization estimates in real-world scenarios.},
+  langid = {english},
+  keywords = {Autonomous learning,compliant movement primitives (CMPs),internal   dynamic models,models,motion},
+  annotation = {WOS:000453564100016}
+}
+
+@article{petricPhaseSynchronizedLearningPeriodic2020,
+  title = {Phase-{{Synchronized Learning}} of {{Periodic Compliant Movement Primitives}} ({{P-CMPs}})},
+  author = {Petric, Tadej},
+  date = {2020-11-12},
+  journaltitle = {Frontiers in Neurorobotics},
+  shortjournal = {Front. Neurorobotics},
+  volume = {14},
+  pages = {599889},
+  publisher = {{Frontiers Media Sa}},
+  location = {{Lausanne}},
+  issn = {1662-5218},
+  doi = {10.3389/fnbot.2020.599889},
+  url = {http://www.webofscience.com/wos/woscc/summary/73f9d05b-aea3-403e-ad82-9d910bc0f06c-65b87108/date-descending/1},
+  urldate = {2022-12-15},
+  abstract = {Autonomous trajectory and torque profile synthesis through modulation and generalization require a database of motion with accompanying dynamics, which is typically difficult and time-consuming to obtain. Inspired by adaptive control strategies, this paper presents a novel method for learning and synthesizing Periodic Compliant Movement Primitives (P-CMPs). P-CMPs combine periodic trajectories encoded as Periodic Dynamic Movement Primitives (P-DMPs) with accompanying task-specific Periodic Torque Primitives (P-TPs). The state-of-the-art approach requires to learn TPs for each variation of the task, e.g., modulation of frequency. Comparatively, in this paper, we propose a novel P-TPs framework, which is both frequency and phase-dependent. Thereby, the executed P-CMPs can be easily modulated, and consequently, the learning rate can be improved. Moreover, both the kinematic and the dynamic profiles are parameterized, thus enabling the representation of skills using corresponding parameters. The proposed framework was evaluated on two robot systems, i.e., Kuka LWR-4 and Franka Emika Panda. The evaluation of the proposed approach on a Kuka LWR-4 robot performing a swinging motion and on Franka Emika Panda performing an exercise for elbow rehabilitation shows fast P-CTPs acquisition and accurate and compliant motion in real-world scenarios.},
+  langid = {english},
+  keywords = {adaptation,adaptive control,autonomous learning,compliant movement primitives,human-robot interaction,internal   dynamic model,manipulation},
+  annotation = {WOS:000592207700001},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\petric_2020_phase-synchronized_learning_of_periodic_compliant_movement_primitives_(p-cmps).pdf}
 }
 
 @inproceedings{piccinelliPassivityBasedBilateralTeleoperation2020,
@@ -4374,7 +4516,7 @@
   abstract = {Execution of complex tasks in robotics requires motions that have complex geometric structure. We present an approach which allows robots to learn such motions from a few human demonstrations. The motions are encoded as rollouts of a dynamical system on a Riemannian manifold. Additional structure is imposed which guarantees smooth convergent motions to a goal location. The aforementioned structure involves viewing motions on an observed Riemannian manifold as deformations of straight lines on a latent Euclidean space. The observed and latent spaces are related through a diffeomorphism. Thus, this paper presents an approach for learning flexible diffeomorphisms, resulting in a stable dynamical system.  The efficacy of this approach is demonstrated through validation on an established benchmark as well demonstrations collected on a real-world robotic system.},
   eventtitle = {Learning for {{Dynamics}} and {{Control}}},
   langid = {english},
-  keywords = {IMPORTANT},
+  keywords = {IMPORTANT,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\rana_et_al_2020_euclideanizing_flows.pdf}
 }
 
@@ -4698,6 +4840,28 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\salehian_billard_2018_a_dynamical-system-based_approach_for_controlling_robotic_manipulators_during.pdf}
 }
 
+@article{salehianDynamicalSystemBasedApproachControlling2018a,
+  title = {A {{Dynamical-System-Based Approach}} for {{Controlling Robotic Manipulators During Noncontact}}/{{Contact Transitions}}},
+  author = {Salehian, Seyed Sina Mirrazavi and Billard, Aude},
+  date = {2018-10},
+  journaltitle = {Ieee Robotics and Automation Letters},
+  shortjournal = {IEEE Robot. Autom. Lett.},
+  volume = {3},
+  number = {4},
+  pages = {2738--2745},
+  publisher = {{Ieee-Inst Electrical Electronics Engineers Inc}},
+  location = {{Piscataway}},
+  issn = {2377-3766},
+  doi = {10.1109/LRA.2018.2833142},
+  url = {http://www.webofscience.com/wos/woscc/summary/73f9d05b-aea3-403e-ad82-9d910bc0f06c-65b87108/date-descending/1},
+  urldate = {2022-12-15},
+  abstract = {Many daily life tasks require precise control when making contact with surfaces. Ensuring a smooth transition from free motion to contact is crucial as incurring a large impact force may lead to unstable contact with the robot bouncing on the surface, i.e., chattering. Stabilizing the forces at contact is not possible as the impact lasts for less than a millisecond, leaving no time for the robot to react to the impact force. We present a strategy in which the robot adapts its dynamic before entering into contact. The speed is modulated so as to align with the surface. We leverage the properties of autonomous dynamical systems for immediate re-planning and handling unforeseen perturbations and exploit local modulations of the dynamics to control for the smooth transitions at contact. We show theoretically and empirically that by using the modulation framework, the robot can stably touch the contact surface, even when the surface's location is uncertain, at a desired location, and finally, leave the surface or stop on the surface at a desired point.},
+  langid = {english},
+  keywords = {bang impact control,manipulation planning,mechanical systems,Motion control,obstacle avoidance,tasks},
+  annotation = {WOS:000435511900001},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\salehian_billard_2018_a_dynamical-system-based_approach_for_controlling_robotic_manipulators_during2.pdf}
+}
+
 @inproceedings{salehiChanceConstrainedSystemIdentification2022,
   title = {Chance-{{Constrained System Identification}} of {{Nonlinear Discrete Systems}} with {{Safety}} and {{Stability Guarantees}}},
   booktitle = {2022 {{American Control Conference}} ({{ACC}})},
@@ -4793,7 +4957,7 @@
   urldate = {2022-09-11},
   abstract = {This paper presents NAR-RM, a method for learning robot reaching motions from a set of demonstrations using Nonlinear AutoRegressive (NAR) polynomial models. Reaching motions are modeled as solutions to autonomous discrete-time nonlinear dynamical systems, so that the movements started near the data of the demonstrations follow the trained trajectories and always reach and stop at the target. Since NAR models obtained using standard system identification techniques do not always adequately model the reaching motions, in this paper we present a method that uses a least-squares estimator with constraints to impose the location of fixed points in the model. With the imposition of new fixed points it is possible to change the location of the original fixed points of the model, thus allowing the learning of stable reaching motions. We evaluate our method using a library of human handwriting motions, a mobile robot and an industrial manipulator.},
   langid = {english},
-  keywords = {Dynamical systems,Fixed point,Learning by demonstration,Nonlinear autoregressive models},
+  keywords = {Dynamical systems,Fixed point,Learning by demonstration,Nonlinear autoregressive models,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\santos_et_al_2018_learning_robot_reaching_motions_by_demonstration_using_nonlinear_autoregressive.pdf}
 }
 
@@ -4809,6 +4973,25 @@
   eventtitle = {2021 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
   keywords = {Automation,Conferences,Damping,Force feedback,Manipulators,Regulation,STABILITY,Stability analysis},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\saudrais_et_al_2021_rate_mode_bilateral_teleoperation_based_on_passivity_tanks_and_variable.pdf}
+}
+
+@article{saverianoCombiningDecisionMaking2020,
+  title = {Combining Decision Making and Dynamical Systems for Monitoring and Executing Manipulation Tasks},
+  author = {Saveriano, Matteo and Piater, Justus},
+  date = {2020-10-01},
+  journaltitle = {e \& i Elektrotechnik und Informationstechnik},
+  shortjournal = {Elektrotech. Inftech.},
+  volume = {137},
+  number = {6},
+  pages = {309--315},
+  issn = {1613-7620},
+  doi = {10.1007/s00502-020-00816-7},
+  url = {https://doi.org/10.1007/s00502-020-00816-7},
+  urldate = {2022-12-15},
+  abstract = {In this paper, we propose a unified framework for online task scheduling, monitoring, and execution that integrates reconfigurable behavior trees, a decision-making framework with integrated low-level control functionalities, and reactive motion generation with stable dynamical systems. In this way, we realize a flexible and reactive system capable of coping with unexpected variations in the executive context without penalizing modularity, expressiveness, and readability of humans. The framework is evaluated in a simulated sorting task showing promising results in terms of flexibility regarding task scheduling and robustness to external disturbances.},
+  langid = {english},
+  keywords = {Ausführung und Überwachung von Tätigkeiten,decision making,Entscheidungsfindung,learning from demonstration,Nachahmungslernen,reactive motion planning,READ,reaktive Bewegungsplanung,task execution monitoring},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\saveriano_piater_2020_combining_decision_making_and_dynamical_systems_for_monitoring_and_executing.pdf}
 }
 
 @misc{saverianoDynamicMovementPrimitives2021,
@@ -4844,6 +5027,28 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\saveriano_2020_an_energy-based_approach_to_ensure_the_stability_of_learned_dynamical_systems.pdf}
 }
 
+@inproceedings{saverianoIncrementalMotionReshaping2020,
+  title = {Incremental {{Motion Reshaping}} of {{Autonomous Dynamical Systems}}},
+  booktitle = {Human-{{Friendly Robotics}} 2019},
+  author = {Saveriano, Matteo and Lee, Dongheui},
+  editor = {Ferraguti, F. and Villani, V. and Sabattini, L. and Bonfe, M.},
+  date = {2020},
+  volume = {12},
+  pages = {43--57},
+  publisher = {{Springer International Publishing Ag}},
+  location = {{Cham}},
+  issn = {2511-1256},
+  doi = {10.1007/978-3-030-42026-0_4},
+  url = {http://www.webofscience.com/wos/woscc/summary/73f9d05b-aea3-403e-ad82-9d910bc0f06c-65b87108/date-descending/1},
+  urldate = {2022-12-15},
+  abstract = {This paper presents an approach to incrementally learn a reshaping term that modifies the trajectories of an autonomous dynamical system without affecting its stability properties. The reshaping term is considered as an additive control input and it is incrementally learned from human demonstrations using Gaussian process regression. We propose a novel parametrization of this control input that preserves the time-independence and the stability of the reshaped system, as analytically proved in the performed Lyapunov stability analysis. The effectiveness of the proposed approach is demonstrated with simulations and experiments on a real robot.},
+  isbn = {978-3-030-42026-0 978-3-030-42025-3},
+  langid = {english},
+  keywords = {Dynamical systems for motion   planning,Incremental learning of stable motions,READ,strategy,task},
+  annotation = {WOS:000659339900004},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\saveriano_lee_2020_incremental_motion_reshaping_of_autonomous_dynamical_systems.pdf}
+}
+
 @inproceedings{saverianoIncrementalSkillLearning2018,
   title = {Incremental {{Skill Learning}} of {{Stable Dynamical Systems}}},
   booktitle = {2018 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
@@ -4858,6 +5063,7 @@
   eventtitle = {2018 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
   isbn = {978-1-5386-8094-0},
   langid = {english},
+  keywords = {READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\saveriano_lee_2018_incremental_skill_learning_of_stable_dynamical_systems.pdf}
 }
 
@@ -4901,7 +5107,7 @@
   urldate = {2022-10-30},
   abstract = {In this paper, we propose an approach to learn stable dynamical systems evolving on Riemannian manifolds. The approach leverages a data-efficient procedure to learn a diffeomorphic transformation that maps simple stable dynamical systems onto complex robotic skills. By exploiting mathematical tools from differential geometry, the method ensures that the learned skills fulfill the geometric constraints imposed by the underlying manifolds, such as unit quaternion (UQ) for orientation and symmetric positive definite (SPD) matrices for impedance, while preserving the convergence to a given target. The proposed approach is firstly tested in simulation on a public benchmark, obtained by projecting Cartesian data into UQ and SPD manifolds, and compared with existing approaches. Apart from evaluating the approach on a public benchmark, several experiments were performed on a real robot performing bottle stacking in different conditions and a drilling task in cooperation with a human operator. The evaluation shows promising results in terms of learning accuracy and task adaptation capabilities.},
   archiveprefix = {arXiv},
-  keywords = {Computer Science - Robotics},
+  keywords = {Computer Science - Robotics,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\saveriano_et_al_2022_learning_stable_robotic_skills_on_riemannian_manifolds.pdf}
 }
 
@@ -5477,6 +5683,18 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\sontag_1995_on_the_input-to-state_stability_property.pdf}
 }
 
+@article{sontagUniversalConstructionArtstein1989,
+  title = {A ‘Universal’Construction of {{Artstein}}'s Theorem on Nonlinear Stabilization},
+  author = {Sontag, Eduardo D.},
+  date = {1989},
+  journaltitle = {Systems \& control letters},
+  volume = {13},
+  number = {2},
+  pages = {117--123},
+  publisher = {{Elsevier}},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\sontag_1989_a_‘universal’construction_of_artstein's_theorem_on_nonlinear_stabilization.pdf}
+}
+
 @article{spyrakos-papastavridisPassivityPreservationVariable2020,
   title = {Passivity {{Preservation}} for {{Variable Impedance Control}} of {{Compliant Robots}}},
   author = {Spyrakos-Papastavridis, Emmanouil and Childs, Peter R. N. and Dai, Jian S.},
@@ -5490,7 +5708,7 @@
   abstract = {The notable performance exhibited by impedance controllers during robotic interaction has led to the widespread use of this control methodology. Improved position and interaction control might be attainable through utilisation of variable impedance control (VIC) techniques. Interactional performance could be further improved by combining structural compliance with VIC. However, utilization of VIC tends to induce energy-injecting elements, which could impact on a robotic system's stability/passivity. Additionally, implementation of active VIC techniques on passively compliant robots has not been investigated (although several works consider VIC using variable stiffness actuators), which renders the existing rigid-joint robot, passivity-inducing control schemes inapplicable to compliant systems. To this end, the work presented here introduces a novel scheme, termed passivity-preservation control (PPC), which suppresses the energy injections that could be introduced into compliant robots, as a result of VIC. Compared to tank-based VIC approaches the PPC scheme is directly applicable to flexible-joint robots, even ones with nonlinear passive stiffness elements, while its performance is independent of the tank-energy levels. Moreover, the proposed scheme permits stable VIC using full-state feedback, thereby enabling impedance modulations relating to both motor and link-side variables. Consequently, full-state feedback gains can be generated via linear quadratic regulator optimisation, thus enabling application of gain-scheduling techniques on flexible-joint robots for enhanced position control. Passivity and stability analyses are performed for joint and Cartesian-space versions of the PPC scheme, which justify their applicability to both interaction and “free-motion” scenarios. The PPC scheme's efficacy, compared to constant gain impedance methods, in terms of convergence and interactional performance, is corroborated via simulation and experimental means involving the Sawyer robot, which is powered by series elastic actuators. Theoretical and experimental results mathematically and practically verify VIC stability, thus enabling flexible-joint robots to more accurately mimic biologically inspired behaviors.},
   eventtitle = {{{IEEE}}/{{ASME Transactions}} on {{Mechatronics}}},
   keywords = {Damping,Human-robot interaction,Impedance,impedance control,manipulators,Modulation,Robots,Stability analysis,Task analysis,Torque},
-  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\spyrakos-papastavridis_et_al_2020_passivity_preservation_for_variable_impedance_control_of_compliant_robots2.pdf}
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\spyrakos-papastavridis_et_al_2020_passivity_preservation_for_variable_impedance_control_of_compliant_robots.pdf}
 }
 
 @article{sunApplicationWavevariableControl2014,
@@ -5992,7 +6210,7 @@
   doi = {10.1109/IROS45743.2020.9341035},
   abstract = {We introduce ImitationFlow, a novel Deep generative model that allows learning complex globally stable, stochastic, nonlinear dynamics. Our approach extends the Normalizing Flows framework to learn stable Stochastic Differential Equations. We prove the Lyapunov stability for a class of Stochastic Differential Equations and we propose a learning algorithm to learn them from a set of demonstrated trajectories. Our model extends the set of stable dynamical systems that can be represented by state-of-the-art approaches, eliminates the Gaussian assumption on the demonstrations, and outperforms the previous algorithms in terms of representation accuracy. We show the effectiveness of our method with both standard datasets and a real robot experiment.},
   eventtitle = {2020 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
-  keywords = {Differential equations,Heuristic algorithms,Mathematical model,Nonlinear dynamical systems,Standards,Stochastic processes,Trajectory},
+  keywords = {Differential equations,Heuristic algorithms,Mathematical model,Nonlinear dynamical systems,READ,Standards,Stochastic processes,Trajectory},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\urain_et_al_2020_imitationflow.pdf}
 }
 
@@ -6010,7 +6228,7 @@
   urldate = {2022-10-28},
   abstract = {Learning robot motions from demonstration requires models able to specify vector fields for the full robot pose when the task is defined in operational space. Recent advances in reactive motion generation have shown that learning adaptive, reactive, smooth, and stable vector fields is possible. However, these approaches define vector fields on a flat Euclidean manifold, while representing vector fields for orientations requires modeling the dynamics in non-Euclidean manifolds, such as Lie Groups. In this paper, we present a novel vector field model that can guarantee most of the properties of previous approaches i.e., stability, smoothness, and reactivity beyond the Euclidean space. In the experimental evaluation, we show the performance of our proposed vector field model to learn stable vector fields for full robot poses as SE(2) and SE(3) in both simulated and real robotics tasks.},
   archiveprefix = {arXiv},
-  keywords = {Computer Science - Machine Learning,Computer Science - Robotics},
+  keywords = {Computer Science - Machine Learning,Computer Science - Robotics,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\urain_et_al_2022_learning_stable_vector_fields_on_lie_groups.pdf}
 }
 
@@ -6183,7 +6401,7 @@
   doi = {10.1109/ACCESS.2022.3217800},
   abstract = {In this paper, we propose RiemannianFlow, a deep generative model that allows robots to learn complex and stable skills evolving on the Riemannian manifold. Examples of Riemannian data in robotics include stiffness (symmetric and positive definite matrix (SPD)) and orientation (unit quaternion (UQ)) trajectories. For Riemannian data, unlike Euclidean ones, different dimensions are interconnected by geometric constraints which have to be properly considered during the learning process. Using distance preserving mappings, our approach transfers the data between their original manifold and the tangent space, realizing the removing and re-fulfilling of the constraints. This allows to extend existing frameworks to learn stable skills from Riemannian data while guaranteeing the stability of the learning results. The ability of RiemannianFlow to learn various data patterns and the stability of the learned models are experimentally shown on a dataset of manifold motions. Further, we analyze from different perspectives the robustness of the model with different hyperparameter combinations. While stability is not affected by different hyperparameters, a proper choice of the hyperparameters leads to a significant improvement (up to 27.6\%) in the model accuracy. Last, we show the effectiveness of RiemannianFlow in a real peg-in-hole (PiH) task where we need to generate stable and consistent position and orientation trajectories for the robot starting from different initial poses.},
   eventtitle = {{{IEEE Access}}},
-  keywords = {Compliance and Impedance Control,Deep learning,Deep Learning Methods,Learning from Demonstration,Manifolds,Motion control,Motion Control of Manipulators,Riemannian Manifold,Robot sensing systems,Robots,Stability criteria,Symmetric matrices,Task analysis,Trajectory},
+  keywords = {Compliance and Impedance Control,Deep learning,Deep Learning Methods,Learning from Demonstration,Manifolds,Motion control,Motion Control of Manipulators,READ,Riemannian Manifold,Robot sensing systems,Robots,Stability criteria,Symmetric matrices,Task analysis,Trajectory},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wang_et_al_2022_learning_deep_robotic_skills_on_riemannian_manifolds.pdf}
 }
 
@@ -6250,7 +6468,7 @@
   url = {https://doi.org/10.1108/AA-11-2018-0236},
   urldate = {2022-09-11},
   abstract = {Purpose This paper aims to deal with the trade-off of the stability and the accuracy in learning human control strategy from demonstrations. With the stability conditions and the estimated stability region, this paper aims to conveniently get rid of the unstable controller or controller with relatively small stability region. With this evaluation, the learning human strategy controller becomes much more robust to perturbations. Design/methodology/approach In this paper, the criterion to verify the stability and a method to estimate the domain of attraction are provided for the learning controllers trained with support vector machines (SVMs). Conditions are formulated based on the discrete-time system Lyapunov theory to ensure that a closed-form of the learning control system is strongly stable under perturbations (SSUP). Then a Chebychev point based approach is proposed to estimate its domain of attraction. Findings Some of such learning controllers have been implemented in the vertical balance control of a dynamically stable, statically unstable wheel mobile robot.},
-  keywords = {Domain of attraction,Learning human control strategy by demonstrations,Manufacturing and robotics,Stability analysis},
+  keywords = {Domain of attraction,Learning human control strategy by demonstrations,Manufacturing and robotics,READ,Stability analysis},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wang_ou_2019_on_stability_for_learning_human_control_strategy_by_demonstrations_using_svm.pdf}
 }
 
@@ -6373,23 +6591,7 @@
   abstract = {In this article, we propose an approach to extract variable-impedance during cutting tasks from human demonstrations, so as to ease soft-tissue cutting by robots. We model the dynamic adjustment of the human arm during interactions with the tissue and transfer these adaptive capabilities to the robot, by learning both the motion and change of impedance. To improve performance during task execution, our variable-impedance skill-transfer framework combines the learned model with an interactive-operation and feedback controller. To offer the flexibility of modifying the trajectory at run time, we use a control law based on dynamical systems. We couple this control law with virtual dynamics that describes the cutting dynamics. This ensures that the robot can control the interaction force and can plan the trajectory. The approach is validated in a real robot cutting-experiment of cutting different hardness tissues. Results show that our learning-based feedback controller, with the assistance from interactive-operation models, can effectively improve the task's success rate, cutting length, cutting depth, and other indicators, as compared to using a fixed and variable-impedance gain controller.},
   eventtitle = {{{IEEE}}/{{ASME Transactions}} on {{Mechatronics}}},
   keywords = {Adaptation models,Dynamical systems (DS),Force,Impedance,learning from demonstration (LfD),Manipulator dynamics,Robots,soft tissues,Task analysis,Trajectory,variable-impedance skill transfer},
-  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wu_billard_2022_learning_from_demonstration_and_interactive_control_of_variable-impedance_to.pdf}
-}
-
-@article{wuLearningDemonstrationInteractive2022a,
-  title = {Learning {{From Demonstration}} and {{Interactive Control}} of {{Variable-Impedance}} to {{Cut Soft Tissues}}},
-  author = {Wu, Rui and Billard, Aude},
-  date = {2022-10},
-  journaltitle = {IEEE/ASME Transactions on Mechatronics},
-  volume = {27},
-  number = {5},
-  pages = {2740--2751},
-  issn = {1941-014X},
-  doi = {10.1109/TMECH.2021.3123356},
-  abstract = {In this article, we propose an approach to extract variable-impedance during cutting tasks from human demonstrations, so as to ease soft-tissue cutting by robots. We model the dynamic adjustment of the human arm during interactions with the tissue and transfer these adaptive capabilities to the robot, by learning both the motion and change of impedance. To improve performance during task execution, our variable-impedance skill-transfer framework combines the learned model with an interactive-operation and feedback controller. To offer the flexibility of modifying the trajectory at run time, we use a control law based on dynamical systems. We couple this control law with virtual dynamics that describes the cutting dynamics. This ensures that the robot can control the interaction force and can plan the trajectory. The approach is validated in a real robot cutting-experiment of cutting different hardness tissues. Results show that our learning-based feedback controller, with the assistance from interactive-operation models, can effectively improve the task’s success rate, cutting length, cutting depth, and other indicators, as compared to using a fixed and variable-impedance gain controller.},
-  eventtitle = {{{IEEE}}/{{ASME Transactions}} on {{Mechatronics}}},
-  keywords = {Adaptation models,Dynamical systems (DS),Force,Impedance,learning from demonstration (LfD),Manipulator dynamics,Robots,soft tissues,Task analysis,Trajectory,variable-impedance skill transfer},
-  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wu_billard_2022_learning_from_demonstration_and_interactive_control_of_variable-impedance_to2.pdf}
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wu_billard_2022_learning_from_demonstration_and_interactive_control_of_variable-impedance_to.pdf;C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wu_billard_2022_learning_from_demonstration_and_interactive_control_of_variable-impedance_to2.pdf}
 }
 
 @article{wuSafeLearningBasedFeedback2022,
@@ -6564,6 +6766,27 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\yang_et_al_2018_a_dmps-based_framework_for_robot_learning_and_generalization_of_humanlike.pdf}
 }
 
+@article{yangDMPsBasedFrameworkRobot2018,
+  title = {A {{DMPs-Based Framework}} for {{Robot Learning}} and {{Generalization}} of {{Humanlike Variable Impedance Skills}}},
+  author = {Yang, Chenguang and Zeng, Chao and Fang, Cheng and He, Wei and Li, Zhijun},
+  date = {2018-06},
+  journaltitle = {Ieee-Asme Transactions on Mechatronics},
+  shortjournal = {IEEE-ASME Trans. Mechatron.},
+  volume = {23},
+  number = {3},
+  pages = {1193--1203},
+  publisher = {{Ieee-Inst Electrical Electronics Engineers Inc}},
+  location = {{Piscataway}},
+  issn = {1083-4435},
+  doi = {10.1109/TMECH.2018.2817589},
+  url = {http://www.webofscience.com/wos/woscc/summary/73f9d05b-aea3-403e-ad82-9d910bc0f06c-65b87108/date-descending/1},
+  urldate = {2022-12-15},
+  abstract = {One promising approach for robots efficiently learning skills is to learn manipulation skills from human tutors by demonstration and then generalize these learned skills to complete new tasks. Traditional learning and generalization methods, however, have not well considered human impedance features, which makes the skills less humanlike and restricted in physical human-robot interaction scenarios. In particular, stiffness generalization has not been well considered. This paper develops a framework that enables the robot to learn both movement and stiffness features from the human tutor. To this end, the upper limb muscle activities of the human tutor aremonitored to extract variable stiffness in real time, and the estimated human arm endpoint stiffness is properly mapped into the robot impedance controller. Then, a dynamic movement primitives model is extended and employed to simultaneously encode the movement trajectories and the stiffness profiles. In this way, both position trajectory and stiffness profile are considered for robot motion control in this paper to realize a more complete skill transfer process. More importantly, stiffness generalization and movement generalization can be efficiently realized by the proposed framework. Experimental tests have been performed on a dual-arm Baxter robot to verify the effectiveness of the proposed method.},
+  langid = {english},
+  keywords = {Dynamic movement primitives (DMPs),dynamical movement primitives,human-robot interaction,interface,manipulation,stiffness   generalization,systems,tasks,variable impedance skill transfer},
+  annotation = {WOS:000435338300021}
+}
+
 @article{yangHumanlikeAdaptationForce2011,
   title = {Human-like Adaptation of Force and Impedance in Stable and Unstable Interactions},
   author = {Yang, Chenguang and Ganesh, Gowrishankar and Haddadin, Sami and Parusel, Sven and Albu-Schaeffer, Alin and Burdet, Etienne},
@@ -6623,7 +6846,7 @@
   doi = {10.1109/LRA.2021.3062805},
   abstract = {Accurate path following is challenging for autonomous robots operating in uncertain environments. Adaptive and predictive control strategies are crucial for a nonlinear robotic system to achieve high-performance path following control. In this letter, we propose a novel learning-based predictive control scheme that couples a high-level model predictive path following controller (MPFC) with a low-level learning-based feedback linearization controller (LB-FBLC) for nonlinear systems under uncertain disturbances. The low-level LB-FBLC utilizes Gaussian Processes to learn the uncertain environmental disturbances online and tracks the reference state accurately with a probabilistic stability guarantee. Meanwhile, the high-level MPFC exploits the linearized system model augmented with a virtual linear path dynamics model to optimize the evolution of path reference targets, and provides the reference states and controls for the low-level LB-FBLC. Simulation results illustrate the effectiveness of the proposed control strategy on a quadrotor path following task under unknown wind disturbances.},
   eventtitle = {{{IEEE Robotics}} and {{Automation Letters}}},
-  keywords = {Adaptation models,Control architectures and programming,machine learning for robot control,motion control,Nonlinear dynamical systems,Predictive models,Robots,Target tracking,Trajectory,Uncertainty},
+  keywords = {Adaptation models,Control architectures and programming,machine learning for robot control,motion control,Nonlinear dynamical systems,Predictive models,READ,Robots,Target tracking,Trajectory,Uncertainty},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\yang_et_al_2021_learning-based_predictive_path_following_control_for_nonlinear_systems_under.pdf}
 }
 
@@ -6666,7 +6889,7 @@
   doi = {10.1109/LCSYS.2021.3077861},
   abstract = {A method is presented to learn neural network (NN) controllers with stability and safety guarantees through imitation learning (IL). Convex stability and safety conditions are derived for linear time-invariant systems with NN controllers by merging Lyapunov theory with local quadratic constraints to bound the activation functions in the NN. These conditions are incorporated in the IL process, which minimizes the IL loss, and maximizes the volume of the region of attraction associated with the NN controller simultaneously. An alternating direction method of multipliers based algorithm is proposed to solve the IL problem. The method is illustrated on a vehicle lateral control example.},
   eventtitle = {{{IEEE Control Systems Letters}}},
-  keywords = {Artificial neural networks,Linear systems,Lyapunov methods,neural networks,Safety,Stability criteria,Training,US Government,Vehicle dynamics},
+  keywords = {Artificial neural networks,Linear systems,Lyapunov methods,neural networks,READ,Safety,Stability criteria,Training,US Government,Vehicle dynamics},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\yin_et_al_2022_imitation_learning_with_stability_and_safety_guarantees.pdf}
 }
 
@@ -6679,6 +6902,7 @@
   number = {4},
   pages = {1980--1987},
   publisher = {{IEEE}},
+  keywords = {READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\yin_et_al_2021_stability_analysis_using_quadratic_constraints_for_systems_with_neural_network.pdf}
 }
 
@@ -6861,7 +7085,7 @@
   doi = {10.1109/LRA.2022.3140677},
   abstract = {This letter proposes a dynamic system approach to learn point-to-point motions while keeping the stability of the dynamic system. The proposed approach is grounded on a Learning from Demonstration (LfD) method based on a neural network, which gets a better reproduction performance while guaranteeing the generalization ability. The proposed approach has been experimentally validated on the LASA dataset and by the “pick-and-place” task of Franka Emika robot, and experimental results demonstrate that: (1) compared with the state-of-the-art results, the trajectory generated by the proposed approach achieves higher accuracy (approximately 24.79\%) in terms of the similarity with respect to the demonstration; (2) the proposed approach can handle high dimensional data and learn from one or more demonstrations; (3) the proposed approach can guarantee the performance regardless of the variation of starting points even in the case of high dimensional complex motions.},
   eventtitle = {{{IEEE Robotics}} and {{Automation Letters}}},
-  keywords = {Data models,dynamic system,Dynamical systems,generalization performance,high dimensional data,IMPORTANT,Lyapunov methods,neural network,Numerical stability,Point-to-point tasks,Robot kinematics,Task analysis,Trajectory},
+  keywords = {Data models,dynamic system,Dynamical systems,generalization performance,high dimensional data,IMPORTANT,Lyapunov methods,neural network,Numerical stability,Point-to-point tasks,READ,Robot kinematics,Task analysis,Trajectory},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\zhang_et_al_2022_learning_accurate_and_stable_point-to-point_motions.pdf}
 }
 

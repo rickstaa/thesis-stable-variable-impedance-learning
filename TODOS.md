@@ -21,9 +21,9 @@
         -   [x] Constrained optimization (SEDS).
             -   [x] Strengths and shortcomings.
             -   [x] Extensions
-        -   [ ] Constraint optimization with neural network (ELM).
-            -   [ ] Strengths and shortcomings.
-            -   [ ] Extensions.
+        -   [x] Constraint optimization with neural network (ELM).
+            -   [x] Strengths and shortcomings.
+            -   [x] Extensions.
         -   [ ] Diffeomorphisms.
             -   [ ] Strengths and shortcomings.
             -   [ ] Extensions.
@@ -38,17 +38,6 @@
         -   [ ] Lyapunov constraints.
 
 
-        - Eerste methode DMP.
-        - MAar time dependent dus werkt niet als tempural distruances.
-        - Daarom constrained optmization SEDS.
-        - Lyapunov constraint.
-        - Maar erg coservatief. Dus het kan zo zijn dat de robot niet kan leren.
-        - Daarom Lyapunov ook optimizateren (SEDS-II).
-        - Dan heb je ook SEDS-tau.
-        - De range of motions die hij kan leren is klein doro het soort model.
-        - Daarom ELM neural netwerken.
-        - hogere nauwkeurigheid en makkelijker te voeren.
-        - En snelheid ook garandeerd.
         - Maar het restulaat blijft afhankelijk van hoe coservatief het contraint is.
         
         - Daarom gebruiken andere autheurs diffeomorphism om te learn in de non-lineare space maar het constraint toe te passen in een lineare space.

@@ -9,6 +9,7 @@ The previous chapter discussed methods for ensuring stable control in classical 
 % - [x] DMP
 % - [x] Constraint optimzation
 % - [x] Learned optimization
+% - [x] energy tank.
 % - [ ] diffeomorphism
 % - [ ] convergence
 % - [ ] Local stability + uncertainty estimation.
@@ -32,7 +33,12 @@ As explained above, in VIL methods, the desired trajectory and impedance profile
 
 %QUESTION: "This is achieved by exponentially decaying the phase variable during the task, thereby decreasing the effect of the "possibly unstable non-linear" forcing term". Is this correct?
 %QUESTION: (-invariant). Is it written correctly?
-In LfD research, motions are often modelled as a Dynamic System (DS) \cite{khansari-zadehLearningStableNonlinear2011} to improve generalizability. Compared to classical approaches, which use time-indexed trajectories, in a DS, the trajectories are formulated as a differential equation. Because of this, the DS captures both the trajectories and the essential dynamics that underlie a given task, making it better able to adapt to environmental changes like temporal and spatial disturbances. The most widely used DS-based approach for learning stable non-linear trajectories is the so-called "Dynamic Movement Primitives" (DMPs) \cite{ijspeertDynamicalMovementPrimitives2013,saverianoDynamicMovementPrimitives2021,wangLearningDemonstrationUsing2021,sidiropoulosReversibleDynamicMovement2021,ginesiOvercomingDrawbacksDynamic2021,rozanecNeuralDynamicMovement2022,liProDMPsUnifiedPerspective2022}. In DMPs, a globally stable linear DS is coupled with a non-linear forcing term through a phase variable to create an autonomous, weakly non-linear DS. This DS can learn complex high-dimensional motions from single \cite{ijspeertDynamicalMovementPrimitives2013,prakashDynamicTrajectoryGeneration2020} or multiple demonstrations \cite{matsubaraLearningParametricDynamic2011,pervezLearningTaskparameterizedDynamic2018} while guaranteeing global stability. This is achieved by exponentially decaying the phase variable during the task, thereby decreasing the effect of the possibly unstable non-linear forcing term. As these DMPs are both time and scale (-invariant), the learnt motions' velocity and amplitude can be scaled without losing stability, making them well-suited for reacting to external perturbations in real time. Unfortunately, although the phase variable ensures the stability of the motions, it introduces an implicit time dependency in the DMP formulation. Due to this time dependency, the motion of the DMP is very dependent on the phase variable, which is, again, task-dependent. Consequently, DMPs have poor generalisation capabilities outside the demonstrations and are not robust against temporal disturbances \cite{neumannLearningRobotMotions2015}.
+%TODO: Add complexity note?
+%TODO: Type of stability AS, ES, UUB.
+In LfD research, motions are often modelled as a Dynamic System (DS) \cite{khansari-zadehLearningStableNonlinear2011} to improve generalizability. Compared to classical approaches, which use time-indexed trajectories, in a DS, the trajectories are formulated as a differential equation. Because of this, the DS captures both the trajectories and the essential dynamics that underlie a given task, making it better able to adapt to environmental changes like temporal and spatial disturbances. The most widely used DS-based approach for learning stable non-linear trajectories is the so-called "Dynamic Movement Primitives" (DMPs) \cite{ijspeertDynamicalMovementPrimitives2013,saverianoDynamicMovementPrimitives2021,wangLearningDemonstrationUsing2021,sidiropoulosReversibleDynamicMovement2021,ginesiOvercomingDrawbacksDynamic2021,rozanecNeuralDynamicMovement2022,liProDMPsUnifiedPerspective2022}. In DMPs, a globally stable linear DS is coupled with a non-linear forcing term through a phase variable to create an autonomous, weakly non-linear DS. 
+
+% TODO: Add computational efficient way?
+This DS can learn complex high-dimensional motions from single \cite{ijspeertDynamicalMovementPrimitives2013,prakashDynamicTrajectoryGeneration2020} or multiple demonstrations \cite{matsubaraLearningParametricDynamic2011,pervezLearningTaskparameterizedDynamic2018} while guaranteeing global stability. This is achieved by exponentially decaying the phase variable during the task, thereby decreasing the effect of the possibly unstable non-linear forcing term. As these DMPs are both time and scale (-invariant), the learnt motions' velocity and amplitude can be scaled without losing stability, making them well-suited for reacting to external perturbations in real time. Unfortunately, although the phase variable ensures the stability of the motions, it introduces an implicit time dependency in the DMP formulation. Due to this time dependency, the motion of the DMP is very dependent on the phase variable, which is, again, task-dependent. Consequently, DMPs have poor generalisation capabilities outside the demonstrations and are not robust against temporal disturbances \cite{neumannLearningRobotMotions2015}.
 
 % TODO: Cheack Figueroa et al. 2022!
 % TODO: Check Zhang et al. 2022
@@ -40,53 +46,83 @@ In LfD research, motions are often modelled as a Dynamic System (DS) \cite{khans
 
 %QUESTION: Is it clear which trade-off is meant?
 %QUESTION: The online offline part is it clear?
-%QUESTION: Add stability types to text?
 
-%QUESTION: Misschien loopt dit stuck wat minder goed. Is het duidelijk wat ik bedoel?
-Other authors use a constraint optimisation approach to overcome the abovementioned limitations and encode the demonstrated motions in a state-dependent non-linear DS while enforcing stability through Lyapunov constraints. Since these DSs are time-independent, the learned policies are now robust against temporal disturbances. This was first done by Khansari et al. 2011 \cite{khansari-zadehLearningStableNonlinear2011}, who introduced a stable estimator of a dynamical system (SEDS). By limiting the parameters of a gaussian mixture regression model (GMM) using a Quadratic Lyapunov constraint, SEDS can learn accurate motions while guaranteeing global stability. Similar Lyapunov constraints were used in literature with other regression models to ensure the stability of the learned motions \cite{lemmeNeurallyImprintedStable2013,huNeuralLearningStable2015,umlauftLearningStableStochastic2017,umlauftLearningStableGaussian2017,medinaLearningStableTask2017,duanFastStableLearning2019,xuRobotTrajectoryTracking2019,umlauftLearningStochasticallyStable2020,xuLearningBasedKinematicControl2022,salehiLearningDiscreteTimeUncertain2022,davoodiRuleBasedSafeProbabilistic2022}. Unfortunately, as these methods' stability criteria are derived based on a simple quadratic Lyapunov function, they can only model trajectories in which the distance to the target decreases monotonically in time, leading to poor accuracy if demonstrated trajectories are not contractive. As a result, several authors have used parametric and non-parametric Lyapunov candidates to learn less conservative Lyapunov constraints directly from data to improve this so-called accuracy-stability dilemma \cite{khansari-zadehLearningControlLyapunov2014,neumannNeuralLearningStable2013,lemmeNeuralLearningVector2014,umlauftLearningStableGaussian2017,umlauftUncertaintybasedControlLyapunov2018,duttaLearningStableMovement2018,umlauftUncertaintybasedHumanMotion2019,duttaSkillLearningHuman2021,ravanbakhshLearningControlLyapunov2019,ravanbakhshFormalPolicyLearning2019,umlauftLearningStochasticallyStable2020,xiaoLearningStableNonparametric2020,tesfazgiInverseReinforcementLearning2021,coulombeGeneratingStableCollisionFree2022}. These learned Lyapunov Constraints can then be used in a \textbf{online} or \textbf{offline} fashion to ensure the stability of the reproduced trajectories. Any regression method can be used if applied online as a stabilising control command \cite{zadehLearningControlLyapunov2014,umlauftLearningStableGaussian2017,umlauftUncertaintybasedControlLyapunov2018,duttaLearningStableMovement2018,umlauftUncertaintybasedHumanMotion2019,ravanbakhshFormalPolicyLearning2019,ravanbakhshLearningControlLyapunov2019,xiaoLearningStableNonparametric2020,duttaSkillLearningHuman2021,umlauftLearningStochasticallyStable2020}, but no guarantees can be given about the accuracy of reproduced trajectories. If applied offline \cite{neumannNeuralLearningStable2013,lemmeNeuralLearningVector2014,tesfazgiInverseReinforcementLearning2021,coulombeGeneratingStableCollisionFree2022}, on the other hand, the shape and accuracy of the demonstrated trajectories are known beforehand but are specific to the used regression model.
+Other authors use a constraint optimisation approach to overcome the abovementioned limitations and encode the demonstrated motions in a state-dependent non-linear DS while enforcing stability through Lyapunov constraints. Since these DSs are time-independent, the learned policies are now robust against temporal disturbances. This was first done by Khansari et al. 2011 \cite{khansari-zadehLearningStableNonlinear2011}, who introduced a stable estimator of a dynamical system (SEDS). By limiting the parameters of a gaussian mixture regression model (GMM) using a Quadratic Lyapunov constraint, SEDS can learn accurate motions while guaranteeing global stability. Similar Lyapunov constraints were used in literature with other regression models to ensure the global stability of the learned motions \cite{lemmeNeurallyImprintedStable2013,huNeuralLearningStable2015,umlauftLearningStableStochastic2017,umlauftLearningStableGaussian2017,medinaLearningStableTask2017,duanFastStableLearning2019,xuRobotTrajectoryTracking2019,umlauftLearningStochasticallyStable2020,ledererGaussianProcessBasedRealTime2021,xuLearningBasedKinematicControl2022,salehiLearningDiscreteTimeUncertain2022,davoodiRuleBasedSafeProbabilistic2022}. Unfortunately, as these methods' stability criteria are derived based on a simple quadratic Lyapunov function, they can only model trajectories in which the distance to the target decreases monotonically in time, leading to poor accuracy if demonstrated trajectories are not contractive. As a result, several authors have used parametric and non-parametric Lyapunov candidates to learn less conservative Lyapunov constraints directly from data to improve this so-called accuracy-stability dilemma \cite{khansari-zadehLearningControlLyapunov2014,neumannNeuralLearningStable2013,lemmeNeuralLearningVector2014,umlauftLearningStableGaussian2017,umlauftUncertaintybasedControlLyapunov2018,duttaLearningStableMovement2018,umlauftUncertaintybasedHumanMotion2019,duttaSkillLearningHuman2021,ravanbakhshLearningControlLyapunov2019,ravanbakhshFormalPolicyLearning2019,umlauftLearningStochasticallyStable2020,xiaoLearningStableNonparametric2020,tesfazgiInverseReinforcementLearning2021,coulombeGeneratingStableCollisionFree2022}. These less conservative Lyapunov constraints can then be enforced \textbf{offline} during learning or \text{online} through a stabilising control command to ensure the stability of the reproduced trajectories. If applied online \cite{khansari-zadehLearningControlLyapunov2014,umlauftLearningStableGaussian2017,umlauftUncertaintybasedControlLyapunov2018,duttaLearningStableMovement2018,umlauftUncertaintybasedHumanMotion2019,ravanbakhshFormalPolicyLearning2019,ravanbakhshLearningControlLyapunov2019,xiaoLearningStableNonparametric2020,duttaSkillLearningHuman2021,umlauftLearningStochasticallyStable2020}, any regression method can be used, but no guarantees can be given about the accuracy of reproduced trajectories since the control command potentially interferes with the dynamic system. If applied offline \cite{neumannNeuralLearningStable2013,lemmeNeuralLearningVector2014,tesfazgiInverseReinforcementLearning2021,coulombeGeneratingStableCollisionFree2022}, on the other hand, the implementation is specific to the used regression model, but the shape and accuracy of the demonstrated trajectories are known beforehand. Unfortunately, most offline methods currently lack constructive mathematical guarantees causing the stability of these methods to be restricted to finite regions in the workspace. 
 
 
-This method was later extended with diffeomorphisms 
-
-Only offline learning (Figueroa et al. 2018) and single behavoir.
 
 
+% TODO: Dummy text
+
+Although these learned Lyapunov constraints result in better accuracy than their fixed counterparts, the reproduction accuracy still depends on the Lyapunov candidate function used during learning. Although less conservative Lyapunov Functions could be used to improve the accuracy, finding them is not easy, time-consuming, and quickly becomes computationally intensive or intractable \cite {}.
+
+Although less conservative parameterisations of Lyapunov candidates could be used to improve the accuracy, these quickly become computationally intensive, time-consuming or intractable \cite{}. 
+
+Furthermore, as there is no general analytic method for finding proper Lyapunov candidate functions and the accuracy still depends on the energy function (i.e. Lyapunov candidate) used as a basis for the stabilisation mechanism.
+
+To overcome these issues, recent papers have taken a diffeomorphic approach and train a DS on the demonstrated motions directly while applying the Lyapunov constraint to a topological equivalent latent space \cite{neumannLearningRobotMotions2015,perrinFastDiffeomorphicMatching2016,jinImprovedLearningAccuracy2019}. 
+
+Since a diffeomorphism is used to translate the demonstrated and reproduced motions between these spaces, the stability guarantee in the latent space is retained in the original space \cite{leeIntroductionTopologicalManifolds2011,leeIntroductionSmoothManifolds2012,leeIntroductionRiemannianManifolds2018}. 
+
+
+This method offers an elegant solution to the accuracy-stability trade-off and dramatically improves generalizability.
+
+
+Since now more complex Lyapunov functions like elliptical can be learned. 
+
+
+Due to the diffeomorphic 
+
+By transforming the original demonstrated data into a new space (of the same dimension or a higher dimension), where the transformed demonstrations are
+consistent with the Lyapunov function candidate
+
+
+
+
+to diffeomorphic methods for increasing the stability of the reproduced motions 
+
+
+Unfortunately, the accuracy of these learning-based methods is still dependent on the choice of the Lyapunov candidate function. 
+
+Unfortunately, most offline methods currently lack constructive mathematical guarantees causing the stability of these methods to be restricted to finite regions in the workspace.
+
+ Several recent papers have, therefore 
+
+
+By transforming the original demonstrated data into a new space (of the same dimension or a higher dimension), where the transformed demonstrations are
+consistent with the Lyapunov function candidate
+
+
+Altough this adds some model complexity it results in better accuracy.
+
+In a attempt to overcome the shortcomings of the learning based methods several authors have used diffeomorphic translations to learn complex Lyapunov functions while
 
 Lastly several papers have convergence
 
+More complex lyapunov functions like elliptical while keeping the optimization computational unfeasible.
+
+% TODO: DUMMY TEXT
+
+% TODO: Check duan 2019 remarks on neuman.
+% TODO: Check jin et al. 2019 dimension ascent.
+% TODO: Check billart 2022.
+% TODO: Check if diffeomorphisms can be used with any regression technique
+
+Recent papers have used a diffeomorphism to train a non-autonomous DS on the motions directly while applying the Lyapunov constraint to a topological equivalent latent space \cite{neumannLearningRobotMotions2015,perrinFastDiffeomorphicMatching2016,jinImprovedLearningAccuracy2019,ranaEuclideanizingFlowsDiffeomorphic2020,urainImitationFlowLearningDeep2020,saverianoLearningStableRobotic2022,urainLearningStableVector2022,wangLearningDeepRobotic2022}. Since a diffeomorphism is used to translate the demonstrated and reproduced motions between these spaces, the stability guarantee in the latent space is retained in the original space \cite{leeIntroductionTopologicalManifolds2011,leeIntroductionSmoothManifolds2012,leeIntroductionRiemannianManifolds2018}. This method offers an elegant solution to the accuracy-stability trade-off and dramatically improves the generalizability since now more complex lyapunov functions like elliptical can be learned. 
 
 
-Recent papers have used a diffeomorphism to train a non-autonomous DS on the motions directly while applying the Lyapunov constraint to a topological equivalent latent space. Since a diffeomorphism is used to translate the demonstrated and reproduced motions between these spaces, the stability guarantee in the latent space is retained in the original space \cite{leeIntroductionTopologicalManifolds2011,leeIntroductionSmoothManifolds2012,leeIntroductionRiemannianManifolds2018}. This method offers an elegant solution to the accuracy-stability trade-off and dramatically improves the generalizability since now non-conservative motions can be directly fitted using any regression method. 
+Another noteworthy strategy was proposed by Savariano et al. 2020\cite{saver}, who used the previous chapter's energy tank-based technique to ensure the DS's stability \textbf{online}. Storing the energy of stable, conservative actions in this tank allows potentially unstable motions to be performed as long as there is enough energy, preserving the system's overall stability. Their method can achieve comparable accuracy as the constrained-based methods above, can be used with any regression technique, is less computationally intensive and requires fewer parameters to be tuned. However, their method has an implicit time dependency and, like the energy tank-based methods in the previous chapter, requires a tank initialisation procedure which can significantly affect the reproduction accuracy.
 
-Due to the diffeomorphic methods relying on a globally defined map between the latent and original space, they are not able to learn multiple behaviours from the same demonstration. Contraction based methods on the other hand As these methods currently only guarantee regional convergence, this is an ongoing field of study.
+% TODO: Check Rana and Urain 2020 remarks on convergence.
+Although the methods above achieve high accuracy while guaranteeing the stability of the equilibrium points, they give no guarantee about the convergence of the trajectories. As a result, although learned policies will always reach the target, regardless of the region in the state space where they are perturbed, they will no longer follow the reference trajectories. These techniques are, therefore, inadequate for tasks where trajectory tracking is crucial. Several authors have used contraction theory to derive stability conditions that guarantee incremental stability to improve the accuracy of the reproduced trajectories \cite{blocherLearningStableDynamical2017}. Incremental stability can be viewed as a "strong" type of stability that studies the convergence between any two trajectories of a given system \cite{lohmillerContractionAnalysisNonlinear1998}.
 
-Although the methods above guarantee the stability of the equilibrium points, they give no guarantee about the convergence of the trajectories. As a result, although learned policies will always reach the target, regardless of the region in the state space where they are perturbed, they will no longer follow the reference trajectories. 
-
-To improve the accuracy of the reproduced trajectories \cite{blocherLearningStableDynamical2017}, several authors have used contraction theory to derive stability conditions that guarantee incremental stability. Unfortunately, these contraction based methods like the afforementioned based methods can suffer from the risk ofover-corrections which might deviate the DS from the desired non-linear motion. \cite{figueroafernandezPhysicallyconsistentBayesianNonparametric2018}. 
+Unfortunately, these contraction based methods like the aforementioned based methods can suffer from the risk of over-corrections which might deviate the DS from the desired non-linear motion. \cite{figueroafernandezPhysicallyconsistentBayesianNonparametric2018}. They further are limited to local stability guarantees, making the approximated vector field unsuitable for sparse or no data regions.
 
 More recently, Figueroa et al. 2018 \cite{figueroafernandezPhysicallyconsistentBayesianNonparametric2018} were able to learn globally asymptotically stable DS from demonstrations by jointly learning the policy and an elliptical Lyapunov function using a non-parametric GMM. They designed a novel similarity metric that leverages locality and directionally of the demonstrations and used these as a Bayesian prior in their constraint optimization. By doing this, their method outperforms previous methods' accuracy and generalizability without relying on diffeomorphisms or contraction theory.
 
-% ELM for more expressive lyapunov constraints.
-% Other parameterizations for more expressive lyapunov constraints.
-% Diffeomorphic methods.
-% Contraction methods.
-% similarity metric for lyapunov constraints.
-
-% TODO: Add PID papers and uncertainty papers.
-% TODO: Add more constraint optimization papers and check the constraint type.
-% TODO: Papers that reference SEDs.
-
-% TODO: Check umlauft GP papers.
-% TODO: Check spaandonk Learning Variable Impedance Control: A Model-Based Approach Using Gaussian Processes.
-
-%----------Contraction
-% Urain et al. 2020 gives good overview.
-% Check saveriano with DS shaping.
-% SEe overview Saveriano 2021.
-% Rana et al. 2020 says something about contraction.
-%----------Impedance
-
 \subsection{Stability of the learned impedance}
+
+% TODO: See methods with diffemorphic rieman manifolds.
 
 Several authors have extended these trajectory-based LfD methods to interaction tasks. Duo et al. 2022, for example, \cite{douRobotSkillLearning2022} extended a DMP with a variable stiffness term to create a Compliant Movement Principle (CMP) method that can be used to learn interaction tasks. Using this method, they learned the trajectory and stiffness profile from sensors. Arduingo et al. 2020, on the other hand, resorted to a GP-based learning approach in which the stiffness is related to the uncertainty of the movement. The more uncertain a movement is, the more the stiffness is adjusted. Both papers used Kronander stability constraints to stabilise the variable impedance profile.
 
@@ -107,6 +143,10 @@ Several authors have extended these trajectory based LfD methods to interaction 
 % TODO: Check sharifi et al. 2022 for impedance learning.
 
 \section{Variable impedance learning control}
+
+
+One of the earliest papers that use stiffness like behavoirs in DS is calinonLearningReproductionGestures2010.
+
 
 Recently authors have also investigated the passivity problem in RL-based variable impedance methods, which can learn complex tasks without knowing anything about the system and environment. In these methods, the closed-loop system's passivity is ensured by guaranteeing that the actions coming for the policy adhere to certain passivity constraints. For example, Kim et al. 2008 \cite{kimLearningRobotStiffness2008} ensure that the policy's task-stiffness matrix is always symmetric and positive definite. Doing this guarantees the manipulator's stability when interacting with a passive environment. Liang et al. 2021 (Liang et al., 2021) keep the closed-loop system stable by deriving three Lyapunov stability constraints on the inertia matrix. As a result, the damping and stiffness matrices can vary.
 
