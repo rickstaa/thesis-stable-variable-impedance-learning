@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.7)  14 DEC 2022 10:52
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.7)  18 DEC 2022 17:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1468,10 +1468,9 @@ File: figures/alshuka_2018.png Graphic file (type bmp)
  [17]
 File: figures/force_impedance.png Graphic file (type bmp)
 <figures/force_impedance.png>
- [18]
 File: figures/position_impedance.png Graphic file (type bmp)
 <figures/position_impedance.png>
- [19]) (./mainmatter/classical_variable_impedance.tex [20]
+ [18] [19]) (./mainmatter/classical_variable_impedance.tex [20]
 Chapter 4.
 [21
 
@@ -1479,7 +1478,12 @@ Chapter 4.
 Chapter 5.
 [24
 
-] [25] [26]) (./mainmatter/conclusion.tex [27]
+]
+Overfull \hbox (1.66092pt too wide) in paragraph at lines 60--61
+[]\TU/Arial(0)/m/n/10 More complex lyapunov functions like elliptical while keeping the optimization computational douable. 
+ []
+
+[25] [26]) (./mainmatter/conclusion.tex [27]
 Chapter 6.
 [28
 
@@ -1560,7 +1564,7 @@ Overfull \hbox (2.69499pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Junho Park and Youngjin Choi. “Input-to-State Stability of Variable Impedance Control for Robotic
  []
 
-[37]
+[37] [38]
 Overfull \hbox (5.17238pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 2021. arXiv: []$[] [] [] []  [] [] [] [] [] [] $ \TU/lmtt/m/n/10 [cs][]\TU/Arial(0)/m/n/10 . \TU/Arial(0)/m/sc/10 url\TU/Arial(0)/m/n/10 : []$[] [] [] []  [] [] [] [] [] [] [] []  [] [] [] []  [] [] [] []  [] [] [] [] []  [] [] [] [] [] [] $[] (visited on 08/23/2022). 
  []
@@ -1570,7 +1574,7 @@ Overfull \hbox (15.81346pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Christopher Schindlbeck and Sami Haddadin. “Unified Passivity-Based Cartesian Force/Impedance
  []
 
-[38]
+
 Overfull \hbox (3.28429pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Mario Selvaggio et al. “Passive Virtual Fixtures Adaptation in Minimally Invasive Robotic Surgery”.
  []
@@ -1596,18 +1600,18 @@ Appendix A.
 
 ] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: E58AB3B1EAA7B32B50081BD879B4EA8E;7618.
+(rerunfilecheck)             Checksum: D2072398B8A4AC2392236B104AD3BA1F;7491.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47470 strings out of 475869
- 1039229 string characters out of 5805667
- 2052498 words of memory out of 5000000
- 67779 multiletter control sequences out of 15000+600000
+ 47496 strings out of 475869
+ 1040565 string characters out of 5805667
+ 2068798 words of memory out of 5000000
+ 67805 multiletter control sequences out of 15000+600000
  477631 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,20n,118p,3780b,5526s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,20n,118p,3786b,5526s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (54 pages, 1771660 bytes).
+Output written on report.xdv (54 pages, 1807968 bytes).

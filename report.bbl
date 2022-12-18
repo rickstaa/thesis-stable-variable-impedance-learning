@@ -2029,6 +2029,59 @@
       \endverb
       \keyw{Admittance,Energy tanks,Impedance,interactive control,Medical robotics,medical robots and systems,STABILITY,Surgery,Switches,telerobotics}
     \endentry
+    \entry{fieldLearningTrajectoriesRobot2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f4f16aecc2140b91d90e444255f2be55}{%
+           family={Field},
+           familyi={F\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=058db799ee52556e995d7d6ebc2f2075}{%
+           family={Stirling},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d8d1756d391b3b0eb8dcc0bf791d1fbf}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Zengxi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d880ac7c942274343b7a64882ff3e973}{%
+           family={Naghdy},
+           familyi={N\bibinitperiod},
+           given={Fazel},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{da320ee9240fb6927490108f440b4300}
+      \strng{fullhash}{28cefc194f3470672261bac58daa3f21}
+      \strng{bibnamehash}{da320ee9240fb6927490108f440b4300}
+      \strng{authorbibnamehash}{da320ee9240fb6927490108f440b4300}
+      \strng{authornamehash}{da320ee9240fb6927490108f440b4300}
+      \strng{authorfullhash}{28cefc194f3470672261bac58daa3f21}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents an approach for learning robust models of humanoid robot trajectories from demonstration. In this formulation, a model of the joint space trajectory is represented as a sequence of motion primitives where a nonlinear dynamical system is learned by constructing a hidden Markov model (HMM) predicting the probability of residing in each motion primitive. With a coordinated mixture of factor analyzers as the emission probability density of the HMM, we are able to synthesize motion from a dynamic system acting along a manifold shared by both demonstrator and robot. This provides significant advantages in model complexity for kinematically redundant robots and can reduce the number of corresponding observations required for further learning. A stability analysis shows that the system is robust to deviations from the expected trajectory as well as transitional motion between manifolds. This approach is demonstrated experimentally by recording human motion with inertial sensors, learning a motion primitive model and correspondence map between the human and robot, and synthesizing motion from the manifold to control a 19 degree-of-freedom humanoid robot.}
+      \field{eventtitle}{{{IEEE Transactions}} on {{Cybernetics}}}
+      \field{issn}{2168-2275}
+      \field{journaltitle}{IEEE Transactions on Cybernetics}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Learning {{Trajectories}} for {{Robot Programing}} by {{Demonstration Using}} a {{Coordinated Mixture}} of {{Factor Analyzers}}}
+      \field{volume}{46}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{706\bibrangedash 717}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/TCYB.2015.2414277
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\field_et_al_2016_learning_trajectories_for_robot_programing_by_demonstration_using_a_coordinated.pdf
+      \endverb
+      \keyw{Hidden Markov models,Human motion,humanoid robot,imitation,inertial sensors,Manifolds,nonlinear dynamical system control,Nonlinear dynamical systems,Robot kinematics,robot programing by demonstration (PbD),Robot sensing systems,stability,Trajectory}
+    \endentry
     \entry{figueroafernandezPhysicallyconsistentBayesianNonparametric2018}{report}{}
       \name{author}{2}{}{%
         {{hash=d7e7f921c4cff2321f28aa614b8de2a0}{%
@@ -6132,6 +6185,57 @@
       \endverb
       \keyw{READ}
     \endentry
+    \entry{ravichandarLearningContractingNonlinear2016}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=1fefcc0aaab7c97d60ec7206f9a27a2d}{%
+           family={Ravichandar},
+           familyi={R\bibinitperiod},
+           given={Harish},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7fca3a2fb478315c2bd2b38525f89cfb}{%
+           family={Dani},
+           familyi={D\bibinitperiod},
+           given={Ashwin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Society of Mechanical Engineers Digital Collection}%
+      }
+      \strng{namehash}{c44e5b7f327db04bbeb42e7b91a067c9}
+      \strng{fullhash}{c44e5b7f327db04bbeb42e7b91a067c9}
+      \strng{bibnamehash}{c44e5b7f327db04bbeb42e7b91a067c9}
+      \strng{authorbibnamehash}{c44e5b7f327db04bbeb42e7b91a067c9}
+      \strng{authornamehash}{c44e5b7f327db04bbeb42e7b91a067c9}
+      \strng{authorfullhash}{c44e5b7f327db04bbeb42e7b91a067c9}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{eventtitle}{{{ASME}} 2015 {{Dynamic Systems}} and {{Control Conference}}}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{Learning {{Contracting Nonlinear Dynamics From Human Demonstration}} for {{Robot Motion Planning}}}
+      \field{urlday}{30}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1115/DSCC2015-9870
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\ravichandar_dani_2016_learning_contracting_nonlinear_dynamics_from_human_demonstration_for_robot.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://asmedigitalcollection.asme.org/DSCC/proceedings/DSCC2015/57250/V002T27A008/230481
+      \endverb
+      \verb{url}
+      \verb https://asmedigitalcollection.asme.org/DSCC/proceedings/DSCC2015/57250/V002T27A008/230481
+      \endverb
+      \keyw{READ}
+    \endentry
     \entry{reyLearningMotionsDemonstrations2018}{article}{}
       \name{author}{5}{}{%
         {{hash=4d79a58fbf5620ad860f82d00ebe1646}{%
@@ -6492,6 +6596,67 @@
       \verb http://arxiv.org/abs/2003.11290
       \endverb
       \keyw{Computer Science - Robotics,Electrical Engineering and Systems Science - Systems and Control,IMPORTANT,STABILITY}
+    \endentry
+    \entry{saverianoLearningStableRobotic2022}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=77c1b599283b17c87370f0a2debb9ae3}{%
+           family={Saveriano},
+           familyi={S\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a3e7d4297e793f5fb34608c0dac7d9b8}{%
+           family={Abu-Dakka},
+           familyi={A\bibinithyphendelim D\bibinitperiod},
+           given={Fares\bibnamedelima J.},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4d5a9080538af7c2eeea5b457fd44d6c}{%
+           family={Kyrki},
+           familyi={K\bibinitperiod},
+           given={Ville},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{4992abef499287f173897ea228a2f9ac}
+      \strng{fullhash}{4992abef499287f173897ea228a2f9ac}
+      \strng{bibnamehash}{4992abef499287f173897ea228a2f9ac}
+      \strng{authorbibnamehash}{4992abef499287f173897ea228a2f9ac}
+      \strng{authornamehash}{4992abef499287f173897ea228a2f9ac}
+      \strng{authorfullhash}{4992abef499287f173897ea228a2f9ac}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we propose an approach to learn stable dynamical systems evolving on Riemannian manifolds. The approach leverages a data-efficient procedure to learn a diffeomorphic transformation that maps simple stable dynamical systems onto complex robotic skills. By exploiting mathematical tools from differential geometry, the method ensures that the learned skills fulfill the geometric constraints imposed by the underlying manifolds, such as unit quaternion (UQ) for orientation and symmetric positive definite (SPD) matrices for impedance, while preserving the convergence to a given target. The proposed approach is firstly tested in simulation on a public benchmark, obtained by projecting Cartesian data into UQ and SPD manifolds, and compared with existing approaches. Apart from evaluating the approach on a public benchmark, several experiments were performed on a real robot performing bottle stacking in different conditions and a drilling task in cooperation with a human operator. The evaluation shows promising results in terms of learning accuracy and task adaptation capabilities.}
+      \field{day}{31}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{8}
+      \field{number}{arXiv:2208.13267}
+      \field{title}{Learning {{Stable Robotic Skills}} on {{Riemannian Manifolds}}}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2208.13267
+      \endverb
+      \verb{eprint}
+      \verb 2208.13267
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\saveriano_et_al_2022_learning_stable_robotic_skills_on_riemannian_manifolds.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2208.13267
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2208.13267
+      \endverb
+      \keyw{Computer Science - Robotics,READ}
     \endentry
     \entry{saverianoDynamicMovementPrimitives2021}{misc}{}
       \name{author}{4}{}{%
@@ -8379,6 +8544,67 @@
       \endverb
       \keyw{Control under uncertainty,Human centered automation,Lyapunov methods,Modeling of human performance,Nonlinear system identification,Path tracking,READ}
     \endentry
+    \entry{urainLearningStableVector2022}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=ff1816ce4eea2cafe9e2b0ef15429cf2}{%
+           family={Urain},
+           familyi={U\bibinitperiod},
+           given={Julen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4f2b61234f0f713a92f0e01fb5ffbf53}{%
+           family={Tateo},
+           familyi={T\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c2cb77a864f65a21da0f69121b89835b}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{fed4dc69ee5cddf3116114558bcfadfe}
+      \strng{fullhash}{fed4dc69ee5cddf3116114558bcfadfe}
+      \strng{bibnamehash}{fed4dc69ee5cddf3116114558bcfadfe}
+      \strng{authorbibnamehash}{fed4dc69ee5cddf3116114558bcfadfe}
+      \strng{authornamehash}{fed4dc69ee5cddf3116114558bcfadfe}
+      \strng{authorfullhash}{fed4dc69ee5cddf3116114558bcfadfe}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Learning robot motions from demonstration requires models able to specify vector fields for the full robot pose when the task is defined in operational space. Recent advances in reactive motion generation have shown that learning adaptive, reactive, smooth, and stable vector fields is possible. However, these approaches define vector fields on a flat Euclidean manifold, while representing vector fields for orientations requires modeling the dynamics in non-Euclidean manifolds, such as Lie Groups. In this paper, we present a novel vector field model that can guarantee most of the properties of previous approaches i.e., stability, smoothness, and reactivity beyond the Euclidean space. In the experimental evaluation, we show the performance of our proposed vector field model to learn stable vector fields for full robot poses as SE(2) and SE(3) in both simulated and real robotics tasks.}
+      \field{day}{1}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{10}
+      \field{number}{arXiv:2110.11774}
+      \field{title}{Learning {{Stable Vector Fields}} on {{Lie Groups}}}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2110.11774
+      \endverb
+      \verb{eprint}
+      \verb 2110.11774
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\urain_et_al_2022_learning_stable_vector_fields_on_lie_groups.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2110.11774
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2110.11774
+      \endverb
+      \keyw{Computer Science - Machine Learning,Computer Science - Robotics,READ}
+    \endentry
     \entry{urainImitationFlowLearningDeep2020}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=ff1816ce4eea2cafe9e2b0ef15429cf2}{%
@@ -8716,6 +8942,51 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wang_et_al_2021_learning_from_demonstration_using_improved_dynamic_movement_primitives.pdf
       \endverb
       \keyw{Adaptation models,Conferences,Deep learning,DMP,DNN,Dynamics,Fitting of non-linear function,Industrial electronics,READ,Simulation,Target tracking,Trajectory learning}
+    \endentry
+    \entry{wangLearningDeepRobotic2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f2929c69d01f992559739866bdb56dbc}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Weitao},
+           giveni={W\bibinitperiod}}}%
+        {{hash=77c1b599283b17c87370f0a2debb9ae3}{%
+           family={Saveriano},
+           familyi={S\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a3e7d4297e793f5fb34608c0dac7d9b8}{%
+           family={Abu-Dakka},
+           familyi={A\bibinithyphendelim D\bibinitperiod},
+           given={Fares\bibnamedelima J.},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5756e676cf1cada55a7d57b87051afbd}
+      \strng{fullhash}{5756e676cf1cada55a7d57b87051afbd}
+      \strng{bibnamehash}{5756e676cf1cada55a7d57b87051afbd}
+      \strng{authorbibnamehash}{5756e676cf1cada55a7d57b87051afbd}
+      \strng{authornamehash}{5756e676cf1cada55a7d57b87051afbd}
+      \strng{authorfullhash}{5756e676cf1cada55a7d57b87051afbd}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we propose RiemannianFlow, a deep generative model that allows robots to learn complex and stable skills evolving on the Riemannian manifold. Examples of Riemannian data in robotics include stiffness (symmetric and positive definite matrix (SPD)) and orientation (unit quaternion (UQ)) trajectories. For Riemannian data, unlike Euclidean ones, different dimensions are interconnected by geometric constraints which have to be properly considered during the learning process. Using distance preserving mappings, our approach transfers the data between their original manifold and the tangent space, realizing the removing and re-fulfilling of the constraints. This allows to extend existing frameworks to learn stable skills from Riemannian data while guaranteeing the stability of the learning results. The ability of RiemannianFlow to learn various data patterns and the stability of the learned models are experimentally shown on a dataset of manifold motions. Further, we analyze from different perspectives the robustness of the model with different hyperparameter combinations. While stability is not affected by different hyperparameters, a proper choice of the hyperparameters leads to a significant improvement (up to 27.6\%) in the model accuracy. Last, we show the effectiveness of RiemannianFlow in a real peg-in-hole (PiH) task where we need to generate stable and consistent position and orientation trajectories for the robot starting from different initial poses.}
+      \field{eventtitle}{{{IEEE Access}}}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Learning {{Deep Robotic Skills}} on {{Riemannian}} Manifolds}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2022.3217800
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wang_et_al_2022_learning_deep_robotic_skills_on_riemannian_manifolds.pdf
+      \endverb
+      \keyw{Compliance and Impedance Control,Deep learning,Deep Learning Methods,Learning from Demonstration,Manifolds,Motion control,Motion Control of Manipulators,READ,Riemannian Manifold,Robot sensing systems,Robots,Stability criteria,Symmetric matrices,Task analysis,Trajectory}
     \endentry
     \entry{weiImpedanceControlUncertain2019}{inproceedings}{}
       \name{author}{4}{}{%
