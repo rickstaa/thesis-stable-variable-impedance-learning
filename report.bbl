@@ -755,52 +755,6 @@
       \endverb
       \keyw{Active compliance,Active Compliance,Actuators,Admittance,admittance control,Admittance Control,compliance,Compliance,flexible joints,Flexible Joints,Force,force control,Force control,Force Control,Impedance,impedance control,Impedance Control,interaction control,Interaction Control,Joints,REVIEW,Robots,series elastic actuators,Series Elastic Actuators}
     \endentry
-    \entry{calinonLearningbasedControlStrategy2010}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=bacdea873fd4ba05ad401b50898a5d71}{%
-           family={Calinon},
-           familyi={C\bibinitperiod},
-           given={Sylvain},
-           giveni={S\bibinitperiod}}}%
-        {{hash=89fcd55fa7ddf7bf8e02e2748f57162e}{%
-           family={Sardellitti},
-           familyi={S\bibinitperiod},
-           given={Irene},
-           giveni={I\bibinitperiod}}}%
-        {{hash=9d989a5cb2cad2afc11c8e0d17980e42}{%
-           family={Caldwell},
-           familyi={C\bibinitperiod},
-           given={Darwin\bibnamedelima G.},
-           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-      }
-      \strng{namehash}{7359b4c75db78ae4628d1d0816e31984}
-      \strng{fullhash}{7359b4c75db78ae4628d1d0816e31984}
-      \strng{bibnamehash}{7359b4c75db78ae4628d1d0816e31984}
-      \strng{authorbibnamehash}{7359b4c75db78ae4628d1d0816e31984}
-      \strng{authornamehash}{7359b4c75db78ae4628d1d0816e31984}
-      \strng{authorfullhash}{7359b4c75db78ae4628d1d0816e31984}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We propose a control strategy for a robotic manipulator operating in an unstructured environment while interacting with a human operator. The proposed system takes into account the important characteristics of the task and the redundancy of the robot to determine a controller that is safe for the user. The constraints of the task are first extracted using several examples of the skill demonstrated to the robot through kinesthetic teaching. An active control strategy based on task-space control with variable stiffness is proposed, and combined with a safety strategy for tasks requiring humans to move in the vicinity of robots. A risk indicator for human-robot collision is defined, which modulates a repulsive force distorting the spatial and temporal characteristics of the movement according to the task constraints. We illustrate the approach with two human-robot interaction experiments, where the user teaches the robot first how to move a tray, and then shows it how to iron a napkin.}
-      \field{booktitle}{2010 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}}}
-      \field{eventtitle}{2010 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}}}
-      \field{issn}{2153-0866}
-      \field{month}{10}
-      \field{title}{Learning-Based Control Strategy for Safe Human-Robot Interaction Exploiting Task and Robot Redundancies}
-      \field{year}{2010}
-      \field{dateera}{ce}
-      \field{pages}{249\bibrangedash 254}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/IROS.2010.5648931
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\calinon_et_al_2010_learning-based_control_strategy_for_safe_human-robot_interaction_exploiting.pdf
-      \endverb
-      \keyw{Collision avoidance,Force,Redundancy,Robots,Safety,Tracking,Trajectory}
-    \endentry
     \entry{capelliPassivityControlBarrier2022}{article}{}
       \name{author}{3}{}{%
         {{hash=b43d1bbcbbb96fa00b29f692657be546}{%
@@ -2028,59 +1982,6 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\ferraguti_et_al_2015_an_energy_tank-based_interactive_control_architecture_for_autonomous_and.pdf
       \endverb
       \keyw{Admittance,Energy tanks,Impedance,interactive control,Medical robotics,medical robots and systems,STABILITY,Surgery,Switches,telerobotics}
-    \endentry
-    \entry{fieldLearningTrajectoriesRobot2016}{article}{}
-      \name{author}{4}{}{%
-        {{hash=f4f16aecc2140b91d90e444255f2be55}{%
-           family={Field},
-           familyi={F\bibinitperiod},
-           given={Matthew},
-           giveni={M\bibinitperiod}}}%
-        {{hash=058db799ee52556e995d7d6ebc2f2075}{%
-           family={Stirling},
-           familyi={S\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=d8d1756d391b3b0eb8dcc0bf791d1fbf}{%
-           family={Pan},
-           familyi={P\bibinitperiod},
-           given={Zengxi},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=d880ac7c942274343b7a64882ff3e973}{%
-           family={Naghdy},
-           familyi={N\bibinitperiod},
-           given={Fazel},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{da320ee9240fb6927490108f440b4300}
-      \strng{fullhash}{28cefc194f3470672261bac58daa3f21}
-      \strng{bibnamehash}{da320ee9240fb6927490108f440b4300}
-      \strng{authorbibnamehash}{da320ee9240fb6927490108f440b4300}
-      \strng{authornamehash}{da320ee9240fb6927490108f440b4300}
-      \strng{authorfullhash}{28cefc194f3470672261bac58daa3f21}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper presents an approach for learning robust models of humanoid robot trajectories from demonstration. In this formulation, a model of the joint space trajectory is represented as a sequence of motion primitives where a nonlinear dynamical system is learned by constructing a hidden Markov model (HMM) predicting the probability of residing in each motion primitive. With a coordinated mixture of factor analyzers as the emission probability density of the HMM, we are able to synthesize motion from a dynamic system acting along a manifold shared by both demonstrator and robot. This provides significant advantages in model complexity for kinematically redundant robots and can reduce the number of corresponding observations required for further learning. A stability analysis shows that the system is robust to deviations from the expected trajectory as well as transitional motion between manifolds. This approach is demonstrated experimentally by recording human motion with inertial sensors, learning a motion primitive model and correspondence map between the human and robot, and synthesizing motion from the manifold to control a 19 degree-of-freedom humanoid robot.}
-      \field{eventtitle}{{{IEEE Transactions}} on {{Cybernetics}}}
-      \field{issn}{2168-2275}
-      \field{journaltitle}{IEEE Transactions on Cybernetics}
-      \field{month}{3}
-      \field{number}{3}
-      \field{title}{Learning {{Trajectories}} for {{Robot Programing}} by {{Demonstration Using}} a {{Coordinated Mixture}} of {{Factor Analyzers}}}
-      \field{volume}{46}
-      \field{year}{2016}
-      \field{dateera}{ce}
-      \field{pages}{706\bibrangedash 717}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1109/TCYB.2015.2414277
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\field_et_al_2016_learning_trajectories_for_robot_programing_by_demonstration_using_a_coordinated.pdf
-      \endverb
-      \keyw{Hidden Markov models,Human motion,humanoid robot,imitation,inertial sensors,Manifolds,nonlinear dynamical system control,Nonlinear dynamical systems,Robot kinematics,robot programing by demonstration (PbD),Robot sensing systems,stability,Trajectory}
     \endentry
     \entry{figueroafernandezPhysicallyconsistentBayesianNonparametric2018}{report}{}
       \name{author}{2}{}{%
@@ -9724,6 +9625,7 @@
       \keyw{bilateral teleoperation,READ,STABILITY}
     \endentry
   \enddatalist
+  \missing{calinonLearningbasedControlStrategy2010}
 \endrefsection
 \endinput
 

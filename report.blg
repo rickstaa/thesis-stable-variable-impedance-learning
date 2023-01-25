@@ -1,22 +1,22 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'report.blg'
-[309] biber-MSWIN32:340> INFO - === 
-[419] Biber.pm:418> INFO - Reading 'report.bcf'
-[1238] Biber.pm:978> INFO - Found 181 citekeys in bib section 0
-[1306] Biber.pm:4401> INFO - Processing section 0
-[1362] Biber.pm:4592> INFO - Looking for bibtex file 'master_thesis.bib' for section 0
-[1656] bibtex.pm:1713> INFO - LaTeX decoding ...
-[6243] bibtex.pm:1518> INFO - Found BibTeX data source 'master_thesis.bib'
-[10087] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[10087] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[10087] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[10087] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
-[10601] bbl.pm:654> INFO - Writing 'report.bbl' with encoding 'UTF-8'
-[11075] bbl.pm:757> INFO - Output to report.bbl
-[11076] Biber.pm:130> WARN - Possible typo (case mismatch) between datasource keys: 'yangDMPsBasedFrameworkRobot2018' and 'yangDMPsbasedFrameworkRobot2018' in file 'master_thesis.bib'
-[11076] Biber.pm:130> WARN - ISBN '978-1-84628-892-0 978-1-84628-893-7' in entry 'baoProcessControlPassive2007' is invalid - run biber with '--validate_datamodel' for details.
-[11076] Biber.pm:130> WARN - ISBN '978-1-84996-634-4 978-1-84628-641-4' in entry 'sicilianoRoboticsModellingPlanning2010' is invalid - run biber with '--validate_datamodel' for details.
-[11076] Biber.pm:130> WARN - ISBN '978-1-4419-7939-1 978-1-4419-7940-7' in entry 'leeIntroductionTopologicalManifolds2011' is invalid - run biber with '--validate_datamodel' for details.
-[11076] Biber.pm:130> WARN - ISBN '978-1-4419-9981-8 978-1-4419-9982-5' in entry 'leeIntroductionSmoothManifolds2012' is invalid - run biber with '--validate_datamodel' for details.
-[11077] Biber.pm:130> WARN - ISBN '978-3-319-91754-2 978-3-319-91755-9' in entry 'leeIntroductionRiemannianManifolds2018' is invalid - run biber with '--validate_datamodel' for details.
-[11077] Biber.pm:132> INFO - WARNINGS: 6
+[366] biber-MSWIN32:340> INFO - === 
+[471] Biber.pm:418> INFO - Reading 'report.bcf'
+[1117] Biber.pm:978> INFO - Found 180 citekeys in bib section 0
+[1194] Biber.pm:4401> INFO - Processing section 0
+[1233] Biber.pm:4592> INFO - Looking for bibtex file 'master_thesis.bib' for section 0
+[1411] bibtex.pm:1713> INFO - LaTeX decoding ...
+[4351] bibtex.pm:1518> INFO - Found BibTeX data source 'master_thesis.bib'
+[8668] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[8668] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[8668] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[8668] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[9466] bbl.pm:654> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[10377] bbl.pm:757> INFO - Output to report.bbl
+[10378] Biber.pm:130> WARN - ISBN '978-1-84628-892-0 978-1-84628-893-7' in entry 'baoProcessControlPassive2007' is invalid - run biber with '--validate_datamodel' for details.
+[10378] Biber.pm:130> WARN - ISBN '978-1-84996-634-4 978-1-84628-641-4' in entry 'sicilianoRoboticsModellingPlanning2010' is invalid - run biber with '--validate_datamodel' for details.
+[10379] Biber.pm:130> WARN - ISBN '978-1-4419-7939-1 978-1-4419-7940-7' in entry 'leeIntroductionTopologicalManifolds2011' is invalid - run biber with '--validate_datamodel' for details.
+[10379] Biber.pm:130> WARN - ISBN '978-1-4419-9981-8 978-1-4419-9982-5' in entry 'leeIntroductionSmoothManifolds2012' is invalid - run biber with '--validate_datamodel' for details.
+[10379] Biber.pm:130> WARN - ISBN '978-3-319-91754-2 978-3-319-91755-9' in entry 'leeIntroductionRiemannianManifolds2018' is invalid - run biber with '--validate_datamodel' for details.
+[10380] Biber.pm:130> WARN - I didn't find a database entry for 'calinonLearningbasedControlStrategy2010' (section 0)
+[10380] Biber.pm:132> INFO - WARNINGS: 6
