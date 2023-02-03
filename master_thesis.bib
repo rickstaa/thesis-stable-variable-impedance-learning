@@ -467,6 +467,26 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\berkenkamp_et_al_2017_safe_model-based_reinforcement_learning_with_stability_guarantees.pdf}
 }
 
+@article{bevandaDatadrivenLQRKoopmanizing2022,
+  title = {Towards {{Data-driven LQR}} with {{Koopmanizing Flows}}⋆},
+  author = {Bevanda, Petar and Beier, Max and Heshmati-Alamdari, Shahab and Sosnowski, Stefan and Hirche, Sandra},
+  date = {2022-01-01},
+  journaltitle = {IFAC-PapersOnLine},
+  shortjournal = {IFAC-PapersOnLine},
+  series = {6th {{IFAC Conference}} on {{Intelligent Control}} and {{Automation Sciences ICONS}} 2022},
+  volume = {55},
+  number = {15},
+  pages = {13--18},
+  issn = {2405-8963},
+  doi = {10.1016/j.ifacol.2022.07.601},
+  url = {https://www.sciencedirect.com/science/article/pii/S2405896322010126},
+  urldate = {2023-01-30},
+  abstract = {We propose a novel framework for learning linear time-invariant (LTI) models for a class of continuous-time non-autonomous nonlinear dynamics based on a representation of Koopman operators. In general, the operator is infinite-dimensional but, crucially, linear. To utilize it for effcient LTI control design, we learn a finite representation of the Koopman operator that is linear in controls while concurrently learning meaningful lifting coordinates. For the latter, we rely on Koopmanizing Flows - a diffeomorphism-based representation of Koopman operators and extend it to systems with linear control entry. With such a learned model, we can replace the nonlinear optimal control problem with quadratic cost to that of a linear quadratic regulator (LQR), facilitating efficacious optimal control for nonlinear systems. The superior control performance of the proposed method is demonstrated on simulation examples.},
+  langid = {english},
+  keywords = {Koopman operators,Learning for control,Learning Systems,Machine learning,Neural networks,READ,Representation Learning},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\bevanda_et_al_2022_towards_data-driven_lqr_with_koopmanizing_flows⋆.pdf}
+}
+
 @misc{bevandaDiffeomorphicallyLearningStable2022,
   title = {Diffeomorphically {{Learning Stable Koopman Operators}}},
   author = {Bevanda, Petar and Beier, Max and Kerz, Sebastian and Lederer, Armin and Sosnowski, Stefan and Hirche, Sandra},
@@ -500,7 +520,7 @@
   urldate = {2023-01-19},
   abstract = {The Koopman operator allows for handling nonlinear systems through a globally linear representation. In general, the operator is infinite-dimensional – necessitating finite approximations – for which there is no overarching framework. Although there are principled ways of learning such finite approximations, they are in many instances overlooked in favor of, often ill-posed and unstructured methods. Also, Koopman operator theory has long-standing connections to known system-theoretic and dynamical system notions that are not universally recognized. Given the former and latter realities, this work aims to bridge the gap between various concepts regarding both theory and tractable realizations. Firstly, we review data-driven representations (both unstructured and structured) for Koopman operator dynamical models, categorizing various existing methodologies and highlighting their differences. Furthermore, we provide concise insight into the paradigm’s relation to system-theoretic notions and analyze the prospect of using the paradigm for modeling control systems. Additionally, we outline the current challenges and comment on future perspectives.},
   langid = {english},
-  keywords = {Data-based control,Dynamical models,Koopman operator,Representation learning,System analysis},
+  keywords = {Data-based control,Dynamical models,Koopman operator,READ,Representation learning,REVIEW,STABILITY,System analysis},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\bevanda_et_al_2021_koopman_operator_dynamical_models.pdf}
 }
 
@@ -518,7 +538,7 @@
   urldate = {2022-12-05},
   abstract = {We present a novel data-driven approach for learning linear representations of a class of stable nonlinear systems using Koopman eigenfunctions. By learning the conjugacy map between a nonlinear system and its Jacobian linearization through a Normalizing Flow one can guarantee the learned function is a diffeomorphism. Using this diffeomorphism, we construct eigenfunctions of the nonlinear system via the spectral equivalence of conjugate systems - allowing the construction of linear predictors for nonlinear systems. The universality of the diffeomorphism learner leads to the universal approximation of the nonlinear system's Koopman eigenfunctions. The developed method is also safe as it guarantees the model is asymptotically stable regardless of the representation accuracy. To our best knowledge, this is the first work to close the gap between the operator, system and learning theories. The efficacy of our approach is shown through simulation examples.},
   archiveprefix = {arXiv},
-  keywords = {Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Mathematics - Dynamical Systems,READ,TO READ},
+  keywords = {Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Mathematics - Dynamical Systems,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\bevanda_et_al_2022_learning_the_koopman_eigendecomposition.pdf}
 }
 
@@ -1011,6 +1031,20 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\davoodi_et_al_2022_safe_robot_trajectory_control_using_probabilistic_movement_primitives_and.pdf}
 }
 
+@inproceedings{dekaKoopmanbasedNeuralLyapunov2022,
+  title = {Koopman-Based {{Neural Lyapunov}} Functions for General Attractors},
+  booktitle = {2022 {{IEEE}} 61st {{Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
+  author = {Deka, Shankar A. and Valle, Alonso M. and Tomlin, Claire J.},
+  date = {2022-12},
+  pages = {5123--5128},
+  issn = {2576-2370},
+  doi = {10.1109/CDC51059.2022.9992927},
+  abstract = {Koopman spectral theory has grown in the past decade as a powerful tool for dynamical systems analysis and control. In this paper, we show how recent data-driven techniques for estimating Koopman-Invariant subspaces with neural networks can be leveraged to extract Lyapunov certificates for the underlying system. In our work, we specifically focus on systems with a limit-cycle, beyond just an isolated equilibrium point, and use Koopman eigenfunctions to efficiently parameterize candidate Lyapunov functions to construct forward-invariant sets under some (unknown) attractor dynamics. Additionally, when the dynamics are polynomial and when neural networks are replaced by polynomials as a choice of function approximators in our approach, one can further leverage Sum-of-Squares programs and/or nonlinear programs to yield provably correct Lyapunov certificates. In such a polynomial case, our Koopman-based approach for constructing Lyapunov functions uses significantly fewer decision variables compared to directly formulating and solving a Sum-of-Squares optimization problem.},
+  eventtitle = {2022 {{IEEE}} 61st {{Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
+  keywords = {Approximation algorithms,Control systems,Eigenvalues and eigenfunctions,Limit-cycles,Neural networks,Nonlinear dynamical systems,READ,Trajectory},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\deka_et_al_2022_koopman-based_neural_lyapunov_functions_for_general_attractors.pdf}
+}
+
 @article{denisaLearningCompliantMovement2015,
   title = {Learning Compliant Movement Primitives through Demonstration and Statistical Generalization},
   author = {Deniša, Miha and Gams, Andrej and Ude, Aleš and Petrič, Tadej},
@@ -1422,7 +1456,7 @@
   urldate = {2022-12-02},
   abstract = {In this paper, we present a new data-driven method for learning stable models of nonlinear systems. Our model lifts the original state space to a higher-dimensional linear manifold using Koopman embeddings. Interestingly, we prove that every discrete-time nonlinear contracting model can be learnt in our framework. Another significant merit of the proposed approach is that it allows for unconstrained optimization over the Koopman embedding and operator jointly while enforcing stability of the model, via a direct parameterization of stable linear systems, greatly simplifying the computations involved. We validate our method on a simulated system and analyze the advantages of our parameterization compared to alternatives.},
   archiveprefix = {arXiv},
-  keywords = {Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,READ,TO READ},
+  keywords = {Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\fan_et_al_2021_learning_stable_koopman_embeddings.pdf}
 }
 
@@ -1652,6 +1686,20 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\franzese_et_al_2021_ilosa.pdf}
 }
 
+@inproceedings{fuDirectDatadrivenStabilization2022,
+  title = {Direct Data-Driven Stabilization of Nonlinear Affine Systems via the {{Koopman}} Operator},
+  booktitle = {2022 {{IEEE}} 61st {{Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
+  author = {Fu, Xingyun and You, Keyou},
+  date = {2022-12},
+  pages = {2668--2673},
+  issn = {2576-2370},
+  doi = {10.1109/CDC51059.2022.9993302},
+  abstract = {In this work, we are concerned with the design of direct data-driven controllers for nonlinear affine systems without explicit dynamical models. To this end, we adopt the Koopman operator to approximately reformulate the nonlinear systems into bilinear forms, based on which we propose a "simple" static controller in the linear form of the preset function dictionary. Then, we show how to obtain the feedback gain matrix and establish the stability condition of the closed-loop system using only the off-line collected data. Finally, numerical results demonstrate the effectiveness and robustness of this data-driven controller.},
+  eventtitle = {2022 {{IEEE}} 61st {{Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
+  keywords = {Closed loop systems,Data models,Dictionaries,Nonlinear dynamical systems,Numerical stability,Robustness,Stability analysis},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\fu_you_2022_direct_data-driven_stabilization_of_nonlinear_affine_systems_via_the_koopman.pdf}
+}
+
 @misc{gadginmathDataDrivenFeedbackLinearization2022,
   title = {Data-{{Driven Feedback Linearization}} Using the {{Koopman Generator}}},
   author = {Gadginmath, Darshan and Krishnan, Vishaal and Pasqualetti, Fabio},
@@ -1666,7 +1714,7 @@
   urldate = {2023-01-19},
   abstract = {This paper contributes a theoretical framework for data-driven feedback linearization of nonlinear control-affine systems. We unify the traditional geometric perspective on feedback linearization with an operator-theoretic perspective involving the Koopman operator. We first show that if the distribution of the control vector field and its repeated Lie brackets with the drift vector field is involutive, then there exists an output and a feedback control law for which the Koopman generator is finite-dimensional and locally nilpotent. We use this connection to propose a data-driven algorithm for feedback linearization. Particularly, we use experimental data to identify the state transformation and control feedback from a dictionary of functions for which feedback linearization is achieved in a least-squares sense. Finally, we provide numerical examples for the data-driven algorithm and compare it with model-based feedback linearization. We also numerically study the effect of the richness of the dictionary and the size of the data set on the effectiveness of feedback linearization.},
   archiveprefix = {arXiv},
-  keywords = {Electrical Engineering and Systems Science - Systems and Control,Mathematics - Optimization and Control},
+  keywords = {Electrical Engineering and Systems Science - Systems and Control,Mathematics - Optimization and Control,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\gadginmath_et_al_2022_data-driven_feedback_linearization_using_the_koopman_generator.pdf}
 }
 
@@ -2006,7 +2054,8 @@
   urldate = {2023-01-19},
   abstract = {Extended Dynamic Mode Decomposition (EDMD) is a popular data-driven method to approximate the action of the Koopman operator on a linear function space spanned by a dictionary of functions. The accuracy of EDMD model critically depends on the quality of the particular dictionary span1, specifically on how close it is to being invariant under the Koopman operator. Motivated by the observation that the residual error of EDMD, typically used for dictionary learning, does not encode the quality of the function space and is sensitive to the choice of basis, we introduce the novel concept of consistency index. We show that this measure, based on using EDMD forward and backward in time, enjoys a number of desirable qualities that make it suitable for data-driven modeling of dynamical systems: it measures the quality of the function space, it is invariant under the choice of basis, can be computed in closed form from the data, and provides a tight upper-bound for the relative root mean square error of all function predictions on the entire span of the dictionary.},
   langid = {english},
-  file = {C\:\\Users\\ricks\\Zotero\\storage\\HAA2BF4R\\2022_HaCo-csl.pdf}
+  keywords = {READ},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\haseli_cortes_2023_temporal_forward–backward_consistency,_not_residual_error,_measures_the.pdf}
 }
 
 @misc{havensImitationLearningLinear2021,
@@ -2208,6 +2257,24 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\huang_et_al_2019_broad_fuzzy_neural_control_using_impedance_learning.pdf}
 }
 
+@misc{huangFeedbackStabilizationUsing2018,
+  title = {Feedback {{Stabilization Using Koopman Operator}}},
+  author = {Huang, Bowen and Ma, Xu and Vaidya, Umesh},
+  date = {2018-09-28},
+  number = {arXiv:1810.00089},
+  eprint = {1810.00089},
+  eprinttype = {arxiv},
+  primaryclass = {math},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.1810.00089},
+  url = {http://arxiv.org/abs/1810.00089},
+  urldate = {2023-01-27},
+  abstract = {In this paper, we provide a systematic approach for the design of stabilizing feedback controllers for nonlinear control systems using the Koopman operator framework. The Koopman operator approach provides a linear representation for a nonlinear dynamical system and a bilinear representation for a nonlinear control system. The problem of feedback stabilization of a nonlinear control system is then transformed to the stabilization of a bilinear control system. We propose a control Lyapunov function (CLF)-based approach for the design of stabilizing feedback controllers for the bilinear system. The search for finding a CLF for the bilinear control system is formulated as a convex optimization problem. This leads to a schematic procedure for designing CLF-based stabilizing feedback controllers for the bilinear system and hence the original nonlinear system. Another advantage of the proposed controller design approach outlined in this paper is that it does not require explicit knowledge of system dynamics. In particular, the bilinear representation of a nonlinear control system in the Koopman eigenfunction space can be obtained from time-series data. Simulation results are presented to verify the main results on the design of stabilizing feedback controllers and the data-driven aspect of the proposed approach.},
+  archiveprefix = {arXiv},
+  keywords = {Mathematics - Optimization and Control,READ,STABILITY},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\huang_et_al_2018_feedback_stabilization_using_koopman_operator.pdf}
+}
+
 @article{huangKernelizedMovementPrimitives2019,
   title = {Kernelized Movement Primitives},
   author = {Huang, Yanlong and Rozo, Leonel and Silvério, João and Caldwell, Darwin G},
@@ -2349,7 +2416,7 @@
   urldate = {2023-01-19},
   abstract = {The Koopman framework proposes a linear representation of finite dimensional nonlinear systems through a generally infinite dimensional globally linear representation. Originally, the Koopman formalism has been described for autonomous systems and the extension for actuated continuous-time systems with a linear input or a control affine form has only recently been addressed. However, such a derivation for discrete-time systems has not yet been developed. Thus, a particular Koopman form is generally assumed, predominantly a linear time invariant (LTI) model, as it facilitates the use of control techniques such as linear quadratic regulation and model predictive control. However, we show that this assumption is insufficient to capture the dynamics of the underlying nonlinear system. In the present paper, we systematically investigate and analytically derive lifted forms under inputs for a general class of nonlinear systems in both continuous and discrete time, using the fundamental theorem of calculus. We prove that the resulting lifted representations give linear state-space Koopman models where the input matrix becomes state (and input, for the discrete-time case)-dependent, hence it can be seen as a specially structured linear parameter-varying (LPV) description of the underlying system. We also provide error bounds on how much the parameter variation contributes and how well the system behaviour can be approximated by an LTI Koopman representation. The introduced theoretical insight greatly helps for performing proper model structure selection in system identification with Koopman models as well as making a proper choice for LTI or LPV techniques for the control of nonlinear systems through the Koopman approach.},
   archiveprefix = {arXiv},
-  keywords = {Electrical Engineering and Systems Science - Systems and Control},
+  keywords = {Electrical Engineering and Systems Science - Systems and Control,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\iacob_et_al_2022_koopman_form_of_nonlinear_systems_with_inputs.pdf}
 }
 
@@ -3871,8 +3938,20 @@
   urldate = {2023-01-19},
   abstract = {This paper demonstrates the benefits of imposing stability on data-driven Koopman operators. The data-driven identification of stable Koopman operators (DISKO) is implemented using an algorithm \textbackslash cite\{mamakoukas\_stableLDS2020\} that computes the nearest \textbackslash textit\{stable\} matrix solution to a least-squares reconstruction error. As a first result, we derive a formula that describes the prediction error of Koopman representations for an arbitrary number of time steps, and which shows that stability constraints can improve the predictive accuracy over long horizons. As a second result, we determine formal conditions on basis functions of Koopman operators needed to satisfy the stability properties of an underlying nonlinear system. As a third result, we derive formal conditions for constructing Lyapunov functions for nonlinear systems out of stable data-driven Koopman operators, which we use to verify stabilizing control from data. Lastly, we demonstrate the benefits of DISKO in prediction and control with simulations using a pendulum and a quadrotor and experiments with a pusher-slider system. The paper is complemented with a video: \textbackslash url\{https://sites.google.com/view/learning-stable-koopman\}.},
   archiveprefix = {arXiv},
-  keywords = {Computer Science - Robotics,Mathematics - Optimization and Control},
+  keywords = {Computer Science - Robotics,Mathematics - Optimization and Control,READ,STABILITY},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\mamakoukas_et_al_2022_learning_stable_models_for_prediction_and_control.pdf}
+}
+
+@inproceedings{manchesterContractionbasedMethodsStable2021,
+  title = {Contraction-Based Methods for Stable Identification and Robust Machine Learning: A Tutorial},
+  shorttitle = {Contraction-Based Methods for Stable Identification and Robust Machine Learning},
+  booktitle = {2021 60th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
+  author = {Manchester, Ian R. and Revay, Max and Wang, Ruigang},
+  date = {2021},
+  pages = {2955--2962},
+  publisher = {{IEEE}},
+  keywords = {REVIEW},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\manchester_et_al_2021_contraction-based_methods_for_stable_identification_and_robust_machine_learning.pdf}
 }
 
 @unpublished{manekLearningStableDeep2020,
@@ -3933,6 +4012,14 @@
   langid = {english},
   keywords = {Imitation learning,Motion styles,Movement primitives,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\matsubara_et_al_2011_learning_parametric_dynamic_movement_primitives_from_multiple_demonstrations.pdf}
+}
+
+@book{mauroyKoopmanOperatorSystems2020,
+  title = {Koopman Operator in Systems and Control},
+  author = {Mauroy, Alexandre and Susuki, Y. and Mezić, I.},
+  date = {2020},
+  publisher = {{Springer}},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\mauroy_et_al_2020_koopman_operator_in_systems_and_control.pdf}
 }
 
 @inproceedings{maVariableStiffnessDamping2019,
@@ -4199,7 +4286,7 @@
   doi = {10.1109/LCSYS.2022.3231641},
   abstract = {This letter presents a Koopman lifting linearization method that is applicable to nonlinear dynamical systems having both stable and unstable regions. It is known that Dynamic Mode Decomposition (DMD) and its extended methods are often unable to model unstable systems accurately and reliably. Here we solve the problem through merging three methodologies: decomposition of a lifted linear system into stable and unstable modes, deep learning of a dictionary of observable functions in the separated subspaces, and a new formula for obtaining the Koopman operator, called Direct Encoding. Two sets of effective observable functions are obtained through neural net training where the training data are separated into stable and unstable trajectories. The resultant learned observables are used for lifting the state space, and a linear state transition matrix is constructed using Direct Encoding where inner products of the learned observables are computed. The proposed method shows a dramatic improvement over existing DMD and data-driven methods. Furthermore, a method is developed for determining the boundaries between stable and unstable regions.},
   eventtitle = {{{IEEE Control Systems Letters}}},
-  keywords = {Computational modeling,Encoding,Heuristic algorithms,machine learning,Mathematical models,modeling,Neural networks,stability of nonlinear systems,Training,Trajectory},
+  keywords = {Computational modeling,Encoding,Heuristic algorithms,machine learning,Mathematical models,modeling,Neural networks,READ,stability of nonlinear systems,Training,Trajectory},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\ng_asada_2023_learned_lifted_linearization_applied_to_unstable_dynamic_systems_enabled_by.pdf}
 }
 
@@ -4830,6 +4917,33 @@
   keywords = {control Lyapunov function,deep neural network,intelligent control,nonlinear systems,READ},
   annotation = {\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/rnc.5399},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\rego_de_araújo_2022_learning-based_robust_neuro-control.pdf}
+}
+
+@article{revayConvexParameterizationRobust2020,
+  title = {A Convex Parameterization of Robust Recurrent Neural Networks},
+  author = {Revay, Max and Wang, Ruigang and Manchester, Ian R.},
+  date = {2020},
+  journaltitle = {IEEE Control Systems Letters},
+  volume = {5},
+  number = {4},
+  pages = {1363--1368},
+  publisher = {{IEEE}},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\revay_et_al_2020_a_convex_parameterization_of_robust_recurrent_neural_networks.pdf}
+}
+
+@inproceedings{revayRecurrentEquilibriumNetworks2021,
+  title = {Recurrent {{Equilibrium Networks}}: {{Unconstrained Learning}} of {{Stable}} and {{Robust Dynamical Models}}},
+  shorttitle = {Recurrent {{Equilibrium Networks}}},
+  booktitle = {2021 60th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
+  author = {Revay, Max and Wang, Ruigang and Manchester, Ian R.},
+  date = {2021-12},
+  pages = {2282--2287},
+  issn = {2576-2370},
+  doi = {10.1109/CDC45484.2021.9683054},
+  abstract = {This paper introduces recurrent equilibrium networks (RENs), a new class of nonlinear dynamical models for applications in machine learning and system identification. The new model class has "built in" guarantees of stability and robustness: all models in the class are contracting – a strong form of nonlinear stability – and models can have prescribed Lipschitz bounds. RENs are otherwise very flexible: they can represent all stable linear systems, all previously-known sets of contracting recurrent neural networks, all deep feedforward neural networks, and all stable Wiener/Hammerstein models. RENs are parameterized directly by a vector in ℝN, i.e. stability and robustness are ensured without parameter constraints, which simplifies learning since generic methods for unconstrained optimization can be used. The performance of the robustness of the new model set is evaluated on benchmark nonlinear system identification problems.},
+  eventtitle = {2021 60th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
+  keywords = {Conferences,Linear systems,Machine learning,Recurrent neural networks,Robustness,Stability analysis,System identification},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\revay_et_al_2021_recurrent_equilibrium_networks.pdf}
 }
 
 @article{reyLearningMotionsDemonstrations2018,
@@ -6588,6 +6702,23 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wahrburg_listmann_2016_mpc-based_admittance_control_for_robotic_manipulators.pdf}
 }
 
+@misc{wangDatadrivenPredictiveTracking2022,
+  title = {Data-Driven {{Predictive Tracking Control}} Based on {{Koopman Operators}}},
+  author = {Wang, Ye and Yang, Yujia and Pu, Ye and Manzie, Chris},
+  date = {2022-08-25},
+  number = {arXiv:2208.12000},
+  eprint = {2208.12000},
+  eprinttype = {arxiv},
+  primaryclass = {cs, eess},
+  publisher = {{arXiv}},
+  url = {http://arxiv.org/abs/2208.12000},
+  urldate = {2023-01-31},
+  abstract = {We seek to combine the nonlinear modeling capabilities of a wide class of neural networks with the safety guarantees of model predictive control (MPC) in a rigorous and online computationally tractable framework. The class of networks considered can be captured using Koopman operators, and are integrated into a Koopman-based tracking MPC (KTMPC) for nonlinear systems to track piecewise constant references. The effect of model mismatch between original nonlinear dynamics and its trained Koopman linear model is handled by using a constraint tightening approach in the proposed tracking MPC strategy. By choosing two Lyapunov candidate functions, we prove that solution is recursively feasible and input-to-state stable to a neighborhood of both online and offline optimal reachable steady outputs in the presence of bounded modeling errors. Finally, we show the results of a numerical example and an application of autonomous ground vehicle to track given references.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Robotics,Electrical Engineering and Systems Science - Systems and Control},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wang_et_al_2022_data-driven_predictive_tracking_control_based_on_koopman_operators.pdf}
+}
+
 @article{wangDeepDeterministicPolicy2022,
   title = {Deep {{Deterministic Policy Gradient}} with {{Reward Function Based}} on {{Fuzzy Logic}} for {{Robotic Peg-in-Hole Assembly Tasks}}},
   author = {Wang, Ziyue and Li, Fengming and Men, Yu and Fu, Tianyu and Yang, Xuting and Song, Rui},
@@ -6759,6 +6890,19 @@
   pages = {321--351},
   publisher = {{Springer}},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\willems_1972_dissipative_dynamical_systems_part_i.pdf}
+}
+
+@article{williamsDataDrivenApproximation2015,
+  title = {A Data–Driven Approximation of the Koopman Operator: {{Extending}} Dynamic Mode Decomposition},
+  shorttitle = {A Data–Driven Approximation of the Koopman Operator},
+  author = {Williams, Matthew O. and Kevrekidis, Ioannis G. and Rowley, Clarence W.},
+  date = {2015},
+  journaltitle = {Journal of Nonlinear Science},
+  volume = {25},
+  pages = {1307--1346},
+  publisher = {{Springer}},
+  keywords = {READ},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\williams_et_al_2015_a_data–driven_approximation_of_the_koopman_operator.pdf}
 }
 
 @inproceedings{winterRoleCouplingTerms2016,
@@ -7214,6 +7358,16 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\zeng_et_al_2021_simultaneously_encoding_movement_and_semg-based_stiffness_for_robotic_skill.pdf}
 }
 
+@inproceedings{zengSystemsTheoreticAspects2018,
+  title = {On Systems Theoretic Aspects of {{Koopman}} Operator Theoretic Frameworks},
+  booktitle = {2018 {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
+  author = {Zeng, Shen},
+  date = {2018},
+  pages = {6422--6427},
+  publisher = {{IEEE}},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\zeng_2018_on_systems_theoretic_aspects_of_koopman_operator_theoretic_frameworks.pdf}
+}
+
 @article{zengUnifiedParametricRepresentation2022,
   title = {A {{Unified Parametric Representation}} for {{Robotic Compliant Skills With Adaptation}} of {{Impedance}} and {{Force}}},
   author = {Zeng, Chao and Li, Yanan and Guo, Jing and Huang, Zhifeng and Wang, Ning and Yang, Chenguang},
@@ -7511,6 +7665,6 @@
   urldate = {2023-01-19},
   abstract = {Learning and synthesizing stabilizing controllers for unknown nonlinear control systems is a challenging problem for real-world and industrial applications. Koopman operator theory allows one to analyze nonlinear systems through the lens of linear systems and nonlinear control systems through the lens of bilinear control systems. The key idea of these methods lies in the transformation of the coordinates of the nonlinear system into the Koopman observables, which are coordinates that allow the representation of the original system (control system) as a higher dimensional linear (bilinear control) system. However, for nonlinear control systems, the bilinear control model obtained by applying Koopman operator based learning methods is not necessarily stabilizable. Simultaneous identification of stabilizable lifted bilinear control systems as well as the associated Koopman observables is still an open problem. In this paper, we propose a framework to construct these stabilizable bilinear models and identify its associated observables from data by simultaneously learning a bilinear Koopman embedding for the underlying unknown control affine nonlinear system as well as a Control Lyapunov Function (CLF) for the Koopman based bilinear model using a learner and falsifier. Our proposed approach thereby provides provable guarantees of asymptotic stability for the Koopman based representation of the unknown control affine nonlinear control system as a bilinear system. Numerical simulations are provided to validate the efficacy of our proposed class of stabilizing feedback controllers for unknown control-affine nonlinear systems.},
   langid = {english},
-  keywords = {Control Lyapunov Functions,Koopman operator theory,Neural networks},
+  keywords = {Control Lyapunov Functions,Koopman operator theory,Neural networks,READ,STABILITY},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\zinage_bakolas_2023_neural_koopman_lyapunov_control.pdf}
 }
