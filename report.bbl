@@ -597,6 +597,142 @@
       \endverb
       \keyw{Control systems,Design methodology,Impedance,IMPORTANT,Intelligent robots,READ,Safety,STABILITY}
     \endentry
+    \entry{bevandaKoopmanOperatorDynamical2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a597354085a17598919ceb184ca6c880}{%
+           family={Bevanda},
+           familyi={B\bibinitperiod},
+           given={Petar},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b88547b2abef255c5db7d5ba43ee2c60}{%
+           family={Sosnowski},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b69c9ab8a1f6b782be6e0d2f39fe38cd}{%
+           family={Hirche},
+           familyi={H\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d43e51c9bb6ff081563db59c6602b6a9}
+      \strng{fullhash}{d43e51c9bb6ff081563db59c6602b6a9}
+      \strng{bibnamehash}{d43e51c9bb6ff081563db59c6602b6a9}
+      \strng{authorbibnamehash}{d43e51c9bb6ff081563db59c6602b6a9}
+      \strng{authornamehash}{d43e51c9bb6ff081563db59c6602b6a9}
+      \strng{authorfullhash}{d43e51c9bb6ff081563db59c6602b6a9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Koopman operator allows for handling nonlinear systems through a globally linear representation. In general, the operator is infinite-dimensional – necessitating finite approximations – for which there is no overarching framework. Although there are principled ways of learning such finite approximations, they are in many instances overlooked in favor of, often ill-posed and unstructured methods. Also, Koopman operator theory has long-standing connections to known system-theoretic and dynamical system notions that are not universally recognized. Given the former and latter realities, this work aims to bridge the gap between various concepts regarding both theory and tractable realizations. Firstly, we review data-driven representations (both unstructured and structured) for Koopman operator dynamical models, categorizing various existing methodologies and highlighting their differences. Furthermore, we provide concise insight into the paradigm’s relation to system-theoretic notions and analyze the prospect of using the paradigm for modeling control systems. Additionally, we outline the current challenges and comment on future perspectives.}
+      \field{day}{1}
+      \field{issn}{1367-5788}
+      \field{journaltitle}{Annual Reviews in Control}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Annual Reviews in Control}
+      \field{shorttitle}{Koopman Operator Dynamical Models}
+      \field{title}{Koopman Operator Dynamical Models: {{Learning}}, Analysis and Control}
+      \field{urlday}{19}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{volume}{52}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{197\bibrangedash 212}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.arcontrol.2021.09.002
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\bevanda_et_al_2021_koopman_operator_dynamical_models.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1367578821000729
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1367578821000729
+      \endverb
+      \keyw{Data-based control,Dynamical models,Koopman operator,READ,Representation learning,REVIEW,STABILITY,System analysis}
+    \endentry
+    \entry{bevandaDiffeomorphicallyLearningStable2022}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=a597354085a17598919ceb184ca6c880}{%
+           family={Bevanda},
+           familyi={B\bibinitperiod},
+           given={Petar},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9819d0ebc471201419ba2a9b14d2d82a}{%
+           family={Beier},
+           familyi={B\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1cd2f45564cb5892776088bc8c0ed8fe}{%
+           family={Kerz},
+           familyi={K\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=18244ce0475955857d235ad44b6d9558}{%
+           family={Lederer},
+           familyi={L\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b88547b2abef255c5db7d5ba43ee2c60}{%
+           family={Sosnowski},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b69c9ab8a1f6b782be6e0d2f39fe38cd}{%
+           family={Hirche},
+           familyi={H\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{c42d904584fbb2f61c35dde153a95b31}
+      \strng{fullhash}{d445b9462fc092f9babb0b07fb35c16c}
+      \strng{bibnamehash}{c42d904584fbb2f61c35dde153a95b31}
+      \strng{authorbibnamehash}{c42d904584fbb2f61c35dde153a95b31}
+      \strng{authornamehash}{c42d904584fbb2f61c35dde153a95b31}
+      \strng{authorfullhash}{d445b9462fc092f9babb0b07fb35c16c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{System representations inspired by the infinite-dimensional Koopman operator (generator) are increasingly considered for predictive modeling. Due to the operator's linearity, a range of nonlinear systems admit linear predictor representations - allowing for simplified prediction, analysis and control. However, finding meaningful finite-dimensional representations for prediction is difficult as it involves determining features that are both Koopman-invariant (evolve linearly under the dynamics) as well as relevant (spanning the original state) - a generally unsupervised problem. In this work, we present Koopmanizing Flows - a novel continuous-time framework for supervised learning of linear predictors for a class of nonlinear dynamics. In our model construction a latent diffeomorphically related linear system unfolds into a linear predictor through the composition with a monomial basis. The lifting, its linear dynamics and state reconstruction are learned simultaneously, while an unconstrained parameterization of Hurwitz matrices ensures asymptotic stability regardless of the operator approximation accuracy. The superior efficacy of Koopmanizing Flows is demonstrated in comparison to a state-of-the-art method on the well-known LASA handwriting benchmark.}
+      \field{day}{30}
+      \field{eprintclass}{cs, eess}
+      \field{eprinttype}{arxiv}
+      \field{month}{5}
+      \field{number}{arXiv:2112.04085}
+      \field{title}{Diffeomorphically {{Learning Stable Koopman Operators}}}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2112.04085
+      \endverb
+      \verb{eprint}
+      \verb 2112.04085
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\bevanda_et_al_2022_diffeomorphically_learning_stable_koopman_operators.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2112.04085
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2112.04085
+      \endverb
+      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,READ,TO READ}
+    \endentry
     \entry{blocherLearningStableDynamical2017}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=4973aecb9a196da0cde146f729e83272}{%
@@ -1809,6 +1945,74 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0736584511000172
       \endverb
       \keyw{Assistance,Human–robot interaction,Robot,Skill,Welding}
+    \endentry
+    \entry{fanLearningStableKoopman2021}{misc}{}
+      \name{author}{5}{}{%
+        {{hash=2ecfeaeba7df79376408747dc2752665}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Fletcher},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9c2e92855fe1ea7c0ac31bc0dab0a760}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Bowen},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8f688bcd55caa798a6351d60180c6e47}{%
+           family={Rye},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=da297a21154bc62d59f622e4e5bc97aa}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Guodong},
+           giveni={G\bibinitperiod}}}%
+        {{hash=05a95f205346bf516eafa0bbf32ae394}{%
+           family={Manchester},
+           familyi={M\bibinitperiod},
+           given={Ian\bibnamedelima R.},
+           giveni={I\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{13a5daa7010014a160db3c8d3711faa9}
+      \strng{fullhash}{36c925b5131eefebf350872888796e17}
+      \strng{bibnamehash}{13a5daa7010014a160db3c8d3711faa9}
+      \strng{authorbibnamehash}{13a5daa7010014a160db3c8d3711faa9}
+      \strng{authornamehash}{13a5daa7010014a160db3c8d3711faa9}
+      \strng{authorfullhash}{36c925b5131eefebf350872888796e17}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we present a new data-driven method for learning stable models of nonlinear systems. Our model lifts the original state space to a higher-dimensional linear manifold using Koopman embeddings. Interestingly, we prove that every discrete-time nonlinear contracting model can be learnt in our framework. Another significant merit of the proposed approach is that it allows for unconstrained optimization over the Koopman embedding and operator jointly while enforcing stability of the model, via a direct parameterization of stable linear systems, greatly simplifying the computations involved. We validate our method on a simulated system and analyze the advantages of our parameterization compared to alternatives.}
+      \field{day}{13}
+      \field{eprintclass}{cs, eess}
+      \field{eprinttype}{arxiv}
+      \field{month}{10}
+      \field{number}{arXiv:2110.06509}
+      \field{title}{Learning {{Stable Koopman Embeddings}}}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 2110.06509
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\fan_et_al_2021_learning_stable_koopman_embeddings.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2110.06509
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2110.06509
+      \endverb
+      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,READ}
     \endentry
     \entry{farajiparvarBriefSurveyTelerobotic2020}{article}{}
       \name{author}{3}{}{%

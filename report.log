@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.7)  25 JAN 2023 22:36
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.7)  3 FEB 2023 17:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1445,7 +1445,7 @@ LaTeX Warning: Citation 'calinonLearningbasedControlStrategy2010' on page 1 unde
 
 
 Overfull \hbox (119.97856pt too wide) in paragraph at lines 10--11
-[]\TU/Arial(0)/m/n/10 186[]] or learned from human demonstrations or through reinforcement learning (RL) [[],
+[]\TU/Arial(0)/m/n/10 189[]] or learned from human demonstrations or through reinforcement learning (RL) [[],
  []
 
 [1
@@ -1565,12 +1565,12 @@ Overfull \hbox (2.10158pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 ment Primitives from Multiple Demonstrations”. In: \TU/Arial(0)/m/it/10 Neural Networks \TU/Arial(0)/m/n/10 24.5 (June 1, 2011), pp. 493–
  []
 
-
+[38]
 Overfull \hbox (2.69499pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Junho Park and Youngjin Choi. “Input-to-State Stability of Variable Impedance Control for Robotic
  []
 
-[38] [39]
+[39]
 Overfull \hbox (5.17238pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 2021. arXiv: []$[] [] [] []  [] [] [] [] [] [] $ \TU/lmtt/m/n/10 [cs][]\TU/Arial(0)/m/n/10 . \TU/Arial(0)/m/sc/10 url\TU/Arial(0)/m/n/10 : []$[] [] [] []  [] [] [] [] [] [] [] []  [] [] [] []  [] [] [] []  [] [] [] [] []  [] [] [] [] [] [] $[] (visited on 08/23/2022). 
  []
@@ -1595,12 +1595,12 @@ Overfull \hbox (8.65758pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Xinchao Sun, Lianyu Zhao, and Zhenzhong Liu. “A Model Reference Adaptive Variable Impedance
  []
 
-
+[41]
 Overfull \hbox (10.3413pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 Sets”. In: \TU/Arial(0)/m/it/10 Proceedings of the AAAI Conference on Artificial Intelligence\TU/Arial(0)/m/n/10 . Vol. 35. 11. 2021, pp. 9782–
  []
 
-[41]
+
 Overfull \hbox (4.43019pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 2022. arXiv: []$[] [] [] []  [] [] [] [] [] [] $ \TU/lmtt/m/n/10 [cs][]\TU/Arial(0)/m/n/10 . \TU/Arial(0)/m/sc/10 url\TU/Arial(0)/m/n/10 : []$[] [] [] []  [] [] [] [] [] [] [] []  [] [] [] []  [] [] [] []  [] [] [] [] []  [] [] [] [] [] [] $[] (visited on 08/11/2022). 
  []
@@ -1617,12 +1617,12 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47541 strings out of 475869
- 1043406 string characters out of 5805667
- 2104290 words of memory out of 5000000
- 67850 multiletter control sequences out of 15000+600000
+ 47556 strings out of 475869
+ 1044173 string characters out of 5805667
+ 2114829 words of memory out of 5000000
+ 67865 multiletter control sequences out of 15000+600000
  477631 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,20n,118p,2934b,5519s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,20n,118p,2934b,5526s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (56 pages, 1871952 bytes).
+Output written on report.xdv (56 pages, 1895096 bytes).

@@ -36,7 +36,7 @@ This review investigated the stability considerations needed for providing safe 
 The type of passivity solution depends on the task that needs to be performed. A proven passive controller like \cite{yangHumanlikeAdaptationForce2011} Yang et al. is preferable since this controller will always stay passive. Designing such a controller however is not trivial. For tasks where a offline profile is computed \cite{ferragutiTankbasedApproachImpedance2013} Ferragutis thank or the Lyapunov constraints of \cite{kronanderStabilityConsiderationsVariable2016} Kronander are very helpful. Learned controllers on the other hand do provide more customizability and are therefore preferred.
 
 
-LFD methods can be divided into two main groups: transient non-linear models and constrained optimization methods.
+LFD methods can be divided into two main groups: transient nonlinear models and constrained optimization methods.
 
 
 Currently, collision prevention is mainly handled through external collision prevention algorithms. Future research would also focus on directly incorporating these collision prevention behaviours through a constraint in learning-based methods.
@@ -49,7 +49,7 @@ In tele-operation large damping factors from constraints might degrade transpare
 
 % TODO: Can we exploid the Fractal attractor to ensure passivity of general or a subclass variable impedance profiles.
 
-Altough the use of FA to create FIC is very promising concept for being able to use VIC. It however has not yet been applied for VIC in which also the desired inertia is varied and for which the (non-linear) variable impedance profile is not set in advance and only . Future research should therefore focus on applying this concept to variable impedance controllers where all impedance parameters can vary and where the desired inertia is set in advance. assumption based on non-linear profile.
+Altough the use of FA to create FIC is very promising concept for being able to use VIC. It however has not yet been applied for VIC in which also the desired inertia is varied and for which the (nonlinear) variable impedance profile is not set in advance and only . Future research should therefore focus on applying this concept to variable impedance controllers where all impedance parameters can vary and where the desired inertia is set in advance. assumption based on nonlinear profile.
 Damping can be introduced as long as the desired velocity is zero.
 
 The current FIC architectures allow for passively varying the stiffness. They use the actual robot inertia as the desired inertia. As stated, they can also be extended also to include the damping when the velocity is zero.
