@@ -342,7 +342,7 @@ then
 \end{equation}
 Using Theorem~\ref{th:unforced_auto_lyapunov_conditions} it can therefore be concluded that the origin of the nominal system is also a (globally) ES equilibrium point of the perturbed system. As a result, although the perturbation can disturb the system trajectories away from the equilibrium point, the system will return to this equilibrium point when it is gone. A similar relationship can be derived when the nominal system has an AS equilibrium point \cite{khalilNonlinearControl2015}.
 
-In the case that $g$ is a non-vanishing perturbation, the equilibrium point $x = 0$ of the nominal system \eqref{eq:unforced_nonlinear_system} may no longer be the equilibrium point of the perturbed system \eqref{eq:perturbed_nonlinear_system}. As a result, the reasoning above is no longer valid. For these systems, we can, at best, prove that $x\left(t\right)$ is bounded by a small bound (i.e., UB or UUB) if the perturbation is relatively small. More information about this extension of UB and UUB to non-vanishing perturbed systems can be found in Chapter 9 of \cite{khalilNonlinearSystems2002}.
+In the case that $g$ is a non-vanishing perturbation, the equilibrium point $x = 0$ of the nominal system \eqref{eq:unforced_nonlinear_system} may no longer be the equilibrium point of the perturbed system \eqref{eq:perturbed_nonlinear_system}. As a result, the reasoning above is no longer valid. For these systems, we can, at best, prove that $x\left(t\right)$ is bounded by a small bound (i.e., UUB) if the perturbation is relatively small. More information about this extension of UB and UUB to non-vanishing perturbed systems can be found in Chapter 9 of \cite{khalilNonlinearSystems2002}.
 
 \subsection{Stability of forced non-autonomous systems}
 
@@ -412,7 +412,7 @@ which emphasizes the storage function's positive semi-definiteness. When a bilin
   In all cases, the inequality should hold for all $\left(x, u\right)$. A system that does not adhere to these conditions is said to be \textbf{active}.
 \end{definition}
 
-From the definitions above, it is easy to see that the inequality reduces to the aforementioned Lyapunov inequality $\dot{ V }\left( x \left( t \right)\right)\le 0$ when $u = 0$. Because of this, Lyapunov functions, called \textbf{Control Lyapunov functions} (CLF) for controlled systems, can be used as candidate energy functions in dissipative and passive systems. To better understand the relationship between passivity and stability, let us apply the concept of passivity to the earlier used simple damped pendulum (see example \ref{ex:passivity}).
+From the definitions above, it is easy to see that the inequality reduces to the aforementioned Lyapunov inequality $\dot{ V }\left( x \left( t \right)\right)\le 0$ when $u = 0$. Because of this, Lyapunov functions, called \textbf{Control Lyapunov functions} for controlled systems, can be used as candidate energy functions in dissipative and passive systems. To better understand the relationship between passivity and stability, let us apply the concept of passivity to the earlier used simple damped pendulum (see example \ref{ex:passivity}).
 
 %% EXAMPLE - Passivity.
 % NOTE: Example was based on example 5.5 of \cite{khalilNonlinearControl2015}.
@@ -465,10 +465,8 @@ With these conditions, several relationships between passivity and stability can
           Furthermore, if the storage function is \textbf{radially unbounded}, the origin will be \textbf{GAS}.
   \end{itemize}
 \end{theorem}
-
-The discussion above showed that dissipativity and its subclass passivity could be seen as an extension of Lyapunov's stability theory. Where Lyapunov's direct method allows for reasoning about the stability of (unforced) systems, dissipativity also gives information about the input-output relation. In addition, a handy property of passive systems is that passivity is preserved when two passive systems are interconnected in parallel or feedback \cite{haddadNonlinearDynamicalSystems2011}. This makes passivity especially well-suited when working with compositional control designs like controlled robot manipulators. 
-% QUESTION: Does the example below add anything?
-For example, if a passive controller controls a passive manipulator, the resulting combined system is also passive, and the controlled system is guaranteed to never becomes unstable. As a result, Lyapunov's stability theory and the concept of passivity are valuable tools for designing stable controllers for these systems.
+% QUESTION: The example text can go away.
+The discussion above showed that dissipativity and its subclass passivity could be seen as an extension of Lyapunov's stability theory. Where Lyapunov's direct method allows for reasoning about the stability of (unforced) systems, dissipativity also gives information about the input-output relation. In addition, a handy property of passive systems is that passivity is preserved when two passive systems are interconnected in parallel or feedback \cite{haddadNonlinearDynamicalSystems2011}. This makes passivity especially well-suited when working with compositional control designs like controlled robot manipulators. For example, if a passive controller controls a passive manipulator, the resulting combined system is also passive, and the controlled system is guaranteed to never becomes unstable. As a result, Lyapunov's stability theory and the concept of passivity are valuable tools for designing stable controllers for these systems.
 
 \section{Manipulator kinematics/dynamics}
 
@@ -572,8 +570,6 @@ This new control law, called \textbf{cartesian stiffness control}, is similar to
 
 \subsubsection{Admittance control}
 
-% Question: Maybe state that admittance is not looked at. In admittance controllers velocity is controlled and not the stiffness directly. As a result stability of the closed loop system can be proven.
-
 % FIGURE - Position-based impedance control schedule.
 \begin{figure}
   \centering
@@ -602,7 +598,7 @@ and taking its derivative while substituting $\ddot{ x }$ from \eqref{eq:variabl
 \begin{equation} \label{eq:variable_impedance_derivative}
   \dot{V} = \dot{\widetilde{x}}^T F_a + \left[\frac{1}{2}\widetilde{x}^T \dot{K_d}\left(t \right)\widetilde{ x }-\dot{\widetilde{ x }}^T B_d \left( t \right)\dot{\widetilde{ x }}\right].
 \end{equation}
-From this derivative, since the sign of the term between the brackets is undefined, it is apparent that the passivity condition of definition \ref{def:passivity} only holds when the stiffness is constant or decreasing $\dot{V} \le \dot{\widetilde{x}} F_a$. As a result, energy might be injected into the system when the stiffness increases, possibly making it unstable. A similar conclusion can be drawn for the case where the inertia can also vary. This loss of passivity, and thus stability, significantly affects the impedance control since a stable environment interaction and accurate trajectory tracking can no longer be guaranteed.
+From this derivative, since the sign of the term between the brackets is undefined, it is apparent that the passivity condition of definition \ref{def:passivity} only holds when the stiffness is constant or decreasing $\dot{V} \le \dot{\widetilde{x}} F_a$. As a result, energy might be injected into the system when the stiffness increases, possibly making it unstable. A similar conclusion can be drawn for the case where the inertia is also allowed to vary.
 
 \subsection{Limitations}
 
