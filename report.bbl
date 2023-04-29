@@ -19,6 +19,48 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{abdulkhaderDataDrivenMethodsContactRich2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e9d9f775591f9afbc15e0ba0d9c2c819}{%
+           family={Abdul\bibnamedelima Khader},
+           familyi={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Shahbaz},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {KTH Royal Institute of Technology}%
+      }
+      \strng{namehash}{e9d9f775591f9afbc15e0ba0d9c2c819}
+      \strng{fullhash}{e9d9f775591f9afbc15e0ba0d9c2c819}
+      \strng{bibnamehash}{e9d9f775591f9afbc15e0ba0d9c2c819}
+      \strng{authorbibnamehash}{e9d9f775591f9afbc15e0ba0d9c2c819}
+      \strng{authornamehash}{e9d9f775591f9afbc15e0ba0d9c2c819}
+      \strng{authorfullhash}{e9d9f775591f9afbc15e0ba0d9c2c819}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{DiVA portal is a finding tool for research publications and student theses written at the following 50 universities and research institutions.}
+      \field{langid}{english}
+      \field{shorttitle}{Data-{{Driven Methods}} for {{Contact-Rich Manipulation}}}
+      \field{title}{Data-{{Driven Methods}} for {{Contact-Rich Manipulation}}: {{Control Stability}} and {{Data-Efficiency}}}
+      \field{urlday}{18}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\abdul_khader_2021_data-driven_methods_for_contact-rich_manipulation.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-299799
+      \endverb
+      \verb{url}
+      \verb http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-299799
+      \endverb
+      \keyw{REVIEW}
+    \endentry
     \entry{abu-dakkaVariableImpedanceControl2020}{article}{}
       \name{author}{2}{}{%
         {{hash=a3e7d4297e793f5fb34608c0dac7d9b8}{%
@@ -507,7 +549,7 @@
       \verb 10.1007/s10514-020-09933-w
       \endverb
       \verb{file}
-      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\balatti_et_al_2020_a_method_for_autonomous_robotic_manipulation_through_exploratory_interactions.pdf;C\:\\Users\\ricks\\Zotero\\storage\\ULLLDUQV\\s10514-020-09933-w.pdf
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\balatti_et_al_2020_a_method_for_autonomous_robotic_manipulation_through_exploratory_interactions.pdf
       \endverb
       \verb{urlraw}
       \verb https://doi.org/10.1007/s10514-020-09933-w
@@ -896,6 +938,88 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\calanca_et_al_2016_a_review_of_algorithms_for_compliant_control_of_stiff_and_fixed-compliance.pdf
       \endverb
       \keyw{Active compliance,Active Compliance,Actuators,Admittance,admittance control,Admittance Control,compliance,Compliance,flexible joints,Flexible Joints,Force,force control,Force control,Force Control,Impedance,impedance control,Impedance Control,interaction control,Interaction Control,Joints,REVIEW,Robots,series elastic actuators,Series Elastic Actuators}
+    \endentry
+    \entry{califanoUseEnergyTanks2023}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=586abf843736c57408d2ffbb9c550a48}{%
+           family={Califano},
+           familyi={C\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=14c3a8430ec00c3e1fd2e59f85398c1d}{%
+           family={Rashad},
+           familyi={R\bibinitperiod},
+           given={Ramy},
+           giveni={R\bibinitperiod}}}%
+        {{hash=78cd85141c6296b4a21285ee87a49352}{%
+           family={Secchi},
+           familyi={S\bibinitperiod},
+           given={Cristian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=af92661283f5b14c79ec09409cdfb860}{%
+           family={Stramigioli},
+           familyi={S\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=d0cf27b72b205b9cf7de744458ad56d4}{%
+           family={Borja},
+           familyi={B\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=454430d03165d804c0ec65bdb8ef07bd}{%
+           family={Della\bibnamedelima Santina},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Cosimo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3549df2ba99d4d92a0a8385fbae95268}{%
+           family={Peternel},
+           familyi={P\bibinitperiod},
+           given={Luka},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c7f026594a2f0c34a7356129d66a152e}{%
+           family={Torta},
+           familyi={T\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{8eca4724c81f15bd9992a4ca2c5cddcc}
+      \strng{fullhash}{054c85ddc33d44672b51c4b25d3e61cd}
+      \strng{bibnamehash}{8eca4724c81f15bd9992a4ca2c5cddcc}
+      \strng{authorbibnamehash}{8eca4724c81f15bd9992a4ca2c5cddcc}
+      \strng{authornamehash}{8eca4724c81f15bd9992a4ca2c5cddcc}
+      \strng{authorfullhash}{054c85ddc33d44672b51c4b25d3e61cd}
+      \strng{editorbibnamehash}{7b9525f9d9a08980949abe3d7c6a538f}
+      \strng{editornamehash}{7b9525f9d9a08980949abe3d7c6a538f}
+      \strng{editorfullhash}{53695eee561e9f16fb30bb3c36190db0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this document we describe and discuss energy tanks, a control algorithm which has gained popularity inside the robotics and control community over the last years. This article has the threefold scope of i) introducing to the reader the topic in a simple yet precise way, starting with a throughout description of the energy-aware framework, where energy tanks find their genesis; ii) summarising the range of applications of energy tanks, including an original reflection about different formulations of those; iii) discussing limits and future challenges involving energy tanks and energy-aware control in general.}
+      \field{booktitle}{Human-{{Friendly Robotics}} 2022}
+      \field{isbn}{978-3-031-22731-8}
+      \field{langid}{english}
+      \field{series}{Springer {{Proceedings}} in {{Advanced Robotics}}}
+      \field{title}{On the {{Use}} of {{Energy Tanks}} for {{Robotic Systems}}}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{174\bibrangedash 188}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/978-3-031-22731-8_13
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\califano_et_al_2023_on_the_use_of_energy_tanks_for_robotic_systems.pdf
+      \endverb
+      \keyw{REVIEW}
     \endentry
     \entry{calinonLearningbasedControlStrategy2010}{inproceedings}{}
       \name{author}{3}{}{%
@@ -1435,6 +1559,88 @@
       \verb https://ieeexplore.ieee.org/document/7801022
       \endverb
       \keyw{bilateral teleoperation,Compliance and impedance control,force control,motion control of manipulators,READ,redundant robots,robot manipulators,STABILITY,topology}
+    \endentry
+    \entry{dimeasProgressiveAutomationPeriodic2020}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=70590fc38a25c1adf9d2f82f8cb1f43b}{%
+           family={Dimeas},
+           familyi={D\bibinitperiod},
+           given={Fotios},
+           giveni={F\bibinitperiod}}}%
+        {{hash=378766f3c6c2c0e1bbb5d3df5dde467a}{%
+           family={Kastritsi},
+           familyi={K\bibinitperiod},
+           given={Theodora},
+           giveni={T\bibinitperiod}}}%
+        {{hash=dd537c70847ae469d6b4c31f7c657dcd}{%
+           family={Papageorgiou},
+           familyi={P\bibinitperiod},
+           given={Dimitris},
+           giveni={D\bibinitperiod}}}%
+        {{hash=65f25c622ada8b55bdd3e24ea24dc4ee}{%
+           family={Doulgeri},
+           familyi={D\bibinitperiod},
+           given={Zoe},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=d5be53405207e0de8565efe9d4e89d03}{%
+           family={Ferraguti},
+           familyi={F\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c8c4a17d6bb90da91c8769820784103d}{%
+           family={Villani},
+           familyi={V\bibinitperiod},
+           given={Valeria},
+           giveni={V\bibinitperiod}}}%
+        {{hash=e68cfa7ee353c64e3c646367f51b3a4b}{%
+           family={Sabattini},
+           familyi={S\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6f7ea1a4d94bb73b3153529407b595a3}{%
+           family={Bonfè},
+           familyi={B\bibinitperiod},
+           given={Marcello},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{14e156e9bd06e89a5502e6b04b5e49ef}
+      \strng{fullhash}{8542c57e90a2d27cab6edc494df34b7b}
+      \strng{bibnamehash}{14e156e9bd06e89a5502e6b04b5e49ef}
+      \strng{authorbibnamehash}{14e156e9bd06e89a5502e6b04b5e49ef}
+      \strng{authornamehash}{14e156e9bd06e89a5502e6b04b5e49ef}
+      \strng{authorfullhash}{8542c57e90a2d27cab6edc494df34b7b}
+      \strng{editorbibnamehash}{1a6e4274521db84bf5a11f5bea9cca07}
+      \strng{editornamehash}{1a6e4274521db84bf5a11f5bea9cca07}
+      \strng{editorfullhash}{8af60451d4df7317e373dba8bac03033}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents the extension of the progressive automation framework for periodic movements, where an operator kinesthetically demonstrates a movement and the robotic manipulator progressively takes the lead until it is able to execute the task autonomously. The basic frequency of the periodic movement in the operational space is determined using adaptive frequency oscillators with Fourier approximation. The multi-dimensionality issue of the demonstrated movement is handled by using a common canonical system and the attractor landscape is learned online with periodic Dynamic Movement Primitives. Based on the robot’s tracking error and the operator’s applied force, we continuously adjust the adaptation rate of the frequency and the waveform learning during the demonstration, as well as the target stiffness of the robot, while progressive automation is achieved. In this way, we enable the operator to intervene and demonstrate either small modifications or entirely new tasks and seamless transition between guided and autonomous operation of the robot, without distinguishing among a learning and a reproduction phase. The proposed method is verified experimentally with an operator demonstrating periodic tasks in the free-space and in contact with the environment for wiping a surface.}
+      \field{booktitle}{Human-{{Friendly Robotics}} 2019}
+      \field{isbn}{978-3-030-42026-0}
+      \field{langid}{english}
+      \field{series}{Springer {{Proceedings}} in {{Advanced Robotics}}}
+      \field{title}{Progressive {{Automation}} of {{Periodic Movements}}}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{58\bibrangedash 72}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/978-3-030-42026-0_5
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\dimeas_et_al_2020_progressive_automation_of_periodic_movements.pdf
+      \endverb
+      \keyw{READ}
     \endentry
     \entry{dongAdaptiveStiffnessDamping2019}{article}{}
       \name{author}{3}{}{%
@@ -2450,7 +2656,7 @@
       \verb{url}
       \verb https://doi.org/10.1177/02783649211030952
       \endverb
-      \keyw{IMPORTANT}
+      \keyw{IMPORTANT,READ}
     \endentry
     \entry{figueroafernandezPhysicallyconsistentBayesianNonparametric2018}{report}{}
       \name{author}{2}{}{%
@@ -3995,6 +4201,65 @@
       \endverb
       \keyw{Convex optimization,Dynamic system,Learning from demonstration,Lyapunov function,Neural network,READ}
     \endentry
+    \entry{jinModelPredictiveVariable2023}{article}{}
+      \name{author}{5}{}{%
+        {{hash=780844ded041eb7c32471b33ee64d105}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Zhehao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=1b741fc2b749de0877ed99c6b876ff35}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Dongdong},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f26a894fb4f97668af563a188f3e9c57}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Andong},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b00c254da2e8db583b8ed97023a6e456}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Wen-an},
+           giveni={W\bibinithyphendelim a\bibinitperiod}}}%
+        {{hash=df12d9671ed9c182a249ef2f6af6a5ca}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{136690e36105738dd144028747109a8f}
+      \strng{fullhash}{e6ac2a56c7c654b7df2ba3637f1c9715}
+      \strng{bibnamehash}{136690e36105738dd144028747109a8f}
+      \strng{authorbibnamehash}{136690e36105738dd144028747109a8f}
+      \strng{authornamehash}{136690e36105738dd144028747109a8f}
+      \strng{authorfullhash}{e6ac2a56c7c654b7df2ba3637f1c9715}
+      \field{extraname}{4}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Impedance control (IC) is widely used in contact-rich manipulator tasks since it provides manipulators with both operation precision and contact compliance, and trades them off by impedance parameters. However, fixed impedance parameters limit the applicability of IC in complex tasks during which the focus on the operation precision or the contact compliance is variable, such as physical human–robot collaboration and complex assembly tasks. This article presents model predictive variable impedance control approaches for adaptive precision-compliance tradeoff to satisfy variable task requirements. Specifically, we establish a novel impedance model, which transforms the variable impedance law design problem into a control law design problem, and allows us to consider novel impedance constraints that can determine manipulators' extreme precision and compliance properties. According to whether state constraints are further considered, one-step (OS) and multistep (MS) model predictive control approaches are proposed to solve these transformed control problems, and the corresponding optimization problem of the OS MPC can be established as a QP problem due to the special form of the novel impedance model. A tank-based approach is further proposed to correct the variable impedance laws for the system passivity concern. Various comparative experiments are conducted to validate the effectiveness of the presented approaches.}
+      \field{eventtitle}{{{IEEE}}/{{ASME Transactions}} on {{Mechatronics}}}
+      \field{issn}{1941-014X}
+      \field{journaltitle}{IEEE/ASME Transactions on Mechatronics}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Model {{Predictive Variable Impedance Control}} of {{Manipulators}} for {{Adaptive Precision-Compliance Tradeoff}}}
+      \field{volume}{28}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{1174\bibrangedash 1186}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TMECH.2022.3204350
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\jin_et_al_2023_model_predictive_variable_impedance_control_of_manipulators_for_adaptive.pdf
+      \endverb
+      \keyw{Aerospace electronics,Cost function,Impedance,Model predictive control,optimization,precision-compliance tradeoff,Prediction algorithms,Predictive models,READ,Robots,Task analysis,variable impedance control (VIC)}
+    \endentry
     \entry{jungForceTrackingImpedance2004}{article}{}
       \name{author}{3}{}{%
         {{hash=44e569d1c7479ccf08efe74c2986ca89}{%
@@ -4092,7 +4357,73 @@
       \verb{file}
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\karacan_et_al_2022_passivity-based_skill_motion_learning_in_stiffness-adaptive_unified.pdf
       \endverb
-      \keyw{Dynamics,Energy exchange,Force,Production,Robot motion,Surface impedance,Task analysis}
+      \keyw{Dynamics,Energy exchange,Force,Production,READ,Robot motion,Surface impedance,Task analysis}
+    \endentry
+    \entry{kastritsiProgressiveAutomationDMP2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=378766f3c6c2c0e1bbb5d3df5dde467a}{%
+           family={Kastritsi},
+           familyi={K\bibinitperiod},
+           given={Theodora},
+           giveni={T\bibinitperiod}}}%
+        {{hash=70590fc38a25c1adf9d2f82f8cb1f43b}{%
+           family={Dimeas},
+           familyi={D\bibinitperiod},
+           given={Fotios},
+           giveni={F\bibinitperiod}}}%
+        {{hash=65f25c622ada8b55bdd3e24ea24dc4ee}{%
+           family={Doulgeri},
+           familyi={D\bibinitperiod},
+           given={Zoe},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Piscataway}%
+      }
+      \list{publisher}{1}{%
+        {Ieee-Inst Electrical Electronics Engineers Inc}%
+      }
+      \strng{namehash}{46b7a1ca7529a5645a0062115a0e965b}
+      \strng{fullhash}{46b7a1ca7529a5645a0062115a0e965b}
+      \strng{bibnamehash}{46b7a1ca7529a5645a0062115a0e965b}
+      \strng{authorbibnamehash}{46b7a1ca7529a5645a0062115a0e965b}
+      \strng{authornamehash}{46b7a1ca7529a5645a0062115a0e965b}
+      \strng{authorfullhash}{46b7a1ca7529a5645a0062115a0e965b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Progressive automation is a method that allows the operator to demonstrate a task a few times until the robot gradually learns to execute it autonomously. In this letter, we combine a novel structure of dynamic movement primitives (DMP) with variable stiffness control, to allow synchronization with the demonstrated motion during the operator's intervention. This structure enables the DMP to speed up or slow down depending on the human demonstration. In addition, we present a variable stiffness controller to change the role of the robot between the follower and the leader based on the trucking error of the robot from the proposed DMP and on the guidance forces. The proposed variable stiffness controller is proved to be passive using energy tanks. The effectiveness of the proposed method is demonstrated experimentally.}
+      \field{annotation}{WOS:000441444700015}
+      \field{issn}{2377-3766}
+      \field{journaltitle}{Ieee Robotics and Automation Letters}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{shortjournal}{IEEE Robot. Autom. Lett.}
+      \field{title}{Progressive {{Automation}} with {{DMP Synchronization}} and {{Variable Stiffness Control}}}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{volume}{3}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3789\bibrangedash 3796}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/LRA.2018.2856536
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kastritsi_et_al_2018_progressive_automation_with_dmp_synchronization_and_variable_stiffness_control.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8411480
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8411480
+      \endverb
+      \keyw{adaptation,Automation,compliance and impedance control,DMP,dynamic movement primitives,energy tanks,Learning from demonstration,physical human-robot interaction,Robot kinematics,STABILITY,Synchronization,Task analysis,Tracking,Trajectory}
     \endentry
     \entry{kastritsiPHRIFrameworkModifying2018}{inproceedings}{}
       \name{author}{3}{}{%
@@ -4446,7 +4777,7 @@
       \verb{file}
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khalil_2002_nonlinear_systems.pdf
       \endverb
-      \keyw{IMPORTANT,Mathematics / Linear & Nonlinear Programming}
+      \keyw{IMPORTANT,Mathematics / Linear \& Nonlinear Programming}
     \endentry
     \entry{khansariAdaptiveHumaninspiredCompliant2016}{article}{}
       \name{author}{3}{}{%
@@ -4568,7 +4899,7 @@
       \verb{url}
       \verb http://www.roboticsproceedings.org/rss10/p22.pdf
       \endverb
-      \keyw{IMPORTANT,STABILITY}
+      \keyw{IMPORTANT,READ,STABILITY}
     \endentry
     \entry{khansari-zadehLearningStableNonlinear2011}{article}{}
       \name{author}{2}{}{%
@@ -4672,7 +5003,7 @@
       \verb{url}
       \verb https://link.springer.com/article/10.1007/s10514-015-9528-y
       \endverb
-      \keyw{Compliant control,Imitation learning,impedance control,IMPORTANT,manipulators,Motion control,Motion primitives,Physical interaction control,Potential field,Robot learning,robot control,STABILITY,task,time obstacle avoidance,Variable impedance control}
+      \keyw{Compliant control,Imitation learning,impedance control,IMPORTANT,manipulators,Motion control,Motion primitives,Physical interaction control,Potential field,READ,Robot learning,robot control,STABILITY,task,time obstacle avoidance,Variable impedance control}
     \endentry
     \entry{kimLearningRobotStiffness2008}{inproceedings}{}
       \name{author}{4}{}{%
@@ -8020,6 +8351,46 @@
       \verb http://arxiv.org/abs/2208.13267
       \endverb
       \keyw{Computer Science - Robotics,IMPORTANT,READ}
+    \endentry
+    \entry{saverianoLearningBarrierFunctions2019}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=77c1b599283b17c87370f0a2debb9ae3}{%
+           family={Saveriano},
+           familyi={S\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d1e4c7f0d417c795107b9fe13e30a424}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Dongheui},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d2ad998f80c63c6595ea7f7f020cd304}
+      \strng{fullhash}{d2ad998f80c63c6595ea7f7f020cd304}
+      \strng{bibnamehash}{d2ad998f80c63c6595ea7f7f020cd304}
+      \strng{authorbibnamehash}{d2ad998f80c63c6595ea7f7f020cd304}
+      \strng{authornamehash}{d2ad998f80c63c6595ea7f7f020cd304}
+      \strng{authorfullhash}{d2ad998f80c63c6595ea7f7f020cd304}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Stable dynamical systems are a flexible tool to plan robotic motions in real-time. In the robotic literature, dynamical system motions are typically planned without considering possible limitations in the robot's workspace. This work presents a novel approach to learn workspace constraints from human demonstrations and to generate motion trajectories for the robot that lie in the constrained workspace. Training data are incrementally clustered into different linear subspaces and used to fit a low dimensional representation of each subspace. By considering the learned constraint subspaces as zeroing barrier functions, we are able to design a control input that keeps the system trajectory within the learned bounds. This control input is effectively combined with the original system dynamics preserving eventual asymptotic properties of the unconstrained system. Simulations and experiments on a real robot show the effectiveness of the proposed approach.}
+      \field{booktitle}{2019 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})}
+      \field{eventtitle}{2019 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})}
+      \field{issn}{2153-0866}
+      \field{month}{11}
+      \field{title}{Learning {{Barrier Functions}} for {{Constrained Motion Planning}} with {{Dynamical Systems}}}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{112\bibrangedash 119}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/IROS40897.2019.8967981
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\saveriano_lee_2019_learning_barrier_functions_for_constrained_motion_planning_with_dynamical.pdf
+      \endverb
     \endentry
     \entry{saverianoDynamicMovementPrimitives2021}{online}{}
       \name{author}{4}{}{%

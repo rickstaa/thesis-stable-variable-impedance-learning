@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.7)  19 APR 2023 17:43
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.7)  28 APR 2023 21:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1482,7 +1482,7 @@ Chapter 5.
 Chapter 6.
 [28
 
-]) [29]
+] [29]) [30]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -1497,9 +1497,9 @@ Overfull \hbox (5.17238pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 2021. arXiv: []$[] [] [] []  [] [] [] [] [] [] $ \TU/lmtt/m/n/10 [cs][]\TU/Arial(0)/m/n/10 . \TU/Arial(0)/m/sc/10 url\TU/Arial(0)/m/n/10 : []$[] [] [] []  [] [] [] [] [] [] [] []  [] [] [] []  [] [] [] []  [] [] [] [] []  [] [] [] [] [] [] $[] (visited on 04/28/2022). 
  []
 
-[30
+[31
 
-] [31]
+] [32]
 Overfull \hbox (5.80927pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Federica Ferraguti, Cristian Secchi, and Cesare Fantuzzi. “A Tank-Based Approach to Impedance
  []
@@ -1509,7 +1509,7 @@ Overfull \hbox (3.85101pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/it/10 tomation\TU/Arial(0)/m/n/10 . 2013 IEEE International Conference on Robotics and Automation. May 2013, pp. 4948–
  []
 
-
+[33]
 Overfull \hbox (1.90723pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Federica Ferraguti et al. “An Energy Tank-Based Interactive Control Architecture for Autonomous
  []
@@ -1519,7 +1519,7 @@ Overfull \hbox (8.27742pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 and Teleoperated Robotic Surgery”. In: \TU/Arial(0)/m/it/10 IEEE Transactions on Robotics \TU/Arial(0)/m/n/10 31.5 (Oct. 2015), pp. 1073–
  []
 
-[32]
+
 Overfull \hbox (5.17238pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 2021. arXiv: []$[] [] [] []  [] [] [] [] [] [] $ \TU/lmtt/m/n/10 [cs][]\TU/Arial(0)/m/n/10 . \TU/Arial(0)/m/sc/10 url\TU/Arial(0)/m/n/10 : []$[] [] [] []  [] [] [] [] [] [] [] []  [] [] [] []  [] [] [] []  [] [] [] [] []  [] [] [] [] [] [] $[] (visited on 01/18/2023).
  []
@@ -1534,27 +1534,37 @@ Overfull \hbox (19.11426pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Mohammad Hossein Hamedani et al. “Recurrent Fuzzy Wavelet Neural Network Variable Impedance
  []
 
-[33] [34] [35] [36]
+[34] [35]
+Overfull \hbox (0.5302pt too wide) in paragraph at lines 65--65
+\TU/Arial(0)/m/n/10 Precision-Compliance Tradeoff”. In: \TU/Arial(0)/m/it/10 IEEE/ASME Transactions on Mechatronics \TU/Arial(0)/m/n/10 28.2 (Apr. 2023),
+ []
+
+[36] [37]
 Overfull \hbox (0.74902pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Chengguo Liu et al. “Adaptive Enhanced Admittance Force-Tracking Controller Design for Highly
  []
 
-
+[38]
 Overfull \hbox (2.10158pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 ment Primitives from Multiple Demonstrations”. In: \TU/Arial(0)/m/it/10 Neural Networks \TU/Arial(0)/m/n/10 24.5 (June 1, 2011), pp. 493–
  []
 
-[37]
+
 Overfull \hbox (11.9216pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 sure Stability of Dynamical System-Based Robot Reaching Motions”. In: \TU/Arial(0)/m/it/10 Robotics and Autonomous
  []
 
-
+[39]
 Overfull \hbox (2.69499pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Junho Park and Youngjin Choi. “Input-to-State Stability of Variable Impedance Control for Robotic
  []
 
-[38] [39]
+[40]
+Overfull \hbox (2.488pt too wide) in paragraph at lines 65--65
+\TU/Arial(0)/m/n/10 ning with Dynamical Systems”. In: \TU/Arial(0)/m/it/10 2019 IEEE/RSJ International Conference on Intelligent Robots
+ []
+
+
 Overfull \hbox (5.17238pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 2021. arXiv: []$[] [] [] []  [] [] [] [] [] [] $ \TU/lmtt/m/n/10 [cs][]\TU/Arial(0)/m/n/10 . \TU/Arial(0)/m/sc/10 url\TU/Arial(0)/m/n/10 : []$[] [] [] []  [] [] [] [] [] [] [] []  [] [] [] []  [] [] [] []  [] [] [] [] []  [] [] [] [] [] [] $[] (visited on 08/23/2022).
  []
@@ -1574,12 +1584,12 @@ Overfull \hbox (0.61626pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 Dynamic Movement Primitives”. In: \TU/Arial(0)/m/it/10 2017 IEEE-RAS 17th International Conference on Humanoid
  []
 
-[40]
+[41]
 Overfull \hbox (8.65758pt too wide) in paragraph at lines 65--65
 []\TU/Arial(0)/m/n/10 Xinchao Sun, Lianyu Zhao, and Zhenzhong Liu. “A Model Reference Adaptive Variable Impedance
  []
 
-
+[42]
 Overfull \hbox (10.3413pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 Sets”. In: \TU/Arial(0)/m/it/10 Proceedings of the AAAI Conference on Artificial Intelligence\TU/Arial(0)/m/n/10 . Vol. 35. 11. 2021, pp. 9782–
  []
@@ -1589,9 +1599,9 @@ Overfull \hbox (4.43019pt too wide) in paragraph at lines 65--65
 \TU/Arial(0)/m/n/10 2022. arXiv: []$[] [] [] []  [] [] [] [] [] [] $ \TU/lmtt/m/n/10 [cs][]\TU/Arial(0)/m/n/10 . \TU/Arial(0)/m/sc/10 url\TU/Arial(0)/m/n/10 : []$[] [] [] []  [] [] [] [] [] [] [] []  [] [] [] []  [] [] [] []  [] [] [] [] []  [] [] [] [] [] [] $[] (visited on 08/11/2022).
  []
 
-[41] [42] [43] (./appendix/appendix-a.tex [44]
+[43] [44] [45] (./appendix/appendix-a.tex [46]
 Appendix A.
-) [45
+) [47
 
 ] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
@@ -1601,12 +1611,12 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47672 strings out of 475869
- 1050123 string characters out of 5805667
- 2164027 words of memory out of 5000000
- 67981 multiletter control sequences out of 15000+600000
+ 47696 strings out of 475869
+ 1051543 string characters out of 5805667
+ 2182498 words of memory out of 5000000
+ 68005 multiletter control sequences out of 15000+600000
  477631 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,20n,118p,3877b,5559s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,20n,118p,3883b,5521s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (56 pages, 1918108 bytes).
+Output written on report.xdv (58 pages, 1969872 bytes).

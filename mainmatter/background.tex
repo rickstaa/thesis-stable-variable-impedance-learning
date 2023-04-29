@@ -466,9 +466,8 @@ With these conditions, several relationships between passivity and stability can
   \end{itemize}
 \end{theorem}
 
-The discussion above showed that dissipativity and its subclass passivity could be seen as an extension of Lyapunov's stability theory. Where Lyapunov's direct method allows for reasoning about the stability of (unforced) systems, dissipativity also gives information about the input-output relation. In addition, a handy property of passive systems is that passivity is preserved when two passive systems are interconnected in parallel or feedback \cite{haddadNonlinearDynamicalSystems2011}. This makes passivity especially well-suited when working with compositional control designs like controlled robot manipulators. 
 % QUESTION: Does the example below add anything?
-For example, if a passive controller controls a passive manipulator, the resulting combined system is also passive, and the controlled system is guaranteed to never becomes unstable. As a result, Lyapunov's stability theory and the concept of passivity are valuable tools for designing stable controllers for these systems.
+The discussion above showed that dissipativity and its subclass passivity could be seen as an extension of Lyapunov's stability theory. Where Lyapunov's direct method allows for reasoning about the stability of (unforced) systems, dissipativity also gives information about the input-output relation. In addition, a handy property of passive systems is that passivity is preserved when two passive systems are interconnected in parallel or feedback \cite{haddadNonlinearDynamicalSystems2011}. This makes passivity especially well-suited when working with compositional control designs like controlled robot manipulators. For example, if a passive controller controls a passive manipulator, the resulting combined system is also passive, and the controlled system is guaranteed to never becomes unstable. As a result, Lyapunov's stability theory and the concept of passivity are valuable tools for designing stable controllers for these systems.
 
 \section{Manipulator kinematics/dynamics}
 
@@ -571,8 +570,6 @@ where $C \left( q ,\dot{ q }\right)$ was introduced to preserve the mechanical p
 This new control law, called \textbf{cartesian stiffness control}, is similar to a pure motion control law but designed to keep limited contact forces at the end-effector level. It no longer has a dependency on the contact forces $F_a$ and can therefore be used without a measurement of this force. However, it has two drawbacks: first, we lose the ability to change the system's behaviour using the desired inertia $M_d$, and second, because of the presence of the extra $C \left( q ,\dot{ q }\right)$, it can only be used at low velocities.
 
 \subsubsection{Admittance control}
-
-% Question: Maybe state that admittance is not looked at. In admittance controllers velocity is controlled and not the stiffness directly. As a result stability of the closed loop system can be proven.
 
 % FIGURE - Position-based impedance control schedule.
 \begin{figure}

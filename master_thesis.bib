@@ -154,7 +154,8 @@
   abstract = {Robotic systems are more and more present in our daily life. Robots became indeed more economical, easy to program, safe and collaborative in their interaction with humans, versatile in performing different tasks and adaptive towards changes in the environment. Despite the recent advances in robotics, developing fully autonomous robots to achieve complex industrial or daily-life tasks is still very challenging. The human, due to his superior perception, understanding and reasoning skills, especially in uncertain environment, needs to be in the loop. Therefore, the ability of robots to collaborate with humans is of great interest in the robotics community. Human-Robot Collaboration usually implies robots that share the control of the tasks with humans, providing adjustable autonomy level and mutual adaptation. A field that can particularly benefits from such collaboration is assistive robotics surgery. The introduction of shared autonomy in surgical tasks has several advantages. In particular, it can provide higher accuracy, flexibility, control and efficiency during the operation, over longer time periods, relieve the surgeon during repetitive tasks and reduce his mental workload. However, it is not very clear how to best use shared control to assist a surgeon during the operation. As part of a research project (the "Surgical project"), in this thesis we would like to propose solutions to that problem by building a teleoperated shared control architecture for a laparoscopic surgery scenario. While laparoscopic surgery usually involves one surgeon and two human assistants to perform the surgery, the project aims to replace the assistants by two partially teleoperated robotic systems. The target shared control architecture would explore various strategies to ensure safety for both the patient and the surgeon, provide accuracy and stability in motion and force control of the tools attached to the robots, reduce the mental workload of the surgeon and adapt the level of assistance based on well-identified criteria. The first year was mainly devoted to the control of motion and force for contact tasks which is of great importance in the context of the project. Robot force control is traditionally achieved either explicitly through hybrid position/force control or implicitly using impedance control. We propose an approach leveraging the properties of dynamical systems (DS) for immediate re-planning and robustness to real-time perturbations by exploiting local modulation of the DS. Dynamical systems has been widely used as a tool to represent and generate motion in robotics application. Here the idea is to propose a DS formulation to generate contact force in addition to motion. First implementation and experiments to evaluate the effectiveness of the strategy were conducted in practice with a 7-DOF robotic arm (KUKA LWR IV+). So far we focused on contact tasks that were performed autonomously by one or two robots. Future work will improve and use the proposed DS approach to consider contact tasks in shared control scenarios where one human and one or two robots need to collaborate to successfully achieve the tasks. Because of the nature of the surgical project we will use teleoperation systems to introduce the human in the loop. The developed teleoperated shared control architecture will be evaluated on laparoscopic surgery related tasks},
   langid = {english},
   pagetotal = {167},
-  keywords = {Dynamical Systems,Force control,Human-Robot Collaboration,Physical Human-Robot Interaction,REVIEW,Robotic Surgery,Shared Control,Supernumerary Robotic}
+  keywords = {Dynamical Systems,Force control,Human-Robot Collaboration,Physical Human-Robot Interaction,REVIEW,Robotic Surgery,Shared Control,Supernumerary Robotic},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\amanhoud_2021_control_of_contact_tasks_in_autonomous_and_human-robot_collaborative_scenarios.pdf}
 }
 
 @inproceedings{amanhoudDynamicalSystemApproach2019,
@@ -283,6 +284,15 @@
   urldate = {2022-09-14}
 }
 
+@unpublished{babarahmatiFractalImpedancePassive2019,
+  title = {Fractal Impedance for Passive Controllers},
+  author = {Babarahmati, Keyhan Kouhkiloui and Tiseo, Carlo and Smith, Joshua and Lin, Hsiu Chin and Erden, Mustafa Suphi and Mistry, Michael},
+  date = {2019},
+  eprint = {1911.04788},
+  eprinttype = {arxiv},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\babarahmati_et_al_2019_fractal_impedance_for_passive_controllers.pdf}
+}
+
 @unpublished{babarahmatiFractalImpedancePassive2021,
   title = {Fractal {{Impedance}} for {{Passive Controllers}}},
   author = {Babarahmati, Keyhan Kouhkiloui and Tiseo, Carlo and Smith, Joshua and Lin, Hsiu Chin and Erden, Mustafa Suphi and Mistry, Michael},
@@ -295,6 +305,28 @@
   abstract = {There is increasing interest in control frameworks capable of moving robots from industrial cages to unstructured environments and coexisting with humans. Despite significant improvement in some specific applications (e.g., medical robotics), there is still the need for a general control framework that improves interaction robustness and motion dynamics. Passive controllers show promising results in this direction; however, they often rely on virtual energy tanks that can guarantee passivity as long as they do not run out of energy. In this paper, a fractal attractor is proposed to implement a variable impedance controller that can retain passivity without relying on energy tanks. The controller generates a fractal attractor around the desired state using an asymptotic stable potential field, making the controller robust to discretization and numerical integration errors. The results prove that it can accurately track both trajectories and end-effector forces during interaction. Therefore, these properties make the controller ideal for applications requiring robust dynamic interaction at the end-effector.},
   keywords = {Computer Science - Robotics,convergence analysis,IMPORTANT,READ,STABILITY},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\babarahmati_et_al_2021_fractal_impedance_for_passive_controllers.pdf}
+}
+
+@article{babarahmatiFractalImpedancePassive2022,
+  title = {Fractal {{Impedance}} for {{Passive Controllers}}: {{A Framework}} for {{Interaction Robotics}}},
+  shorttitle = {Fractal {{Impedance}} for {{Passive Controllers}}},
+  author = {Babarahmati, Keyhan Kouhkiloui and Tiseo, Carlo and Smith, Joshua and Lin, Hsiu Chin and Erden, Mustafa Suphi and Mistry, Michael},
+  date = {2022-11},
+  journaltitle = {Nonlinear Dynamics},
+  shortjournal = {Nonlinear Dyn},
+  volume = {110},
+  number = {3},
+  eprint = {1911.04788},
+  eprinttype = {arxiv},
+  eprintclass = {cs},
+  pages = {2517--2533},
+  issn = {0924-090X, 1573-269X},
+  doi = {10.1007/s11071-022-07754-3},
+  url = {http://arxiv.org/abs/1911.04788},
+  urldate = {2023-04-25},
+  abstract = {There is increasing interest in control frameworks capable of moving robots from industrial cages to unstructured environments and coexisting with humans. Despite significant improvement in some specific applications (e.g., medical robotics), there is still the need for a general control framework that improves interaction robustness and motion dynamics. Passive controllers show promising results in this direction; however, they often rely on virtual energy tanks that can guarantee passivity as long as they do not run out of energy. In this paper, a Fractal Attractor is proposed to implement a variable impedance controller that can retain passivity without relying on energy tanks. The controller generates a Fractal Attractor around the desired state using an asymptotic stable potential field, making the controller robust to discretization and numerical integration errors. The results prove that it can accurately track both trajectories and end-effector forces during interaction. Therefore, these properties make the controller ideal for applications requiring robust dynamic interaction at the end-effector.},
+  keywords = {Computer Science - Robotics},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\babarahmati_et_al_2022_fractal_impedance_for_passive_controllers.pdf;C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\babarahmati_et_al_2022_fractal_impedance_for_passive_controllers2.pdf}
 }
 
 @inproceedings{babarahmatiRobustHighTransparencyHaptic2021,
@@ -336,7 +368,7 @@
   abstract = {Expanding robot autonomy can deliver functional flexibility and enable fast deployment of robots in challenging and unstructured environments. In this direction, significant advances have been recently made in visual-perception driven autonomy, which is mainly due to the availability of rich sensory data-sets. However, current robots’ physical interaction autonomy levels still remain at a basic level. Towards providing a systematic approach to this problem, this paper presents a new context-aware and adaptive method that allows a robotic platform to interact with unknown environments. In particular, a multi-axes self-tuning impedance controller is introduced to regulate quasi-static parameters of the robot based on previous experience in interacting with similar environments and the real-time sensory data. The proposed method is also capable of differentiating internal and external disruptions, and responding to them accordingly and appropriately. An agricultural experiment with different deformable material is presented to validate robot interaction autonomy improvements, and the capability of the proposed methodology in detecting and responding to unexpected events (e.g., faults).},
   langid = {english},
   keywords = {Adaptive control,Impedance control,Interaction autonomy,READ,Robotic manipulation},
-  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\balatti_et_al_2020_a_method_for_autonomous_robotic_manipulation_through_exploratory_interactions.pdf;C\:\\Users\\ricks\\Zotero\\storage\\ULLLDUQV\\s10514-020-09933-w.pdf}
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\balatti_et_al_2020_a_method_for_autonomous_robotic_manipulation_through_exploratory_interactions.pdf}
 }
 
 @book{baoProcessControlPassive2007,
@@ -636,8 +668,8 @@
   doi = {10.1109/LRA.2022.3187254},
   abstract = {As situations with robots working in human environments are becoming increasingly important, the aspect of safety is crucial. As a consequence, the design of human friendly robots has been intensively researched in the past years, producing both mechanical and control design advancements. In this work, a safety-aware control architecture is proposed in a scenario in which a predefined task has to be executed. At the core of its implementation, a novel dynamic energy injection protocol is introduced for energy tanks. Contrarily to their most common employment in the past, energy tanks are used to provide relevant information on energy flows used by the safety protocol, rather than to guarantee passivity of the controlled robot, which does not imply safety. The algorithm is able to detect collisions and divergence from nominal task execution by identifying unwanted energy flows, encoded in the energy tanks. A reaction strategy based on low impedance control is implemented in case of collision detection. Experiments on a 7-DoF manipulator successfully validate the proposed strategy.},
   eventtitle = {{{IEEE Robotics}} and {{Automation Letters}}},
-  keywords = {Collision avoidance,Compliance and Impedance Control,Impedance,Optimization,Protocols,Robot Safety,Robots,Safety,Task analysis},
-  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\califano_et_al_2022_a_task-based_post-impact_safety_protocol_based_on_energy_tanks.pdf}
+  keywords = {Collision avoidance,Compliance and Impedance Control,Impedance,Optimization,Protocols,READ,Robot Safety,Robots,Safety,Task analysis},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\califano_et_al_2022_a_task-based_post-impact_safety_protocol_based_on_energy_tanks2.pdf}
 }
 
 @inproceedings{califanoUseEnergyTanks2023,
@@ -1113,6 +1145,24 @@
   keywords = {bilateral teleoperation,Compliance and impedance control,force control,motion control of   manipulators,READ,redundant robots,robot manipulators,STABILITY,topology},
   annotation = {WOS:000413736600020},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\dietrich_et_al_2017_passive_hierarchical_impedance_control_via_energy_tanks.pdf}
+}
+
+@inproceedings{dimeasProgressiveAutomationPeriodic2020,
+  title = {Progressive {{Automation}} of {{Periodic Movements}}},
+  booktitle = {Human-{{Friendly Robotics}} 2019},
+  author = {Dimeas, Fotios and Kastritsi, Theodora and Papageorgiou, Dimitris and Doulgeri, Zoe},
+  editor = {Ferraguti, Federica and Villani, Valeria and Sabattini, Lorenzo and Bonfè, Marcello},
+  date = {2020},
+  series = {Springer {{Proceedings}} in {{Advanced Robotics}}},
+  pages = {58--72},
+  publisher = {{Springer International Publishing}},
+  location = {{Cham}},
+  doi = {10.1007/978-3-030-42026-0_5},
+  abstract = {This paper presents the extension of the progressive automation framework for periodic movements, where an operator kinesthetically demonstrates a movement and the robotic manipulator progressively takes the lead until it is able to execute the task autonomously. The basic frequency of the periodic movement in the operational space is determined using adaptive frequency oscillators with Fourier approximation. The multi-dimensionality issue of the demonstrated movement is handled by using a common canonical system and the attractor landscape is learned online with periodic Dynamic Movement Primitives. Based on the robot’s tracking error and the operator’s applied force, we continuously adjust the adaptation rate of the frequency and the waveform learning during the demonstration, as well as the target stiffness of the robot, while progressive automation is achieved. In this way, we enable the operator to intervene and demonstrate either small modifications or entirely new tasks and seamless transition between guided and autonomous operation of the robot, without distinguishing among a learning and a reproduction phase. The proposed method is verified experimentally with an operator demonstrating periodic tasks in the free-space and in contact with the environment for wiping a surface.},
+  isbn = {978-3-030-42026-0},
+  langid = {english},
+  keywords = {READ},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\dimeas_et_al_2020_progressive_automation_of_periodic_movements.pdf}
 }
 
 @inproceedings{dingObserverBasedAdaptiveImpedance2021,
@@ -1598,6 +1648,7 @@
   author = {Figueroa Fernandez, Nadia Barbara and Billard, Aude},
   date = {2018},
   issue = {CONF},
+  keywords = {READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\figueroa_fernandez_billard_2018_modeling_compositions_of_impedance-based_primitives_via_dynamical_systems.pdf}
 }
 
@@ -1625,7 +1676,7 @@
   urldate = {2022-12-02},
   abstract = {State-dependent dynamical systems (DSs) offer adaptivity, reactivity, and robustness to perturbations in motion planning and physical human?robot interaction tasks. Learning DS-based motion plans from non-linear reference trajectories is an active research area in robotics. Most approaches focus on learning DSs that can (i) accurately mimic the demonstrated motion, while (ii) ensuring convergence to the target, i.e., they are globally asymptotically (or exponentially) stable. When subject to perturbations, a compliant robot guided with a DS will continue following the next integral curves of the DS towards the target. If the task requires the robot to track a specific reference trajectory, this approach will fail. To alleviate this shortcoming, we propose the locally active globally stable DS (LAGS-DS), a novel DS formulation that provides both global convergence and stiffness-like symmetric attraction behaviors around a reference trajectory in regions of the state space where trajectory tracking is important. This allows for a unified approach towards motion and impedance encoding in a single DS-based motion model, i.e., stiffness is embedded in the DS. To learn LAGS-DS from demonstrations we propose a learning strategy based on Bayesian non-parametric Gaussian mixture models, Gaussian processes, and a sequence of constrained optimization problems that ensure estimation of stable DS parameters via Lyapunov theory. We experimentally validated LAGS-DS on writing tasks with a KUKA LWR 4+ arm and on navigation and co-manipulation tasks with iCub humanoid robots.},
   langid = {english},
-  keywords = {IMPORTANT},
+  keywords = {IMPORTANT,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\figueroa_billard_2022_locally_active_globally_stable_dynamical_systems.pdf}
 }
 
@@ -1685,6 +1736,18 @@
   eventtitle = {2021 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
   keywords = {Education,Force,Gaussian processes,Impedance,Modulation,STABILITY,Uncertainty,Usability},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\franzese_et_al_2021_ilosa.pdf}
+}
+
+@thesis{friedrichLearningFeedbackRobotics2021,
+  title = {Learning and {{Feedback}} in {{Robotics}} with {{Stabilizing Controller Parameterizations}}},
+  author = {Friedrich, Stefan Roland},
+  date = {2021},
+  institution = {{Technische Universität München}},
+  url = {https://mediatum.ub.tum.de/1543212},
+  urldate = {2023-04-25},
+  abstract = {Increasing autonomy of intelligent robots demands for control technologies to leverage machine learning in the closed feedback loop while preserving stability. To this end, the parameterization of stabilizing controllers is investigated and combined with reinforcement learning, with a particular focus on robotics. The proposed control architectures and learning algorithms are illustrated by means of simulations and two case studies including laboratory experiments on robotic hardware.},
+  keywords = {REVIEW},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\friedrich_2021_learning_and_feedback_in_robotics_with_stabilizing_controller_parameterizations.pdf}
 }
 
 @inproceedings{fuDirectDatadrivenStabilization2022,
@@ -2566,6 +2629,22 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\jin_et_al_2023_learning_neural-shaped_quadratic_lyapunov_function_for_stable,_accurate_and.pdf}
 }
 
+@article{jinModelPredictiveVariable2023,
+  title = {Model {{Predictive Variable Impedance Control}} of {{Manipulators}} for {{Adaptive Precision-Compliance Tradeoff}}},
+  author = {Jin, Zhehao and Qin, Dongdong and Liu, Andong and Zhang, Wen-an and Yu, Li},
+  date = {2023-04},
+  journaltitle = {IEEE/ASME Transactions on Mechatronics},
+  volume = {28},
+  number = {2},
+  pages = {1174--1186},
+  issn = {1941-014X},
+  doi = {10.1109/TMECH.2022.3204350},
+  abstract = {Impedance control (IC) is widely used in contact-rich manipulator tasks since it provides manipulators with both operation precision and contact compliance, and trades them off by impedance parameters. However, fixed impedance parameters limit the applicability of IC in complex tasks during which the focus on the operation precision or the contact compliance is variable, such as physical human–robot collaboration and complex assembly tasks. This article presents model predictive variable impedance control approaches for adaptive precision-compliance tradeoff to satisfy variable task requirements. Specifically, we establish a novel impedance model, which transforms the variable impedance law design problem into a control law design problem, and allows us to consider novel impedance constraints that can determine manipulators' extreme precision and compliance properties. According to whether state constraints are further considered, one-step (OS) and multistep (MS) model predictive control approaches are proposed to solve these transformed control problems, and the corresponding optimization problem of the OS MPC can be established as a QP problem due to the special form of the novel impedance model. A tank-based approach is further proposed to correct the variable impedance laws for the system passivity concern. Various comparative experiments are conducted to validate the effectiveness of the presented approaches.},
+  eventtitle = {{{IEEE}}/{{ASME Transactions}} on {{Mechatronics}}},
+  keywords = {Aerospace electronics,Cost function,Impedance,Model predictive control,optimization,precision-compliance tradeoff,Prediction algorithms,Predictive models,READ,Robots,Task analysis,variable impedance control (VIC)},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\jin_et_al_2023_model_predictive_variable_impedance_control_of_manipulators_for_adaptive.pdf}
+}
+
 @article{jinOptimalVariableImpedance2022,
   title = {An {{Optimal Variable Impedance Control With Consideration}} of the {{Stability}}},
   author = {Jin, Zhehao and Liu, Andong and Zhang, Wen-an and Yu, Li},
@@ -2622,7 +2701,7 @@
   doi = {10.1109/IROS47612.2022.9981728},
   abstract = {Tactile robots shall be deployed for dynamic task execution in production lines with small batch sizes. Therefore, these robots should have the ability to respond to changing conditions and be easy to (re-)program. Operating under uncertain environments requires unifying subsystems such as robot motion and force policy into one framework, referred to as tactile skills. In this paper, we propose the enhancement of these skills for passivity-based skill motion learning in stiffness-adaptive unified force-impedance control. To achieve the increased level of adaptability, we represent all tactile skills by three basic primitives: contact initiation, manipulation, and contact termination. To ensure passivity and stability, we develop an energy-based approach for unified force-impedance control that allows humans to teach the robot motion through physical interaction during the execution of a tactile task. We incorporate our proposed framework into a tactile robot to experimentally validate the motion adaptation by interaction performance and stability of the control. While the polishing task is presented as our use case through the paper, the experiments can also be carried out with various tactile skills. Finally, the results show the novel controller's stability and passivity to contact-loss and stiffness adaptation, leading to successful programming by interaction.},
   eventtitle = {2022 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
-  keywords = {Dynamics,Energy exchange,Force,Production,Robot motion,Surface impedance,Task analysis},
+  keywords = {Dynamics,Energy exchange,Force,Production,READ,Robot motion,Surface impedance,Task analysis},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\karacan_et_al_2022_passivity-based_skill_motion_learning_in_stiffness-adaptive_unified.pdf}
 }
 
@@ -2783,7 +2862,7 @@
   isbn = {978-0-13-067389-3},
   langid = {english},
   pagetotal = {750},
-  keywords = {IMPORTANT,Mathematics / Linear & Nonlinear Programming},
+  keywords = {IMPORTANT,Mathematics / Linear \& Nonlinear Programming},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khalil_2002_nonlinear_systems.pdf}
 }
 
@@ -2851,7 +2930,7 @@
   urldate = {2022-05-02},
   abstract = {We consider the problem of devising a unified control policy capable of regulating both the robot motion and its physical interaction with the environment. We formulate this control policy by a non-parametric potential function and a dissipative field, which both can be learned from human demonstrations. We show that the robot motion and its stiffness behaviors can be encapsulated by the potential function's gradient and curvature, respectively. The dissipative field can also be used to model desired damping behavior throughout the motion, hence generating motions that follows the same velocity profile as the demonstrations. The proposed controller can be realized as a unification approach between "realtime motion generation" and "variable impedance control", with the advantages that it has guaranteed stability as well as does not rely on following a reference trajectory. Our approach, called unified motion and variable impedance control (UMIC), is completely time-invariant and can be learned from a few demonstrations via solving two (convex) constrained quadratic optimization problems. We validate UMIC on a library of 30 human handwriting motions and on a set of experiments on 7-DoF KUKA light weight robot.},
   langid = {english},
-  keywords = {Compliant control,Imitation   learning,impedance control,IMPORTANT,manipulators,Motion control,Motion primitives,Physical interaction control,Potential field,Robot   learning,robot control,STABILITY,task,time obstacle avoidance,Variable impedance control},
+  keywords = {Compliant control,Imitation   learning,impedance control,IMPORTANT,manipulators,Motion control,Motion primitives,Physical interaction control,Potential field,READ,Robot   learning,robot control,STABILITY,task,time obstacle avoidance,Variable impedance control},
   annotation = {WOS:000392051600004},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khansari-zadeh_khatib_2017_learning_potential_functions_from_human_demonstrations_with_encapsulated.pdf}
 }
@@ -2872,6 +2951,18 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khansari-zadeh_billard_2011_learning_stable_nonlinear_dynamical_systems_with_gaussian_mixture_models.pdf}
 }
 
+@article{khansari-zadehModelingRobotDiscrete2014,
+  title = {Modeling Robot Discrete Movements with State-Varying Stiffness and Damping: {{A}} Framework for Integrated Motion Generation and Impedance Control},
+  shorttitle = {Modeling Robot Discrete Movements with State-Varying Stiffness and Damping},
+  author = {Khansari-Zadeh, S. Mohammad and Kronander, Klas and Billard, Aude},
+  date = {2014},
+  journaltitle = {Proceedings of robotics: Science and systems X (RSS 2014)},
+  volume = {10},
+  pages = {2014},
+  keywords = {IMPORTANT,READ,STABILITY},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khansari_et_al_2014_modeling_robot_discrete_movements_with_state-varying_stiffness_and_damping2.pdf}
+}
+
 @article{khansariAdaptiveHumaninspiredCompliant2016,
   title = {Adaptive Human-Inspired Compliant Contact Primitives to Perform           Surface–Surface Contact under Uncertainty},
   author = {Khansari, Mohammad and Klingbeil, Ellen and Khatib, Oussama},
@@ -2889,24 +2980,6 @@
   langid = {english},
   keywords = {READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khansari_et_al_2016_adaptive_human-inspired_compliant_contact_primitives_to_perform.pdf}
-}
-
-@inproceedings{khansariModelingRobotDiscrete2014,
-  title = {Modeling Robot Discrete Movements with State-Varying Stiffness and Damping: {{A}} Framework for Integrated Motion Generation and Impedance Control},
-  shorttitle = {Modeling Robot Discrete Movements with State-Varying Stiffness and Damping},
-  booktitle = {Robotics: {{Science}} and {{Systems X}}},
-  author = {Khansari, Mohammad and Kronander, Klas and Billard, Aude},
-  date = {2014-07-12},
-  publisher = {{Robotics: Science and Systems Foundation}},
-  doi = {10.15607/RSS.2014.X.022},
-  url = {http://www.roboticsproceedings.org/rss10/p22.pdf},
-  urldate = {2022-05-20},
-  abstract = {Successful execution of many robotic tasks requires precise control of robot motion and its interaction with the environment. In robotics these two problems are mainly studied separately in the domain of robot motion generation and interaction control, respectively. Existing approaches rely on two control loops: a motion generator (planner) that provides a reference trajectory in the outer loop, and an active impedance controller that tracks the reference trajectory in the inner loop. Ensuring stability of the closed-loop system for this control architecture is nontrivial. In this paper, we propose a single-loop control architecture that performs motion generation and interaction control at once. We model robot discrete motions with a time-invariant dynamical system, which is expressed as a nonlinear combination of a set of linear spring-damper systems. This formulation represents the nominal motion and the impedance properties with a single set of parameters, simplifying stability analysis of the closed-loop system. We provide sufficient conditions to ensure global asymptotic stability of this system for movements in free-space, and its passivity during persistent contact with a passive environment. We validate our approach in simulation using the 7-DoF KUKA LWR-IV robot.},
-  eventtitle = {Robotics: {{Science}} and {{Systems}} 2014},
-  isbn = {978-0-9923747-0-9},
-  langid = {english},
-  keywords = {IMPORTANT,STABILITY},
-  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khansari_et_al_2014_modeling_robot_discrete_movements_with_state-varying_stiffness_and_damping2.pdf}
 }
 
 @article{khoramshahiDynamicalSystemApproach2020,
@@ -2957,6 +3030,20 @@
   eventtitle = {{{IEEE Transactions}} on {{Systems}}, {{Man}}, and {{Cybernetics}}, {{Part B}} ({{Cybernetics}})},
   keywords = {Contact task,Control theory,equilibrium point control,Humans,Impedance,Learning systems,Machine learning,Machine learning algorithms,Motor drives,Optimization methods,reinforcement learning,robot manipulation,Robots,Testing},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kim_et_al_2010_impedance_learning_for_robotic_contact_tasks_using_natural_actor-critic.pdf}
+}
+
+@inproceedings{kimLearningGeneralizationDynamic2018,
+  title = {Learning and {{Generalization}} of {{Dynamic Movement Primitives}} by {{Hierarchical Deep Reinforcement Learning}} from {{Demonstration}}},
+  booktitle = {2018 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
+  author = {Kim, Wonchul and Lee, Chungkeun and Kim, H. Jin},
+  date = {2018-10},
+  pages = {3117--3123},
+  issn = {2153-0866},
+  doi = {10.1109/IROS.2018.8594476},
+  abstract = {This paper presents an approach to learn and generalize robotic skills from a demonstration using deep reinforcement learning (deep RL). Dynamic Movement Primitives (DMPs) formulate a nonlinear differential equation and produce the observed movement from a demonstration. However, it is hard to generate new behaviors from using DMPs. Thus, we apply DMPs framework into deep RL as an initial setting for learning the robotic skills. First, we build a network to represent this differential equation, and learn and generalize the movements by optimizing the shape of DMPs with respect to the rewards up to the end of each sequence of movement primitives. In order to do this, we consider a deterministic actor-critic algorithm for deep RL and we also apply a hierarchical strategy. This drastically reduces the search space for a robot by decomposing the task, which allows to solve the sparse reward problem from a complex task. In order to integrate DMPs with hierarchical deep RL, the differential equation is considered as temporal abstraction of option. The overall structure is mainly composed of two controllers: meta-controller and sub-controller. The meta-controller learns a policy over intrinsic goals and a sub-controller learns a policy over actions to accomplish the given goals. We demonstrate our approach on a 6 degree-of-freedom (DOF) arm with a I-DOF gripper and evaluate our approach through a pick-and-place task.},
+  eventtitle = {2018 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
+  keywords = {Deep learning,Differential equations,Dynamics,Mathematical model,Reinforcement learning,Robots,Task analysis},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kim_et_al_2018_learning_and_generalization_of_dynamic_movement_primitives_by_hierarchical_deep.pdf}
 }
 
 @inproceedings{kimLearningRobotStiffness2008,
@@ -4234,6 +4321,22 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\najafi_et_al_2020_using_potential_field_function_with_a_velocity_field_controller_to_learn_and.pdf}
 }
 
+@article{najafiUsingPotentialField2020a,
+  title = {Using {{Potential Field Function With}} a {{Velocity Field Controller}} to {{Learn}} and {{Reproduce}} the {{Therapist}}'s {{Assistance}} in {{Robot-Assisted Rehabilitation}}},
+  author = {Najafi, Mohammad and Rossa, Carlos and Adams, Kim and Tavakoli, Mahdi},
+  date = {2020-06},
+  journaltitle = {IEEE/ASME Transactions on Mechatronics},
+  volume = {25},
+  number = {3},
+  pages = {1622--1633},
+  issn = {1941-014X},
+  doi = {10.1109/TMECH.2020.2981625},
+  abstract = {Rehabilitative and assistive practices usually elicit intense and repetitive exercises. Thus, there has been an increasing interest in robotic systems as they are robust and cost-effective in comparison to conventional physical motor-therapy with a therapist. These robots have applications in therapeutic and in-home environments, where there is a necessity for a user-friendly procedure to program the robots for a specific task easily. Our group has suggested robot learning from demonstration (LfD) as an intuitive procedure to program robots via short-term physical interaction in rehabilitation and assistive applications. In this article, a therapist assists a patient, and cooperatively performs a task on a robotic manipulator. Then, using a nonparametric potential field function, the therapist's motion, and interaction force (assistance/resistance) is modeled time-independently via a convex optimization algorithm. Next, in the therapist's absence, the robot provides the patient with the same level of interaction force provided by the therapist along the trajectory. A velocity field controller is also designed to compensate and regulate the patient's deviation from the velocity observed in the demonstration phase. Finally, the efficacy, advantages, and stability of the proposed framework are evaluated in three different experimental scenarios involving spring arrays and an individual with cerebral palsy (CP).},
+  eventtitle = {{{IEEE}}/{{ASME Transactions}} on {{Mechatronics}}},
+  keywords = {Assistive technology,End effectors,Force,human-robot interaction,motion control,READ,rehabilitation robotics,Robot kinematics,robot learning,Task analysis,Trajectory},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\najafi_et_al_2020_using_potential_field_function_with_a_velocity_field_controller_to_learn_and2.pdf}
+}
+
 @inproceedings{nemecTaskAdaptationExploration2009,
   title = {Task Adaptation through Exploration and Action Sequencing},
   booktitle = {2009 9th {{IEEE-RAS International Conference}} on {{Humanoid Robots}}},
@@ -4638,6 +4741,22 @@
   eventtitle = {2020 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
   keywords = {Heuristic algorithms,Prediction algorithms,Predictive models,STABILITY,Telepresence,Torque,Trajectory,Upper bound},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\piccinelli_muradore_2020_a_passivity-based_bilateral_teleoperation_architecture_using_distributed.pdf}
+}
+
+@article{pollayilChoosingStiffnessDamping2023,
+  title = {Choosing {{Stiffness}} and {{Damping}} for {{Optimal Impedance Planning}}},
+  author = {Pollayil, Mathew Jose and Angelini, Franco and Xin, Guiyang and Mistry, Michael and Vijayakumar, Sethu and Bicchi, Antonio and Garabini, Manolo},
+  date = {2023-04},
+  journaltitle = {IEEE Transactions on Robotics},
+  volume = {39},
+  number = {2},
+  pages = {1281--1300},
+  issn = {1941-0468},
+  doi = {10.1109/TRO.2022.3216078},
+  abstract = {The attention given to impedance control in recent years does not match a similar focus on the choice of impedance values that the controller should execute. Current methods are hardly general and often compute fixed controller gains relying on the use of expensive sensors. In this article, we address the problem of online impedance planning for Cartesian impedance controllers that do not assign the closed-loop inertia. We propose an optimization-based algorithm that, given the Cartesian inertia, computes the stiffness and damping gains without relying on force/torque measurements and so that the effects of perturbations are less than a maximum acceptable value. By doing so, we increase robot resilience to unexpected external disturbances while guaranteeing performance and robustness. The algorithm provides an analytical solution in the case of impedance-controlled robots with diagonally dominant inertia matrix. Instead, established numerical methods are employed to deal with the more common case of nondiagonally dominant inertia. Our work attempts to create a general impedance planning framework, which needs no additional hardware and is easily applicable to any robotic system. Through experiments on real robots, including a quadruped and a robotic arm, our method is shown to be employable in real time and to lead to satisfactory behaviors.},
+  eventtitle = {{{IEEE Transactions}} on {{Robotics}}},
+  keywords = {Control,End effectors,impedance,Impedance,Jacobian matrices,planning,Planning,Robots,Sensors,Task analysis},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\pollayil_et_al_2023_choosing_stiffness_and_damping_for_optimal_impedance_planning.pdf}
 }
 
 @book{popovHyperstabilityControlSystems1973,
@@ -5542,7 +5661,7 @@
   doi = {10.1109/LRA.2022.3142903},
   abstract = {There exist robotic tasks such as cumbersome object manipulation for which one arm alone is not sufficient and a team of robots should be employed. For such a multi-manual system, a control policy must be defined to meet the task objective. This letter presents a modular uni-arm control law for a multi-manual object manipulation task. Following the concept of force and impedance control, a novel adaptation policy is introduced which mitigates the intrinsic limitations of conventional methods such as the coupled impedance and hybrid position/force control approaches. To ensure the stability of the proposed control algorithm, passivity analysis is performed and a virtual energy tank is augmented to the multi-manual system. Finally, a set of experiments with a bi-manual setup manipulating an object is carried out to evaluate the performance of the proposed control approach.},
   eventtitle = {{{IEEE Robotics}} and {{Automation Letters}}},
-  keywords = {Couplings,End effectors,Force,Impedance,impedance control,Multi-robot systems,object manipulation,Robots,Task analysis,Trajectory},
+  keywords = {Couplings,End effectors,Force,Impedance,impedance control,Multi-robot systems,object manipulation,READ,Robots,Task analysis,Trajectory},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\shahriari_et_al_2022_passivity-based_adaptive_force-impedance_control_for_modular_multi-manual.pdf}
 }
 
@@ -6154,6 +6273,17 @@
   langid = {english},
   keywords = {-method,Dynamic movement primitives,Natural actor critic,Reinforcement learning,Value function approximation},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\tamosiunaite_et_al_2011_learning_to_pour_with_a_robot_arm_combining_goal_and_shape_learning_for_dynamic.pdf}
+}
+
+@inproceedings{tangTeachIndustrialRobots2016,
+  title = {Teach Industrial Robots Peg-Hole-Insertion by Human Demonstration},
+  booktitle = {2016 {{IEEE International Conference}} on {{Advanced Intelligent Mechatronics}} ({{AIM}})},
+  author = {Tang, Te and Lin, Hsien-Chung and Zhao, Yu and Fan, Yongxiang and Chen, Wenjie and Tomizuka, Masayoshi},
+  date = {2016},
+  pages = {488--494},
+  publisher = {{IEEE}},
+  keywords = {READ},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\tang_et_al_2016_teach_industrial_robots_peg-hole-insertion_by_human_demonstration2.pdf}
 }
 
 @inproceedings{teeAdaptiveAdmittanceControl2010,
