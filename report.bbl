@@ -494,6 +494,51 @@
       \endverb
       \keyw{IMPORTANT,STABILITY}
     \endentry
+    \entry{baiReachableWorkspaceRobotassisted2022}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=9ea000c8353981f9f649bb81930f2473}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fd5b0cacbd92cda009951470f241739a}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Xiulan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2c44a0e9493ba9a7bddf62a527a38533}{%
+           family={Nie},
+           familyi={N\bibinitperiod},
+           given={Jieyan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{142070c9fde45c6036a8011b9ebe63eb}
+      \strng{fullhash}{142070c9fde45c6036a8011b9ebe63eb}
+      \strng{bibnamehash}{142070c9fde45c6036a8011b9ebe63eb}
+      \strng{authorbibnamehash}{142070c9fde45c6036a8011b9ebe63eb}
+      \strng{authornamehash}{142070c9fde45c6036a8011b9ebe63eb}
+      \strng{authorfullhash}{142070c9fde45c6036a8011b9ebe63eb}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The increasing number of patients with upper extremity hemiplegia seriously affects their activities of daily living, and robot-assisted rehabilitation training reduce the burden on therapists. Due to the different conditions of patients, the need for personalized rehabilitation training methods is obvious. This paper proposes a method to meet the needs of personalized rehabilitation training. A 9-DOF upper limb kinematic model is constructed, including 2-DOF at the sternoclavicular joint, 3-DOF at the shoulder, 2-DOF at the elbow and 2-DOF at the wrist. A combination of the geometric method and the Levenberg-Marquardt (LM) algorithm is proposed to analyze the inverse kinematics of the upper limbs, the geometric method is used to calculate the initial value, and the LM is iteratively calculated to optimize the trajectory of the upper limbs. The reachable workspace is mapped to the working space of the robot, and a method of combining the reachable workspace of the upper limbs with the nonlinear potential field function is proposed to adjust the change of the force field. Thus, personalized rehabilitation training based on the motion range of the affected limb is realized to meet the needs of different patients. Finally, the effectiveness of the proposed method is verified by experiments.}
+      \field{booktitle}{2022 10th {{International Conference}} on {{Affective Computing}} and {{Intelligent Interaction Workshops}} and {{Demos}} ({{ACIIW}})}
+      \field{eventtitle}{2022 10th {{International Conference}} on {{Affective Computing}} and {{Intelligent Interaction Workshops}} and {{Demos}} ({{ACIIW}})}
+      \field{month}{10}
+      \field{title}{Reachable Workspace and {{Robot-assisted}} Personalized Rehabilitation Training of Upper Limb}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ACIIW57231.2022.10085998
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\bai_et_al_2022_reachable_workspace_and_robot-assisted_personalized_rehabilitation_training_of.pdf
+      \endverb
+      \keyw{Affective computing,Conferences,Force,kinematics,Kinematics,nonlinear potential field function,reachable workspace,READ,robot,Shoulder,STABILITY,Training,Wrist}
+    \endentry
     \entry{balattiMethodAutonomousRobotic2020}{article}{}
       \name{author}{4}{}{%
         {{hash=285c0f51ff7e5a60d518adfcba5b53b4}{%
@@ -647,6 +692,64 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\bednarczyk_et_al_2020_passivity_filter_for_variable_impedance_control.pdf
       \endverb
       \keyw{Control systems,Design methodology,Impedance,IMPORTANT,Intelligent robots,READ,Safety,STABILITY}
+    \endentry
+    \entry{benziOptimizationApproachRobust2021}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=cbe34cb6ce1be917c99d35b2c24de75d}{%
+           family={Benzi},
+           familyi={B\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=78cd85141c6296b4a21285ee87a49352}{%
+           family={Secchi},
+           familyi={S\bibinitperiod},
+           given={Cristian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Ieee}%
+      }
+      \strng{namehash}{3dff2cc332015412b8c83e6fec562d11}
+      \strng{fullhash}{3dff2cc332015412b8c83e6fec562d11}
+      \strng{bibnamehash}{3dff2cc332015412b8c83e6fec562d11}
+      \strng{authorbibnamehash}{3dff2cc332015412b8c83e6fec562d11}
+      \strng{authornamehash}{3dff2cc332015412b8c83e6fec562d11}
+      \strng{authorfullhash}{3dff2cc332015412b8c83e6fec562d11}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In Human-Robot Collaboration, the robot operates in a highly dynamic environment. Thus, it is pivotal to guarantee the robust stability of the system during the interaction but also a high flexibility of the robot behavior in order to ensure safety and reactivity to the variable conditions of the collaborative scenario. In this paper we propose a control architecture capable of maximizing the flexibility of the robot while guaranteeing a stable behavior when physically interacting with the environment. This is achieved by combining an energy tank based variable admittance architecture with control barrier functions. The proposed architecture is experimentally validated on a collaborative robot.}
+      \field{annotation}{WOS:000765738802122}
+      \field{booktitle}{2021 {{Ieee International Conference}} on {{Robotics}} and {{Automation}} (Icra 2021)}
+      \field{isbn}{978-1-72819-077-8}
+      \field{issn}{1050-4729}
+      \field{langid}{english}
+      \field{title}{An {{Optimization Approach}} for a {{Robust}} and {{Flexible Control}} in {{Collaborative Applications}}}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3575\bibrangedash 3581}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ICRA48506.2021.9561098
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\benzi_secchi_2021_an_optimization_approach_for_a_robust_and_flexible_control_in_collaborative.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9561098
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9561098
+      \endverb
+      \keyw{robot,safety,strategy}
     \endentry
     \entry{bevandaKoopmanOperatorDynamical2021}{article}{}
       \name{author}{3}{}{%
@@ -1264,6 +1367,69 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\chen_et_al_2021_closed-loop_variable_stiffness_control_of_dynamical_systems.pdf;C\:\\Users\\ricks\\Zotero\\storage\\MBFXFJFA\\Chen et al. - 2021 - Closed-Loop Variable Stiffness Control of Dynamica.pdf
       \endverb
       \keyw{Humanoid robots,Impedance,IMPORTANT,Perturbation methods,READ,Robot motion,Safety,Sockets,Stability analysis}
+    \endentry
+    \entry{chowLyapunovbasedApproachSafe2018}{online}{}
+      \name{author}{4}{}{%
+        {{hash=a0fcfdf5e7e58acd4c51ebfdf2a4e0b3}{%
+           family={Chow},
+           familyi={C\bibinitperiod},
+           given={Yinlam},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3fdbcb94c087d48425327cdfdb5f0827}{%
+           family={Nachum},
+           familyi={N\bibinitperiod},
+           given={Ofir},
+           giveni={O\bibinitperiod}}}%
+        {{hash=a91982f0f5ef85800fd75faae8e215b8}{%
+           family={Duenez-Guzman},
+           familyi={D\bibinithyphendelim G\bibinitperiod},
+           given={Edgar},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8e24dffc0a2bc85a7ea0c453c0cd2cc5}{%
+           family={Ghavamzadeh},
+           familyi={G\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{dfdfe94f7b87fb8fa2d42afb9e197366}
+      \strng{fullhash}{ddbb06840cab1c0243552ac4c47309e5}
+      \strng{bibnamehash}{dfdfe94f7b87fb8fa2d42afb9e197366}
+      \strng{authorbibnamehash}{dfdfe94f7b87fb8fa2d42afb9e197366}
+      \strng{authornamehash}{dfdfe94f7b87fb8fa2d42afb9e197366}
+      \strng{authorfullhash}{ddbb06840cab1c0243552ac4c47309e5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In many real-world reinforcement learning (RL) problems, besides optimizing the main objective function, an agent must concurrently avoid violating a number of constraints. In particular, besides optimizing performance it is crucial to guarantee the safety of an agent during training as well as deployment (e.g. a robot should avoid taking actions - exploratory or not - which irrevocably harm its hardware). To incorporate safety in RL, we derive algorithms under the framework of constrained Markov decision problems (CMDPs), an extension of the standard Markov decision problems (MDPs) augmented with constraints on expected cumulative costs. Our approach hinges on a novel \textbackslash emph\{Lyapunov\} method. We define and present a method for constructing Lyapunov functions, which provide an effective way to guarantee the global safety of a behavior policy during training via a set of local, linear constraints. Leveraging these theoretical underpinnings, we show how to use the Lyapunov approach to systematically transform dynamic programming (DP) and RL algorithms into their safe counterparts. To illustrate their effectiveness, we evaluate these algorithms in several CMDP planning and decision-making tasks on a safety benchmark domain. Our results show that our proposed method significantly outperforms existing baselines in balancing constraint satisfaction and performance.}
+      \field{day}{20}
+      \field{eprintclass}{cs, stat}
+      \field{eprinttype}{arxiv}
+      \field{month}{5}
+      \field{pubstate}{preprint}
+      \field{title}{A {{Lyapunov-based Approach}} to {{Safe Reinforcement Learning}}}
+      \field{urlday}{23}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1805.07708
+      \endverb
+      \verb{eprint}
+      \verb 1805.07708
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\chow_et_al_2018_a_lyapunov-based_approach_to_safe_reinforcement_learning.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1805.07708
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1805.07708
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Statistics - Machine Learning}
     \endentry
     \entry{cordoniVariableStochasticAdmittance2020}{article}{}
       \name{author}{3}{}{%
@@ -2735,6 +2901,58 @@
       \endverb
       \keyw{Force,Force measurement,Needles,READ,Robots,STABILITY,Surgery,Task analysis,Trajectory}
     \endentry
+    \entry{franzeseILoSAInteractiveLearning2021}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=d4bb060e6fc7246359527eb885abe58d}{%
+           family={Franzese},
+           familyi={F\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a744ee674d90c05821fe5e50526b574a}{%
+           family={Mészáros},
+           familyi={M\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3549df2ba99d4d92a0a8385fbae95268}{%
+           family={Peternel},
+           familyi={P\bibinitperiod},
+           given={Luka},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c1af96639c1bc5af057c028f303f6322}{%
+           family={Kober},
+           familyi={K\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{176723b65c86eb669cfa51ef7ed8c922}
+      \strng{fullhash}{3e635fcf6dcc4d6661308261fde5cce1}
+      \strng{bibnamehash}{176723b65c86eb669cfa51ef7ed8c922}
+      \strng{authorbibnamehash}{176723b65c86eb669cfa51ef7ed8c922}
+      \strng{authornamehash}{176723b65c86eb669cfa51ef7ed8c922}
+      \strng{authorfullhash}{3e635fcf6dcc4d6661308261fde5cce1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Teaching robots how to apply forces according to our preferences is still an open challenge that has to be tackled from multiple engineering perspectives. This paper studies how to learn variable impedance policies where both the Cartesian stiffness and the attractor can be learned from human demonstrations and corrections with a user-friendly interface. The presented framework, named ILoSA, uses Gaussian Processes for policy learning, identifying regions of uncertainty and allowing interactive corrections, stiffness modulation and active disturbance rejection. The experimental evaluation of the framework is carried out on a Franka-Emika Panda in four separate cases with unique force interaction properties: 1) pulling a plug wherein a sudden force discontinuity occurs upon successful removal of the plug, 2) pushing a box where a sustained force is required to keep the robot in motion, 3) wiping a whiteboard in which the force is applied perpendicular to the direction of movement, and 4) inserting a plug to verify the usability for precision-critical tasks in an experimental validation performed with non-expert users.}
+      \field{booktitle}{2021 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})}
+      \field{eventtitle}{2021 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})}
+      \field{issn}{2153-0866}
+      \field{month}{9}
+      \field{shorttitle}{{{ILoSA}}}
+      \field{title}{{{ILoSA}}: {{Interactive Learning}} of {{Stiffness}} and {{Attractors}}}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{7778\bibrangedash 7785}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/IROS51168.2021.9636710
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\franzese_et_al_2021_ilosa.pdf
+      \endverb
+      \keyw{Education,Force,Gaussian processes,Impedance,Modulation,STABILITY,Uncertainty,Usability}
+    \endentry
     \entry{ganeshVersatileBiomimeticController2012}{inproceedings}{}
       \name{author}{5}{}{%
         {{hash=ad4ac3603b04d09797c505d8bf811bd6}{%
@@ -3708,6 +3926,7 @@
       \strng{authorbibnamehash}{6af036a9e433629f6f2889bcb6e88914}
       \strng{authornamehash}{6af036a9e433629f6f2889bcb6e88914}
       \strng{authorfullhash}{0a6fddb159b3de67b6533d2ead446655}
+      \field{extraname}{1}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
@@ -3728,6 +3947,99 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\hu_et_al_2015_neural_learning_of_stable_dynamical_systems_based_on_extreme_learning_machine.pdf
       \endverb
       \keyw{Asymptotic stability,Extreme learning machine,Mathematical model,Nonlinear dynamical system,Optimization,READ,Robot kinematics,Stability analysis,Trajectory}
+    \endentry
+    \entry{huFuzzyAdaptivePassive2023}{article}{}
+      \name{author}{9}{}{%
+        {{hash=ce4fd9974b44266e4d9b7da0d672a8ea}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b8544f8464555caff3902d31bad17cd6}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Jingyan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=136420b6fdb1404bd75fdfad87739fe9}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Guoning},
+           giveni={G\bibinitperiod}}}%
+        {{hash=939dac0764d3385311ab663ff78e83a6}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Dazheng},
+           giveni={D\bibinitperiod}}}%
+        {{hash=eaf31000ecb5cc6fc1b6394b1ce70713}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Guang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7ec4f231f88bc8c76e46e67c53c4cf06}{%
+           family={Zuo},
+           familyi={Z\bibinitperiod},
+           given={Guokun},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c6e1eef0beb8ae296648beba22c6d56f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yunfeng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3e2f61b7fa032230935b3ff751711f5e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jiaji},
+           giveni={J\bibinitperiod}}}%
+        {{hash=60fc333ac20cba8e9ed00439563c2618}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Changcheng},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{89b324f81d7094b2671a51aa54cbbff4}
+      \strng{fullhash}{e90a5e59d5855e2bc3648540302ae309}
+      \strng{bibnamehash}{89b324f81d7094b2671a51aa54cbbff4}
+      \strng{authorbibnamehash}{89b324f81d7094b2671a51aa54cbbff4}
+      \strng{authornamehash}{89b324f81d7094b2671a51aa54cbbff4}
+      \strng{authorfullhash}{e90a5e59d5855e2bc3648540302ae309}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Robot-assisted rehabilitation therapy has been proven to effectively improve upper-limb motor function in stroke patients. However, most current rehabilitation robotic controllers will provide too much assistance force and focus only on the patient’s position tracking performance while ignoring the patient’s interactive force situation, resulting in the inability to accurately assess the patient’s true motor intention and difficulty stimulating the patient’s initiative, thus negatively affecting the patient’s rehabilitation outcome. Therefore, this paper proposes a fuzzy adaptive passive (FAP) control strategy based on subjects’ task performance and impulse. To ensure the safety of subjects, a passive controller based on the potential field is designed to guide and assist patients in their movements, and the stability of the controller is demonstrated in a passive formalism. Then, using the subject’s task performance and impulse as evaluation indicators, fuzzy logic rules were designed and used as an evaluation algorithm to quantitively assess the subject’s motor ability and to adaptively modify the stiffness coefficient of the potential field and thus change the magnitude of the assistance force to stimulate the subject’s initiative. Through experiments, this control strategy has been shown to not only improve the subject’s initiative during the training process and ensure their safety during training but also enhance the subject’s motor learning ability.}
+      \field{issn}{1424-8220}
+      \field{issue}{8}
+      \field{journaltitle}{Sensors}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{8}
+      \field{title}{Fuzzy {{Adaptive Passive Control Strategy Design}} for {{Upper-Limb End-Effector Rehabilitation Robot}}}
+      \field{urlday}{29}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4042}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s23084042
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\hu_et_al_2023_fuzzy_adaptive_passive_control_strategy_design_for_upper-limb_end-effector.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/1424-8220/23/8/4042
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/23/8/4042
+      \endverb
+      \keyw{assist-as-needed,end-effector rehabilitation robot,fuzzy logic,human–robot interaction,potential field,READ,STABILITY}
     \endentry
     \entry{hughesSoftManipulatorsGrippers2016}{article}{}
       \name{author}{6}{}{%
@@ -4779,128 +5091,6 @@
       \endverb
       \keyw{IMPORTANT,Mathematics / Linear \& Nonlinear Programming}
     \endentry
-    \entry{khansariAdaptiveHumaninspiredCompliant2016}{article}{}
-      \name{author}{3}{}{%
-        {{hash=122397c022cf734ea467d2901944f138}{%
-           family={Khansari},
-           familyi={K\bibinitperiod},
-           given={Mohammad},
-           giveni={M\bibinitperiod}}}%
-        {{hash=4e529cb0eb6ea19fb2c3cc5a32a58f63}{%
-           family={Klingbeil},
-           familyi={K\bibinitperiod},
-           given={Ellen},
-           giveni={E\bibinitperiod}}}%
-        {{hash=a1ed48939870abd896792330bc735967}{%
-           family={Khatib},
-           familyi={K\bibinitperiod},
-           given={Oussama},
-           giveni={O\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {SAGE Publications Ltd STM}%
-      }
-      \strng{namehash}{87aa51721d17579b3cdf4233487c24e8}
-      \strng{fullhash}{87aa51721d17579b3cdf4233487c24e8}
-      \strng{bibnamehash}{87aa51721d17579b3cdf4233487c24e8}
-      \strng{authorbibnamehash}{87aa51721d17579b3cdf4233487c24e8}
-      \strng{authornamehash}{87aa51721d17579b3cdf4233487c24e8}
-      \strng{authorfullhash}{87aa51721d17579b3cdf4233487c24e8}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{This paper focuses on devising a control policy that is inspired by human strategy to enable robots to perform surface?surface contact between a hand-held object (e.g. a box) and the environment (e.g. table). We assume the object?s shape is partially known and consider uncertainties in both the environment and the object grasp. Our analysis on ten untrained subjects indicates that during this task: (1) the subjects start decreasing the angular velocity before the complete alignment (in contrast to existing approaches), and (2) they do not control the contact force to remain at a fixed value. Our study is also consistent with the hypothesis that the subjects determine an over-estimate of the relative angle between the object in hand and the environment. Based on these observations we propose a novel control policy, called Surface-Surface Contact Primitive (SSCP), which can perform the surface?surface alignment task with only partial information about the hand-held object and the environment. Furthermore, SSCP only requires a rough estimate of the surface normal vector and does not rely on either the estimation of contact type (i.e. point or edge contact) or locations of contact points. We evaluate the performance of the proposed controller on a set of robot experiments using two seven-degree-of-freedom robots, one for imposing uncertainty to the environment, and the other to perform the experiment. We show the applicability of the controller on four objects with different geometries, its generalization to four different surface materials, and its robustness to uncertainty in environment and grasp as well as external perturbations.}
-      \field{day}{1}
-      \field{issn}{0278-3649}
-      \field{journaltitle}{The International Journal of Robotics Research}
-      \field{langid}{english}
-      \field{month}{11}
-      \field{number}{13}
-      \field{title}{Adaptive Human-Inspired Compliant Contact Primitives to Perform Surface–Surface Contact under Uncertainty}
-      \field{urlday}{15}
-      \field{urlmonth}{12}
-      \field{urlyear}{2022}
-      \field{volume}{35}
-      \field{year}{2016}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{1651\bibrangedash 1675}
-      \range{pages}{25}
-      \verb{doi}
-      \verb 10.1177/0278364916648389
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khansari_et_al_2016_adaptive_human-inspired_compliant_contact_primitives_to_perform.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1177/0278364916648389
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1177/0278364916648389
-      \endverb
-      \keyw{READ}
-    \endentry
-    \entry{khansariModelingRobotDiscrete2014}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=122397c022cf734ea467d2901944f138}{%
-           family={Khansari},
-           familyi={K\bibinitperiod},
-           given={Mohammad},
-           giveni={M\bibinitperiod}}}%
-        {{hash=9b92584246f72253827724596b9e2405}{%
-           family={Kronander},
-           familyi={K\bibinitperiod},
-           given={Klas},
-           giveni={K\bibinitperiod}}}%
-        {{hash=3cd4f444d840eee2580ddf886f20b1c8}{%
-           family={Billard},
-           familyi={B\bibinitperiod},
-           given={Aude},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Robotics: Science and Systems Foundation}%
-      }
-      \strng{namehash}{146701577a24b3bdfdad36f5a5545a0f}
-      \strng{fullhash}{146701577a24b3bdfdad36f5a5545a0f}
-      \strng{bibnamehash}{146701577a24b3bdfdad36f5a5545a0f}
-      \strng{authorbibnamehash}{146701577a24b3bdfdad36f5a5545a0f}
-      \strng{authornamehash}{146701577a24b3bdfdad36f5a5545a0f}
-      \strng{authorfullhash}{146701577a24b3bdfdad36f5a5545a0f}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{Successful execution of many robotic tasks requires precise control of robot motion and its interaction with the environment. In robotics these two problems are mainly studied separately in the domain of robot motion generation and interaction control, respectively. Existing approaches rely on two control loops: a motion generator (planner) that provides a reference trajectory in the outer loop, and an active impedance controller that tracks the reference trajectory in the inner loop. Ensuring stability of the closed-loop system for this control architecture is nontrivial. In this paper, we propose a single-loop control architecture that performs motion generation and interaction control at once. We model robot discrete motions with a time-invariant dynamical system, which is expressed as a nonlinear combination of a set of linear spring-damper systems. This formulation represents the nominal motion and the impedance properties with a single set of parameters, simplifying stability analysis of the closed-loop system. We provide sufficient conditions to ensure global asymptotic stability of this system for movements in free-space, and its passivity during persistent contact with a passive environment. We validate our approach in simulation using the 7-DoF KUKA LWR-IV robot.}
-      \field{booktitle}{Robotics: {{Science}} and {{Systems X}}}
-      \field{day}{12}
-      \field{eventtitle}{Robotics: {{Science}} and {{Systems}} 2014}
-      \field{isbn}{978-0-9923747-0-9}
-      \field{langid}{english}
-      \field{month}{7}
-      \field{shorttitle}{Modeling Robot Discrete Movements with State-Varying Stiffness and Damping}
-      \field{title}{Modeling Robot Discrete Movements with State-Varying Stiffness and Damping: {{A}} Framework for Integrated Motion Generation and Impedance Control}
-      \field{urlday}{20}
-      \field{urlmonth}{5}
-      \field{urlyear}{2022}
-      \field{year}{2014}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.15607/RSS.2014.X.022
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khansari_et_al_2014_modeling_robot_discrete_movements_with_state-varying_stiffness_and_damping2.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.roboticsproceedings.org/rss10/p22.pdf
-      \endverb
-      \verb{url}
-      \verb http://www.roboticsproceedings.org/rss10/p22.pdf
-      \endverb
-      \keyw{IMPORTANT,READ,STABILITY}
-    \endentry
     \entry{khansari-zadehLearningStableNonlinear2011}{article}{}
       \name{author}{2}{}{%
         {{hash=5c461bcf7c6cb79129ceebb81f6b3c11}{%
@@ -4943,6 +5133,47 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khansari-zadeh_billard_2011_learning_stable_nonlinear_dynamical_systems_with_gaussian_mixture_models.pdf
       \endverb
       \keyw{Asymptotic stability,Dynamical systems (DS),Dynamics,Gaussian mixture model,imitation learning,IMPORTANT,Numerical stability,point-to-point motions,READ,Robot kinematics,STABILITY,stability analysis,Stability analysis,Trajectory}
+    \endentry
+    \entry{khansari-zadehModelingRobotDiscrete2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5c461bcf7c6cb79129ceebb81f6b3c11}{%
+           family={Khansari-Zadeh},
+           familyi={K\bibinithyphendelim Z\bibinitperiod},
+           given={S.\bibnamedelimi Mohammad},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=9b92584246f72253827724596b9e2405}{%
+           family={Kronander},
+           familyi={K\bibinitperiod},
+           given={Klas},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3cd4f444d840eee2580ddf886f20b1c8}{%
+           family={Billard},
+           familyi={B\bibinitperiod},
+           given={Aude},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{95cfb454fadf74a13365ec2283734ff5}
+      \strng{fullhash}{95cfb454fadf74a13365ec2283734ff5}
+      \strng{bibnamehash}{95cfb454fadf74a13365ec2283734ff5}
+      \strng{authorbibnamehash}{95cfb454fadf74a13365ec2283734ff5}
+      \strng{authornamehash}{95cfb454fadf74a13365ec2283734ff5}
+      \strng{authorfullhash}{95cfb454fadf74a13365ec2283734ff5}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Proceedings of robotics: Science and systems X (RSS 2014)}
+      \field{shorttitle}{Modeling Robot Discrete Movements with State-Varying Stiffness and Damping}
+      \field{title}{Modeling Robot Discrete Movements with State-Varying Stiffness and Damping: {{A}} Framework for Integrated Motion Generation and Impedance Control}
+      \field{volume}{10}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{2014}
+      \range{pages}{1}
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khansari_et_al_2014_modeling_robot_discrete_movements_with_state-varying_stiffness_and_damping2.pdf
+      \endverb
+      \keyw{IMPORTANT,READ,STABILITY}
     \endentry
     \entry{khansari-zadehLearningPotentialFunctions2017}{article}{}
       \name{author}{2}{}{%
@@ -5311,6 +5542,63 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kronander_billard_2016_stability_considerations_for_variable_impedance_control.pdf
       \endverb
       \keyw{Adaptive control,Asymptotic stability,Cartesian impedance,Damping,Impedance,IMPORTANT,Joint impedance,Manipulator dynamics,READ,robot control,Robots,STABILITY,stability criteria,Stability criteria}
+    \endentry
+    \entry{lasotaSurveyMethodsSafe2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1d2a66bd2d959cf31497b04a640ef4e4}{%
+           family={Lasota},
+           familyi={L\bibinitperiod},
+           given={Przemyslaw\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=47a41c7584bf5b8714b43a2784f8982e}{%
+           family={Fong},
+           familyi={F\bibinitperiod},
+           given={Terrence},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9f5a8aee07e977fcbb224ed8ab077080}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Julie\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{31d2ad1fce97afa2382df83d8054131e}
+      \strng{fullhash}{31d2ad1fce97afa2382df83d8054131e}
+      \strng{bibnamehash}{31d2ad1fce97afa2382df83d8054131e}
+      \strng{authorbibnamehash}{31d2ad1fce97afa2382df83d8054131e}
+      \strng{authornamehash}{31d2ad1fce97afa2382df83d8054131e}
+      \strng{authorfullhash}{31d2ad1fce97afa2382df83d8054131e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1935-8253, 1935-8261}
+      \field{journaltitle}{Foundations and Trends in Robotics}
+      \field{langid}{english}
+      \field{number}{3}
+      \field{shortjournal}{FNT in Robotics}
+      \field{title}{A {{Survey}} of {{Methods}} for {{Safe Human-Robot Interaction}}}
+      \field{urlday}{24}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{volume}{5}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{261\bibrangedash 349}
+      \range{pages}{89}
+      \verb{doi}
+      \verb 10.1561/2300000052
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\lasota_et_al_2017_a_survey_of_methods_for_safe_human-robot_interaction.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.nowpublishers.com/article/Details/ROB-052
+      \endverb
+      \verb{url}
+      \verb http://www.nowpublishers.com/article/Details/ROB-052
+      \endverb
+      \keyw{REVIEW}
     \endentry
     \entry{ledererGaussianProcessBasedRealTime2021}{inproceedings}{}
       \name{author}{6}{}{%
@@ -6888,6 +7176,59 @@
       \endverb
       \keyw{adaptation,Control Lyapunov function,Control Lyapunov function,Imitation learning,IMPORTANT,model,Movement primitives,Movement primitives,Nonlinear dynamical systems,obstacle avoidance,point,READ,reproduction,Robot point-to-point movements,STABILITY,Stability analysis,stabilization,task}
     \endentry
+    \entry{najafiUsingPotentialField2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=47925644a4bcc20f94e4be339ecba06b}{%
+           family={Najafi},
+           familyi={N\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c66df44a6478565f7506066ec330f429}{%
+           family={Rossa},
+           familyi={R\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=51a388f452572df590eee79773962131}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={Kim},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8824d822d9401ecfda06a083c4d750e6}{%
+           family={Tavakoli},
+           familyi={T\bibinitperiod},
+           given={Mahdi},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c48cb97c71e433071dfff17062ba043}
+      \strng{fullhash}{805fd3844efdde644e09d4b0cac84808}
+      \strng{bibnamehash}{1c48cb97c71e433071dfff17062ba043}
+      \strng{authorbibnamehash}{1c48cb97c71e433071dfff17062ba043}
+      \strng{authornamehash}{1c48cb97c71e433071dfff17062ba043}
+      \strng{authorfullhash}{805fd3844efdde644e09d4b0cac84808}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Rehabilitative and assistive practices usually elicit intense and repetitive exercises. Thus, there has been an increasing interest in robotic systems as they are robust and cost-effective in comparison to conventional physical motor-therapy with a therapist. These robots have applications in therapeutic and in-home environments, where there is a necessity for a user-friendly procedure to program the robots for a specific task easily. Our group has suggested robot learning from demonstration (LfD) as an intuitive procedure to program robots via short-term physical interaction in rehabilitation and assistive applications. In this article, a therapist assists a patient, and cooperatively performs a task on a robotic manipulator. Then, using a nonparametric potential field function, the therapist's motion, and interaction force (assistance/resistance) is modeled time-independently via a convex optimization algorithm. Next, in the therapist's absence, the robot provides the patient with the same level of interaction force provided by the therapist along the trajectory. A velocity field controller is also designed to compensate and regulate the patient's deviation from the velocity observed in the demonstration phase. Finally, the efficacy, advantages, and stability of the proposed framework are evaluated in three different experimental scenarios involving spring arrays and an individual with cerebral palsy (CP).}
+      \field{eventtitle}{{{IEEE}}/{{ASME Transactions}} on {{Mechatronics}}}
+      \field{issn}{1941-014X}
+      \field{journaltitle}{IEEE/ASME Transactions on Mechatronics}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{Using {{Potential Field Function With}} a {{Velocity Field Controller}} to {{Learn}} and {{Reproduce}} the {{Therapist}}'s {{Assistance}} in {{Robot-Assisted Rehabilitation}}}
+      \field{volume}{25}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{1622\bibrangedash 1633}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/TMECH.2020.2981625
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\najafi_et_al_2020_using_potential_field_function_with_a_velocity_field_controller_to_learn_and2.pdf
+      \endverb
+      \keyw{Assistive technology,End effectors,Force,human-robot interaction,motion control,READ,rehabilitation robotics,Robot kinematics,robot learning,STABILITY,Task analysis,Trajectory}
+    \endentry
     \entry{neumannNeuralLearningStable2013}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=c2c088442e8aed4b985940f763ac484a}{%
@@ -7496,6 +7837,66 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\raibert_craig_1981_hybrid_position-force_control_of_manipulators.pdf
       \endverb
     \endentry
+    \entry{raiolaDevelopmentSafetyEnergyAware2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=22641f02081cd26e485f04179d39e421}{%
+           family={Raiola},
+           familyi={R\bibinitperiod},
+           given={Gennaro},
+           giveni={G\bibinitperiod}}}%
+        {{hash=861c005d0f2aae96fd9fcffeab998df9}{%
+           family={Cardenas},
+           familyi={C\bibinitperiod},
+           given={Carlos\bibnamedelima Alberto},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ef56bbd5c78c7b074892c354dceb1e77}{%
+           family={Tadele},
+           familyi={T\bibinitperiod},
+           given={Tadele\bibnamedelima Shiferaw},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{useprefix=true,hash=002e6fdf7515cf263b38b9ae4fc17a23}{%
+           family={Vries},
+           familyi={V\bibinitperiod},
+           given={Theo},
+           giveni={T\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=af92661283f5b14c79ec09409cdfb860}{%
+           family={Stramigioli},
+           familyi={S\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e71d4c464b8583584f43857b8e3b6eb9}
+      \strng{fullhash}{f49429b4120659e4a89f29677ce4834c}
+      \strng{bibnamehash}{e71d4c464b8583584f43857b8e3b6eb9}
+      \strng{authorbibnamehash}{e71d4c464b8583584f43857b8e3b6eb9}
+      \strng{authornamehash}{e71d4c464b8583584f43857b8e3b6eb9}
+      \strng{authorfullhash}{f49429b4120659e4a89f29677ce4834c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In contexts where robots share their workspace with humans, safety is of utmost importance. Consequently, in recent years, a big impulse has been given to the design of human-friendly robots by involving both mechanical and control design aspects. Regarding controller design, this often involves introducing compliance and ensuring asymptotic stability using an interaction control scheme and passivity theory. Moreover, when human operators physically interact with the robot during work, strict safety measures become necessary with some of these including power and force limitations [1]. In this letter, a novel impedance control technique for collaborative robots is presented. The featured controller allows a safe human-robot interaction through energy and power limitations, assuring passivity through energy tanks. The proposed controller is evaluated with a KUKA LWR 4+ arm in a comanipulation environment.}
+      \field{eventtitle}{{{IEEE Robotics}} and {{Automation Letters}}}
+      \field{issn}{2377-3766}
+      \field{journaltitle}{IEEE Robotics and Automation Letters}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Development of a {{Safety-}} and {{Energy-Aware Impedance Controller}} for {{Collaborative Robots}}}
+      \field{volume}{3}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{1237\bibrangedash 1244}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/LRA.2018.2795639
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\raiola_et_al_2018_development_of_a_safety-_and_energy-aware_impedance_controller_for.pdf;C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\raiola_et_al_2018_development_of_a_safety-_and_energy-aware_impedance_controller_for2.pdf
+      \endverb
+      \keyw{Asymptotic stability,compliance and impedance control,Damping,Impedance,Measurement,physical human–robot interaction,Robot safety,Robots,Safety,Symmetric matrices}
+    \endentry
     \entry{ranaEuclideanizingFlowsDiffeomorphic2020}{inproceedings}{}
       \name{author}{6}{}{%
         {{hash=4cba507354ae2a4d46a5eddaa6de4f88}{%
@@ -7997,6 +8398,59 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\rombokas_et_al_2013_tendon-driven_variable_impedance_control_using_reinforcement_learning.pdf
       \endverb
     \endentry
+    \entry{rossaRoboticRehabilitationAssistance2021}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c66df44a6478565f7506066ec330f429}{%
+           family={Rossa},
+           familyi={R\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=47925644a4bcc20f94e4be339ecba06b}{%
+           family={Najafi},
+           familyi={N\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8824d822d9401ecfda06a083c4d750e6}{%
+           family={Tavakoli},
+           familyi={T\bibinitperiod},
+           given={Mahdi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=51a388f452572df590eee79773962131}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={Kim},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5419ca332a965820cbd64c23981c422}
+      \strng{fullhash}{3c61243dca52315036665fc00e489725}
+      \strng{bibnamehash}{b5419ca332a965820cbd64c23981c422}
+      \strng{authorbibnamehash}{b5419ca332a965820cbd64c23981c422}
+      \strng{authornamehash}{b5419ca332a965820cbd64c23981c422}
+      \strng{authorfullhash}{3c61243dca52315036665fc00e489725}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Design and development of robotic-assistance must consider the abilities of individuals with disabilities. In this article, a 8-DOF kinematic model of the upper limb complex is derived to evaluate the reachable workspace of the arm during interaction with a planar robot and to serve as the basis for rehabilitation strategies and assistive robotics. Through inverse differential kinematics and by taking account the physical limits of each arm joint, the model determines workspaces where the individual is able to perform tasks and those regions where robotic assistance is required. Next, a learning-from-demonstration strategy via a nonparametric potential field function is derived to teach the robot the required assistance based on demonstrations of functional tasks. This article investigates two applications. First, in the context of rehabilitation, robotic assistance is only provided if the individual is required to move her arm in regions that are not reachable via voluntary motion. Second, in the context of assistive robotics, the demonstrated trajectory is scaled down to match the individual's voluntary range of motion through a nonlinear workspace mapping. Assistance is provided within that workspace only. Experimental results in 5 different experimental scenarios with a person with cerebral palsy confirm the suitability of the proposed framework.}
+      \field{eventtitle}{{{IEEE Transactions}} on {{Medical Robotics}} and {{Bionics}}}
+      \field{issn}{2576-3202}
+      \field{journaltitle}{IEEE Transactions on Medical Robotics and Bionics}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Robotic {{Rehabilitation}} and {{Assistance}} for {{Individuals With Movement Disorders Based}} on a {{Kinematic Model}} of the {{Upper Limb}}}
+      \field{volume}{3}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{190\bibrangedash 203}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/TMRB.2021.3050512
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\rossa_et_al_2021_robotic_rehabilitation_and_assistance_for_individuals_with_movement_disorders.pdf
+      \endverb
+      \keyw{assistive robotics,cerebral palsy,Kinematic model,Kinematics,learning-from-demonstration,Manipulators,non-linear mapping,READ,rehabilitation robotics,Rehabilitation robotics,Robot kinematics,Robots,Shoulder,STABILITY,Task analysis}
+    \endentry
     \entry{rozanecNeuralDynamicMovement2022}{online}{}
       \name{author}{2}{}{%
         {{hash=b1f38bc13476a9ef776a8dd5f9ff465a}{%
@@ -8050,6 +8504,79 @@
       \endverb
       \keyw{Computer Science - Artificial Intelligence,Computer Science - Robotics,READ}
     \endentry
+    \entry{sadanandananandSafeLearningControl2021}{article}{}
+      \name{author}{6}{}{%
+        {{hash=8179233b4cad5a0f6a66d6b1c49678ff}{%
+           family={Sadanandan\bibnamedelima Anand},
+           familyi={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Akhil},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3dd9c04c955ca6c26b0ceec8e2a3f05b}{%
+           family={Seel},
+           familyi={S\bibinitperiod},
+           given={Katrine},
+           giveni={K\bibinitperiod}}}%
+        {{hash=71fd6632af3feed27a86bf8fa0ee976c}{%
+           family={Gjærum},
+           familyi={G\bibinitperiod},
+           given={Vilde\bibnamedelima Benoni},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=3afd0776ad8fe601e7149b61492bce63}{%
+           family={Håkansson},
+           familyi={H\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2071a3ff7eeb9d20c223e3b8c14bc27e}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Haakon},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b2ec06c39d9cdde0a751a51446b6402f}{%
+           family={Saad},
+           familyi={S\bibinitperiod},
+           given={Aya},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Science}%
+      }
+      \strng{namehash}{21605a20b12a42d31ee65f0e8f90370f}
+      \strng{fullhash}{463121dc51c45487d3b78c33e58ce4b1}
+      \strng{bibnamehash}{21605a20b12a42d31ee65f0e8f90370f}
+      \strng{authorbibnamehash}{21605a20b12a42d31ee65f0e8f90370f}
+      \strng{authornamehash}{21605a20b12a42d31ee65f0e8f90370f}
+      \strng{authorfullhash}{463121dc51c45487d3b78c33e58ce4b1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Real-world autonomous systems are often controlled using conventional model-based control methods. But if accurate models of a system are not available, these methods may be unsuitable. For many safety-critical systems, such as robotic systems, a model of the system and a control strategy may be learned using data. When applying learning to safety-critical systems, guaranteeing safety during learning as well as testing/deployment is paramount. A variety of different approaches for ensuring safety exists, but the published works are cluttered and there are few reviews that compare the latest approaches. This paper reviews two promising approaches on guaranteeing safety for learning-based robust control of uncertain dynamical systems, which are based on control barrier functions and control Lyapunov functions. While control barrier functions provide an option to incorporate safety in terms of constraint satisfaction, control Lyapunov functions are used to define safety in terms of stability. This review categorises learning-based methods that use control barrier functions and control Lyapunov functions into three groups, namely reinforcement learning, online and offline supervised learning. Finally, the paper presents a discussion of the suitability of the different methods for different applications.}
+      \field{annotation}{Accepted: 2021-10-14T08:36:42Z}
+      \field{issn}{1877-0509}
+      \field{journaltitle}{3987-3997}
+      \field{langid}{english}
+      \field{shorttitle}{Safe {{Learning}} for {{Control}} Using {{Control Lyapunov Functions}} and {{Control Barrier Functions}}}
+      \field{title}{Safe {{Learning}} for {{Control}} Using {{Control Lyapunov Functions}} and {{Control Barrier Functions}}: {{A Review}}}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1016/j.procs.2021.09.173
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\sadanandan_anand_et_al_2021_safe_learning_for_control_using_control_lyapunov_functions_and_control_barrier.pdf;C\:\\Users\\ricks\\Zotero\\storage\\HGRTC45S\\Sadanandan Anand et al. - 2021 - Safe Learning for Control using Control Lyapunov F.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2811583
+      \endverb
+      \verb{url}
+      \verb https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2811583
+      \endverb
+      \keyw{REVIEW}
+    \endentry
     \entry{salehiLearningDiscreteTimeUncertain2022}{article}{}
       \name{author}{3}{}{%
         {{hash=2541125b80b073dcc50960a478c55799}{%
@@ -8094,67 +8621,6 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\salehi_et_al_2022_learning_discrete-time_uncertain_nonlinear_systems_with_probabilistic_safety.pdf
       \endverb
       \keyw{Adaptation models,Control systems,Discrete-time Control Barrier Function,Discrete-time systems,Extreme Learning Machine,Nonlinear dynamical systems,Probabilistic logic,READ,Safe Model Learning,Safety,Stability criteria}
-    \endentry
-    \entry{salehianDynamicalSystemBasedApproachControlling2018}{article}{}
-      \name{author}{2}{}{%
-        {{hash=6d38a0bfd19fc904b0a64d4d80609dc2}{%
-           family={Salehian},
-           familyi={S\bibinitperiod},
-           given={Seyed\bibnamedelimb Sina\bibnamedelima Mirrazavi},
-           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=3cd4f444d840eee2580ddf886f20b1c8}{%
-           family={Billard},
-           familyi={B\bibinitperiod},
-           given={Aude},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Piscataway}%
-      }
-      \list{publisher}{1}{%
-        {Ieee-Inst Electrical Electronics Engineers Inc}%
-      }
-      \strng{namehash}{3f507ca76f127fdf9addcefb3d058800}
-      \strng{fullhash}{3f507ca76f127fdf9addcefb3d058800}
-      \strng{bibnamehash}{3f507ca76f127fdf9addcefb3d058800}
-      \strng{authorbibnamehash}{3f507ca76f127fdf9addcefb3d058800}
-      \strng{authornamehash}{3f507ca76f127fdf9addcefb3d058800}
-      \strng{authorfullhash}{3f507ca76f127fdf9addcefb3d058800}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Many daily life tasks require precise control when making contact with surfaces. Ensuring a smooth transition from free motion to contact is crucial as incurring a large impact force may lead to unstable contact with the robot bouncing on the surface, i.e., chattering. Stabilizing the forces at contact is not possible as the impact lasts for less than a millisecond, leaving no time for the robot to react to the impact force. We present a strategy in which the robot adapts its dynamic before entering into contact. The speed is modulated so as to align with the surface. We leverage the properties of autonomous dynamical systems for immediate re-planning and handling unforeseen perturbations and exploit local modulations of the dynamics to control for the smooth transitions at contact. We show theoretically and empirically that by using the modulation framework, the robot can stably touch the contact surface, even when the surface's location is uncertain, at a desired location, and finally, leave the surface or stop on the surface at a desired point.}
-      \field{annotation}{WOS:000435511900001}
-      \field{issn}{2377-3766}
-      \field{journaltitle}{Ieee Robotics and Automation Letters}
-      \field{langid}{english}
-      \field{month}{10}
-      \field{number}{4}
-      \field{shortjournal}{IEEE Robot. Autom. Lett.}
-      \field{title}{A {{Dynamical-System-Based Approach}} for {{Controlling Robotic Manipulators During Noncontact}}/{{Contact Transitions}}}
-      \field{urlday}{2}
-      \field{urlmonth}{5}
-      \field{urlyear}{2022}
-      \field{volume}{3}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{2738\bibrangedash 2745}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/LRA.2018.2833142
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\salehian_billard_2018_a_dynamical-system-based_approach_for_controlling_robotic_manipulators_during.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/8354896
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/8354896
-      \endverb
-      \keyw{bang impact control,manipulation planning,mechanical systems,Motion control,obstacle avoidance,READ,tasks}
     \endentry
     \entry{san-miguelAutomatedOffLineGeneration2022}{article}{}
       \name{author}{3}{}{%
@@ -8351,46 +8817,6 @@
       \verb http://arxiv.org/abs/2208.13267
       \endverb
       \keyw{Computer Science - Robotics,IMPORTANT,READ}
-    \endentry
-    \entry{saverianoLearningBarrierFunctions2019}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=77c1b599283b17c87370f0a2debb9ae3}{%
-           family={Saveriano},
-           familyi={S\bibinitperiod},
-           given={Matteo},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d1e4c7f0d417c795107b9fe13e30a424}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Dongheui},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{d2ad998f80c63c6595ea7f7f020cd304}
-      \strng{fullhash}{d2ad998f80c63c6595ea7f7f020cd304}
-      \strng{bibnamehash}{d2ad998f80c63c6595ea7f7f020cd304}
-      \strng{authorbibnamehash}{d2ad998f80c63c6595ea7f7f020cd304}
-      \strng{authornamehash}{d2ad998f80c63c6595ea7f7f020cd304}
-      \strng{authorfullhash}{d2ad998f80c63c6595ea7f7f020cd304}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Stable dynamical systems are a flexible tool to plan robotic motions in real-time. In the robotic literature, dynamical system motions are typically planned without considering possible limitations in the robot's workspace. This work presents a novel approach to learn workspace constraints from human demonstrations and to generate motion trajectories for the robot that lie in the constrained workspace. Training data are incrementally clustered into different linear subspaces and used to fit a low dimensional representation of each subspace. By considering the learned constraint subspaces as zeroing barrier functions, we are able to design a control input that keeps the system trajectory within the learned bounds. This control input is effectively combined with the original system dynamics preserving eventual asymptotic properties of the unconstrained system. Simulations and experiments on a real robot show the effectiveness of the proposed approach.}
-      \field{booktitle}{2019 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})}
-      \field{eventtitle}{2019 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})}
-      \field{issn}{2153-0866}
-      \field{month}{11}
-      \field{title}{Learning {{Barrier Functions}} for {{Constrained Motion Planning}} with {{Dynamical Systems}}}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \field{pages}{112\bibrangedash 119}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/IROS40897.2019.8967981
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\saveriano_lee_2019_learning_barrier_functions_for_constrained_motion_planning_with_dynamical.pdf
-      \endverb
     \endentry
     \entry{saverianoDynamicMovementPrimitives2021}{online}{}
       \name{author}{4}{}{%
@@ -8992,6 +9418,64 @@
       \endverb
       \keyw{REVIEW}
     \endentry
+    \entry{sharkawyHumanRobotInteraction2022}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e235518b467c873b5a5ef65123c50f71}{%
+           family={Sharkawy},
+           familyi={S\bibinitperiod},
+           given={Abdel-Nasser},
+           giveni={A\bibinithyphendelim N\bibinitperiod}}}%
+        {{hash=d8a7b9c834362895a83242d4ed924d6a}{%
+           family={Koustoumpardis},
+           familyi={K\bibinitperiod},
+           given={Panagiotis\bibnamedelima N.},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{91368a3fd693dc24fe00d3d005acd9e4}
+      \strng{fullhash}{91368a3fd693dc24fe00d3d005acd9e4}
+      \strng{bibnamehash}{91368a3fd693dc24fe00d3d005acd9e4}
+      \strng{authorbibnamehash}{91368a3fd693dc24fe00d3d005acd9e4}
+      \strng{authornamehash}{91368a3fd693dc24fe00d3d005acd9e4}
+      \strng{authorfullhash}{91368a3fd693dc24fe00d3d005acd9e4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Human–robot interaction (HRI) is a broad research topic, which is defined as understanding, designing, developing, and evaluating the robotic system to be used with or by humans. This paper presents a survey on the control, safety, and perspectives for HRI systems. The first part of this paper reviews the variable admittance (VA) control for human–robot co-manipulation tasks, where the virtual damping, inertia, or both are adjusted. An overview of the published research for the VA control approaches, their methods, the accomplished collaborative co-manipulation tasks and applications, and the criteria for evaluating them are presented and compared. Then, the performance of various VA controllers is compared and investigated. In the second part, the safety of HRI systems is discussed. The various methods for detection of human–robot collisions (model-based and data-based) are investigated and compared. Furthermore, the criteria, the main aspects, and the requirements for the determination of the collision and their thresholds are discussed. The performance measure and the effectiveness of each method are analyzed and compared. The third and final part of the paper discusses the perspectives, necessity, influences, and expectations of the HRI for future robotic systems.}
+      \field{issn}{2075-1702}
+      \field{issue}{7}
+      \field{journaltitle}{Machines}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{7}
+      \field{shorttitle}{Human–{{Robot Interaction}}}
+      \field{title}{Human–{{Robot Interaction}}: {{A Review}} and {{Analysis}} on {{Variable Admittance Control}}, {{Safety}}, and {{Perspectives}}}
+      \field{urlday}{11}
+      \field{urlmonth}{8}
+      \field{urlyear}{2022}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{591}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/machines10070591
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\sharkawy_koustoumpardis_2022_human–robot_interaction.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2075-1702/10/7/591
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2075-1702/10/7/591
+      \endverb
+      \keyw{human–robot interaction,review,REVIEW,robot control,robot safety,safety methods,variable admittance control}
+    \endentry
     \entry{al-shukaActiveImpedanceControl2018}{article}{}
       \name{author}{6}{}{%
         {{hash=a97413604d301692c9fa197c0ebfed84}{%
@@ -9547,7 +10031,7 @@
       \verb 10.1109/ICRA.2014.6907007
       \endverb
       \verb{file}
-      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\tadele_et_al_2014_combining_energy_and_power_based_safety_metrics_in_controller_design_for2.pdf
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\tadele_et_al_2014_combining_energy_and_power_based_safety_metrics_in_controller_design_for.pdf
       \endverb
       \keyw{Domestic Robots,Force,Impedance,Impedance Control,Injuries,Interaction Control,Manipulators,Measurement,Passivity Based Control,PD,Safety,Safety Metric}
     \endentry
@@ -9584,6 +10068,63 @@
       \range{pages}{9}
       \verb{file}
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\takeishi_kawahara_2021_learning_dynamics_models_with_stable_invariant_sets.pdf
+      \endverb
+      \keyw{READ}
+    \endentry
+    \entry{tangTeachIndustrialRobots2016}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=9695fee81fdee6b8c9bccbe95fc5cffc}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Te},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7985ff9a22c35e0059f076c74708c532}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Hsien-Chung},
+           giveni={H\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=26500c0e7c5f37a79d71416c4c641ba2}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9a936377ba566b6e1775e4d5adbedbdb}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Yongxiang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=806b7b139b26e4aca289d208af150f24}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wenjie},
+           giveni={W\bibinitperiod}}}%
+        {{hash=84b66ce2b6f9f8530dd504fc63a4cc64}{%
+           family={Tomizuka},
+           familyi={T\bibinitperiod},
+           given={Masayoshi},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{3fff46b09140a4f6804c28f9afcce32d}
+      \strng{fullhash}{5d45a14fe33124a3e7bc6233cca0480d}
+      \strng{bibnamehash}{3fff46b09140a4f6804c28f9afcce32d}
+      \strng{authorbibnamehash}{3fff46b09140a4f6804c28f9afcce32d}
+      \strng{authornamehash}{3fff46b09140a4f6804c28f9afcce32d}
+      \strng{authorfullhash}{5d45a14fe33124a3e7bc6233cca0480d}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 {{IEEE International Conference}} on {{Advanced Intelligent Mechatronics}} ({{AIM}})}
+      \field{title}{Teach Industrial Robots Peg-Hole-Insertion by Human Demonstration}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{488\bibrangedash 494}
+      \range{pages}{7}
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\tang_et_al_2016_teach_industrial_robots_peg-hole-insertion_by_human_demonstration2.pdf
       \endverb
       \keyw{READ}
     \endentry
@@ -10981,6 +11522,65 @@
       \verb{file}
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\willems_1972_dissipative_dynamical_systems_part_ii.pdf
       \endverb
+    \endentry
+    \entry{wilzConstrainedHapticguidedShared2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c583383c193862461e28a438204b18ad}{%
+           family={Wilz},
+           familyi={W\bibinitperiod},
+           given={Olivia},
+           giveni={O\bibinitperiod}}}%
+        {{hash=a16488cd5d03696d0c41094f59e0a51b}{%
+           family={Sainsbury},
+           familyi={S\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c66df44a6478565f7506066ec330f429}{%
+           family={Rossa},
+           familyi={R\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{53bb6f85863563b5531b707a0f5602f5}
+      \strng{fullhash}{53bb6f85863563b5531b707a0f5602f5}
+      \strng{bibnamehash}{53bb6f85863563b5531b707a0f5602f5}
+      \strng{authorbibnamehash}{53bb6f85863563b5531b707a0f5602f5}
+      \strng{authornamehash}{53bb6f85863563b5531b707a0f5602f5}
+      \strng{authorfullhash}{53bb6f85863563b5531b707a0f5602f5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Percutaneous nephrolithotomy is a procedure used to treat patients with large or irregularly shaped kidney stones. Surgical instruments are inserted through a small incision to access the kidney and remove the calculi. Surgeons who have less experience with the procedure manifest significantly higher rates of complications due to the procedure’s steep learning curve. This issue is further exacerbated by a lack of training opportunities in clinical settings. This paper introduces a teleoperative framework that can provide training to surgeons as well as assistance during procedures, based on two main components. Firstly, a type of constrained inverse kinematics that decouples the tooltip position from its orientation using a remote centre of motion, and incorporates the joint limits analytically. This reduces the workload of the procedure by having the surgeon control only the tooltip position rather than the position and the orientation while preventing the inverse kinematics from returning joint angles outside of the robot’s abilities. This kinematic framework also allows a three-degrees-of-freedom haptic device to control a six-degrees-of-freedom manipulator. Secondly, haptic feedback is provided to help guide and teach the surgeon during the procedure. Haptic feedback allows the surgeon to remain in full control during the procedure while still receiving haptic cues and assistance. Experimental results indicate that the haptic cues improved user’s accuracy, and they had shorter and smoother paths. This leads to a shorter procedure time overall. The results also indicate that the haptic assistance helped teach users the ideal trajectory of the procedure and that users who were taught with haptic feedback performed better than those who never experienced any haptic feedback.}
+      \field{day}{1}
+      \field{issn}{0957-4158}
+      \field{journaltitle}{Mechatronics}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{shortjournal}{Mechatronics}
+      \field{title}{Constrained Haptic-Guided Shared Control for Collaborative Human–Robot Percutaneous Nephrolithotomy Training}
+      \field{urlday}{29}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{volume}{75}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{102528}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.mechatronics.2021.102528
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wilz_et_al_2021_constrained_haptic-guided_shared_control_for_collaborative_human–robot.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957415821000301
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957415821000301
+      \endverb
+      \keyw{Constrained inverse kinematics,Haptic assistance,Human–robot interface,Medical robotics,Percutaneous nephrolithotomy,READ,Remote centre of motion,STABILITY}
     \endentry
     \entry{wuAdaptiveImpedanceControl2020}{book}{}
       \name{author}{3}{}{%

@@ -1,127 +1,146 @@
-\chapter{Conclusion}
+\chapter{Discussions and Conclusion}
 \label{chapter:conclusion}
-% TODO: Check new hogan paper.
-% TODO: Stability not occurring often in practice (kronander)
-% TODO: Short summary.
-% TODO: Explain that stability does not always mean safety and that the theory in this paper can be extended by looking at safety constraints (control barrier functions).
-% TODO: FRACTAL ATTRACTOR limitations. Requires desired velocity and acceleration to be zero.
+
+% TODO: Check safety references remove some.
+% TODO: Vraag kan nog duidelijker terug komen en de because valt wat uit de lucht.
+% IN the precious
+The previous chapters gave an extensive overview of the stability/passivity considerations and methods used in the current variable impedance literature for stable control of rigid robotics manipulators in contact with (semi)-rigid environments. Because unstable systems can exhibit unpredictable and often dangerous behaviours guaranteeing stability is essential if we want robots to transition from their isolated factory workspace to the real world, where they interact with humans and other robots. Impedance control, in which the robot-environment interaction is modelled as a spring-damper system, is frequently used as traditional position and force controllers are unsuited for simultaneously performing free motion trajectory tracking and environment interaction. Although impedance controllers with constant parameters are passive and thus stable by design, this passivity is lost when the impedance parameters vary with time. To solve this, researchers have used Lyapunov's theory and its extension passivity to ensure VIC stays stable in free motion and is bounded during an interaction.
+
+Within the variable impedance literature, two types of passivity-based approaches for ensuring the stability of interaction tasks are found: Solutions that try to enforce passivity online through pacifying control algorithms and solutions that use stability constraints to ensure the passivity of a given controller or impedance profile offline. Under the first approach (i.e. pacifying control algorithms), methods like energy tanks and potential fields are found. These methods rely on an energy-storing element (such as a tank or potential field) to track the energy dissipated in the closed-loop system. They act as a passivity filter by only executing non-passive actions when enough energy is left in this storage element. When no energy is left, non-passive actions can no longer be performed, thereby protecting the total system passivity. Several authors have used these storage-based methods with optimal, adaptive and LfD-based variable impedance controllers to ensure passivity and, thus, stability. They are easy to implement, offer clear physical insights, and can be used with any controller. However, they are task and state-dependent and must therefore be re-tuned for each task and can only be applied online. As a result, they are not suited for guaranteeing the execution of desired trajectories and impedance profiles beforehand. 
+
+Therefore, other authors have taken the second approach and derived stability constraints that ensure the stability of their optimal and adaptive controllers. However, as no general method exists for deriving these constraints, this task is challenging. Furthermore, as these derivations prove stability and not passivity, they do not ensure these controllers stay stable when interacting with the environment. 
+
+Kronander et al.
+
+Extenstions
+
+In learning based demonstration methods thoerica passivity guarnatees were dervied.
+
+
+
+However, in the classical  impedance literature 
+
+of optimal and adaptive controllers and the passivity of LfD-based variable impedance controllers. 
+
+
+
+This was first done by Kronander et al. and later extended to also show passivity and closed loop stability.
+
+
+
+
+Zowel binnen LFD als classical control Lyapunov constraints.
+Maar geen general method dus challanging.
+Kronder et al. derived these constraintes for the general impedance controller.
+Later extended to also show passivity and therefore closed-loop stabiltiy.
+However only one paper used these constraints online. Only specific problem.
+During the optimization these constraints however lead to a accucart-stability trade-off.
+Several authors have dervied less constricitve constrains improving performance. 
+This however is an ongoing reaseach question.
+
+Each method has its strengths and weaknesses.
+Energy tanks can be best applied if you want to ensure passivity with controllers for which you don't know the impedance profiles.
+Lyapunov consrains are used when you know these profiles beforehand.
+
+is a challenging task as no general method exists for deriving these constraints, and the exact derivation depends on the controller and the environment.
+
+
+Although these passivity constraints can ensure the passivity of a certain impedance profile or cotnroller beforehand . Furthermore both 
+Further their  
+
+These passivity constraint based methods, with the exception of one paper can only be used offline prior to the control 
+
+
+
+
+
+Furthermore, their accuracy depends on the type of Lyapunov candidate or contraction metric used. 
+
+Contrary to the storage-based methods, these constraint based methods are harder to implement 
+
+
+
+Both 
+
+
+For RL-based impedance controllers, studies that look at guaranteeing passivity are more sparse
+. Nevertheless, some recent papers have looked at ways to ensure stability in these methods.
+
+
+To the question of which method to use for your variable impedance controller . Since each methods above has its strenghts and weaknesses no easy answer is found to
+
+Where 
+
+As a result, no answer passivity method that is highly dependent on the type of impedance controller you are using and the task you are trying to achieve.
+
+As shown above, both approaches have their strengths and weaknesses. As a result, no clear answer exists as to which passivity-based method is preferred since the answer depends on the type of impedance controller and the task you are trying to achieve. 
+
+Constraint-based methods, on the other hand, can only be applied
+
+
+Because both approaches have their
+
+Within RL-based variable impedance control only some recent papers have looked at passivity. 
+
+
+% Question: not the only two times?
+However, this review has several limitations that need to be pointed out. First, it only considers interactions with rigid (passive) environments. It does not look at interactions with active or compliant environments like humans, controlled robots or soft objects. This review's passivity and ISS stability proofs do not hold for these environments. Therefore, ensuring stability in these environments is left for future research. Secondly, it mainly focuses on passivity-based stability methods. Even though passivity is well suited for guaranteeing stability in interaction tasks, it is not the only method. Other ISS and IOS methods are also used in the literature but fall outside this paper's scope. Lastly, while the controller's stability is trivial for a safe robot interaction, it is not the only quantity that needs to be considered. While a stable controller will not lead to unpredictable free motion and contact behaviour, it can still command high velocities, accelerations and forces, leading to unsafe situations. It should, therefore, also adhere to specific safety constraints like position, velocity, and acceleration limits to safely control robotic manipulators alongside humans or other robots \cite{lasotaSurveyMethodsSafe2017,raiolaDevelopmentSafetyEnergyAware2018,chowLyapunovbasedApproachSafe2018,zacharakiSafetyBoundsHuman2020,benziOptimizationApproachRobust2021,sadanandananandSafeLearningControl2021,sharkawyHumanRobotInteraction2022}. A possible future work could be to investigate how these additional safety constraints can be incorporated into the (learned) impedance control policy while maintaining passivity and stability.
+
 % TODO: Tank based and potential field based need to be tuned to each task they apply to. Which method is to be used ultimately depends on factors such as importance of accurate stiffness following (choose our approach) or applicability to systems without dynamic decou-pling (choose state-dependent approach such as [8]) (kronander)
+
 % TODO: Future researchers could focus on Lyapunov constraint always less conservative constraints can be found. Further constraints which teh stiffness or damping can be varied faster can be found (Sun and Zhang).
-% TODO: Uncertainties and friction. This model.
-% TODO: NOT ACTIVE ENVIRONMENTS!
-% TODO: Check safety papers rajoa
-% TODO: Energy tanks, potential fields are controller independent.
-% TODO: Energy tank methods are quite conservative as they will release as much energy as requested by the controller but apply a constant stiffness when it runs out. This is solved by Sechi.
-% TODO: Add other constraints to tank?
-% TODO: Altough it highlighted several methods to limit the rate of power in energy tanks. This paper focuses on the stability. Several constraints for safety are found in [].
-% TODO: Talk about constraints tadele 2014.
-% TODOL Method CBF can be applied to incorporate safety constraints. This is done in see CBF folder.
-% TODO: Safety done in tadele/benzi ect for human r
+
 % TODO: potential fields only allow varying stiffness not applied yet to also include inertia variation.
-% TODO: Chow introduces safe RL.
+
 % TODO: Admittance with position control passivity and stability can be easily proven (Kramberger, Tang et al.).
+
 % TODO: DS not only modeling approach.
 
-% TODO: Check calafoni discussion: Passivity is required! Tradeoff, Safety ect. Stability does not imply safety! Tanks can be used when safety or performance is more important than stability.
+% TODO: Kronander et al. 2016 time dependent LFD based methods are state dependent.
 
-% TODO: sim to real gap on RL research.
+--------------------------------
 
-As stability and accuracy have a trade-off people have to look at the task to decide which is most important (see califano).
+Within the first approach 
 
-In the previous chapters an extensive overview was given of the stability/passivity considerations and methods used in the current variable impedance literature for stable control of rigid robotics manipulators in contact with (semi)-rigid environments. Because unstable systems can exhibit unpredictable and often dangerous behaviors these methods are of uttermost importance if we want robots to transition from their isolated factory workspace to the real-world. 
+The type of passivity method used is highly dependent on the task that needs to be performed. Methods like energy tanks and potential fields can be applied to any to ensure control stays passive and thus stable. However, they are state-dependent and can significantly affect trajectory tracking performance. 
 
-% TODO: DMP when motions are intrinsically time-independent (khansari et al. 2011).
-Several methods have been used to ensure stable interaction and accurate trajectory tracking performance with impedance based algorithms. 
+Passivity based methods like those of KRonander et al. 2014 on the other hand allow 
 
-% Collosion ovoidance not desired in all tasks when interaction is needed. The full robot design is therefore taks dependent.
+As stability and accuracy have a trade-off, people must look at the task to decide which is most important (see califano).
 
-
-This review however also has several limitations that need to be pointed out. The first one being that only interactions with \textbf{rigid (passive) environments} were considered. It did not look at stability methods that can be used for interactions with active environments like humans or other robots. The passivity and input-output stability proofs given in this review do not hold for these environments and are left to future research. Secondly, the review only looks at passivity and IS-stability based methods. Although these are the most used methods in the impedance literature it are not the only methods for ensuring stability. Stability methods that use IO stability proofs are also left for future research. Lastly, although stability is the most trivial quality for ensuring that robots can work safely alongside humans and other robots it is not the only quantity. A stable robotic system will ensure that the closed-loop system will not go unstable and exhibit unpredictable behavoir. IT however does not guarantee other safety constraints like maximum acceleration, velocity limits and collision avoidance, collision prevention. As these quantities are very important future research can focus on how to extend the results of these review such that also other stability constraints can be guaranteed.
-
-This review focuses on guaranteeing stability of contact tasks. It does not focus temporary contact instabilities and oscillations than can occurring during the switch from free to contact motion \cite{khansariAdaptiveHumaninspiredCompliant2016,salehianDynamicalSystemBasedApproachControlling2018}. As these oscillations can be undesirable and hurt performance this is a very important topic and should be investigated in the future.
-
-% TODO: Check CBF papers.
-
-Although stability is a fundamental quantity for robotics control it is not the only quantity that needs to be considered to ensure robotic can be safely applied in environments with humans. Future research should also focus on methods like Lyapunov Barrier functions that can ensure other constraints like joint limits, cartesian limits and collision avoidance that ensure safety \cite{amesControlBarrierFunctions2019,saverianoLearningBarrierFunctions2019}.
-
-As stated in \ref{chapter:background} passivity is not the only method for guaranteeing stability in interaction tasks. Other methods like Input-to-state stability (ISS) and Input-to-output stability (IOS) can also be used. Future research should therefore also focus on these methods.
-
-
-
-
-Using a fractal attractor is very promising for enforcing the passivity of variable impedance profiles online. Currently, this method has only been applied on variable impedance controllers in which only the stiffness has been varied since this is the most important for stability? (See article) Future research should focus on applying this concept to variable impedance controllers where all impedance parameters can vary.
-Derive Lyapunov constraints in which the inertia does not have to be constant.
-Multiple methods have been proposed to ensure robot manipulators' stability when interacting with rigid environments through VIC. Researchers used passivity filters like Farragut's energy tank to enforce the passivity of the closed-loop system during control \cite{ferragutiTankbasedApproachImpedance2013}. The benefit of this method is that it does not require any knowledge about the controlled system. The downside is that it is state-dependent and does not guarantee control performance. Researchers like \cite{kronanderStabilityConsiderationsVariable2016}have tried to solve these problems by designing passivity constraints on the variable impedance parameters that ensure a controller stays passive. Other authors have designed controllers, of which passivity is shown using a passivity analysis. Although this solves the state dependency problem and improves the performance, this method is not always feasible since it requires in-depth knowledge of the dynamic system and uncertainties. Learning-based methods have been used to overcome the above shortcomings.
-
-This review investigated the stability considerations needed for providing safe variable impedance control for robotics manipulators in contact with (semi)-rigid environments. While the controller's stability is the most fundamental component, it is not the only component needed for safe robot interaction. Even though a stable controller will not lead to unpredictable, unstable behaviour, it can still command high velocities and accelerations, leading to unsafe situations. The controller should, therefore, also be able to adhere to certain joint or Cartesian constraints if we want it to work alongside humans or other robots safely. Future reviews should therefore focus on incorporating these additional safety constraints in the (learned) impedance control while keeping the stability and passivity relationships.
-
-Passivity based methods have been extensively used in the impedance research for ensuring that control stable. Methods like energy
-
-Each of these methods has their strengths and weaknesses. Where are used for are used when the are not known in advance.
-
-
-The type of passivity solution depends on the task that needs to be performed. A proven passive controller like \cite{yangHumanlikeAdaptationForce2011} Yang et al. is preferable since this controller will always stay passive. Designing such a controller however is not trivial. For tasks where a offline profile is computed \cite{ferragutiTankbasedApproachImpedance2013} Ferragutis thank or the Lyapunov constraints of \cite{kronanderStabilityConsiderationsVariable2016} Kronander are very helpful. Learned controllers on the other hand do provide more customizability and are therefore preferred.
-
-
-LFD methods can be divided into two main groups: transient nonlinear models and constrained optimization methods.
-
-
-Currently, collision prevention is mainly handled through external collision prevention algorithms. Future research would also focus on directly incorporating these collision prevention behaviours through a constraint in learning-based methods.
-
-
-Search for even less conservative passivity constraints.
-
-
-In tele-operation large damping factors from constraints might degrade transparency (selvaggio)
-
-% TODO: Can we exploid the Fractal attractor to ensure passivity of general or a subclass variable impedance profiles.
-
-Altough the use of FA to create FIC is very promising concept for being able to use VIC. It however has not yet been applied for VIC in which also the desired inertia is varied and for which the (nonlinear) variable impedance profile is not set in advance and only . Future research should therefore focus on applying this concept to variable impedance controllers where all impedance parameters can vary and where the desired inertia is set in advance. assumption based on nonlinear profile.
-Damping can be introduced as long as the desired velocity is zero.
-
-The current FIC architectures allow for passively varying the stiffness. They use the actual robot inertia as the desired inertia. As stated, they can also be extended also to include the damping when the velocity is zero.
-Not done with changing damping. Doesn't make control less passive but could improve the dynamic interaction.
-
-% TODO: Tiseo incorperate safety bounds in potential field?
-
-% QUESTION: Something like this?
-Exact stablity method used might depend on the task you are trying to achieve. DMP for example are very easy to implement and work for tatsks that have a clear end time and can be learned from one demonstration?
-
-LfD is a tradeoff between accuracy-stability and model/learning complexity.
-
-Importance of global stability (see Kronander paper and papers about in practice does not happen?)
-
-
-DMP easy to implement -> computationally efficient.
-Constraint methods -> more complex but more accurate.
-Learned constraint methods -> even more complex and time consuming but again more accurate.
-Diffeomophic methods -> give more acccurate results but require to learn diffeomorphisms
-contraction based methods -> Give trajectory tracking but can be over-constricting outside ot eh demonstrations.
-Energy tank -> very simple but influences the accurcy online.
-
-Out of the methods above, the diffeomorphic and contraction-based methods have shown the best accuracy. They 
-
-SEDS-II and contraction non-convex optimization problems and therefore can have local stability optimums.
-
-Control barrier function. This research is fundimental in the sense that it is very required to be able to have general motion AI that can be deployed in the real world.
-
-In this review we focused on classical and learning from demonstration methods. One key learning based method however still is not concidered and reinforcement learning.
-
-The type of passivity method depends on the task at hand. If you can verify the passivity of the task beforehand a contstraint can be used otherwise a energy-tank or potential field can be used.
-
+The type of passivity method depends on the task at hand. If you can verify the passivity of the task beforehand, a constraint can be used; otherwise, an energy-tank or potential field can be used.
 
 Several methods have been proposed to ensure free-motion and interaction stability in variable impedance control:
 
-Where online methods are used for when the impedance profile or interaction force can not be predicted in advance. Constraint methods are used when the impedance profile is known in advance.
+Where online methods are used when the impedance profile or interaction force can not be predicted, constraint methods are used when the impedance profile is known in advance.
 
-Authors have been improving these methods so that they are less ristrictire and a better tracking performance can be achieved. Future research should therefore focus on these methods and their improvements. 
+Authors have been improving these methods so that they are less restrictive and better tracking performance can be achieved. Future research should therefore focus on these methods and their improvements. 
 
+With impedance-based algorithms, several methods have been used to ensure stable interaction and accurate trajectory-tracking performance. 
 
-Altough one safety quantity was methined in this paper, namely the power control, it is not the main focus.
-Passivity does not guarantee safety.
-% Califano et al. 2022
-Contrarily to passivity and stability, safety is not a system theoretic property that can be assessed mathematically, and its specific meaning depends on the specific hazards one aims to prevent. To be exhaustive in this respect is not within the scope of the paper, and many contributions assess
-and classify safety in differentways
+% Khansari potential has to be retrained when desired trajectory changes.
+Using a fractal attractor is very promising for enforcing the passivity of variable impedance profiles online. Currently, this method has only been applied on variable impedance controllers in which only the stiffness has been varied since this is the most important for stability? (See article) Future research should focus on applying this concept to variable impedance controllers where all impedance parameters can vary.
+Derive Lyapunov constraints in which the inertia does not have to be constant.
+Multiple methods have been proposed to ensure robot manipulators' stability when interacting with rigid environments through VIC. Researchers used passivity filters like Farragut's energy tank to enforce the passivity of the closed-loop system during control \cite{ferragutiTankbasedApproachImpedance2013}. The benefit of this method is that it does not require any knowledge about the controlled system. The downside is that it is state-dependent and does not guarantee control performance. Researchers like \cite{kronanderStabilityConsiderationsVariable2016}have tried to solve these problems by designing passivity constraints on the variable impedance parameters that ensure a controller stays passive. Other authors have designed controllers, of which passivity is shown using a passivity analysis. Although this solves the state dependency problem and improves performance, this method is not always feasible since it requires in-depth knowledge of the dynamic system and uncertainties. Learning-based methods have been used to overcome the above shortcomings.
 
-% TODO: NOTE THIS!
-Kronander et al. 2016 time dependent LFD based methods are state dependent.
+Passivity-based methods have been extensively used in impedance research to ensure stable control. Methods like energy
+
+Each of these methods has its strengths and weaknesses. Where are used for are used when they are not known in advance.
+
+The type of passivity solution depends on the task that needs to be performed. A proven passive controller like \cite{yangHumanlikeAdaptationForce2011} Yang et al. is preferable since this controller will always stay passive. Designing such a controller, however, is not trivial. For tasks where an offline profile is computed \cite{ferragutiTankbasedApproachImpedance2013} Ferragutis thank or the Lyapunov constraints of \cite{kronanderStabilityConsiderationsVariable2016} Kronander are very helpful. Learned controllers, on the other hand, do provide more customizability and are therefore preferred.
+
+Search for even less conservative passivity constraints.
+
+Although the use of FA to create FIC is up-and-coming concept for being able to use VIC. It however has not yet been applied for VIC in which also the desired inertia is varied and for which the (nonlinear) variable impedance profile is not set in advance and only . Future research should therefore focus on applying this concept to variable impedance controllers where all impedance parameters can vary and where the desired inertia is set in advance. assumption based on nonlinear profile.
+Damping can be introduced as long as the desired velocity is zero.
+
+The exact stability method used depends on the task you are trying to achieve. DMP for example, are very easy to implement and work for tatsks that have a clear end time and can be learned from one demonstration?
+
+LfD is a trade-off between accuracy-stability and model/learning complexity.
+
+- DMP easy to implement -> computationally efficient.
+- Constraint methods -> more complex but more accurate.
+- Learned constraint methods -> even more complex and time consuming but again more accurate.
+- Diffeomophic methods -> give more acccurate results but require to learn diffeomorphisms
+- contraction based methods -> Give trajectory tracking but can be over-constricting outside ot eh demonstrations.
+- Energy tank -> straightforward but influences the accuracy online
