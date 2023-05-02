@@ -514,7 +514,7 @@
   urldate = {2022-08-23},
   abstract = {Reinforcement learning is a powerful paradigm for learning optimal policies from experimental data. However, to find optimal policies, most reinforcement learning algorithms explore all possible actions, which may be harmful for real-world systems. As a consequence, learning algorithms are rarely applied on safety-critical systems in the real world. In this paper, we present a learning algorithm that explicitly considers safety, defined in terms of stability guarantees. Specifically, we extend control-theoretic results on Lyapunov stability verification and show how to use statistical models of the dynamics to obtain high-performance control policies with provable stability certificates. Moreover, under additional regularity assumptions in terms of a Gaussian process prior, we prove that one can effectively and safely collect data in order to learn about the dynamics and thus both improve control performance and expand the safe region of the state space. In our experiments, we show how the resulting algorithm can safely optimize a neural network policy on a simulated inverted pendulum, without the pendulum ever falling down.},
   pubstate = {preprint},
-  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Statistics - Machine Learning},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,READ,Statistics - Machine Learning},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\berkenkamp_et_al_2017_safe_model-based_reinforcement_learning_with_stability_guarantees.pdf}
 }
 
@@ -653,6 +653,16 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\buchli_et_al_2011_learning_variable_impedance_control.pdf}
 }
 
+@article{buchliVariableImpedanceControl2011,
+  title = {Variable Impedance Control a Reinforcement Learning Approach},
+  author = {Buchli, Jonas and Theodorou, Evangelos and Stulp, Freek and Schaal, Stefan},
+  date = {2011},
+  journaltitle = {Robotics: Science and Systems VI},
+  volume = {153},
+  publisher = {{MIT Press Cambridge, MA}},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\buchli_et_al_2011_variable_impedance_control_a_reinforcement_learning_approach.pdf}
+}
+
 @article{calancaReviewAlgorithmsCompliant2016,
   title = {A {{Review}} of {{Algorithms}} for {{Compliant Control}} of {{Stiff}} and {{Fixed-Compliance Robots}}},
   author = {Calanca, Andrea and Muradore, Riccardo and Fiorini, Paolo},
@@ -701,6 +711,26 @@
   langid = {english},
   keywords = {REVIEW},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\califano_et_al_2023_on_the_use_of_energy_tanks_for_robotic_systems.pdf}
+}
+
+@article{calinonCompliantSkillsAcquisition2013,
+  title = {Compliant Skills Acquisition and Multi-Optima Policy Search with {{EM-based}} Reinforcement Learning},
+  author = {Calinon, Sylvain and Kormushev, Petar and Caldwell, Darwin G.},
+  date = {2013-04-01},
+  journaltitle = {Robotics and Autonomous Systems},
+  shortjournal = {Robotics and Autonomous Systems},
+  series = {Models and {{Technologies}} for {{Multi-modal Skill Training}}},
+  volume = {61},
+  number = {4},
+  pages = {369--379},
+  issn = {0921-8890},
+  doi = {10.1016/j.robot.2012.09.012},
+  url = {https://www.sciencedirect.com/science/article/pii/S0921889012001662},
+  urldate = {2023-05-02},
+  abstract = {The democratization of robotics technology and the development of new actuators progressively bring robots closer to humans. The applications that can now be envisaged drastically contrast with the requirements of industrial robots. In standard manufacturing settings, the criterions used to assess performance are usually related to the robot’s accuracy, repeatability, speed or stiffness. Learning a control policy to actuate such robots is characterized by the search of a single solution for the task, with a representation of the policy consisting of moving the robot through a set of points to follow a trajectory. With new environments such as homes and offices populated with humans, the reproduction performance is portrayed differently. These robots are expected to acquire rich motor skills that can be generalized to new situations, while behaving safely in the vicinity of users. Skills acquisition can no longer be guided by a single form of learning, and must instead combine different approaches to continuously create, adapt and refine policies. The family of search strategies based on expectation-maximization (EM) looks particularly promising to cope with these new requirements. The exploration can be performed directly in the policy parameters space, by refining the policy together with exploration parameters represented in the form of covariances. With this formulation, RL can be extended to a multi-optima search problem in which several policy alternatives can be considered. We present here two applications exploiting EM-based exploration strategies, by considering parameterized policies based on dynamical systems, and by using Gaussian mixture models for the search of multiple policy alternatives.},
+  langid = {english},
+  keywords = {Dynamical systems,Expectation-maximization,Gaussian mixture model,Learning by imitation,Reinforcement learning,Skills transfer},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\calinon_et_al_2013_compliant_skills_acquisition_and_multi-optima_policy_search_with_em-based.pdf}
 }
 
 @inproceedings{calinonEncodingTimeSpace2011,
@@ -959,7 +989,7 @@
   urldate = {2022-08-23},
   abstract = {In many real-world reinforcement learning (RL) problems, besides optimizing the main objective function, an agent must concurrently avoid violating a number of constraints. In particular, besides optimizing performance it is crucial to guarantee the safety of an agent during training as well as deployment (e.g. a robot should avoid taking actions - exploratory or not - which irrevocably harm its hardware). To incorporate safety in RL, we derive algorithms under the framework of constrained Markov decision problems (CMDPs), an extension of the standard Markov decision problems (MDPs) augmented with constraints on expected cumulative costs. Our approach hinges on a novel \textbackslash emph\{Lyapunov\} method. We define and present a method for constructing Lyapunov functions, which provide an effective way to guarantee the global safety of a behavior policy during training via a set of local, linear constraints. Leveraging these theoretical underpinnings, we show how to use the Lyapunov approach to systematically transform dynamic programming (DP) and RL algorithms into their safe counterparts. To illustrate their effectiveness, we evaluate these algorithms in several CMDP planning and decision-making tasks on a safety benchmark domain. Our results show that our proposed method significantly outperforms existing baselines in balancing constraint satisfaction and performance.},
   pubstate = {preprint},
-  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Statistics - Machine Learning},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,READ,Statistics - Machine Learning},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\chow_et_al_2018_a_lyapunov-based_approach_to_safe_reinforcement_learning.pdf}
 }
 
@@ -1433,6 +1463,24 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\ebenbauer_et_al_2009_dissipation_inequalities_in_systems_theory.pdf}
 }
 
+@article{elguea-aguinacoReviewReinforcementLearning2023,
+  title = {A Review on Reinforcement Learning for Contact-Rich Robotic Manipulation Tasks},
+  author = {Elguea-Aguinaco, Íñigo and Serrano-Muñoz, Antonio and Chrysostomou, Dimitrios and Inziarte-Hidalgo, Ibai and Bøgh, Simon and Arana-Arexolaleiba, Nestor},
+  date = {2023-06-01},
+  journaltitle = {Robotics and Computer-Integrated Manufacturing},
+  shortjournal = {Robotics and Computer-Integrated Manufacturing},
+  volume = {81},
+  pages = {102517},
+  issn = {0736-5845},
+  doi = {10.1016/j.rcim.2022.102517},
+  url = {https://www.sciencedirect.com/science/article/pii/S0736584522001995},
+  urldate = {2023-05-02},
+  abstract = {Research and application of reinforcement learning in robotics for contact-rich manipulation tasks have exploded in recent years. Its ability to cope with unstructured environments and accomplish hard-to-engineer behaviors has led reinforcement learning agents to be increasingly applied in real-life scenarios. However, there is still a long way ahead for reinforcement learning to become a core element in industrial applications. This paper examines the landscape of reinforcement learning and reviews advances in its application in contact-rich tasks from 2017 to the present. The analysis investigates the main research for the most commonly selected tasks for testing reinforcement learning algorithms in both rigid and deformable object manipulation. Additionally, the trends around reinforcement learning associated with serial manipulators are explored as well as the various technological challenges that this machine learning control technique currently presents. Lastly, based on the state-of-the-art and the commonalities among the studies, a framework relating the main concepts of reinforcement learning in contact-rich manipulation tasks is proposed. The final goal of this review is to support the robotics community in future development of systems commanded by reinforcement learning, discuss the main challenges of this technology and suggest future research directions in the domain.},
+  langid = {english},
+  keywords = {Contact-rich manipulation,Deformable object manipulation,Industrial manipulators,Reinforcement learning,REVIEW,Rigid object manipulation},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\elguea-aguinaco_et_al_2023_a_review_on_reinforcement_learning_for_contact-rich_robotic_manipulation_tasks.pdf}
+}
+
 @article{enayatiVariableImpedanceForceControl2020,
   title = {Variable-{{Impedance}} and {{Force Control}} for {{Robust Learning}} of {{Contact-rich Manipulation Tasks}} from {{User Demonstration}}},
   author = {Enayati, Nima and Mariani, Stefano and Wahrburg, Arne and Zanchettin, Andrea M.},
@@ -1787,7 +1835,7 @@
   doi = {10.1109/CDC51059.2022.9993302},
   abstract = {In this work, we are concerned with the design of direct data-driven controllers for nonlinear affine systems without explicit dynamical models. To this end, we adopt the Koopman operator to approximately reformulate the nonlinear systems into bilinear forms, based on which we propose a "simple" static controller in the linear form of the preset function dictionary. Then, we show how to obtain the feedback gain matrix and establish the stability condition of the closed-loop system using only the off-line collected data. Finally, numerical results demonstrate the effectiveness and robustness of this data-driven controller.},
   eventtitle = {2022 {{IEEE}} 61st {{Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
-  keywords = {Closed loop systems,Data models,Dictionaries,Nonlinear dynamical systems,Numerical stability,Robustness,Stability analysis},
+  keywords = {Closed loop systems,Data models,Dictionaries,Nonlinear dynamical systems,Numerical stability,READ,Robustness,Stability analysis},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\fu_you_2022_direct_data-driven_stabilization_of_nonlinear_affine_systems_via_the_koopman.pdf}
 }
 
@@ -2143,20 +2191,14 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\haseli_cortes_2023_temporal_forward–backward_consistency,_not_residual_error,_measures_the.pdf}
 }
 
-@online{havensImitationLearningLinear2021,
-  title = {On {{Imitation Learning}} of {{Linear Control Policies}}: {{Enforcing Stability}} and {{Robustness Constraints}} via {{LMI Conditions}}},
-  shorttitle = {On {{Imitation Learning}} of {{Linear Control Policies}}},
-  author = {Havens, Aaron and Hu, Bin},
-  date = {2021-03-23},
-  eprint = {2103.12945},
-  eprinttype = {arxiv},
-  eprintclass = {cs, eess, math},
-  url = {http://arxiv.org/abs/2103.12945},
-  urldate = {2022-09-11},
-  abstract = {When applying imitation learning techniques to fit a policy from expert demonstrations, one can take advantage of prior stability/robustness assumptions on the expert's policy and incorporate such control-theoretic prior knowledge explicitly into the learning process. In this paper, we formulate the imitation learning of linear policies as a constrained optimization problem, and present efficient methods which can be used to enforce stability and robustness constraints during the learning processes. Specifically, we show that one can guarantee the closed-loop stability and robustness by posing linear matrix inequality (LMI) constraints on the fitted policy. Then both the projected gradient descent method and the alternating direction method of multipliers (ADMM) method can be applied to solve the resulting constrained policy fitting problem. Finally, we provide numerical results to demonstrate the effectiveness of our methods in producing linear polices with various stability and robustness guarantees.},
-  pubstate = {preprint},
-  keywords = {Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Mathematics - Optimization and Control,READ},
-  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\havens_hu_2021_on_imitation_learning_of_linear_control_policies.pdf}
+@inproceedings{hazaraReinforcementLearningImproving2016,
+  title = {Reinforcement Learning for Improving Imitated In-Contact Skills},
+  booktitle = {2016 {{IEEE-RAS}} 16th {{International Conference}} on {{Humanoid Robots}} ({{Humanoids}})},
+  author = {Hazara, Murtaza and Kyrki, Ville},
+  date = {2016},
+  pages = {194--201},
+  publisher = {{IEEE}},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\hazara_kyrki_2016_reinforcement_learning_for_improving_imitated_in-contact_skills.pdf}
 }
 
 @article{heAdaptiveFuzzyNeural2018,
@@ -2724,6 +2766,16 @@
   eventtitle = {{{IEEE Transactions}} on {{Control Systems Technology}}},
   keywords = {Convergence,Error correction,Force control,Impedance,Manipulator dynamics,Position control,Robot control,Robust control,Stability analysis,Uncertainty},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\jung_et_al_2004_force_tracking_impedance_control_of_robot_manipulators_under_unknown_environment2.pdf}
+}
+
+@inproceedings{kalakrishnanLearningForceControl2011,
+  title = {Learning Force Control Policies for Compliant Manipulation},
+  booktitle = {2011 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}}},
+  author = {Kalakrishnan, Mrinal and Righetti, Ludovic and Pastor, Peter and Schaal, Stefan},
+  date = {2011},
+  pages = {4639--4644},
+  publisher = {{IEEE}},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kalakrishnan_et_al_2011_learning_force_control_policies_for_compliant_manipulation.pdf}
 }
 
 @inproceedings{kambojDiscreteTimeLyapunovBased2020,
@@ -4112,7 +4164,7 @@
   date = {2021},
   pages = {2955--2962},
   publisher = {{IEEE}},
-  keywords = {REVIEW},
+  keywords = {READ,REVIEW},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\manchester_et_al_2021_contraction-based_methods_for_stable_identification_and_robust_machine_learning.pdf}
 }
 
@@ -4127,7 +4179,7 @@
   urldate = {2020-11-13},
   abstract = {Deep networks are commonly used to model dynamical systems, predicting how the state of a system will evolve over time (either autonomously or in response to control inputs). Despite the predictive power of these systems, it has been difficult to make formal claims about the basic properties of the learned systems. In this paper, we propose an approach for learning dynamical systems that are guaranteed to be stable over the entire state space. The approach works by jointly learning a dynamics model and Lyapunov function that guarantees non-expansiveness of the dynamics under the learned Lyapunov function. We show that such learning systems are able to model simple dynamical systems and can be combined with additional deep generative models to learn complex dynamics, such as video textures, in a fully end-to-end fashion.},
   langid = {english},
-  keywords = {\#nosource,Computer Science - Machine Learning,Mathematics - Dynamical Systems,Statistics - Machine Learning},
+  keywords = {\#nosource,Computer Science - Machine Learning,Mathematics - Dynamical Systems,READ,Statistics - Machine Learning},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kolter_manek_2019_learning_stable_deep_dynamics_models.pdf}
 }
 
@@ -4563,6 +4615,27 @@
   langid = {english},
   keywords = {IMPORTANT,REVIEW},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\osa_et_al_2018_an_algorithmic_perspective_on_imitation_learning.pdf}
+}
+
+@article{osinenkoReinforcementLearningGuarantees2022,
+  title = {Reinforcement Learning with Guarantees: A Review},
+  shorttitle = {Reinforcement Learning with Guarantees},
+  author = {Osinenko, Pavel and Dobriborsci, Dmitrii and Aumer, Wolfgang},
+  date = {2022-01-01},
+  journaltitle = {IFAC-PapersOnLine},
+  shortjournal = {IFAC-PapersOnLine},
+  series = {6th {{IFAC Conference}} on {{Intelligent Control}} and {{Automation Sciences ICONS}} 2022},
+  volume = {55},
+  number = {15},
+  pages = {123--128},
+  issn = {2405-8963},
+  doi = {10.1016/j.ifacol.2022.07.619},
+  url = {https://www.sciencedirect.com/science/article/pii/S2405896322010308},
+  urldate = {2023-05-02},
+  abstract = {Reinforcement learning is concerned with a generic concept of an agent acting in an environment. From the control theory standpoint, reinforcement learning may be considered as an adaptive optimal control scheme. Despite accumulating evidence of effectiveness of reinforcement learning in various applications, which range from video games to robotics, this control scheme in its bare-bones version provides no guarantees on the performance of the agent-environment closed loop. Measures have to be taken to provide the said guarantees. This survey gives a brief picture of the current progress in this direction. Three major groups of approaches are overviewed: supervisor-based, Lyapunov reinforcement learning and fusion with model-predictive control. The central message of this survey is that a synergy with classical model-based control seems the most promising direction of research in reinforcement learning, as long as it is to become an industry standard.},
+  langid = {english},
+  keywords = {Reinforcement learning,safe control,stability},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\osinenko_et_al_2022_reinforcement_learning_with_guarantees.pdf}
 }
 
 @book{ottCartesianImpedanceControl2008,
@@ -5025,7 +5098,7 @@
   pages = {297--330},
   publisher = {{Annual Reviews}},
   keywords = {REVIEW},
-  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\ravichandar_et_al_2020_recent_advances_in_robot_learning_from_demonstration.pdf}
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\ravichandar_et_al_2020_recent_advances_in_robot_learning_from_demonstration.pdf;C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\ravichandar_et_al_2020_recent_advances_in_robot_learning_from_demonstration2.pdf}
 }
 
 @article{rebeloTimeDomainPassivity2015,
@@ -5072,6 +5145,7 @@
   number = {4},
   pages = {1363--1368},
   publisher = {{IEEE}},
+  keywords = {READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\revay_et_al_2020_a_convex_parameterization_of_robust_recurrent_neural_networks.pdf}
 }
 
@@ -5086,7 +5160,7 @@
   doi = {10.1109/CDC45484.2021.9683054},
   abstract = {This paper introduces recurrent equilibrium networks (RENs), a new class of nonlinear dynamical models for applications in machine learning and system identification. The new model class has "built in" guarantees of stability and robustness: all models in the class are contracting – a strong form of nonlinear stability – and models can have prescribed Lipschitz bounds. RENs are otherwise very flexible: they can represent all stable linear systems, all previously-known sets of contracting recurrent neural networks, all deep feedforward neural networks, and all stable Wiener/Hammerstein models. RENs are parameterized directly by a vector in ℝN, i.e. stability and robustness are ensured without parameter constraints, which simplifies learning since generic methods for unconstrained optimization can be used. The performance of the robustness of the new model set is evaluated on benchmark nonlinear system identification problems.},
   eventtitle = {2021 60th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
-  keywords = {Conferences,Linear systems,Machine learning,Recurrent neural networks,Robustness,Stability analysis,System identification},
+  keywords = {Conferences,Linear systems,Machine learning,READ,Recurrent neural networks,Robustness,Stability analysis,System identification},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\revay_et_al_2021_recurrent_equilibrium_networks.pdf}
 }
 
@@ -5124,11 +5198,11 @@
   doi = {10.1109/LRA.2022.3145100},
   abstract = {This letter proposes a data-driven method for learning convergent control policies from offline data using Contraction theory. Contraction theory enables constructing a policy that makes the closed-loop system trajectories inherently convergent towards a unique trajectory. At the technical level, identifying the contraction metric, which is the distance metric with respect to which a robot’s trajectories exhibit contraction is often non-trivial. We propose to jointly learn the control policy and its corresponding contraction metric while enforcing contraction. To achieve this, we learn an implicit dynamics model of the robotic system from an offline data set consisting of the robot’s state and input trajectories. We propose a data augmentation algorithm for learning contraction policies using this learned dynamics model. We randomly generate samples in the state space and propagate them forward in time through the learned dynamics model to generate auxiliary sample trajectories. We then learn both the control policy and the contraction metric such that the distance between the trajectories from the offline data set and our generated auxiliary sample trajectories decreases over time. We evaluate the performance of our proposed framework on simulated robotic goal-reaching tasks and demonstrate that enforcing contraction results in faster convergence and greater robustness of the learned policy.},
   eventtitle = {{{IEEE Robotics}} and {{Automation Letters}}},
-  keywords = {Convergence,Deep learning methods,Heuristic algorithms,machine learning for robot control,Measurement,reinforcement learning,Robots,Robustness,System dynamics,Trajectory},
+  keywords = {Convergence,Deep learning methods,Heuristic algorithms,machine learning for robot control,Measurement,READ,reinforcement learning,Robots,Robustness,System dynamics,Trajectory},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\rezazadeh_et_al_2022_learning_contraction_policies_from_offline_data.pdf}
 }
 
-@inproceedings{rombokasTendondrivenVariableImpedance2013a,
+@inproceedings{rombokasTendondrivenVariableImpedance2013,
   title = {Tendon-Driven Variable Impedance Control Using Reinforcement Learning},
   booktitle = {Robotics: {{Science}} and {{Systems}}},
   author = {Rombokas, Eric and Malhotra, Mark and Theodorou, Evangelos and Todorov, Emanuel and Matsuoka, Yoky},
@@ -5887,13 +5961,14 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\shaw_cortez_et_al_2021_control_barrier_functions_for_mechanical_systems.pdf}
 }
 
-@inproceedings{shawRMPsSafeImpedance2022a,
+@inproceedings{shawRMPsSafeImpedance2022,
   title = {{{RMPs}} for {{Safe Impedance Control}} in {{Contact-Rich Manipulation}}},
   booktitle = {2022 {{International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
   author = {Shaw, Seiji and Abbatematteo, Ben and Konidaris, George},
   date = {2022},
   pages = {2707--2713},
   publisher = {{IEEE}},
+  keywords = {READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\rmps_for_safe_impedance_control_in_contact-rich_manipulation.pdf}
 }
 
@@ -6860,7 +6935,7 @@
   urldate = {2023-01-31},
   abstract = {We seek to combine the nonlinear modeling capabilities of a wide class of neural networks with the safety guarantees of model predictive control (MPC) in a rigorous and online computationally tractable framework. The class of networks considered can be captured using Koopman operators, and are integrated into a Koopman-based tracking MPC (KTMPC) for nonlinear systems to track piecewise constant references. The effect of model mismatch between original nonlinear dynamics and its trained Koopman linear model is handled by using a constraint tightening approach in the proposed tracking MPC strategy. By choosing two Lyapunov candidate functions, we prove that solution is recursively feasible and input-to-state stable to a neighborhood of both online and offline optimal reachable steady outputs in the presence of bounded modeling errors. Finally, we show the results of a numerical example and an application of autonomous ground vehicle to track given references.},
   pubstate = {preprint},
-  keywords = {Computer Science - Robotics,Electrical Engineering and Systems Science - Systems and Control},
+  keywords = {Computer Science - Robotics,Electrical Engineering and Systems Science - Systems and Control,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wang_et_al_2022_data-driven_predictive_tracking_control_based_on_koopman_operators.pdf}
 }
 
@@ -7070,6 +7145,7 @@
   booktitle = {International {{Workshop}} on {{Human-Friendly Robotics}}},
   author = {Winter, Florian and Saveriano, Matteo and Lee, Dongheui},
   date = {2016},
+  keywords = {READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\winter_et_al_2016_the_role_of_coupling_terms_in_variable_impedance_policies_learning.pdf}
 }
 
