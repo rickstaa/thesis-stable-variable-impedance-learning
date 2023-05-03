@@ -19,48 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{abdulkhaderDataDrivenMethodsContactRich2021}{article}{}
-      \name{author}{1}{}{%
-        {{hash=e9d9f775591f9afbc15e0ba0d9c2c819}{%
-           family={Abdul\bibnamedelima Khader},
-           familyi={A\bibinitperiod\bibinitdelim K\bibinitperiod},
-           given={Shahbaz},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {KTH Royal Institute of Technology}%
-      }
-      \strng{namehash}{e9d9f775591f9afbc15e0ba0d9c2c819}
-      \strng{fullhash}{e9d9f775591f9afbc15e0ba0d9c2c819}
-      \strng{bibnamehash}{e9d9f775591f9afbc15e0ba0d9c2c819}
-      \strng{authorbibnamehash}{e9d9f775591f9afbc15e0ba0d9c2c819}
-      \strng{authornamehash}{e9d9f775591f9afbc15e0ba0d9c2c819}
-      \strng{authorfullhash}{e9d9f775591f9afbc15e0ba0d9c2c819}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{DiVA portal is a finding tool for research publications and student theses written at the following 50 universities and research institutions.}
-      \field{langid}{english}
-      \field{shorttitle}{Data-{{Driven Methods}} for {{Contact-Rich Manipulation}}}
-      \field{title}{Data-{{Driven Methods}} for {{Contact-Rich Manipulation}}: {{Control Stability}} and {{Data-Efficiency}}}
-      \field{urlday}{18}
-      \field{urlmonth}{4}
-      \field{urlyear}{2023}
-      \field{year}{2021}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\abdul_khader_2021_data-driven_methods_for_contact-rich_manipulation.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-299799
-      \endverb
-      \verb{url}
-      \verb http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-299799
-      \endverb
-      \keyw{REVIEW}
-    \endentry
     \entry{abu-dakkaVariableImpedanceControl2020}{article}{}
       \name{author}{2}{}{%
         {{hash=a3e7d4297e793f5fb34608c0dac7d9b8}{%
@@ -693,64 +651,6 @@
       \endverb
       \keyw{Control systems,Design methodology,Impedance,IMPORTANT,Intelligent robots,READ,Safety,STABILITY}
     \endentry
-    \entry{benziOptimizationApproachRobust2021}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=cbe34cb6ce1be917c99d35b2c24de75d}{%
-           family={Benzi},
-           familyi={B\bibinitperiod},
-           given={Federico},
-           giveni={F\bibinitperiod}}}%
-        {{hash=78cd85141c6296b4a21285ee87a49352}{%
-           family={Secchi},
-           familyi={S\bibinitperiod},
-           given={Cristian},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {Ieee}%
-      }
-      \strng{namehash}{3dff2cc332015412b8c83e6fec562d11}
-      \strng{fullhash}{3dff2cc332015412b8c83e6fec562d11}
-      \strng{bibnamehash}{3dff2cc332015412b8c83e6fec562d11}
-      \strng{authorbibnamehash}{3dff2cc332015412b8c83e6fec562d11}
-      \strng{authornamehash}{3dff2cc332015412b8c83e6fec562d11}
-      \strng{authorfullhash}{3dff2cc332015412b8c83e6fec562d11}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{In Human-Robot Collaboration, the robot operates in a highly dynamic environment. Thus, it is pivotal to guarantee the robust stability of the system during the interaction but also a high flexibility of the robot behavior in order to ensure safety and reactivity to the variable conditions of the collaborative scenario. In this paper we propose a control architecture capable of maximizing the flexibility of the robot while guaranteeing a stable behavior when physically interacting with the environment. This is achieved by combining an energy tank based variable admittance architecture with control barrier functions. The proposed architecture is experimentally validated on a collaborative robot.}
-      \field{annotation}{WOS:000765738802122}
-      \field{booktitle}{2021 {{Ieee International Conference}} on {{Robotics}} and {{Automation}} (Icra 2021)}
-      \field{isbn}{978-1-72819-077-8}
-      \field{issn}{1050-4729}
-      \field{langid}{english}
-      \field{title}{An {{Optimization Approach}} for a {{Robust}} and {{Flexible Control}} in {{Collaborative Applications}}}
-      \field{urlday}{9}
-      \field{urlmonth}{8}
-      \field{urlyear}{2022}
-      \field{year}{2021}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{3575\bibrangedash 3581}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1109/ICRA48506.2021.9561098
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\benzi_secchi_2021_an_optimization_approach_for_a_robust_and_flexible_control_in_collaborative.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/9561098
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/9561098
-      \endverb
-      \keyw{robot,safety,strategy}
-    \endentry
     \entry{bevandaKoopmanOperatorDynamical2021}{article}{}
       \name{author}{3}{}{%
         {{hash=a597354085a17598919ceb184ca6c880}{%
@@ -992,7 +892,7 @@
       \verb{url}
       \verb https://doi.org/10.1177/0278364911402527
       \endverb
-      \keyw{compliant control,gain scheduling,IMPORTANT,motion primitives,Reinforcement learning,stochastic optimal control,variable impedance control}
+      \keyw{compliant control,gain scheduling,IMPORTANT,motion primitives,READ,Reinforcement learning,stochastic optimal control,variable impedance control}
     \endentry
     \entry{calancaReviewAlgorithmsCompliant2016}{article}{}
       \name{author}{3}{}{%
@@ -1429,7 +1329,7 @@
       \verb{url}
       \verb http://arxiv.org/abs/1805.07708
       \endverb
-      \keyw{Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Statistics - Machine Learning}
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Machine Learning,READ,Statistics - Machine Learning}
     \endentry
     \entry{cordoniVariableStochasticAdmittance2020}{article}{}
       \name{author}{3}{}{%
@@ -2329,6 +2229,80 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\dutta_et_al_2018_learning_stable_movement_primitives_by_finding_a_suitable_fuzzy_lyapunov.pdf
       \endverb
       \keyw{Asymptotic stability,dynamics,Dynamics,Heuristic algorithms,Lyapunov methods,READ,Robots,Stability analysis,Trajectory}
+    \endentry
+    \entry{elguea-aguinacoReviewReinforcementLearning2023}{article}{}
+      \name{author}{6}{}{%
+        {{hash=83779f5ff8815f66beb034b0a27f4e28}{%
+           family={Elguea-Aguinaco},
+           familyi={E\bibinithyphendelim A\bibinitperiod},
+           given={Íñigo},
+           giveni={Í\bibinitperiod}}}%
+        {{hash=c9188d1cf6045547ab677969765ff3a7}{%
+           family={Serrano-Muñoz},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aed77e1c77cd1d205138f7b2d2d45452}{%
+           family={Chrysostomou},
+           familyi={C\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d7b15a0732904e7aa7a0a04df5bee2d6}{%
+           family={Inziarte-Hidalgo},
+           familyi={I\bibinithyphendelim H\bibinitperiod},
+           given={Ibai},
+           giveni={I\bibinitperiod}}}%
+        {{hash=67a96e11752e6ae7f4c4dde31050ba61}{%
+           family={Bøgh},
+           familyi={B\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9ee65c131f88c054044fb5f4a538aaad}{%
+           family={Arana-Arexolaleiba},
+           familyi={A\bibinithyphendelim A\bibinitperiod},
+           given={Nestor},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{15fd6419884958ae0eb40f15dc7550c2}
+      \strng{fullhash}{4e58999539d518bd8b57667b1644e8d3}
+      \strng{bibnamehash}{15fd6419884958ae0eb40f15dc7550c2}
+      \strng{authorbibnamehash}{15fd6419884958ae0eb40f15dc7550c2}
+      \strng{authornamehash}{15fd6419884958ae0eb40f15dc7550c2}
+      \strng{authorfullhash}{4e58999539d518bd8b57667b1644e8d3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Research and application of reinforcement learning in robotics for contact-rich manipulation tasks have exploded in recent years. Its ability to cope with unstructured environments and accomplish hard-to-engineer behaviors has led reinforcement learning agents to be increasingly applied in real-life scenarios. However, there is still a long way ahead for reinforcement learning to become a core element in industrial applications. This paper examines the landscape of reinforcement learning and reviews advances in its application in contact-rich tasks from 2017 to the present. The analysis investigates the main research for the most commonly selected tasks for testing reinforcement learning algorithms in both rigid and deformable object manipulation. Additionally, the trends around reinforcement learning associated with serial manipulators are explored as well as the various technological challenges that this machine learning control technique currently presents. Lastly, based on the state-of-the-art and the commonalities among the studies, a framework relating the main concepts of reinforcement learning in contact-rich manipulation tasks is proposed. The final goal of this review is to support the robotics community in future development of systems commanded by reinforcement learning, discuss the main challenges of this technology and suggest future research directions in the domain.}
+      \field{day}{1}
+      \field{issn}{0736-5845}
+      \field{journaltitle}{Robotics and Computer-Integrated Manufacturing}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{Robotics and Computer-Integrated Manufacturing}
+      \field{title}{A Review on Reinforcement Learning for Contact-Rich Robotic Manipulation Tasks}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{81}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{102517}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.rcim.2022.102517
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\elguea-aguinaco_et_al_2023_a_review_on_reinforcement_learning_for_contact-rich_robotic_manipulation_tasks.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0736584522001995
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0736584522001995
+      \endverb
+      \keyw{Contact-rich manipulation,Deformable object manipulation,Industrial manipulators,READ,Reinforcement learning,REVIEW,Rigid object manipulation}
     \endentry
     \entry{enayatiVariableImpedanceForceControl2020}{article}{}
       \name{author}{4}{}{%
@@ -3557,7 +3531,7 @@
       \endverb
       \keyw{Adaptive force control,curved surface,Force,Force control,Impedance,modified dynamic movement primitive (DMP),READ,redundant robot,Robots,Task analysis,Trajectory,trajectory planning,Trajectory planning}
     \endentry
-    \entry{havensImitationLearningLinear2021}{online}{}
+    \entry{havensImitationLearningLinear2021}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=6729ae4257d7ea6cb49ef61d954fe4dd}{%
            family={Havens},
@@ -3570,6 +3544,9 @@
            given={Bin},
            giveni={B\bibinitperiod}}}%
       }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
       \strng{namehash}{aac456d5f9981eb62a6ac26e52e9a99b}
       \strng{fullhash}{aac456d5f9981eb62a6ac26e52e9a99b}
       \strng{bibnamehash}{aac456d5f9981eb62a6ac26e52e9a99b}
@@ -3580,33 +3557,13 @@
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{abstract}{When applying imitation learning techniques to fit a policy from expert demonstrations, one can take advantage of prior stability/robustness assumptions on the expert's policy and incorporate such control-theoretic prior knowledge explicitly into the learning process. In this paper, we formulate the imitation learning of linear policies as a constrained optimization problem, and present efficient methods which can be used to enforce stability and robustness constraints during the learning processes. Specifically, we show that one can guarantee the closed-loop stability and robustness by posing linear matrix inequality (LMI) constraints on the fitted policy. Then both the projected gradient descent method and the alternating direction method of multipliers (ADMM) method can be applied to solve the resulting constrained policy fitting problem. Finally, we provide numerical results to demonstrate the effectiveness of our methods in producing linear polices with various stability and robustness guarantees.}
-      \field{day}{23}
-      \field{eprintclass}{cs, eess, math}
-      \field{eprinttype}{arxiv}
-      \field{month}{3}
-      \field{pubstate}{preprint}
-      \field{shorttitle}{On {{Imitation Learning}} of {{Linear Control Policies}}}
-      \field{title}{On {{Imitation Learning}} of {{Linear Control Policies}}: {{Enforcing Stability}} and {{Robustness Constraints}} via {{LMI Conditions}}}
-      \field{urlday}{11}
-      \field{urlmonth}{9}
-      \field{urlyear}{2022}
+      \field{booktitle}{2021 {{American Control Conference}} ({{ACC}})}
+      \field{shorttitle}{On Imitation Learning of Linear Control Policies}
+      \field{title}{On Imitation Learning of Linear Control Policies: {{Enforcing}} Stability and Robustness Constraints via Lmi Conditions}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{eprint}
-      \verb 2103.12945
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\havens_hu_2021_on_imitation_learning_of_linear_control_policies.pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/2103.12945
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/2103.12945
-      \endverb
-      \keyw{Computer Science - Machine Learning,Electrical Engineering and Systems Science - Systems and Control,Mathematics - Optimization and Control,READ}
+      \field{pages}{882\bibrangedash 887}
+      \range{pages}{6}
     \endentry
     \entry{heVariableImpedanceControl2020}{article}{}
       \name{author}{5}{}{%
@@ -4841,7 +4798,7 @@
       \verb{url}
       \verb http://arxiv.org/abs/2004.10886
       \endverb
-      \keyw{Computer Science - Robotics,IMPORTANT,STABILITY}
+      \keyw{Computer Science - Robotics,IMPORTANT,READ,STABILITY}
     \endentry
     \entry{khaderLearningDeepEnergy2021}{article}{}
       \name{author}{4}{}{%
@@ -4965,7 +4922,7 @@
       \verb{file}
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khader_et_al_2021_learning_stable_normalizing-flow_control_for_robotic_manipulation.pdf
       \endverb
-      \keyw{Aerospace electronics,Automation,Conferences,Control theory,IMPORTANT,Reinforcement learning,Space exploration,STABILITY,Task analysis}
+      \keyw{Aerospace electronics,Automation,Conferences,Control theory,Reinforcement learning,Space exploration,STABILITY,Task analysis}
     \endentry
     \entry{khadirTeleoperatorImitationContinuoustime2019}{online}{}
       \name{author}{3}{}{%
@@ -5236,56 +5193,64 @@
       \endverb
       \keyw{Compliant control,Imitation learning,impedance control,IMPORTANT,manipulators,Motion control,Motion primitives,Physical interaction control,Potential field,READ,Robot learning,robot control,STABILITY,task,time obstacle avoidance,Variable impedance control}
     \endentry
-    \entry{kimLearningRobotStiffness2008}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=d34b0682ab2b678874d5ca2358681f7f}{%
+    \entry{kimReinforcementLearningBased2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=58dbc7887614ac30ff073109ca585435}{%
            family={Kim},
            familyi={K\bibinitperiod},
-           given={Byungchan},
-           giveni={B\bibinitperiod}}}%
-        {{hash=7781c50b44c11477d79c426a4f881a86}{%
-           family={Kang},
-           familyi={K\bibinitperiod},
-           given={Byungduk},
-           giveni={B\bibinitperiod}}}%
-        {{hash=80c69a1f1137dc48199eaf659361d304}{%
-           family={Park},
-           familyi={P\bibinitperiod},
-           given={Shinsuk},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a24e26acacded276bd032f3e45b148cd}{%
-           family={Kang},
-           familyi={K\bibinitperiod},
-           given={Sungchul},
-           giveni={S\bibinitperiod}}}%
+           given={Young-Loul},
+           giveni={Y\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=d1bcfe57d42d4de3a1544f1af809c4cc}{%
+           family={Ahn},
+           familyi={A\bibinitperiod},
+           given={Kuk-Hyun},
+           giveni={K\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=ae6e5044e12db9a1018b66f5bd6a29c9}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Jae-Bok},
+           giveni={J\bibinithyphendelim B\bibinitperiod}}}%
       }
-      \strng{namehash}{9509ae4fdc0f72e03cb4c938f58efb88}
-      \strng{fullhash}{4dde5ea6d18d7946fb76028a23378773}
-      \strng{bibnamehash}{9509ae4fdc0f72e03cb4c938f58efb88}
-      \strng{authorbibnamehash}{9509ae4fdc0f72e03cb4c938f58efb88}
-      \strng{authornamehash}{9509ae4fdc0f72e03cb4c938f58efb88}
-      \strng{authorfullhash}{4dde5ea6d18d7946fb76028a23378773}
+      \strng{namehash}{1db824be6f9c0750c76b9b368b41c7fe}
+      \strng{fullhash}{1db824be6f9c0750c76b9b368b41c7fe}
+      \strng{bibnamehash}{1db824be6f9c0750c76b9b368b41c7fe}
+      \strng{authorbibnamehash}{1db824be6f9c0750c76b9b368b41c7fe}
+      \strng{authornamehash}{1db824be6f9c0750c76b9b368b41c7fe}
+      \strng{authorfullhash}{1db824be6f9c0750c76b9b368b41c7fe}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This paper introduces a novel motor learning strategy for robotic contact task based on a human motor control theory and machine learning schemes. Humans modulate their arm joint impedance parameters during contact tasks, and such aspect suggests a key feature how human successfully executes various contact tasks in variable environments. Our strategy for successful contact tasks is to find appropriate impedance parameters for optimal task execution by Reinforcement Learning (RL). In this study Recursive Least-Square (RLS) filter based episodic Natural Actor-Critic is employed to determine the optimal impedance parameters. Through dynamic simulations of contact tasks, this paper demonstrates the effectiveness of the proposed strategy. The simulation results show that the proposed method successfully optimizes the performance of the contact task and adapts to uncertain conditions of the environment.}
-      \field{booktitle}{2008 {{IEEE International Conference}} on {{Robotics}} and {{Automation}}}
-      \field{eventtitle}{2008 {{IEEE International Conference}} on {{Robotics}} and {{Automation}}}
-      \field{issn}{1050-4729}
-      \field{month}{5}
-      \field{title}{Learning Robot Stiffness for Contact Tasks Using the Natural Actor-Critic}
-      \field{year}{2008}
+      \field{abstract}{Recently, robot learning through deep reinforcement learning has incorporated various robot tasks through deep neural networks, without using specific control or recognition algorithms. However, this learning method is difficult to apply to the contact tasks of a robot, due to the exertion of excessive force from the random search process of reinforcement learning. Therefore, when applying reinforcement learning to contact tasks, solving the contact problem using an existing force controller is necessary. A neural-network-based movement primitive (NNMP) that generates a continuous trajectory which can be transmitted to the force controller and learned through a deep deterministic policy gradient (DDPG) algorithm is proposed for this study. In addition, an imitation learning algorithm suitable for NNMP is proposed such that the trajectories similar to the demonstration trajectory are stably generated. The performance of the proposed algorithms was verified using a square peg-in-hole assembly task with a tolerance of 0.1\,mm. The results confirm that the complicated assembly trajectory can be learned stably through NNMP by the proposed imitation learning algorithm, and that the assembly trajectory is improved by learning the proposed NNMP through the DDPG algorithm.}
+      \field{day}{1}
+      \field{issn}{0736-5845}
+      \field{journaltitle}{Robotics and Computer-Integrated Manufacturing}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{shortjournal}{Robotics and Computer-Integrated Manufacturing}
+      \field{title}{Reinforcement Learning Based on Movement Primitives for Contact Tasks}
+      \field{urlday}{7}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{volume}{62}
+      \field{year}{2020}
       \field{dateera}{ce}
-      \field{pages}{3832\bibrangedash 3837}
-      \range{pages}{6}
+      \field{urldateera}{ce}
+      \field{pages}{101863}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1109/ROBOT.2008.4543799
+      \verb 10.1016/j.rcim.2019.101863
       \endverb
       \verb{file}
-      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kim_et_al_2008_learning_robot_stiffness_for_contact_tasks_using_the_natural_actor-critic.pdf
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kim_et_al_2020_reinforcement_learning_based_on_movement_primitives_for_contact_tasks.pdf
       \endverb
-      \keyw{Artificial neural networks,Humans,Impedance,Intelligent robots,Learning systems,Machine learning,Mechanical engineering,Motor drives,Robot sensing systems,Robotics and automation,STABILITY}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0736584518306197
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0736584518306197
+      \endverb
+      \keyw{AI-based methods,Deep Learning in robotics and automation,Force control,READ}
     \endentry
     \entry{krambergerPassivityBasedIterative2018}{inproceedings}{}
       \name{author}{6}{}{%
@@ -7837,66 +7802,6 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\raibert_craig_1981_hybrid_position-force_control_of_manipulators.pdf
       \endverb
     \endentry
-    \entry{raiolaDevelopmentSafetyEnergyAware2018}{article}{}
-      \name{author}{5}{}{%
-        {{hash=22641f02081cd26e485f04179d39e421}{%
-           family={Raiola},
-           familyi={R\bibinitperiod},
-           given={Gennaro},
-           giveni={G\bibinitperiod}}}%
-        {{hash=861c005d0f2aae96fd9fcffeab998df9}{%
-           family={Cardenas},
-           familyi={C\bibinitperiod},
-           given={Carlos\bibnamedelima Alberto},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=ef56bbd5c78c7b074892c354dceb1e77}{%
-           family={Tadele},
-           familyi={T\bibinitperiod},
-           given={Tadele\bibnamedelima Shiferaw},
-           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{useprefix=true,hash=002e6fdf7515cf263b38b9ae4fc17a23}{%
-           family={Vries},
-           familyi={V\bibinitperiod},
-           given={Theo},
-           giveni={T\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-        {{hash=af92661283f5b14c79ec09409cdfb860}{%
-           family={Stramigioli},
-           familyi={S\bibinitperiod},
-           given={Stefano},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{e71d4c464b8583584f43857b8e3b6eb9}
-      \strng{fullhash}{f49429b4120659e4a89f29677ce4834c}
-      \strng{bibnamehash}{e71d4c464b8583584f43857b8e3b6eb9}
-      \strng{authorbibnamehash}{e71d4c464b8583584f43857b8e3b6eb9}
-      \strng{authornamehash}{e71d4c464b8583584f43857b8e3b6eb9}
-      \strng{authorfullhash}{f49429b4120659e4a89f29677ce4834c}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{In contexts where robots share their workspace with humans, safety is of utmost importance. Consequently, in recent years, a big impulse has been given to the design of human-friendly robots by involving both mechanical and control design aspects. Regarding controller design, this often involves introducing compliance and ensuring asymptotic stability using an interaction control scheme and passivity theory. Moreover, when human operators physically interact with the robot during work, strict safety measures become necessary with some of these including power and force limitations [1]. In this letter, a novel impedance control technique for collaborative robots is presented. The featured controller allows a safe human-robot interaction through energy and power limitations, assuring passivity through energy tanks. The proposed controller is evaluated with a KUKA LWR 4+ arm in a comanipulation environment.}
-      \field{eventtitle}{{{IEEE Robotics}} and {{Automation Letters}}}
-      \field{issn}{2377-3766}
-      \field{journaltitle}{IEEE Robotics and Automation Letters}
-      \field{month}{4}
-      \field{number}{2}
-      \field{title}{Development of a {{Safety-}} and {{Energy-Aware Impedance Controller}} for {{Collaborative Robots}}}
-      \field{volume}{3}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \field{pages}{1237\bibrangedash 1244}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/LRA.2018.2795639
-      \endverb
-      \verb{file}
-      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\raiola_et_al_2018_development_of_a_safety-_and_energy-aware_impedance_controller_for.pdf;C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\raiola_et_al_2018_development_of_a_safety-_and_energy-aware_impedance_controller_for2.pdf
-      \endverb
-      \keyw{Asymptotic stability,compliance and impedance control,Damping,Impedance,Measurement,physical human–robot interaction,Robot safety,Robots,Safety,Symmetric matrices}
-    \endentry
     \entry{ranaEuclideanizingFlowsDiffeomorphic2020}{inproceedings}{}
       \name{author}{6}{}{%
         {{hash=4cba507354ae2a4d46a5eddaa6de4f88}{%
@@ -8234,6 +8139,54 @@
       \endverb
       \keyw{READ}
     \endentry
+    \entry{ravichandarRecentAdvancesRobot2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1fefcc0aaab7c97d60ec7206f9a27a2d}{%
+           family={Ravichandar},
+           familyi={R\bibinitperiod},
+           given={Harish},
+           giveni={H\bibinitperiod}}}%
+        {{hash=2a13136ffc626e5deb8f69d8c790149d}{%
+           family={Polydoros},
+           familyi={P\bibinitperiod},
+           given={Athanasios\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=aa8fa5d2aeb75e54ef50a01069e9b942}{%
+           family={Chernova},
+           familyi={C\bibinitperiod},
+           given={Sonia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3cd4f444d840eee2580ddf886f20b1c8}{%
+           family={Billard},
+           familyi={B\bibinitperiod},
+           given={Aude},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{3836dccf24379fef803c91a92f5ab2cf}
+      \strng{fullhash}{a9ce5b11b5afd53d9ad4d26038868b22}
+      \strng{bibnamehash}{3836dccf24379fef803c91a92f5ab2cf}
+      \strng{authorbibnamehash}{3836dccf24379fef803c91a92f5ab2cf}
+      \strng{authornamehash}{3836dccf24379fef803c91a92f5ab2cf}
+      \strng{authorfullhash}{a9ce5b11b5afd53d9ad4d26038868b22}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual review of control, robotics, and autonomous systems}
+      \field{title}{Recent Advances in Robot Learning from Demonstration}
+      \field{volume}{3}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{297\bibrangedash 330}
+      \range{pages}{34}
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\ravichandar_et_al_2020_recent_advances_in_robot_learning_from_demonstration.pdf
+      \endverb
+      \keyw{REVIEW}
+    \endentry
     \entry{ravichandarLearningPartiallyContracting2017}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=ae7ca595cf8deddfc0df051a56f78253}{%
@@ -8347,9 +8300,9 @@
       \verb{url}
       \verb https://link.springer.com/article/10.1007/s10514-017-9636-y
       \endverb
-      \keyw{Dynamical systems,imitation,impedance control,IMPORTANT,Manipulation,reinforcement,Reinforcement learning,skills,STABILITY}
+      \keyw{Dynamical systems,imitation,impedance control,IMPORTANT,Manipulation,READ,reinforcement,Reinforcement learning,skills,STABILITY}
     \endentry
-    \entry{rombokasTendondrivenVariableImpedance2013a}{inproceedings}{}
+    \entry{rombokasTendondrivenVariableImpedance2013}{inproceedings}{}
       \name{author}{5}{}{%
         {{hash=77ca3bc4af29e9601f1d1860aec4a75e}{%
            family={Rombokas},
@@ -8575,7 +8528,7 @@
       \verb{url}
       \verb https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2811583
       \endverb
-      \keyw{REVIEW}
+      \keyw{READ,REVIEW}
     \endentry
     \entry{salehiLearningDiscreteTimeUncertain2022}{article}{}
       \name{author}{3}{}{%
@@ -11451,7 +11404,7 @@
       \verb{file}
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wei_et_al_2019_impedance_control_in_uncertain_environment_using_reinforcement_learning.pdf
       \endverb
-      \keyw{Adaptation models,Force,Impedance,Perturbation methods,Robots,Task analysis,Trajectory}
+      \keyw{Adaptation models,Force,Impedance,Perturbation methods,READ,Robots,Task analysis,Trajectory}
     \endentry
     \entry{willemsDissipativeDynamicalSystems1972a}{article}{}
       \name{author}{1}{}{%
@@ -11775,6 +11728,70 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\xiao_et_al_2020_learning_stable_nonparametric_dynamical_systems_with_gaussian_process_regression.pdf
       \endverb
       \keyw{READ}
+    \endentry
+    \entry{xieRobotLearningDemonstration2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=2bd933f6ef03fde66580a771a3d02d5f}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={ZongWu},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=16a6bb056f6786baa492ae9c2e59ac22}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=735e468b388e01facbd6132bc53a5718}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={ZaiNan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=44a453a69684789133e3b3393f75ef31}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c40040da7f681786759de1efeb818f4}
+      \strng{fullhash}{ca1c3e56ea88d07af366e73c79523253}
+      \strng{bibnamehash}{2c40040da7f681786759de1efeb818f4}
+      \strng{authorbibnamehash}{2c40040da7f681786759de1efeb818f4}
+      \strng{authornamehash}{2c40040da7f681786759de1efeb818f4}
+      \strng{authorfullhash}{ca1c3e56ea88d07af366e73c79523253}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1674-7321, 1869-1900}
+      \field{journaltitle}{Science China Technological Sciences}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{8}
+      \field{shortjournal}{Sci. China Technol. Sci.}
+      \field{shorttitle}{Robot Learning from Demonstration for Path Planning}
+      \field{title}{Robot Learning from Demonstration for Path Planning: {{A}} Review}
+      \field{urlday}{24}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{volume}{63}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1325\bibrangedash 1334}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s11431-020-1648-4
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\xie_et_al_2020_robot_learning_from_demonstration_for_path_planning.pdf;C\:\\Users\\ricks\\Zotero\\storage\\8NHCUFEQ\\s11431-020-1648-4.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s11431-020-1648-4
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s11431-020-1648-4
+      \endverb
+      \keyw{imitation learning,inverse reinforcement learning,learning from demonstration,obstacle avoidance,path planning,READ,REVIEW}
     \endentry
     \entry{xuLearningBasedKinematicControl2022}{article}{}
       \name{author}{5}{}{%
@@ -12456,6 +12473,76 @@
       \endverb
       \keyw{End effectors,Estimation,Grasping,Impedance,Mechatronics,READ,Shape,Trajectory}
     \endentry
+    \entry{zhangNeuralNetworkBased2023}{article}{}
+      \name{author}{5}{}{%
+        {{hash=9a4f4a1ff661cd600eb26523a5ba8bb4}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5b3e001affb47baac2c24279f94af2c8}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Long},
+           giveni={L\bibinitperiod}}}%
+        {{hash=eb85b8d4df1ab88ad1fc1562b3318ed4}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Ran},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8ce5422bac0ff5c90203957ec17bf6cc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Houcheng},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1f14a433675e94961d3665b616f6bc66}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chenguang},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{367ada10cf7a486d27eb01f137df4757}
+      \strng{fullhash}{40f432c33d1ca5adc7b6428d4197d3b5}
+      \strng{bibnamehash}{367ada10cf7a486d27eb01f137df4757}
+      \strng{authorbibnamehash}{367ada10cf7a486d27eb01f137df4757}
+      \strng{authornamehash}{367ada10cf7a486d27eb01f137df4757}
+      \strng{authorfullhash}{40f432c33d1ca5adc7b6428d4197d3b5}
+      \field{extraname}{2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Robots are becoming standard collaborators not only in factories, hospitals, and offices, but also in people’s homes, where they can play an important role in situations where a human cannot complete a task alone or needs the help of another person (i.e., collaborative tasks). Variable impedance control with contact forces is critical for robots to successfully perform such manipulation tasks, and robots should be equipped with adaptive capabilities because conditions vary significantly for different robotic tasks in dynamic environments. This can be achieved by learning human motion capabilities and variable impedance skills. In this paper, a neural-network-based framework for learning variable impedance skills is proposed. The proposed approach builds the full stiffness function with the acquired forces and position learned from demonstrations, and then is used together with the sensed data to achieve the variable impedance control. The proposed algorithm can adapt to unknown situations that change the learned motion skill as needed (e.g., adapt to intermediate via-points or avoid obstacles). The proposed framework consists of two parts: Learning motion features and learning impedance features. The motion features learning is validated by reproducing, generalizing, and adapting to transit points and avoiding obstacles in the LASA dataset. Impedance features learning is validated based on a virtual variable stiffness system that achieves higher accuracy (approximately 90\%) compared to traditional methods in a manual dataset, and the whole framework is validated through a co-manipulation task between a person and the Franka Emika robot.}
+      \field{day}{1}
+      \field{issn}{0921-8890}
+      \field{journaltitle}{Robotics and Autonomous Systems}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{shortjournal}{Robotics and Autonomous Systems}
+      \field{title}{A Neural Network Based Framework for Variable Impedance Skills Learning from Demonstrations}
+      \field{urlday}{3}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{160}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{104312}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.robot.2022.104312
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\zhang_et_al_2023_a_neural_network_based_framework_for_variable_impedance_skills_learning_from2.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0921889022002019
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0921889022002019
+      \endverb
+      \keyw{Human–robot interaction,Learning from demonstrations,Skills learning,Variable impedance skill}
+    \endentry
     \entry{zhangLearningAccurateStable2022}{article}{}
       \name{author}{4}{}{%
         {{hash=9a4f4a1ff661cd600eb26523a5ba8bb4}{%
@@ -12485,7 +12572,7 @@
       \strng{authorbibnamehash}{367ada10cf7a486d27eb01f137df4757}
       \strng{authornamehash}{367ada10cf7a486d27eb01f137df4757}
       \strng{authorfullhash}{b4e67825f5d4dca4f4b8dbcf0e5e15ff}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
       \field{labelnamesource}{author}

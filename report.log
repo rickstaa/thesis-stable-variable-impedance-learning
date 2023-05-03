@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.7)  2 MAY 2023 13:35
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.7)  3 MAY 2023 23:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1478,7 +1478,7 @@ Chapter 4.
 Chapter 5.
 [24
 
-] [25] [26]) [27] (./mainmatter/conclusion.tex [28]
+] [25] [26] [27]) (./mainmatter/conclusion.tex [28]
 Chapter 6.
 [29
 
@@ -1605,18 +1605,18 @@ Appendix A.
 
 ] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 2DDBEC829172FF0E1136FFA9F22075B3;7538.
+(rerunfilecheck)             Checksum: 18AC65BB09D7BA440A9830362A5D45F1;7719.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47751 strings out of 475869
- 1054231 string characters out of 5805667
- 2213377 words of memory out of 5000000
- 68060 multiletter control sequences out of 15000+600000
+ 47758 strings out of 475869
+ 1054573 string characters out of 5805667
+ 2217131 words of memory out of 5000000
+ 68067 multiletter control sequences out of 15000+600000
  477631 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,20n,118p,4158b,5561s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,20n,118p,4159b,5523s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (58 pages, 1990476 bytes).
+Output written on report.xdv (58 pages, 2003764 bytes).

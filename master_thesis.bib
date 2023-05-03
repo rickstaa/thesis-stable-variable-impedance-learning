@@ -24,7 +24,7 @@
   urldate = {2023-04-18},
   abstract = {DiVA portal is a finding tool for research publications and student theses written at the following 50 universities and research institutions.},
   langid = {english},
-  keywords = {REVIEW},
+  keywords = {READ,REVIEW},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\abdul_khader_2021_data-driven_methods_for_contact-rich_manipulation.pdf}
 }
 
@@ -629,7 +629,7 @@
   doi = {10.1109/LRA.2020.3011379},
   abstract = {Reinforcement learning algorithms have shown great success in solving different problems ranging from playing video games to robotics. However, they struggle to solve delicate robotic problems, especially those involving contact interactions. Though in principle a policy directly outputting joint torques should be able to learn to perform these tasks, in practice we see that it has difficulty to robustly solve the problem without any given structure in the action space. In this letter, we investigate how the choice of action space can give robust performance in presence of contact uncertainties. We propose learning a policy giving as output impedance and desired position in joint space and compare the performance of that approach to torque and position control under different contact uncertainties. Furthermore, we propose an additional reward term designed to regularize these variable impedance control policies, giving them interpretability and facilitating their transfer to real systems. We present extensive experiments in simulation of both floating and fixed-base systems in tasks involving contact uncertainties, as well as results for running the learned policies on a real system (accompanying videos can be seen here: https://youtu.be/AQuuQ-h4dBM).},
   eventtitle = {{{IEEE Robotics}} and {{Automation Letters}}},
-  keywords = {Aerospace electronics,compliance and impedance control,Impedance,Joint impedance,motion control,PD control,Reinforcement learning,Robots,Robustness,Task analysis,Uncertainty},
+  keywords = {Aerospace electronics,compliance and impedance control,Impedance,Joint impedance,motion control,PD control,READ,Reinforcement learning,Robots,Robustness,Task analysis,Uncertainty},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\bogdanovic_et_al_2020_learning_variable_impedance_control_for_contact_sensitive_tasks.pdf}
 }
 
@@ -649,18 +649,8 @@
   urldate = {2022-04-29},
   abstract = {One of the hallmarks of the performance, versatility, and robustness of biological motor control is the ability to adapt the impedance of the overall biomechanical system to different task requirements and stochastic disturbances. A transfer of this principle to robotics is desirable, for instance to enable robots to work robustly and safely in everyday human environments. It is, however, not trivial to derive variable impedance controllers for practical high degree-of-freedom (DOF) robotic tasks. In this contribution, we accomplish such variable impedance control with the reinforcement learning (RL) algorithm PI2 (PolicyImprovement withPath Integrals). PI2is a model-free, sampling-based learning method derived from first principles of stochastic optimal control. The PI2algorithm requires no tuning of algorithmic parameters besides the exploration noise. The designer can thus fully focus on the cost function design to specify the task. From the viewpoint of robotics, a particular useful property of PI2is that it can scale to problems of many DOFs, so that reinforcement learning on real robotic systems becomes feasible. We sketch the PI2algorithm and its theoretical properties, and how it is applied to gain scheduling for variable impedance control. We evaluate our approach by presenting results on several simulated and real robots. We consider tasks involving accurate tracking through via points, and manipulation tasks requiring physical contact with the environment. In these tasks, the optimal strategy requires both tuning of a reference trajectory and the impedance of the end-effector. The results show that we can use path integral based reinforcement learning not only for planning but also to derive variable gain feedback controllers in realistic scenarios. Thus, the power of variable impedance control is made available to a wide variety of robotic systems and practical applications.},
   langid = {english},
-  keywords = {compliant control,gain scheduling,IMPORTANT,motion primitives,Reinforcement learning,stochastic optimal control,variable impedance control},
+  keywords = {compliant control,gain scheduling,IMPORTANT,motion primitives,READ,Reinforcement learning,stochastic optimal control,variable impedance control},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\buchli_et_al_2011_learning_variable_impedance_control.pdf}
-}
-
-@article{buchliVariableImpedanceControl2011,
-  title = {Variable Impedance Control a Reinforcement Learning Approach},
-  author = {Buchli, Jonas and Theodorou, Evangelos and Stulp, Freek and Schaal, Stefan},
-  date = {2011},
-  journaltitle = {Robotics: Science and Systems VI},
-  volume = {153},
-  publisher = {{MIT Press Cambridge, MA}},
-  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\buchli_et_al_2011_variable_impedance_control_a_reinforcement_learning_approach.pdf}
 }
 
 @article{calancaReviewAlgorithmsCompliant2016,
@@ -711,26 +701,6 @@
   langid = {english},
   keywords = {REVIEW},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\califano_et_al_2023_on_the_use_of_energy_tanks_for_robotic_systems.pdf}
-}
-
-@article{calinonCompliantSkillsAcquisition2013,
-  title = {Compliant Skills Acquisition and Multi-Optima Policy Search with {{EM-based}} Reinforcement Learning},
-  author = {Calinon, Sylvain and Kormushev, Petar and Caldwell, Darwin G.},
-  date = {2013-04-01},
-  journaltitle = {Robotics and Autonomous Systems},
-  shortjournal = {Robotics and Autonomous Systems},
-  series = {Models and {{Technologies}} for {{Multi-modal Skill Training}}},
-  volume = {61},
-  number = {4},
-  pages = {369--379},
-  issn = {0921-8890},
-  doi = {10.1016/j.robot.2012.09.012},
-  url = {https://www.sciencedirect.com/science/article/pii/S0921889012001662},
-  urldate = {2023-05-02},
-  abstract = {The democratization of robotics technology and the development of new actuators progressively bring robots closer to humans. The applications that can now be envisaged drastically contrast with the requirements of industrial robots. In standard manufacturing settings, the criterions used to assess performance are usually related to the robot’s accuracy, repeatability, speed or stiffness. Learning a control policy to actuate such robots is characterized by the search of a single solution for the task, with a representation of the policy consisting of moving the robot through a set of points to follow a trajectory. With new environments such as homes and offices populated with humans, the reproduction performance is portrayed differently. These robots are expected to acquire rich motor skills that can be generalized to new situations, while behaving safely in the vicinity of users. Skills acquisition can no longer be guided by a single form of learning, and must instead combine different approaches to continuously create, adapt and refine policies. The family of search strategies based on expectation-maximization (EM) looks particularly promising to cope with these new requirements. The exploration can be performed directly in the policy parameters space, by refining the policy together with exploration parameters represented in the form of covariances. With this formulation, RL can be extended to a multi-optima search problem in which several policy alternatives can be considered. We present here two applications exploiting EM-based exploration strategies, by considering parameterized policies based on dynamical systems, and by using Gaussian mixture models for the search of multiple policy alternatives.},
-  langid = {english},
-  keywords = {Dynamical systems,Expectation-maximization,Gaussian mixture model,Learning by imitation,Reinforcement learning,Skills transfer},
-  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\calinon_et_al_2013_compliant_skills_acquisition_and_multi-optima_policy_search_with_em-based.pdf}
 }
 
 @inproceedings{calinonEncodingTimeSpace2011,
@@ -831,7 +801,7 @@
   urldate = {2022-10-30},
   abstract = {Dynamic movement primitives (DMPs) allow complex position trajectories to be efficiently demonstrated to a robot. In contact-rich tasks, where position trajectories alone may not be safe or robust over variation in contact geometry, DMPs have been extended to include force trajectories. However, different task phases or degrees of freedom may require the tracking of either position or force -- e.g., once contact is made, it may be more important to track the force demonstration trajectory in the contact direction. The robot impedance balances between following a position or force reference trajectory, where a high stiffness tracks position and a low stiffness tracks force. This paper proposes using DMPs to learn position and force trajectories from demonstrations, then adapting the impedance parameters online with a higher-level control policy trained by reinforcement learning. This allows one-shot demonstration of the task with DMPs, and improved robustness and performance from the impedance adaptation. The approach is validated on peg-in-hole and adhesive strip application tasks.},
   pubstate = {preprint},
-  keywords = {Computer Science - Robotics},
+  keywords = {Computer Science - Robotics,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\chang_et_al_2022_impedance_adaptation_by_reinforcement_learning_with_contact_dynamic_movement.pdf}
 }
 
@@ -1477,7 +1447,7 @@
   urldate = {2023-05-02},
   abstract = {Research and application of reinforcement learning in robotics for contact-rich manipulation tasks have exploded in recent years. Its ability to cope with unstructured environments and accomplish hard-to-engineer behaviors has led reinforcement learning agents to be increasingly applied in real-life scenarios. However, there is still a long way ahead for reinforcement learning to become a core element in industrial applications. This paper examines the landscape of reinforcement learning and reviews advances in its application in contact-rich tasks from 2017 to the present. The analysis investigates the main research for the most commonly selected tasks for testing reinforcement learning algorithms in both rigid and deformable object manipulation. Additionally, the trends around reinforcement learning associated with serial manipulators are explored as well as the various technological challenges that this machine learning control technique currently presents. Lastly, based on the state-of-the-art and the commonalities among the studies, a framework relating the main concepts of reinforcement learning in contact-rich manipulation tasks is proposed. The final goal of this review is to support the robotics community in future development of systems commanded by reinforcement learning, discuss the main challenges of this technology and suggest future research directions in the domain.},
   langid = {english},
-  keywords = {Contact-rich manipulation,Deformable object manipulation,Industrial manipulators,Reinforcement learning,REVIEW,Rigid object manipulation},
+  keywords = {Contact-rich manipulation,Deformable object manipulation,Industrial manipulators,READ,Reinforcement learning,REVIEW,Rigid object manipulation},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\elguea-aguinaco_et_al_2023_a_review_on_reinforcement_learning_for_contact-rich_robotic_manipulation_tasks.pdf}
 }
 
@@ -1996,6 +1966,18 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\greeff_schoellig_2021_exploiting_differential_flatness_for_robust_learning-based_tracking_control.pdf}
 }
 
+@article{gribovskayaLearningNonlinearMultivariate2011,
+  title = {Learning Non-Linear Multivariate Dynamics of Motion in Robotic Manipulators},
+  author = {Gribovskaya, Elena and Khansari-Zadeh, Seyed Mohammad and Billard, Aude},
+  date = {2011},
+  journaltitle = {The International Journal of Robotics Research},
+  volume = {30},
+  number = {1},
+  pages = {80--117},
+  publisher = {{SAGE Publications Sage UK: London, England}},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\gribovskaya_et_al_2011_learning_non-linear_multivariate_dynamics_of_motion_in_robotic_manipulators.pdf;C\:\\Users\\ricks\\Zotero\\storage\\RB8D9UNF\\Gribovskaya et al. - 2011 - Learning non-linear multivariate dynamics of motio.pdf}
+}
+
 @online{guptaLearningHighDimensional2022,
   title = {Learning {{High Dimensional Demonstrations Using Laplacian Eigenmaps}}},
   author = {Gupta, Sthithpragya and Nayak, Aradhana and Billard, Aude},
@@ -2191,6 +2173,16 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\haseli_cortes_2023_temporal_forward–backward_consistency,_not_residual_error,_measures_the.pdf}
 }
 
+@inproceedings{havensImitationLearningLinear2021,
+  title = {On Imitation Learning of Linear Control Policies: {{Enforcing}} Stability and Robustness Constraints via Lmi Conditions},
+  shorttitle = {On Imitation Learning of Linear Control Policies},
+  booktitle = {2021 {{American Control Conference}} ({{ACC}})},
+  author = {Havens, Aaron and Hu, Bin},
+  date = {2021},
+  pages = {882--887},
+  publisher = {{IEEE}}
+}
+
 @inproceedings{hazaraReinforcementLearningImproving2016,
   title = {Reinforcement Learning for Improving Imitated In-Contact Skills},
   booktitle = {2016 {{IEEE-RAS}} 16th {{International Conference}} on {{Humanoid Robots}} ({{Humanoids}})},
@@ -2198,6 +2190,7 @@
   date = {2016},
   pages = {194--201},
   publisher = {{IEEE}},
+  keywords = {READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\hazara_kyrki_2016_reinforcement_learning_for_improving_imitated_in-contact_skills.pdf}
 }
 
@@ -2362,7 +2355,7 @@
   doi = {10.1109/TASE.2020.3024725},
   abstract = {Reinforcement learning (RL) has been increasingly used for single peg-in-hole assembly, where assembly skill is learned through interaction with the assembly environment in a manner similar to skills employed by human beings. However, the existing RL algorithms are difficult to apply to the multiple peg-in-hole assembly because the much more complicated assembly environment requires sufficient exploration, resulting in a long training time and less data efficiency. To this end, this article focuses on how to predict the assembly environment and how to use the predicted environment in assembly action control to improve the data efficiency of the RL algorithm. Specifically, first, the assembly environment is exactly predicted by a variable time-scale prediction (VTSP) defined as general value functions (GVFs), reducing the unnecessary exploration. Second, we propose a fuzzy logic-driven variable time-scale prediction-based reinforcement learning (FLDVTSP-RL) for assembly action control to improve the efficiency of the RL algorithm, in which the predicted environment is mapped to the impedance parameter in the proposed impedance action space by a fuzzy logic system (FLS) as the action baseline. To demonstrate the effectiveness of VTSP and the data efficiency of the FLDVTSP-RL methods, a dual peg-in-hole assembly experiment is set up; the results show that FLDVTSP-deep Q-learning (DQN) decreases the assembly time about 44\% compared with DQN and FLDVTSP-deep deterministic policy gradient (DDPG) decreases the assembly time about 24\% compared with DDPG. Note to Practitioners—The complicated assembly environment of the multiple peg-in-hole assembly results in a contact state that cannot be recognized exactly from the force sensor. Therefore, contact-model-based methods that require tuning of the control parameters based on the contact state recognition cannot be applied directly in this complicated environment. Recently, reinforcement learning (RL) methods without contact state recognition have recently attracted scientific interest. However, the existing RL methods still rely on numerous explorations and a long training time, which cannot be directly applied to real-world tasks. This article takes inspiration from the manner in which human beings can learn assembly skills with a few trials, which relies on the variable time-scale predictions (VTSPs) of the environment and the optimized assembly action control strategy. Our proposed fuzzy logic-driven variable time-scale prediction-based reinforcement learning (FLDVTSP-RL) can be implemented in two steps. First, the assembly environment is predicted by the VTSP defined as general value functions (GVFs). Second, assembly action control is realized in an impedance action space with a baseline defined by the impedance parameter mapped from the predicted environment by the fuzzy logic system (FLS). Finally, a dual peg-in-hole assembly experiment is conducted; compared with deep Q-learning (DQN), FLDVTSP-DQN can decrease the assembly time about 44\%; compared with deep deterministic policy gradient (DDPG), FLDVTSP-DDPG can decrease the assembly time about 24\%.},
   eventtitle = {{{IEEE Transactions}} on {{Automation Science}} and {{Engineering}}},
-  keywords = {Force,Fuzzy logic,Fuzzy logic system (FLS),Impedance,multiple peg-in-hole,prediction learning,reinforcement learning (RL),Robot sensing systems,robotic assembly,Robotic assembly,Task analysis},
+  keywords = {Force,Fuzzy logic,Fuzzy logic system (FLS),Impedance,multiple peg-in-hole,prediction learning,READ,reinforcement learning (RL),Robot sensing systems,robotic assembly,Robotic assembly,Task analysis},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\hou_et_al_2022_fuzzy_logic-driven_variable_time-scale_prediction-based_reinforcement_learning.pdf}
 }
 
@@ -2775,6 +2768,7 @@
   date = {2011},
   pages = {4639--4644},
   publisher = {{IEEE}},
+  keywords = {READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kalakrishnan_et_al_2011_learning_force_control_policies_for_compliant_manipulation.pdf}
 }
 
@@ -2788,7 +2782,7 @@
   doi = {10.1109/IJCNN48605.2020.9207522},
   abstract = {Stability and optimality are the two foremost re-quirements for robotic systems that are deployed in critical operations and are to work for long hours or under limited energy resources. To address these, in this work we present a novel Lyapunov stability based discrete-time optimal kinematic control of a robot manipulator using actor-critic (AC) framework. The robot is actuated using optimal joint-space velocity control input to track a time-varying end-effector trajectory in its task space. In comparison to the existing near-optimal kinematic control solutions for robot manipulator under AC framework, proposed controller exhibits guaranteed analytical stability. We derive a novel critic weight update law based on Lyapunov stability, thus ensuring that the weights are updated along the negative gradient of Lyapunov function. This eventually ensures closed-loop system stability and convergence to the optimal control in discrete-time. Extensive simulations are performed on a 3D model of 6-DoF Universal Robot (UR) 10 in Gazebo, followed by implementation on real UR 10 robot manipulator to show the efficacy of the proposed scheme.},
   eventtitle = {2020 {{International Joint Conference}} on {{Neural Networks}} ({{IJCNN}})},
-  keywords = {Actor-Critic,Artificial neural networks,Discrete-Time Kinematic Control,Kinematics,Lyapunov Stability,Manipulators,Mathematical model,Optimal control,Robot Manipulator,Stability analysis},
+  keywords = {Actor-Critic,Artificial neural networks,Discrete-Time Kinematic Control,Kinematics,Lyapunov Stability,Manipulators,Mathematical model,Optimal control,READ,Robot Manipulator,Stability analysis},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kamboj_et_al_2020_discrete-time_lyapunov_based_kinematic_control_of_robot_manipulator_using.pdf}
 }
 
@@ -2905,6 +2899,7 @@
   date = {2021},
   eprint = {2103.16432},
   eprinttype = {arxiv},
+  keywords = {IMPORTANT},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khader_et_al_2021_learning_deep_neural_policies_with_stability_guarantees.pdf}
 }
 
@@ -2918,7 +2913,7 @@
   doi = {10.1109/ICRA48506.2021.9562071},
   abstract = {Reinforcement Learning (RL) of robotic manipulation skills, despite its impressive successes, stands to benefit from incorporating domain knowledge from control theory. One of the most important properties that is of interest is control stability. Ideally, one would like to achieve stability guarantees while staying within the framework of state-of-the-art deep RL algorithms. Such a solution does not exist in general, especially one that scales to complex manipulation tasks. We contribute towards closing this gap by introducing normalizing-flow control structure, that can be deployed in any latest deep RL algorithms. While stable exploration is not guaranteed, our method is designed to ultimately produce deterministic controllers with provable stability. In addition to demonstrating our method on challenging contact-rich manipulation tasks, we also show that it is possible to achieve considerable exploration efficiency–reduced state space coverage and actuation efforts– without losing learning efficiency.},
   eventtitle = {2021 {{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
-  keywords = {Aerospace electronics,Automation,Conferences,Control theory,IMPORTANT,Reinforcement learning,Space exploration,STABILITY,Task analysis},
+  keywords = {Aerospace electronics,Automation,Conferences,Control theory,Reinforcement learning,Space exploration,STABILITY,Task analysis},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khader_et_al_2021_learning_stable_normalizing-flow_control_for_robotic_manipulation.pdf}
 }
 
@@ -2932,7 +2927,7 @@
   url = {http://arxiv.org/abs/2004.10886},
   urldate = {2022-04-20},
   abstract = {Reinforcement learning (RL) has had its fair share of success in contact-rich manipulation tasks but it still lags behind in benefiting from advances in robot control theory such as impedance control and stability guarantees. Recently, the concept of variable impedance control (VIC) was adopted into RL with encouraging results. However, the more important issue of stability remains unaddressed. To clarify the challenge in stable RL, we introduce the term all-the-time-stability that unambiguously means that every possible rollout will be stability certified. Our contribution is a model-free RL method that not only adopts VIC but also achieves all-the-time-stability. Building on a recently proposed stable VIC controller as the policy parameterization, we introduce a novel policy search algorithm that is inspired by Cross-Entropy Method and inherently guarantees stability. Our experimental studies confirm the feasibility and usefulness of stability guarantee and also features, to the best of our knowledge, the first successful application of RL with all-the-time-stability on the benchmark problem of peg-in-hole.},
-  keywords = {Computer Science - Robotics,IMPORTANT,STABILITY},
+  keywords = {Computer Science - Robotics,IMPORTANT,READ,STABILITY},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khader_et_al_2020_stability-guaranteed_reinforcement_learning_for_contact-rich_manipulation.pdf}
 }
 
@@ -3138,7 +3133,7 @@
   doi = {10.1109/TSMCB.2009.2026289},
   abstract = {Compared with their robotic counterparts, humans excel at various tasks by using their ability to adaptively modulate arm impedance parameters. This ability allows us to successfully perform contact tasks even in uncertain environments. This paper considers a learning strategy of motor skill for robotic contact tasks based on a human motor control theory and machine learning schemes. Our robot learning method employs impedance control based on the equilibrium point control theory and reinforcement learning to determine the impedance parameters for contact tasks. A recursive least-square filter-based episodic natural actor-critic algorithm is used to find the optimal impedance parameters. The effectiveness of the proposed method was tested through dynamic simulations of various contact tasks. The simulation results demonstrated that the proposed method optimizes the performance of the contact tasks in uncertain conditions of the environment.},
   eventtitle = {{{IEEE Transactions}} on {{Systems}}, {{Man}}, and {{Cybernetics}}, {{Part B}} ({{Cybernetics}})},
-  keywords = {Contact task,Control theory,equilibrium point control,Humans,Impedance,Learning systems,Machine learning,Machine learning algorithms,Motor drives,Optimization methods,reinforcement learning,robot manipulation,Robots,Testing},
+  keywords = {Contact task,Control theory,equilibrium point control,Humans,Impedance,Learning systems,Machine learning,Machine learning algorithms,Motor drives,Optimization methods,READ,reinforcement learning,robot manipulation,Robots,Testing},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kim_et_al_2010_impedance_learning_for_robotic_contact_tasks_using_natural_actor-critic.pdf}
 }
 
@@ -3152,7 +3147,7 @@
   doi = {10.1109/IROS.2018.8594476},
   abstract = {This paper presents an approach to learn and generalize robotic skills from a demonstration using deep reinforcement learning (deep RL). Dynamic Movement Primitives (DMPs) formulate a nonlinear differential equation and produce the observed movement from a demonstration. However, it is hard to generate new behaviors from using DMPs. Thus, we apply DMPs framework into deep RL as an initial setting for learning the robotic skills. First, we build a network to represent this differential equation, and learn and generalize the movements by optimizing the shape of DMPs with respect to the rewards up to the end of each sequence of movement primitives. In order to do this, we consider a deterministic actor-critic algorithm for deep RL and we also apply a hierarchical strategy. This drastically reduces the search space for a robot by decomposing the task, which allows to solve the sparse reward problem from a complex task. In order to integrate DMPs with hierarchical deep RL, the differential equation is considered as temporal abstraction of option. The overall structure is mainly composed of two controllers: meta-controller and sub-controller. The meta-controller learns a policy over intrinsic goals and a sub-controller learns a policy over actions to accomplish the given goals. We demonstrate our approach on a 6 degree-of-freedom (DOF) arm with a I-DOF gripper and evaluate our approach through a pick-and-place task.},
   eventtitle = {2018 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}} ({{IROS}})},
-  keywords = {Deep learning,Differential equations,Dynamics,Mathematical model,Reinforcement learning,Robots,Task analysis},
+  keywords = {Deep learning,Differential equations,Dynamics,Mathematical model,READ,Reinforcement learning,Robots,Task analysis},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kim_et_al_2018_learning_and_generalization_of_dynamic_movement_primitives_by_hierarchical_deep.pdf}
 }
 
@@ -3166,7 +3161,7 @@
   doi = {10.1109/ROBOT.2008.4543799},
   abstract = {This paper introduces a novel motor learning strategy for robotic contact task based on a human motor control theory and machine learning schemes. Humans modulate their arm joint impedance parameters during contact tasks, and such aspect suggests a key feature how human successfully executes various contact tasks in variable environments. Our strategy for successful contact tasks is to find appropriate impedance parameters for optimal task execution by Reinforcement Learning (RL). In this study Recursive Least-Square (RLS) filter based episodic Natural Actor-Critic is employed to determine the optimal impedance parameters. Through dynamic simulations of contact tasks, this paper demonstrates the effectiveness of the proposed strategy. The simulation results show that the proposed method successfully optimizes the performance of the contact task and adapts to uncertain conditions of the environment.},
   eventtitle = {2008 {{IEEE International Conference}} on {{Robotics}} and {{Automation}}},
-  keywords = {Artificial neural networks,Humans,Impedance,Intelligent robots,Learning systems,Machine learning,Mechanical engineering,Motor drives,Robot sensing systems,Robotics and automation,STABILITY},
+  keywords = {Artificial neural networks,Humans,Impedance,Intelligent robots,Learning systems,Machine learning,Mechanical engineering,Motor drives,READ,Robot sensing systems,Robotics and automation,STABILITY},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kim_et_al_2008_learning_robot_stiffness_for_contact_tasks_using_the_natural_actor-critic.pdf}
 }
 
@@ -3184,7 +3179,7 @@
   urldate = {2023-04-07},
   abstract = {Recently, robot learning through deep reinforcement learning has incorporated various robot tasks through deep neural networks, without using specific control or recognition algorithms. However, this learning method is difficult to apply to the contact tasks of a robot, due to the exertion of excessive force from the random search process of reinforcement learning. Therefore, when applying reinforcement learning to contact tasks, solving the contact problem using an existing force controller is necessary. A neural-network-based movement primitive (NNMP) that generates a continuous trajectory which can be transmitted to the force controller and learned through a deep deterministic policy gradient (DDPG) algorithm is proposed for this study. In addition, an imitation learning algorithm suitable for NNMP is proposed such that the trajectories similar to the demonstration trajectory are stably generated. The performance of the proposed algorithms was verified using a square peg-in-hole assembly task with a tolerance of 0.1\,mm. The results confirm that the complicated assembly trajectory can be learned stably through NNMP by the proposed imitation learning algorithm, and that the assembly trajectory is improved by learning the proposed NNMP through the DDPG algorithm.},
   langid = {english},
-  keywords = {AI-based methods,Deep Learning in robotics and automation,Force control},
+  keywords = {AI-based methods,Deep Learning in robotics and automation,Force control,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kim_et_al_2020_reinforcement_learning_based_on_movement_primitives_for_contact_tasks.pdf}
 }
 
@@ -3254,7 +3249,7 @@
   doi = {10.1109/IROS.2010.5649089},
   abstract = {We present an approach allowing a robot to acquire new motor skills by learning the couplings across motor control variables. The demonstrated skill is first encoded in a compact form through a modified version of Dynamic Movement Primitives (DMP) which encapsulates correlation information. Expectation-Maximization based Reinforcement Learning is then used to modulate the mixture of dynamical systems initialized from the user's demonstration. The approach is evaluated on a torque-controlled 7 DOFs Barrett WAM robotic arm. Two skill learning experiments are conducted: a reaching task where the robot needs to adapt the learned movement to avoid an obstacle, and a dynamic pancake-flipping task.},
   eventtitle = {2010 {{IEEE}}/{{RSJ International Conference}} on {{Intelligent Robots}} and {{Systems}}},
-  keywords = {Couplings,Force,Joints,Robot kinematics,Service robots,Trajectory},
+  keywords = {Couplings,Force,Joints,READ,Robot kinematics,Service robots,Trajectory},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\kormushev_et_al_2010_robot_motor_skill_coordination_with_em-based_reinforcement_learning.pdf}
 }
 
@@ -3733,7 +3728,7 @@
   abstract = {Learning variable impedance control is a powerful method to improve the performance of force control. However, current methods typically require too many interactions to achieve good performance. Data-inefficiency has limited these methods to learn force-sensitive tasks in real systems. In order to improve the sampling efficiency and decrease the required interactions during the learning process, this paper develops a data-efficient learning variable impedance control method that enables the industrial robots automatically learn to control the contact force in the unstructured environment. To this end, a Gaussian process model is learned as a faithful proxy of the system, which is then used to predict long-term state evolution for internal simulation, allowing for efficient strategy updates. The effects of model bias are reduced effectively by incorporating model uncertainty into long-term planning. Then the impedance profiles are regulated online according to the learned humanlike impedance strategy. In this way, the flexibility and adaptivity of the system could be enhanced. Both simulated and experimental tests have been performed on an industrial manipulator to verify the performance of the proposed method.},
   issue = {8},
   langid = {english},
-  keywords = {efficient learning,force control,Gaussian processes,industrial robot,variable impedance control},
+  keywords = {efficient learning,force control,Gaussian processes,industrial robot,READ,variable impedance control},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\li_et_al_2018_efficient_force_control_learning_system_for_industrial_robots_based_on_variable.pdf}
 }
 
@@ -3744,6 +3739,7 @@
   journaltitle = {Bulletin of the Polish Academy of Sciences. Technical Sciences},
   volume = {67},
   number = {2},
+  keywords = {READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\li_et_al_2019_efficient_learning_variable_impedance_control_for_industrial_robots.pdf}
 }
 
@@ -4096,7 +4092,7 @@
   url = {http://arxiv.org/abs/1903.01066},
   urldate = {2022-04-29},
   abstract = {Precise robotic manipulation skills are desirable in many industrial settings, reinforcement learning (RL) methods hold the promise of acquiring these skills autonomously. In this paper, we explicitly consider incorporating operational space force/torque information into reinforcement learning; this is motivated by humans heuristically mapping perceived forces to control actions, which results in completing high-precision tasks in a fairly easy manner. Our approach combines RL with force/torque information by incorporating a proper operational space force controller; where we also exploit different ablations on processing this information. Moreover, we propose a neural network architecture that generalizes to reasonable variations of the environment. We evaluate our method on the open-source Siemens Robot Learning Challenge, which requires precise and delicate force-controlled behavior to assemble a tight-fit gear wheel set.},
-  keywords = {Computer Science - Robotics},
+  keywords = {Computer Science - Robotics,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\luo_et_al_2019_reinforcement_learning_on_variable_impedance_controller_for_high-precision.pdf}
 }
 
@@ -4194,7 +4190,7 @@
   url = {http://arxiv.org/abs/1906.08880},
   urldate = {2022-04-08},
   abstract = {Reinforcement Learning (RL) of contact-rich manipulation tasks has yielded impressive results in recent years. While many studies in RL focus on varying the observation space or reward model, few efforts focused on the choice of action space (e.g. joint or end-effector space, position, velocity, etc.). However, studies in robot motion control indicate that choosing an action space that conforms to the characteristics of the task can simplify exploration and improve robustness to disturbances. This paper studies the effect of different action spaces in deep RL and advocates for Variable Impedance Control in End-effector Space (VICES) as an advantageous action space for constrained and contact-rich tasks. We evaluate multiple action spaces on three prototypical manipulation tasks: Path Following (task with no contact), Door Opening (task with kinematic constraints), and Surface Wiping (task with continuous contact). We show that VICES improves sample efficiency, maintains low energy consumption, and ensures safety across all three experimental setups. Further, RL policies learned with VICES can transfer across different robot models in simulation, and from simulation to real for the same robot. Further information is available at https://stanfordvl.github.io/vices.},
-  keywords = {Cartesian impedance,Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Computer Science - Robotics,Joint impedance},
+  keywords = {Cartesian impedance,Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Computer Science - Robotics,Joint impedance,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\martín-martín_et_al_2019_variable_impedance_control_in_end-effector_space.pdf}
 }
 
@@ -4634,7 +4630,7 @@
   urldate = {2023-05-02},
   abstract = {Reinforcement learning is concerned with a generic concept of an agent acting in an environment. From the control theory standpoint, reinforcement learning may be considered as an adaptive optimal control scheme. Despite accumulating evidence of effectiveness of reinforcement learning in various applications, which range from video games to robotics, this control scheme in its bare-bones version provides no guarantees on the performance of the agent-environment closed loop. Measures have to be taken to provide the said guarantees. This survey gives a brief picture of the current progress in this direction. Three major groups of approaches are overviewed: supervisor-based, Lyapunov reinforcement learning and fusion with model-predictive control. The central message of this survey is that a synergy with classical model-based control seems the most promising direction of research in reinforcement learning, as long as it is to become an industry standard.},
   langid = {english},
-  keywords = {Reinforcement learning,safe control,stability},
+  keywords = {READ,Reinforcement learning,REVIEW,safe control,stability},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\osinenko_et_al_2022_reinforcement_learning_with_guarantees.pdf}
 }
 
@@ -5098,7 +5094,7 @@
   pages = {297--330},
   publisher = {{Annual Reviews}},
   keywords = {REVIEW},
-  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\ravichandar_et_al_2020_recent_advances_in_robot_learning_from_demonstration.pdf;C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\ravichandar_et_al_2020_recent_advances_in_robot_learning_from_demonstration2.pdf}
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\ravichandar_et_al_2020_recent_advances_in_robot_learning_from_demonstration.pdf}
 }
 
 @article{rebeloTimeDomainPassivity2015,
@@ -5181,7 +5177,7 @@
   urldate = {2022-09-11},
   abstract = {An important challenge when using reinforcement learning for learning motions in robotics is the choice of parameterization for the policy. We use Gaussian Mixture Regression to extract a parameterization with relevant non-linear features from a set of demonstrations of a motion following the paradigm of learning from demonstration. The resulting parameterization takes the form of a non-linear time-invariant dynamical system (DS). We use this time-invariant DS as a parameterized policy for a variant of the PI2 policy search algorithm. This paper contributes by adapting PI2 for our time-invariant motion representation. We introduce two novel parameter exploration schemes that can be used to (1) sample model parameters to achieve a uniform exploration in state space and (2) explore while ensuring stability of the resulting motion model. Additionally, a state dependent stiffness profile is learned simultaneously to the reference trajectory and both are used together in a variable impedance control architecture. This learning architecture is validated in a hardware experiment consisting of a digging task using a KUKA LWR platform.},
   langid = {english},
-  keywords = {Dynamical systems,imitation,impedance control,IMPORTANT,Manipulation,reinforcement,Reinforcement learning,skills,STABILITY},
+  keywords = {Dynamical systems,imitation,impedance control,IMPORTANT,Manipulation,READ,reinforcement,Reinforcement learning,skills,STABILITY},
   annotation = {WOS:000419487700003},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\rey_et_al_2018_learning_motions_from_demonstrations_and_rewards_with_time-invariant_dynamical.pdf}
 }
@@ -5292,7 +5288,7 @@
   urldate = {2022-10-31},
   abstract = {Real-world autonomous systems are often controlled using conventional model-based control methods. But if accurate models of a system are not available, these methods may be unsuitable. For many safety-critical systems, such as robotic systems, a model of the system and a control strategy may be learned using data. When applying learning to safety-critical systems, guaranteeing safety during learning as well as testing/deployment is paramount. A variety of different approaches for ensuring safety exists, but the published works are cluttered and there are few reviews that compare the latest approaches. This paper reviews two promising approaches on guaranteeing safety for learning-based robust control of uncertain dynamical systems, which are based on control barrier functions and control Lyapunov functions. While control barrier functions provide an option to incorporate safety in terms of constraint satisfaction, control Lyapunov functions are used to define safety in terms of stability. This review categorises learning-based methods that use control barrier functions and control Lyapunov functions into three groups, namely reinforcement learning, online and offline supervised learning. Finally, the paper presents a discussion of the suitability of the different methods for different applications.},
   langid = {english},
-  keywords = {REVIEW},
+  keywords = {READ,REVIEW},
   annotation = {Accepted: 2021-10-14T08:36:42Z},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\sadanandan_anand_et_al_2021_safe_learning_for_control_using_control_lyapunov_functions_and_control_barrier.pdf;C\:\\Users\\ricks\\Zotero\\storage\\HGRTC45S\\Sadanandan Anand et al. - 2021 - Safe Learning for Control using Control Lyapunov F.pdf}
 }
@@ -6185,19 +6181,6 @@
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\spyrakos-papastavridis_et_al_2020_passivity_preservation_for_variable_impedance_control_of_compliant_robots.pdf}
 }
 
-@article{stulpModelfreeReinforcementLearning2012,
-  title = {Model-Free Reinforcement Learning of Impedance Control in Stochastic Environments},
-  author = {Stulp, Freek and Buchli, Jonas and Ellmer, Alice and Mistry, Michael and Theodorou, Evangelos A. and Schaal, Stefan},
-  date = {2012},
-  journaltitle = {IEEE Transactions on Autonomous Mental Development},
-  volume = {4},
-  number = {4},
-  pages = {330--341},
-  publisher = {{IEEE}},
-  keywords = {Biological system modeling,Force field experiments,Impedance,Learning,motion primitives,motor system and development,reinforcement learning,Robots,robots with development and learning skills,Robustness,Stochastic processes,using robots to study development and learning,variable impedance control},
-  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\stulp_et_al_2012_model-free_reinforcement_learning_of_impedance_control_in_stochastic2.pdf}
-}
-
 @inproceedings{stulpReinforcementLearningImpedance2011,
   title = {Reinforcement Learning of Impedance Control in Stochastic Force Fields},
   booktitle = {2011 {{IEEE International Conference}} on {{Development}} and {{Learning}} ({{ICDL}})},
@@ -6209,7 +6192,7 @@
   doi = {10.1109/DEVLRN.2011.6037312},
   abstract = {Variable impedance control is essential for ensuring robust and safe physical interaction with the environment. As demonstrated in numerous force field experiments, humans combine two strategies to adapt their impedance to external perturbations: 1) if perturbations are unpredictable, subjects increase their impedance through co-contraction; 2) if perturbations are predictable, subjects learn a feed-forward command to counter the known perturbation. In this paper, we apply the force field paradigm to a simulated 7-DOF robot, by exerting stochastic forces on the robot's end-effector. The robot `subject' uses our model-free reinforcement learning algorithm PI2 to simultaneously learn the end-effector trajectories and variable impedance schedules. We demonstrate how the robot learns the same two-fold strategy to perturbation rejection as humans do, resulting in qualitatively similar behavior. Our results provide a biologically plausible approach to learning appropriate impedances purely from experience, without requiring a model of either body or environment dynamics.},
   eventtitle = {2011 {{IEEE International Conference}} on {{Development}} and {{Learning}} ({{ICDL}})},
-  keywords = {Computational modeling,Noise measurement},
+  keywords = {Computational modeling,Noise measurement,READ},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\stulp_et_al_2011_reinforcement_learning_of_impedance_control_in_stochastic_force_fields2.pdf}
 }
 
@@ -6955,7 +6938,7 @@
   abstract = {Robot automatic assembly of weak stiffness parts is difficult due to potential deformation during assembly. The robot manipulation cannot adapt to the dynamic contact changes during the assembly process. A robot assembly skill learning system is designed by combining the compliance control and deep reinforcement, which could acquire a better robot assembly strategy. In this paper, a robot assembly strategy learning method based on variable impedance control is proposed to solve the robot assembly contact tasks. During the assembly process, the quality evaluation is designed based on fuzzy logic, and the impedance parameters in the assembly process are studied with a deep deterministic policy gradient. Finally, the effectiveness of the method is verified using the KUKA iiwa robot in the weak stiffness peg-in-hole assembly. Experimental results show that the robot obtains the robot assembly strategy with variable compliant in the process of weak stiffness peg-in-hole assembly. Compared with the previous methods, the assembly success rate of the proposed method reaches 100\%.},
   issue = {6},
   langid = {english},
-  keywords = {compliant control,deep reinforcement learning,fuzzy reward,robot assembly},
+  keywords = {compliant control,deep reinforcement learning,fuzzy reward,READ,robot assembly},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wang_et_al_2022_deep_deterministic_policy_gradient_with_reward_function_based_on_fuzzy_logic.pdf}
 }
 
@@ -7079,7 +7062,7 @@
   doi = {10.1109/CYBER46603.2019.9066697},
   abstract = {Impedance control is a very classic control method in robot and human interaction. Humans use their ability to adaptively adjust arm impedance parameters to perform well in a variety of tasks. This ability allows us to successfully complete interactive tasks even in uncertain disturbance environments. By analyzing the results of many force field experiments, We got a conclusion that humans usually use two methods to change their impedance in external perturbations: 1) In the situation of unpredictable perturbations, humans adapt their impedance through muscle contraction; 2) In the situation of predictable perturbations, humans adds a constant term to offset the known perturbations. In this paper, We show how 3-DOFs simulated robot use the reinforcement learning algorithm to perform similar behavior in both situations. We apply our model-free reinforcement learning algorithm PI2 (policy improvement with path integrals) to the robot to learn the end-effector variable impedance schedules and trajectories. Our findings provide a approach to automatically learn the impedance empirically without requiring to build a physical or environmental dynamics model.},
   eventtitle = {2019 {{IEEE}} 9th {{Annual International Conference}} on {{CYBER Technology}} in {{Automation}}, {{Control}}, and {{Intelligent Systems}} ({{CYBER}})},
-  keywords = {Adaptation models,Force,Impedance,Perturbation methods,Robots,Task analysis,Trajectory},
+  keywords = {Adaptation models,Force,Impedance,Perturbation methods,READ,Robots,Task analysis,Trajectory},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wei_et_al_2019_impedance_control_in_uncertain_environment_using_reinforcement_learning.pdf}
 }
 
@@ -7238,7 +7221,7 @@
   url = {https://link.springer.com/10.1007/s11431-020-1648-4},
   urldate = {2022-10-24},
   langid = {english},
-  keywords = {READ,REVIEW},
+  keywords = {imitation learning,inverse reinforcement learning,learning from demonstration,obstacle avoidance,path planning,READ,REVIEW},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\xie_et_al_2020_robot_learning_from_demonstration_for_path_planning.pdf;C\:\\Users\\ricks\\Zotero\\storage\\8NHCUFEQ\\s11431-020-1648-4.pdf}
 }
 
@@ -7381,7 +7364,7 @@
   abstract = {In this paper, we propose a safe reinforcement learning approach to synthesize deep neural network (DNN) controllers for nonlinear systems subject to safety constraints. The proposed approach employs an iterative scheme where a learner and a verifier interact to synthesize safe DNN controllers. The learner trains a DNN controller via deep reinforcement learning, and the verifier certifies the learned controller through computing a maximal safe initial region and its corresponding barrier certificate, based on polynomial abstraction and bilinear matrix inequalities solving. Compared with the existing verification-in-the-loop synthesis methods, our iterative framework is a sequential synthesis scheme of controllers and barrier certificates, which can learn safe controllers with adaptive barrier certificates rather than user-defined ones. We implement the tool SRLBC and evaluate its performance over a set of benchmark examples. The experimental results demonstrate that our approach efficiently synthesizes safe DNN controllers even for a nonlinear system with dimension up~to 12.},
   isbn = {978-3-030-81685-8},
   langid = {english},
-  keywords = {Barrier certificates,Continuous dynamical systems,Formal verification,Safe reinforcement learning},
+  keywords = {Barrier certificates,Continuous dynamical systems,Formal verification,READ,Safe reinforcement learning},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\yang_et_al_2021_an_iterative_scheme_of_safe_reinforcement_learning_for_nonlinear_systems_via.pdf}
 }
 
@@ -7700,6 +7683,24 @@
   langid = {english},
   keywords = {adaptive control,impedance control,IMPORTANT,neural network,READ,Robot,STABILITY},
   file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\zhang_et_al_2020_neural_approximation-based_adaptive_variable_impedance_control_of_robots.pdf}
+}
+
+@article{zhangNeuralNetworkBased2023,
+  title = {A Neural Network Based Framework for Variable Impedance Skills Learning from Demonstrations},
+  author = {Zhang, Yu and Cheng, Long and Cao, Ran and Li, Houcheng and Yang, Chenguang},
+  date = {2023-02-01},
+  journaltitle = {Robotics and Autonomous Systems},
+  shortjournal = {Robotics and Autonomous Systems},
+  volume = {160},
+  pages = {104312},
+  issn = {0921-8890},
+  doi = {10.1016/j.robot.2022.104312},
+  url = {https://www.sciencedirect.com/science/article/pii/S0921889022002019},
+  urldate = {2023-05-03},
+  abstract = {Robots are becoming standard collaborators not only in factories, hospitals, and offices, but also in people’s homes, where they can play an important role in situations where a human cannot complete a task alone or needs the help of another person (i.e., collaborative tasks). Variable impedance control with contact forces is critical for robots to successfully perform such manipulation tasks, and robots should be equipped with adaptive capabilities because conditions vary significantly for different robotic tasks in dynamic environments. This can be achieved by learning human motion capabilities and variable impedance skills. In this paper, a neural-network-based framework for learning variable impedance skills is proposed. The proposed approach builds the full stiffness function with the acquired forces and position learned from demonstrations, and then is used together with the sensed data to achieve the variable impedance control. The proposed algorithm can adapt to unknown situations that change the learned motion skill as needed (e.g., adapt to intermediate via-points or avoid obstacles). The proposed framework consists of two parts: Learning motion features and learning impedance features. The motion features learning is validated by reproducing, generalizing, and adapting to transit points and avoiding obstacles in the LASA dataset. Impedance features learning is validated based on a virtual variable stiffness system that achieves higher accuracy (approximately 90\%) compared to traditional methods in a manual dataset, and the whole framework is validated through a co-manipulation task between a person and the Franka Emika robot.},
+  langid = {english},
+  keywords = {Human–robot interaction,Learning from demonstrations,Skills learning,Variable impedance skill},
+  file = {C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\zhang_et_al_2023_a_neural_network_based_framework_for_variable_impedance_skills_learning_from2.pdf}
 }
 
 @article{zhaoHybridLearningOptimization2022,
