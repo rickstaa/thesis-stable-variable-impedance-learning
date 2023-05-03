@@ -1,3 +1,3 @@
-# TU Delft - Report/Thesis Template
+# TU Delft - Thesis Stable Variable Impedance Learning
 
-This is the LATEX repository for my master Thesis into `Stability guarantees in variable impedance control for rigid robotics manipulators in contact with (semi)-rigid environments`.
+This repository contains the LATEX version of my literature study into `Stability guarantees in variable impedance control for rigid robotics manipulators in contact with (semi)-rigid environments`.
