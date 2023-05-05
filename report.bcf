@@ -2728,14 +2728,20 @@
     <bcf:citekey order="174" intorder="2">khaderLearningDeepNeural2021</bcf:citekey>
     <bcf:citekey order="175" intorder="1">khaderLearningDeepNeural2021</bcf:citekey>
     <bcf:citekey order="176" intorder="1">khaderLearningStableNormalizingFlow2021</bcf:citekey>
-    <bcf:citekey order="177" intorder="1">ferragutiTankbasedApproachImpedance2013</bcf:citekey>
-    <bcf:citekey order="178" intorder="1">kronanderStabilityConsiderationsVariable2016</bcf:citekey>
-    <bcf:citekey order="179" intorder="1">bednarczykPassivityFilterVariable2020</bcf:citekey>
-    <bcf:citekey order="180" intorder="1">kronanderStabilityConsiderationsVariable2016</bcf:citekey>
-    <bcf:citekey order="181" intorder="1">lasotaSurveyMethodsSafe2017</bcf:citekey>
-    <bcf:citekey order="181" intorder="2">chowLyapunovbasedApproachSafe2018</bcf:citekey>
-    <bcf:citekey order="181" intorder="3">sadanandananandSafeLearningControl2021</bcf:citekey>
-    <bcf:citekey order="181" intorder="4">sharkawyHumanRobotInteraction2022</bcf:citekey>
+    <bcf:citekey order="177" intorder="1">schulmanProximalPolicyOptimization2017</bcf:citekey>
+    <bcf:citekey order="177" intorder="2">schulmanTrustRegionPolicy2017</bcf:citekey>
+    <bcf:citekey order="177" intorder="3">haarnojaSoftActorCriticOffPolicy2018</bcf:citekey>
+    <bcf:citekey order="177" intorder="4">hanLyapunovActorCriticReinforcement2019</bcf:citekey>
+    <bcf:citekey order="177" intorder="5">liActorcriticLearningFramework2023</bcf:citekey>
+    <bcf:citekey order="177" intorder="6">wuDeepReinforcementLearning2023</bcf:citekey>
+    <bcf:citekey order="178" intorder="1">ferragutiTankbasedApproachImpedance2013</bcf:citekey>
+    <bcf:citekey order="179" intorder="1">kronanderStabilityConsiderationsVariable2016</bcf:citekey>
+    <bcf:citekey order="180" intorder="1">bednarczykPassivityFilterVariable2020</bcf:citekey>
+    <bcf:citekey order="181" intorder="1">kronanderStabilityConsiderationsVariable2016</bcf:citekey>
+    <bcf:citekey order="182" intorder="1">lasotaSurveyMethodsSafe2017</bcf:citekey>
+    <bcf:citekey order="182" intorder="2">chowLyapunovbasedApproachSafe2018</bcf:citekey>
+    <bcf:citekey order="182" intorder="3">sadanandananandSafeLearningControl2021</bcf:citekey>
+    <bcf:citekey order="182" intorder="4">sharkawyHumanRobotInteraction2022</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

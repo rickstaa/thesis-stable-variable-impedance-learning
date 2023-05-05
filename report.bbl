@@ -3251,6 +3251,64 @@
       \endverb
       \keyw{Computer Science - Robotics,READ}
     \endentry
+    \entry{haarnojaSoftActorCriticOffPolicy2018}{unpublished}{}
+      \name{author}{4}{}{%
+        {{hash=45b14f55dd7ae28cb6cb2e23e4a168b9}{%
+           family={Haarnoja},
+           familyi={H\bibinitperiod},
+           given={Tuomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=519033a7338e5ef684c77d4d04748a4a}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Aurick},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e28d4ee199593959d8c29980a64f1974}{%
+           family={Abbeel},
+           familyi={A\bibinitperiod},
+           given={Pieter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c9545da54b33744da25943cdf66eadac}{%
+           family={Levine},
+           familyi={L\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b8c131de85c5000ff50df59a4d062227}
+      \strng{fullhash}{951e86110020d3107317b3e819f3d92d}
+      \strng{bibnamehash}{b8c131de85c5000ff50df59a4d062227}
+      \strng{authorbibnamehash}{b8c131de85c5000ff50df59a4d062227}
+      \strng{authornamehash}{b8c131de85c5000ff50df59a4d062227}
+      \strng{authorfullhash}{951e86110020d3107317b3e819f3d92d}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Model-free deep reinforcement learning (RL) algorithms have been demonstrated on a range of challenging decision making and control tasks. However, these methods typically suffer from two major challenges: very high sample complexity and brittle convergence properties, which necessitate meticulous hyperparameter tuning. Both of these challenges severely limit the applicability of such methods to complex, real-world domains. In this paper, we propose soft actor-critic, an off-policy actor-critic deep RL algorithm based on the maximum entropy reinforcement learning framework. In this framework, the actor aims to maximize expected reward while also maximizing entropy. That is, to succeed at the task while acting as randomly as possible. Prior deep RL methods based on this framework have been formulated as Q-learning methods. By combining off-policy updates with a stable stochastic actor-critic formulation, our method achieves state-of-the-art performance on a range of continuous control benchmark tasks, outperforming prior on-policy and off-policy methods. Furthermore, we demonstrate that, in contrast to other off-policy algorithms, our approach is very stable, achieving very similar performance across different random seeds.}
+      \field{annotation}{00000}
+      \field{day}{8}
+      \field{eprintclass}{cs, stat}
+      \field{eprinttype}{arxiv}
+      \field{month}{8}
+      \field{shorttitle}{Soft {{Actor-Critic}}}
+      \field{title}{Soft {{Actor-Critic}}: {{Off-Policy Maximum Entropy Deep Reinforcement Learning}} with a {{Stochastic Actor}}}
+      \field{urlday}{2}
+      \field{urlmonth}{7}
+      \field{urlyear}{2020}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 1801.01290
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1801.01290
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1801.01290
+      \endverb
+      \keyw{\#nosource,Computer Science - Artificial Intelligence,Computer Science - Machine Learning,model-free,policy gradients,policy optimization,q-learning,reinforcement learning,Statistics - Machine Learning}
+    \endentry
     \entry{haddadNonlinearDynamicalSystems2011}{incollection}{}
       \name{author}{2}{}{%
         {{hash=cbcd532a28f7ae681566aa9aedc9aea2}{%
@@ -3530,6 +3588,35 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\han_et_al_2022_modified_dynamic_movement_primitives.pdf
       \endverb
       \keyw{Adaptive force control,curved surface,Force,Force control,Impedance,modified dynamic movement primitive (DMP),READ,redundant robot,Robots,Task analysis,Trajectory,trajectory planning,Trajectory planning}
+    \endentry
+    \entry{hanLyapunovActorCriticReinforcement2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c275b2504af10cb58b294fadbc8cc04f}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Minghao},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c275b2504af10cb58b294fadbc8cc04f}
+      \strng{fullhash}{c275b2504af10cb58b294fadbc8cc04f}
+      \strng{bibnamehash}{c275b2504af10cb58b294fadbc8cc04f}
+      \strng{authorbibnamehash}{c275b2504af10cb58b294fadbc8cc04f}
+      \strng{authornamehash}{c275b2504af10cb58b294fadbc8cc04f}
+      \strng{authorfullhash}{c275b2504af10cb58b294fadbc8cc04f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Lyapunov {{Actor-Critic Reinforcement Learning}} with {{Uniformly Ultimate Boundedness Stability Guarantee}}}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2004.14288
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2004.14288
+      \endverb
+      \keyw{\#nosource,LAC,reinforcement learning}
     \endentry
     \entry{havensImitationLearningLinear2021}{inproceedings}{}
       \name{author}{2}{}{%
@@ -6048,6 +6135,72 @@
       \endverb
       \keyw{Computer Science - Machine Learning,Computer Science - Robotics,READ}
     \endentry
+    \entry{liActorcriticLearningFramework2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b5b6d4a3b3a1109a7ce250e235f2b736}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xinwang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=04ddffa48030bc719ca390210009cddb}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Juliang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f90fa099ce585c3d1d009abdb2ccf07c}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=254bd446dd0cc7de3ce1a6598912798e}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Haitao},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1f1ee32720aa7f4021b6d2ac089d91f}
+      \strng{fullhash}{a862992efc6dcafbf4dc0750540ee21f}
+      \strng{bibnamehash}{f1f1ee32720aa7f4021b6d2ac089d91f}
+      \strng{authorbibnamehash}{f1f1ee32720aa7f4021b6d2ac089d91f}
+      \strng{authornamehash}{f1f1ee32720aa7f4021b6d2ac089d91f}
+      \strng{authorfullhash}{a862992efc6dcafbf4dc0750540ee21f}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{With the continuous improvement of the reinforcement learning (RL) algorithm, the algorithm has achieved excellent performance in an increasing number of automatic control tasks. However, there are still some challenges when applying the algorithm to realistic automatic assembly. The most significant challenge is that the stability of these model-free RL methods cannot be effectively guaranteed. Stability is the most critical characteristic of a control system, and stability is closely related to reliability and safety. To ensure the stability of the system, we reconstruct the RL algorithm based on the Lyapunov stability theory of the stochastic system proposed in this paper. An actor-critic learning framework based on Lyapunov stability (LSAC) is proposed for automatic assembly. In addition, this paper proposes a median Q-value theory to alleviate the Q-value estimation deviation that restricts the performance of the RL algorithm. To allow RL agents to better complete the automatic assembly task, this paper designs an adaptive impedance control algorithm. This impedance algorithm executes the actions output by the LSAC framework. Finally, a realistic experiment on automatic assembly is carried out to verify the robustness and superiority of the proposed strategy.}
+      \field{day}{1}
+      \field{issn}{1573-7497}
+      \field{journaltitle}{Applied Intelligence}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{4}
+      \field{shortjournal}{Appl Intell}
+      \field{title}{An Actor-Critic Learning Framework Based on {{Lyapunov}} Stability for Automatic Assembly}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{53}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4801\bibrangedash 4812}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s10489-022-03844-2
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\li_et_al_2023_an_actor-critic_learning_framework_based_on_lyapunov_stability_for_automatic.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10489-022-03844-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10489-022-03844-2
+      \endverb
+      \keyw{Automatic assembly,Lyapunov stability,Median Q-value,Reinforcement learning,Reward reshaping}
+    \endentry
     \entry{liHumanRobotCollaboration2013}{article}{}
       \name{author}{2}{}{%
         {{hash=2952ce6a3982afa9881f2a0c29835e75}{%
@@ -6210,7 +6363,7 @@
       \strng{authorbibnamehash}{46a0cf1a966cd5ecec7395a16d900c1c}
       \strng{authornamehash}{46a0cf1a966cd5ecec7395a16d900c1c}
       \strng{authorfullhash}{ba8b5a43404e7f9314e96ad4d2886d1d}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
@@ -6272,7 +6425,7 @@
       \strng{authorbibnamehash}{46a0cf1a966cd5ecec7395a16d900c1c}
       \strng{authornamehash}{46a0cf1a966cd5ecec7395a16d900c1c}
       \strng{authorfullhash}{609d78c73c218aa62afe597c307122ef}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
@@ -6319,7 +6472,7 @@
       \strng{authorbibnamehash}{63426c4e227bf6c85817e6929e250981}
       \strng{authornamehash}{63426c4e227bf6c85817e6929e250981}
       \strng{authorfullhash}{b1ed47499c3bc0878e6491644aee4f16}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
@@ -8897,6 +9050,68 @@
       \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\schindlbeck_haddadin_2015_unified_passivity-based_cartesian_force-impedance_control_for_rigid_and.pdf
       \endverb
       \keyw{Force,Force control,Impedance,Joints,READ,Robot kinematics,STABILITY,Stability analysis}
+    \endentry
+    \entry{schulmanProximalPolicyOptimization2017}{unpublished}{}
+      \name{author}{5}{}{%
+        {{hash=3e09bd2a25d237ebdaed560a07c0451e}{%
+           family={Schulman},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=674ede0b9cd02a2bf5fc662972efb9f0}{%
+           family={Wolski},
+           familyi={W\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4164e43d8cf919f5e3f8d80f5ea23f36}{%
+           family={Dhariwal},
+           familyi={D\bibinitperiod},
+           given={Prafulla},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a812c46caad94fc8701be37871f303ba}{%
+           family={Radford},
+           familyi={R\bibinitperiod},
+           given={Alec},
+           giveni={A\bibinitperiod}}}%
+        {{hash=be38507da6ab98e7ac01ac2c6b7e13eb}{%
+           family={Klimov},
+           familyi={K\bibinitperiod},
+           given={Oleg},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d6613ae59595910252a86a61babf6c8}
+      \strng{fullhash}{a6c6ed5a5aeb74e536f16291276ae392}
+      \strng{bibnamehash}{8d6613ae59595910252a86a61babf6c8}
+      \strng{authorbibnamehash}{8d6613ae59595910252a86a61babf6c8}
+      \strng{authornamehash}{8d6613ae59595910252a86a61babf6c8}
+      \strng{authorfullhash}{a6c6ed5a5aeb74e536f16291276ae392}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment, and optimizing a "surrogate" objective function using stochastic gradient ascent. Whereas standard policy gradient methods perform one gradient update per data sample, we propose a novel objective function that enables multiple epochs of minibatch updates. The new methods, which we call proximal policy optimization (PPO), have some of the benefits of trust region policy optimization (TRPO), but they are much simpler to implement, more general, and have better sample complexity (empirically). Our experiments test PPO on a collection of benchmark tasks, including simulated robotic locomotion and Atari game playing, and we show that PPO outperforms other online policy gradient methods, and overall strikes a favorable balance between sample complexity, simplicity, and wall-time.}
+      \field{annotation}{00000}
+      \field{day}{28}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{month}{8}
+      \field{title}{Proximal {{Policy Optimization Algorithms}}}
+      \field{urlday}{2}
+      \field{urlmonth}{7}
+      \field{urlyear}{2020}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 1707.06347
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1707.06347
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1707.06347
+      \endverb
+      \keyw{\#nosource,Computer Science - Machine Learning,model-free,policy gradients,policy optimization,reinforcement learning}
     \endentry
     \entry{scibiliaSelfAdaptiveRobotControl2018}{inproceedings}{}
       \name{author}{5}{}{%
@@ -11560,6 +11775,81 @@
       \endverb
       \keyw{Constrained inverse kinematics,Haptic assistance,Human–robot interface,Medical robotics,Percutaneous nephrolithotomy,READ,Remote centre of motion,STABILITY}
     \endentry
+    \entry{wuDeepReinforcementLearning2023}{article}{}
+      \name{author}{6}{}{%
+        {{hash=266b6987fdcf41e688035415c97fc93e}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Chengwei},
+           giveni={C\bibinitperiod}}}%
+        {{hash=188e0b0486b277245804f98bce4641f9}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c7e59f7ed4c13e410f362597382f42c1}{%
+           family={Staa},
+           familyi={S\bibinitperiod},
+           given={Rick},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e13f87fbb4696344ff5de6d61babaa1c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jianxing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=33d1cf3e794186ce728d400d4e25ba27}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Guanghui},
+           giveni={G\bibinitperiod}}}%
+        {{hash=79573251f8e215df965b109d73debf18}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Ligang},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{e84c1306665cb0206b0b455b4f1642e8}
+      \strng{fullhash}{b8d27ed0593ea6e70a49a01dbb5fca28}
+      \strng{bibnamehash}{e84c1306665cb0206b0b455b4f1642e8}
+      \strng{authorbibnamehash}{e84c1306665cb0206b0b455b4f1642e8}
+      \strng{authornamehash}{e84c1306665cb0206b0b455b4f1642e8}
+      \strng{authorfullhash}{b8d27ed0593ea6e70a49a01dbb5fca28}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper investigates the deep reinforcement learning based secure control problem for cyber–physical systems (CPS) under false data injection attacks. We describe the CPS under attacks as a Markov decision process (MDP), based on which the secure controller design for CPS under attacks is formulated as an action policy learning using data. Rendering the soft actor–critic learning algorithm, a Lyapunov-based soft actor–critic learning algorithm is proposed to offline train a secure policy for CPS under attacks. Different from the existing results, not only the convergence of the learning algorithm but the stability of the system using the learned policy is proved, which is quite important for security and stability-critical applications. Finally, both a satellite attitude control system and a robot arm system are used to show the effectiveness of the proposed scheme, and comparisons between the proposed learning algorithm and the classical PD controller are also provided to demonstrate the advantages of the control algorithm designed in this paper.}
+      \field{day}{1}
+      \field{issn}{0005-1098}
+      \field{journaltitle}{Automatica}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{shortjournal}{Automatica}
+      \field{title}{Deep Reinforcement Learning Control Approach to Mitigating Actuator Attacks}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{152}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{110999}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.automatica.2023.110999
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\wu_et_al_2023_deep_reinforcement_learning_control_approach_to_mitigating_actuator_attacks.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0005109823001528
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0005109823001528
+      \endverb
+      \keyw{Cyber–physical systems,Deep reinforcement learning,False data injection attacks,Lyapunov stability}
+    \endentry
     \entry{wuAdaptiveImpedanceControl2020}{book}{}
       \name{author}{3}{}{%
         {{hash=95b6d28f9dd62176f72f62fc7c148126}{%
@@ -11674,6 +11964,7 @@
       \strng{authorbibnamehash}{208c6d2e564436c1206008f1df53852b}
       \strng{authornamehash}{208c6d2e564436c1206008f1df53852b}
       \strng{authorfullhash}{91fe82ef5b1f04c08ea4419c8a77bd4d}
+      \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
@@ -12813,6 +13104,7 @@
       \keyw{READ}
     \endentry
   \enddatalist
+  \missing{schulmanTrustRegionPolicy2017}
 \endrefsection
 \endinput
 
