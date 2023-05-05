@@ -3998,6 +3998,57 @@
       \endverb
       \keyw{assist-as-needed,end-effector rehabilitation robot,fuzzy logic,human–robot interaction,potential field,READ,STABILITY}
     \endentry
+    \entry{huRobotPolicyImprovement2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1280ec56ac5e1209f3e890b317cef245}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Yingbai},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3b149f2dbab4ef5b88e7cd89f7f6cf4a}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Guang},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b378bfaf6e5027b09ce25238673a2925}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhijun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=c45d8c33e4ef56b7d84b362173fe9d96}{%
+           family={Knoll},
+           familyi={K\bibinitperiod},
+           given={Alois},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d859b80f3475b73e379297385abd8ee}
+      \strng{fullhash}{61017dd58dd62489225c30510ad392fb}
+      \strng{bibnamehash}{7d859b80f3475b73e379297385abd8ee}
+      \strng{authorbibnamehash}{7d859b80f3475b73e379297385abd8ee}
+      \strng{authornamehash}{7d859b80f3475b73e379297385abd8ee}
+      \strng{authorfullhash}{61017dd58dd62489225c30510ad392fb}
+      \field{extraname}{3}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Robot learning through kinesthetic teaching is a promising way of cloning human behaviors, but it has its limits in the performance of complex tasks with small amounts of data, due to compounding errors. In order to improve the robustness and adaptability of imitation learning, a hierarchical learning strategy is proposed: low-level learning comprises only behavioral cloning with supervised learning, and high-level learning constitutes policy improvement. First, the Gaussian mixture model (GMM)-based dynamical system is formulated to encode a motion from the demonstration. We then derive the sufficient conditions of the GMM parameters that guarantee the global stability of the dynamical system from any initial state, using the Lyapunov stability theorem. Generally, imitation learning should reason about the motion well into the future for a wide range of tasks; it is significant to improve the adaptability of the learning method by policy improvement. Finally, a method based on exponential natural evolution strategies is proposed to optimize the parameters of the dynamical system associated with the stiffness of variable impedance control, in which the exploration noise is subject to stability conditions of the dynamical system in the exploration space, thus guaranteeing the global stability. Empirical evaluations are conducted on manipulators for different scenarios, including motion planning with obstacle avoidance and stiffness learning.}
+      \field{eventtitle}{{{IEEE Transactions}} on {{Cybernetics}}}
+      \field{issn}{2168-2275}
+      \field{journaltitle}{IEEE Transactions on Cybernetics}
+      \field{title}{Robot {{Policy Improvement With Natural Evolution Strategies}} for {{Stable Nonlinear Dynamical System}}}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TCYB.2022.3192049
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\hu_et_al_2022_robot_policy_improvement_with_natural_evolution_strategies_for_stable_nonlinear.pdf
+      \endverb
+      \keyw{Cloning,Dynamical system,exponential natural evolution strategies (NESs),Heuristic algorithms,imitation learning,Impedance,policy improvement of robustness and adaptability,READ,Robots,Robustness,Stability criteria,Task analysis}
+    \endentry
     \entry{hughesSoftManipulatorsGrippers2016}{article}{}
       \name{author}{6}{}{%
         {{hash=7617c66c5f736043bbd5a50344c84f7a}{%
@@ -4800,7 +4851,7 @@
       \endverb
       \keyw{Computer Science - Robotics,IMPORTANT,READ,STABILITY}
     \endentry
-    \entry{khaderLearningDeepEnergy2021}{article}{}
+    \entry{khaderLearningDeepNeural2021}{unpublished}{}
       \name{author}{4}{}{%
         {{hash=05e9c705cd0761aa65e3b2135f621fb0}{%
            family={Khader},
@@ -4823,12 +4874,6 @@
            given={Danica},
            giveni={D\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Piscataway}%
-      }
-      \list{publisher}{1}{%
-        {Ieee-Inst Electrical Electronics Engineers Inc}%
-      }
       \strng{namehash}{561aed070590399d3a6f04c0b37c82f1}
       \strng{fullhash}{3dd0eb54753ffbc2bad45d889e2e7a68}
       \strng{bibnamehash}{561aed070590399d3a6f04c0b37c82f1}
@@ -4840,37 +4885,17 @@
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Deep reinforcement learning (DRL) has been successfully used to solve various robotic manipulation tasks. However, most of the existing works do not address the issue of control stability. This is in sharp contrast to the control theory community where the well-established norm is to prove stability whenever a control law is synthesized. What makes traditional stability analysis difficult for DRL are the uninterpretable nature of the neural network policies and unknown system dynamics. In this work, stability is obtained by deriving an interpretable deep policy structure based on the energy shaping control of Lagrangian systems. Then, stability during physical interaction with an unknown environment is established based on passivity. The result is a stability guaranteeing DRL in a model-free framework that is general enough for contact-rich manipulation tasks. With an experiment on a peg-in-hole task, we demonstrate, to the best of our knowledge, the first DRL with stability guarantee on a real robotic manipulator.}
-      \field{annotation}{WOS:000701239400004}
-      \field{issn}{2377-3766}
-      \field{journaltitle}{Ieee Robotics and Automation Letters}
-      \field{langid}{english}
-      \field{month}{10}
-      \field{number}{4}
-      \field{shortjournal}{IEEE Robot. Autom. Lett.}
-      \field{title}{Learning {{Deep Energy Shaping Policies}} for {{Stability-Guaranteed Manipulation}}}
-      \field{urlday}{2}
-      \field{urlmonth}{5}
-      \field{urlyear}{2022}
-      \field{volume}{6}
+      \field{eprinttype}{arxiv}
+      \field{title}{Learning {{Deep Neural Policies}} with {{Stability Guarantees}}.}
       \field{year}{2021}
       \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{8583\bibrangedash 8590}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/LRA.2021.3111962
+      \verb{eprint}
+      \verb 2103.16432
       \endverb
       \verb{file}
-      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khader_et_al_2021_learning_deep_energy_shaping_policies_for_stability-guaranteed_manipulation.pdf
+      \verb C\:\\Users\\ricks\\OneDrive\\Documents\\Zotero\\khader_et_al_2021_learning_deep_neural_policies_with_stability_guarantees.pdf
       \endverb
-      \verb{urlraw}
-      \verb https://ieeexplore.ieee.org/document/9536404
-      \endverb
-      \verb{url}
-      \verb https://ieeexplore.ieee.org/document/9536404
-      \endverb
-      \keyw{IMPORTANT,Machinelearning for robot control,reinforcement learning,STABILITY}
+      \keyw{IMPORTANT}
     \endentry
     \entry{khaderLearningStableNormalizingFlow2021}{inproceedings}{}
       \name{author}{4}{}{%

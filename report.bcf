@@ -2720,13 +2720,13 @@
     <bcf:citekey order="167" intorder="4">elguea-aguinacoReviewReinforcementLearning2023</bcf:citekey>
     <bcf:citekey order="168" intorder="1">reyLearningMotionsDemonstrations2018</bcf:citekey>
     <bcf:citekey order="169" intorder="1">khansari-zadehLearningStableNonlinear2011</bcf:citekey>
-    <bcf:citekey order="170" intorder="1">khaderStabilityGuaranteedReinforcementLearning2020</bcf:citekey>
-    <bcf:citekey order="171" intorder="1">khansari-zadehModelingRobotDiscrete2014</bcf:citekey>
+    <bcf:citekey order="170" intorder="1">huRobotPolicyImprovement2022</bcf:citekey>
+    <bcf:citekey order="171" intorder="1">khaderStabilityGuaranteedReinforcementLearning2020</bcf:citekey>
     <bcf:citekey order="172" intorder="1">khansari-zadehModelingRobotDiscrete2014</bcf:citekey>
-    <bcf:citekey order="173" intorder="1">khaderLearningDeepEnergy2021</bcf:citekey>
-    <bcf:citekey order="174" intorder="1">khaderStabilityGuaranteedReinforcementLearning2020</bcf:citekey>
-    <bcf:citekey order="174" intorder="2">reyLearningMotionsDemonstrations2018</bcf:citekey>
-    <bcf:citekey order="175" intorder="1">khaderLearningDeepEnergy2021</bcf:citekey>
+    <bcf:citekey order="173" intorder="1">khansari-zadehModelingRobotDiscrete2014</bcf:citekey>
+    <bcf:citekey order="174" intorder="1">khaderLearningStableNormalizingFlow2021</bcf:citekey>
+    <bcf:citekey order="174" intorder="2">khaderLearningDeepNeural2021</bcf:citekey>
+    <bcf:citekey order="175" intorder="1">khaderLearningDeepNeural2021</bcf:citekey>
     <bcf:citekey order="176" intorder="1">khaderLearningStableNormalizingFlow2021</bcf:citekey>
     <bcf:citekey order="177" intorder="1">ferragutiTankbasedApproachImpedance2013</bcf:citekey>
     <bcf:citekey order="178" intorder="1">kronanderStabilityConsiderationsVariable2016</bcf:citekey>
