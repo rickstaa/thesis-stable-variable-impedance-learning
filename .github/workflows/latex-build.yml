@@ -19,6 +19,9 @@ jobs:
         with:
           root_file: report.tex
           latexmk_use_xelatex: true
+          extra_system_packages: |
+            msttcorefonts-installer
+            font-roboto
 
       - name: Create Release
         id: create_release
