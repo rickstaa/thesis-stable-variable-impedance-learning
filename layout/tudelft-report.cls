@@ -80,12 +80,12 @@
     \RequirePackage{fontspec} % Advanced font selection
 
     %% Adding Arial as the main font and TU Delft Ultralight and Georgia as supplementary fonts
-    \setmainfont{Arial}[Path=layout/fonts/, Extension=.ttf]
-    \setmathsf{Arial}[Path=layout/fonts/, Extension=.ttf]
-    \setmathtt{Arial}[Path=layout/fonts/, Extension=.ttf]
+    \setmainfont{Arial}
+    \setmathsf{Arial}
+    \setmathtt{Arial}
 
-    \newfontfamily\titlestyle{Roboto Slab Light}[Path=layout/fonts/, Extension=.ttf]
-    \newfontfamily\largetitlestyle{Roboto Slab Thin}[Path=layout/fonts/, Extension=.ttf]
+    \newfontfamily\titlestyle{Roboto Slab Light}
+    \newfontfamily\largetitlestyle{Roboto Slab Thin}
 \fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
